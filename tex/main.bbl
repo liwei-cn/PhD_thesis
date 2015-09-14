@@ -124,15 +124,6 @@ W.~S, B.~S, F.~R, \emph{et~al.}, ``\BIBforeignlanguage{English}{Modeling
   framework},'' \emph{\BIBforeignlanguage{English}{PLoS ONE}}, vol.~7, no.~6,
   2012, e38588.
 
-\bibitem[Turing(1950)]{Turing_1950}
-A.~Turing, ``Computing machinery and intelligence,'' \emph{Mind}, vol.~59, no.
-  236, pp. 433--460, 1950.
-
-\bibitem[Harnad(2000)]{Harnad2000}
-S.~Harnad, ``Minds, machines and turing: The indistinguishability of
-  indistinguishables,'' \emph{J. Logic, Language and Inform.}, vol.~9, no.~4,
-  pp. 425--445, 2000.
-
 \bibitem[Gauci et~al.(2014)]{Gauci2014_ijrr}
 M.~Gauci, J.~Chen, W.~Li, T.~J. Dodd, and R.~Gro\ss, ``Self-organized
   aggregation without computation,'' \emph{The Int. J. of Robot. Research},
@@ -159,6 +150,10 @@ D.~B. Fogel, \emph{Evolutionary computation: toward a new philosophy of machine
 \bibitem[Minsky(1991)]{Minsky_1991}
 M.~L. Minsky, ``Logical versus analogical or symbolic versus connectionist or
   neat versus scruffy,'' \emph{AI magazine}, vol.~12, no.~2, pp. 34--51, 1991.
+
+\bibitem[Turing(1950)]{Turing_1950}
+A.~Turing, ``Computing machinery and intelligence,'' \emph{Mind}, vol.~59, no.
+  236, pp. 433--460, 1950.
 
 \bibitem[Jackson(1998)]{Jackson1998}
 P.~Jackson, \emph{Introduction to expert system}.\hskip 1em plus 0.5em minus
@@ -902,6 +897,103 @@ V.~Kopman, J.~Laut, G.~Polverino, \emph{et~al.}, ``Closed-loop control of
 \bibitem[Turing(1950)]{Turing1950}
 A.~M. Turing, ``Computing machinery and intelligence,'' \emph{Mind}, vol.~59,
   no. 236, pp. 433--460, 1950.
+
+\bibitem[Harnad(2000)]{Harnad2000}
+S.~Harnad, ``Minds, machines and turing: The indistinguishability of
+  indistinguishables,'' \emph{J. Logic, Language and Inform.}, vol.~9, no.~4,
+  pp. 425--445, 2000.
+
+\bibitem[Elman(1990)]{Elman1990}
+J.~L. Elman, ``Finding structure in time,'' \emph{Cognitive Sci.}, vol.~14,
+  no.~2, pp. 179--211, 1990.
+
+\bibitem[Beyer(2001)]{Beyer2001}
+H.-G. Beyer, \emph{The Theory of Evolution Strategies}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Berlin, Heidelberg, Germany: Springer, 2001.
+
+\bibitem[Beyer and Schwefel(2002)]{Beyer2002}
+H.-G. Beyer and H.-P. Schwefel, ``Evolution strategies {-} a comprehensive
+  introduction,'' \emph{Natural Computing}, vol.~1, no.~1, pp. 3--52, 2002.
+
+\bibitem[Eiben and Smith(2003)]{Eiben2003}
+A.~Eiben and J.~E. Smith, \emph{Introduction to evolutionary computing}.\hskip
+  1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg: Springer-Verlag, 2003.
+
+\bibitem[Yao et~al.(1999)]{Yao1999}
+X.~Yao, Y.~Liu, and G.~Lin, ``Evolutionary programming made faster,''
+  \emph{IEEE Trans. on Evol. Comput.}, vol.~3, no.~2, pp. 82--102, 1999.
+
+\bibitem[Mondada et~al.(2009)]{e-puck}
+F.~Mondada, M.~Bonani, X.~Raemy, \emph{et~al.}, ``The e-puck, a robot designed
+  for education in engineering,'' in \emph{Proc. 9{t}h {C}onf. on {A}utonomous
+  {R}obot {S}ystems and {C}ompetitions}, vol.~1.\hskip 1em plus 0.5em minus
+  0.4em\relax IPCB: Instituto Polit{\'e}cnico de Castelo Branco, 2009, pp.
+  59--65.
+
+\bibitem[Li et~al.(2014)]{Li-etal2014:proc_gecco}
+W.~Li, M.~Gauci, and R.~Gro{\ss}, ``Coevolutionary learning of swarm behaviors
+  without metrics,'' in \emph{Proceedings of the 2014 Genetic and Evolutionary
+  Computation Conference}.\hskip 1em plus 0.5em minus 0.4em\relax ACM Press,
+  Vancuver, Canada, 2014, pp. 201--208.
+
+\bibitem[Magnenat et~al.(2011)]{Enki}
+S.~Magnenat, M.~Waibel, and A.~Beyeler, ``Enki: The fast 2{D} robot
+  simulator,'' \url{http://home.gna.org/enki/}, 2011.
+
+\bibitem[Graham and Sloane(1990)]{Graham1990}
+R.~L. Graham and N.~J.~A. Sloane, ``Penny-packing and two-dimensional codes,''
+  \emph{Discrete and Computational Geometry}, vol.~5, no.~1, pp. 1--11, Jan.
+  1990.
+
+\bibitem[Levi and Kernbach(2010)]{Paul2010}
+P.~Levi and S.~Kernbach, \emph{Symbiotic Multi-Robot Organisms: Reliability,
+  Adaptability, Evolution}.\hskip 1em plus 0.5em minus 0.4em\relax Berlin,
+  Heidelberg: Springer-Verlag, 2010.
+
+\bibitem[Eldridge and Maciejewski(2014)]{Daniel2014}
+B.~Eldridge and A.~Maciejewski, ``Limited bandwidth recognition of collective
+  behaviors in bio-inspired swarms,'' in \emph{Proc. 2014 Int. Conf. Autonomous
+  Agents and Multi-Agent Syst.}\hskip 1em plus 0.5em minus 0.4em\relax IFAAMAS
+  Press, Paris, France, 5 2014, pp. 405--412.
+
+\bibitem[Bradski and Kaehler(2008)]{Gary2008}
+G.~Bradski and A.~Kaehler, \emph{Learning OpenCV: Computer Vision with the
+  OpenCV Library}.\hskip 1em plus 0.5em minus 0.4em\relax Sebastopol, CA:
+  O'Reilly Media, 2008.
+
+\bibitem[Hu(1962)]{Hu1962}
+M.-K. Hu, ``Visual pattern recognition by moment invariants,'' \emph{IRE
+  Transactions on Information Theory}, vol.~8, no.~2, pp. 179--187, 1962.
+
+\bibitem[Li et~al.(2014)]{online_supplementary_material_tevc2014}
+W.~Li, M.~Gauci, J.~Chen, and R.~Gro\ss, ``Online supplementary material,''
+  \url{http://naturalrobotics.group.shef.ac.uk/supp/2014-006/}, 2014.
+
+\bibitem[King et~al.(2009)]{King2009}
+R.~D. King, J.~Rowland, \emph{et~al.}, ``The automation of science,''
+  \emph{Sci.}, vol. 324, no. 5923, pp. 85--89, 2009.
+
+\bibitem[Schmidt and Lipson(2009)]{Schmidt2009}
+M.~Schmidt and H.~Lipson, ``Distilling free-form natural laws from experimental
+  data,'' \emph{Sci.}, vol. 324, no. 5923, pp. 81--85, 2009.
+
+\bibitem[Martin(1983)]{Martin_1983}
+E.~Martin, \emph{Macmillan Dictionary of Life Sciences (2nd ed.)}.\hskip 1em
+  plus 0.5em minus 0.4em\relax London: Macmillan Press, 1983.
+
+\bibitem[Dacke et~al.(2004)]{Dacke2004}
+M.~Dacke, M.~J. Byrne, C.~H. Scholtz, and E.~J. Warrant, ``Lunar orientation in
+  a beetle,'' \emph{Proc. of the Roy. Soc. of London. Series B: Biological
+  Sci.}, vol. 271, no. 1537, pp. 361--365, 2004.
+
+\bibitem[Baird et~al.(2012)]{Emily2012}
+E.~Baird, M.~J. Byrne, J.~Smolka, E.~J. Warrant, and M.~Dacke, ``The dung
+  beetle dance: an orientation behaviour?'' \emph{PLoS ONE}, vol.~7, no.~1, p.
+  e30211, 2012.
+
+\bibitem[Beyer(2011)]{Beyer_2001}
+H.~Beyer, \emph{The theory of evolution stratigies}.\hskip 1em plus 0.5em minus
+  0.4em\relax Berlin: Springer, 2011.
 
 \bibitem[Grossman(2008)]{captcha2008}
 \BIBentryALTinterwordspacing

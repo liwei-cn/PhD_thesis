@@ -7,7 +7,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11644 items from 5000.
+Reallocated field_info (elt_size=4) to 12524 items from 5000.
 Database file #1: upgrade.bib
 Repeated entry---line 488 of file upgrade.bib
  : @article{Bongard2007PNAS
@@ -23,45 +23,45 @@ I'm skipping whatever remains of this entry
 Warning--missing institution in Shewchuk1994
 
 Done.
-You've used 151 entries,
+You've used 171 entries,
             4060 wiz_defined-function locations,
-            1851 strings with 34561 characters,
-and the built_in function-call counts, 123925 in all, are:
-= -- 10203
-> -- 2690
-< -- 1267
-+ -- 1424
-- -- 391
-* -- 6160
-:= -- 18736
-add.period$ -- 331
-call.type$ -- 151
-change.case$ -- 148
-chr.to.int$ -- 2592
-cite$ -- 152
-duplicate$ -- 8756
-empty$ -- 9701
-format.name$ -- 757
-if$ -- 28533
+            1962 strings with 37247 characters,
+and the built_in function-call counts, 137495 in all, are:
+= -- 11281
+> -- 2992
+< -- 1385
++ -- 1573
+- -- 439
+* -- 6788
+:= -- 20793
+add.period$ -- 374
+call.type$ -- 171
+change.case$ -- 162
+chr.to.int$ -- 2817
+cite$ -- 172
+duplicate$ -- 9767
+empty$ -- 10871
+format.name$ -- 854
+if$ -- 31653
 int.to.chr$ -- 0
-int.to.str$ -- 151
-missing$ -- 1399
-newline$ -- 551
-num.names$ -- 316
-pop$ -- 2926
+int.to.str$ -- 171
+missing$ -- 1572
+newline$ -- 611
+num.names$ -- 356
+pop$ -- 3331
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 9643
+skip$ -- 10701
 stack$ -- 0
-substring$ -- 6215
-swap$ -- 7428
-text.length$ -- 306
+substring$ -- 6763
+swap$ -- 8213
+text.length$ -- 337
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 1
-while$ -- 578
-width$ -- 154
-write$ -- 2257
+while$ -- 643
+width$ -- 174
+write$ -- 2522
 (There were 2 error messages)

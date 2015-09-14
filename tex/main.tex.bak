@@ -149,10 +149,10 @@
 %
 %\chapter{A Physical Autonomous System for Learning Swarm Behaviors}\label{ch:swarm_physical_implementation}
 %\input{./subfiles/chapter_4.tex}
-
+%
 %\chapter{Learning Individual Behaviors Through Controlled Interaction}\label{ch:interaction}
 %\input{./subfiles/chapter_5.tex}
-
+%
 %\chapter{Conclusion}\label{ch:conclusion}
 %\input{./subfiles/chapter_6.tex}
 
