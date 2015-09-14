@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 SEP 2015 22:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 SEP 2015 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,20 +828,11 @@ File: ../img/chapter_3/model_validation_clustering_simulation.pdf Graphic file
 Package pdftex.def Info: ../img/chapter_3/model_validation_clustering_simulatio
 n.pdf used on input line 248.
 (pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-
-LaTeX Warning: Reference `sec:analysis_evolved_models' on page 14 undefined on 
-input line 249.
-
-
-LaTeX Warning: Reference `sec:analysis_evolved_models' on page 14 undefined on 
-input line 249.
-
-[14 <../img/chapter_3/model_parameters_convergence_aggregation.pdf> <../img/cha
-pter_3/model_parameters_convergence_clustering.pdf>] [15 <../img/chapter_3/mode
-l_validation_aggregation_simulation.pdf> <../img/chapter_3/model_validation_clu
-stering_simulation.pdf>]
-<../img/chapter_3/fitness_curve_aggregation_simulation.pdf, id=525, 325.20998pt
+ [14 <../img/chapter_3/model_parameters_convergence_aggregation.pdf> <../img/ch
+apter_3/model_parameters_convergence_clustering.pdf>] [15 <../img/chapter_3/mod
+el_validation_aggregation_simulation.pdf> <../img/chapter_3/model_validation_cl
+ustering_simulation.pdf>]
+<../img/chapter_3/fitness_curve_aggregation_simulation.pdf, id=527, 325.20998pt
  x 252.93997pt>
 File: ../img/chapter_3/fitness_curve_aggregation_simulation.pdf Graphic file (t
 ype pdf)
@@ -851,7 +842,7 @@ Package pdftex.def Info: ../img/chapter_3/fitness_curve_aggregation_simulation.
 pdf used on input line 265.
 (pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
 
-<../img/chapter_3/fitness_curve_clustering_simulation.pdf, id=526, 325.20998pt 
+<../img/chapter_3/fitness_curve_clustering_simulation.pdf, id=528, 325.20998pt 
 x 252.93997pt>
 File: ../img/chapter_3/fitness_curve_clustering_simulation.pdf Graphic file (ty
 pe pdf)
@@ -862,7 +853,7 @@ df used on input line 268.
 
 [16] [17 <../img/chapter_3/fitness_curve_aggregation_simulation.pdf> <../img/ch
 apter_3/fitness_curve_clustering_simulation.pdf>]
-<../img/chapter_3/classifier_decision_accuracy_simulation.pdf, id=550, 325.2099
+<../img/chapter_3/classifier_decision_accuracy_simulation.pdf, id=552, 325.2099
 8pt x 252.93997pt>
 File: ../img/chapter_3/classifier_decision_accuracy_simulation.pdf Graphic file
  (type pdf)
@@ -872,7 +863,7 @@ Package pdftex.def Info: ../img/chapter_3/classifier_decision_accuracy_simulati
 on.pdf used on input line 283.
 (pdftex.def)             Requested size: 216.81pt x 168.63136pt.
 
-<../img/chapter_3/classifier_output_sequence.pdf, id=551, 505.89pt x 505.89pt>
+<../img/chapter_3/classifier_output_sequence.pdf, id=553, 505.89pt x 505.89pt>
 File: ../img/chapter_3/classifier_output_sequence.pdf Graphic file (type pdf)
 
 <use ../img/chapter_3/classifier_output_sequence.pdf>
@@ -880,7 +871,7 @@ Package pdftex.def Info: ../img/chapter_3/classifier_output_sequence.pdf used o
 n input line 292.
 (pdftex.def)             Requested size: 216.81pt x 216.81056pt.
 
-<../img/chapter_3/classifier_output_hidden_neurons.pdf, id=552, 505.89pt x 505.
+<../img/chapter_3/classifier_output_hidden_neurons.pdf, id=554, 505.89pt x 505.
 89pt>
 File: ../img/chapter_3/classifier_output_hidden_neurons.pdf Graphic file (type 
 pdf)
@@ -896,27 +887,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <../img/chapter_3/classifier_output_sequence.pdf> <../img/chapter_3/classi
 fier_output_hidden_neurons.pdf>] [20] [21]
-<../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf, id=60
-4, 505.89pt x 505.89pt>
-File: ../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf G
-raphic file (type pdf)
-
-<use ../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf>
-Package pdftex.def Info: ../img/chapter_3/last_generation_judgment_accuracy_cf_
-num_selection.pdf used on input line 331.
-(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
-
-<../img/chapter_3/last_generation_classifier_scalability.pdf, id=605, 505.89pt 
+<../img/chapter_3/last_generation_classifier_scalability.pdf, id=606, 505.89pt 
 x 505.89pt>
 File: ../img/chapter_3/last_generation_classifier_scalability.pdf Graphic file 
 (type pdf)
  <use ../img/chapter_3/last_generation_classifier_scalability.pdf>
 Package pdftex.def Info: ../img/chapter_3/last_generation_classifier_scalabilit
-y.pdf used on input line 338.
+y.pdf used on input line 331.
+(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
+
+<../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf, id=60
+7, 505.89pt x 505.89pt>
+File: ../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf G
+raphic file (type pdf)
+
+<use ../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf>
+Package pdftex.def Info: ../img/chapter_3/last_generation_judgment_accuracy_cf_
+num_selection.pdf used on input line 338.
 (pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
 
 [22]
-<../img/chapter_3/model_parameters_box_aggregation_scalability.pdf, id=616, 325
+<../img/chapter_3/model_parameters_box_aggregation_scalability.pdf, id=617, 325
 .20998pt x 252.93997pt>
 File: ../img/chapter_3/model_parameters_box_aggregation_scalability.pdf Graphic
  file (type pdf)
@@ -926,9 +917,9 @@ Package pdftex.def Info: ../img/chapter_3/model_parameters_box_aggregation_scal
 ability.pdf used on input line 349.
 (pdftex.def)             Requested size: 216.81pt x 168.63136pt.
 
-[23 <../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf>]
-[24 <../img/chapter_3/last_generation_classifier_scalability.pdf>]
-<../img/chapter_3/Angle_I=0.pdf, id=641, 412.54124pt x 212.795pt>
+[23 <../img/chapter_3/last_generation_classifier_scalability.pdf>] [24 <../img/
+chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf>]
+<../img/chapter_3/Angle_I=0.pdf, id=642, 412.54124pt x 212.795pt>
 File: ../img/chapter_3/Angle_I=0.pdf Graphic file (type pdf)
 
 <use ../img/chapter_3/Angle_I=0.pdf>
@@ -936,7 +927,7 @@ Package pdftex.def Info: ../img/chapter_3/Angle_I=0.pdf used on input line 367.
 
 (pdftex.def)             Requested size: 144.54pt x 74.55728pt.
 
-<../img/chapter_3/Angle_I=1.pdf, id=642, 402.50375pt x 167.62625pt>
+<../img/chapter_3/Angle_I=1.pdf, id=643, 402.50375pt x 167.62625pt>
 File: ../img/chapter_3/Angle_I=1.pdf Graphic file (type pdf)
 
 <use ../img/chapter_3/Angle_I=1.pdf>
@@ -953,7 +944,7 @@ LaTeX Warning: Reference `sec:evolving_control_and_morphology' on page 25 undef
 ined on input line 371.
 
 
-<../img/chapter_3/model_parameters_box_aggregation_0degree.pdf, id=643, 325.209
+<../img/chapter_3/model_parameters_box_aggregation_0degree.pdf, id=644, 325.209
 98pt x 252.93997pt>
 File: ../img/chapter_3/model_parameters_box_aggregation_0degree.pdf Graphic fil
 e (type pdf)
@@ -963,7 +954,7 @@ Package pdftex.def Info: ../img/chapter_3/model_parameters_box_aggregation_0deg
 ree.pdf used on input line 379.
 (pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
 
-<../img/chapter_3/model_parameters_box_aggregation_60degree.pdf, id=644, 325.20
+<../img/chapter_3/model_parameters_box_aggregation_60degree.pdf, id=645, 325.20
 998pt x 252.93997pt>
 File: ../img/chapter_3/model_parameters_box_aggregation_60degree.pdf Graphic fi
 le (type pdf)
@@ -973,7 +964,7 @@ Package pdftex.def Info: ../img/chapter_3/model_parameters_box_aggregation_60de
 gree.pdf used on input line 382.
 (pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
 
-<../img/chapter_3/model_parameters_convergence_aggregation_0degree.pdf, id=645,
+<../img/chapter_3/model_parameters_convergence_aggregation_0degree.pdf, id=646,
  325.20998pt x 325.20998pt>
 File: ../img/chapter_3/model_parameters_convergence_aggregation_0degree.pdf Gra
 phic file (type pdf)
@@ -983,7 +974,7 @@ Package pdftex.def Info: ../img/chapter_3/model_parameters_convergence_aggregat
 ion_0degree.pdf used on input line 391.
 (pdftex.def)             Requested size: 252.94499pt x 252.94818pt.
 
-<../img/chapter_3/model_parameters_convergence_aggregation_60degree.pdf, id=646
+<../img/chapter_3/model_parameters_convergence_aggregation_60degree.pdf, id=647
 , 325.20998pt x 325.20998pt>
 File: ../img/chapter_3/model_parameters_convergence_aggregation_60degree.pdf Gr
 aphic file (type pdf)
@@ -996,9 +987,14 @@ ion_60degree.pdf used on input line 394.
 
 LaTeX Warning: Float too large for page by 30.09612pt on input line 396.
 
-[25 <../img/chapter_3/model_parameters_box_aggregation_scalability.pdf>]
-[26 <../img/chapter_3/Angle_I=0.pdf> <../img/chapter_3/Angle_I=1.pdf>]
-<../img/chapter_3/MAE_histgram_random_controllers.pdf, id=721, 325.20998pt x 25
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <../img/chapter_3/model_parameters_box_aggregation_scalability.pdf>] [26 <
+../img/chapter_3/Angle_I=0.pdf> <../img/chapter_3/Angle_I=1.pdf>] [27 <../img/c
+hapter_3/model_parameters_box_aggregation_0degree.pdf> <../img/chapter_3/model_
+parameters_box_aggregation_60degree.pdf>]
+<../img/chapter_3/MAE_histgram_random_controllers.pdf, id=755, 325.20998pt x 25
 2.93997pt>
 File: ../img/chapter_3/MAE_histgram_random_controllers.pdf Graphic file (type p
 df)
@@ -1007,21 +1003,20 @@ Package pdftex.def Info: ../img/chapter_3/MAE_histgram_random_controllers.pdf u
 sed on input line 413.
 (pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
 
-<../img/chapter_3/AE_box_random_controllers.pdf, id=722, 325.20998pt x 252.9399
+<../img/chapter_3/AE_box_random_controllers.pdf, id=756, 325.20998pt x 252.9399
 7pt>
 File: ../img/chapter_3/AE_box_random_controllers.pdf Graphic file (type pdf)
  <use ../img/chapter_3/AE_box_random_controllers.pdf>
 Package pdftex.def Info: ../img/chapter_3/AE_box_random_controllers.pdf used on
  input line 416.
 (pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
- [27 <../img/chapter_3/model_parameters_box_aggregation_0degree.pdf> <../img/ch
-apter_3/model_parameters_box_aggregation_60degree.pdf>]
+
 
 LaTeX Warning: Reference `sec:analysis_evolved_models' on page 28 undefined on 
 input line 427.
 
 
-<../img/chapter_3/total_square_error_noise_study.pdf, id=764, 505.89pt x 505.89
+<../img/chapter_3/total_square_error_noise_study.pdf, id=765, 505.89pt x 505.89
 pt>
 File: ../img/chapter_3/total_square_error_noise_study.pdf Graphic file (type pd
 f)
@@ -1033,13 +1028,13 @@ ed on input line 430.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[28]
 Overfull \hbox (10.22717pt too wide) in paragraph at lines 438--439
 \OT1/cmr/m/n/10.95 turbed in a ran-dom di-rec-tion and by a ran-dom dis-tance c
 ho-sen uni-formly in $[]  []$.
  []
 
-[28]
+
 Overfull \hbox (2.68124pt too wide) in paragraph at lines 446--448
 []\OT1/cmr/m/n/10.95 Through com-pet-i-tive co-evo-lu-tion of mod-els and clas-
 si-fiers, the sys-tem suc-cess-fully learned
@@ -1188,12 +1183,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
  11965 strings out of 493488
  191996 string characters out of 3141326
- 301452 words of memory out of 3000000
+ 301498 words of memory out of 3000000
  14718 multiletter control sequences out of 15000+200000
  21187 words of font info for 78 fonts, out of 3000000 for 9000
  960 hyphenation exceptions out of 8191
@@ -1255,9 +1253,9 @@ t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (60 pages, 1604140 bytes).
+Output written on main.pdf (60 pages, 1604390 bytes).
 PDF statistics:
- 1270 PDF objects out of 1440 (max. 8388607)
+ 1271 PDF objects out of 1440 (max. 8388607)
  1107 compressed objects within 12 object streams
  325 named destinations out of 1000 (max. 500000)
  395 words of extra memory for PDF output out of 10000 (max. 10000000)

@@ -17,12 +17,12 @@
 \contentsline {subsection}{\numberline {1.2.2}Simulation Setups}{11}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Simulation Results}{12}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Analysis of Evolved Models}{12}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Coevolutionary Dynamics}{16}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}\leavevmode {\color {red}Coevolutionary Dynamics}}{16}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Analysis of Evolved Classifiers}{20}{subsection.1.3.3}
 \contentsline {subsubsection}{\numberline {1.3.3.1}Using a Single Classifier}{20}{subsubsection.1.3.3.1}
 \contentsline {subsubsection}{\numberline {1.3.3.2}Using a Classifier System}{22}{subsubsection.1.3.3.2}
 \contentsline {subsection}{\numberline {1.3.4}Observing Only a Subset of Agents}{24}{subsection.1.3.4}
-\contentsline {subsection}{\numberline {1.3.5}Evolving Control and Morphology}{25}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.5}Evolving Control and Morphology}{26}{subsection.1.3.5}
 \contentsline {subsection}{\numberline {1.3.6}Evolving Other Behaviors}{28}{subsection.1.3.6}
 \contentsline {subsection}{\numberline {1.3.7}Noise Study}{28}{subsection.1.3.7}
 \contentsline {section}{\numberline {1.4}Summary}{29}{section.1.4}
