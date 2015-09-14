@@ -130,7 +130,7 @@ We assume that the replica has the same differential drive and line-of-sight sen
 \end{figure}
 
 The classifier does not have any prior knowledge about the individual under investigation. It is fed with the sequence of motion data of the individual. It has two input neurons ($i=2$), five hidden neurons ($h=5$) and one output neuron. The input neurons represent the linear speed ($v$) and angular speed ($\omega$) of the individual. They are obtained by tracking the positions and orientations of individuals. In simulation, the tracking is noise-free (situations with noise being
-present are considered in~\cite{Li-etal2014:proc_gecco} and the physical experiments in Chapter~\ref{ch:swarm_physical_implementation} where noise is inherently present). We define the linear speed to be positive when the angle between the individual's orientation and its direction of motion is smaller than $\unit[\pi \small/ 2]{rad}$, and negative otherwise. %This number was chosen arbitrarily and we did not attempt to optimize the number required. 
+present are considered in Section~\ref{sec:noise_study_swarm_simulation} and the physical experiments in Chapter~\ref{ch:swarm_physical_implementation} where noise is inherently present). We define the linear speed to be positive when the angle between the individual's orientation and its direction of motion is smaller than $\unit[\pi \small/ 2]{rad}$, and negative otherwise. %This number was chosen arbitrarily and we did not attempt to optimize the number required. 
 
 In the following, we detail the behavioral rules of the two swarm behaviors.
 
