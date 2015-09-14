@@ -1,0 +1,162 @@
+%-------------------------------------------------------------------------------
+% PREAMBLE
+%-------------------------------------------------------------------------------
+
+\documentclass[a4paper, twoside, 11pt]{scrbook}
+
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+
+\usepackage{listings}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{multirow} 
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\usepackage{color}
+
+\usepackage[caption=false, font=footnotesize,subrefformat=parens,labelformat=parens]{subfig}
+\usepackage{gensymb}
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+%\usepackage[
+%%  top=30mm,
+%%  bottom=30mm,
+%]{geometry}
+
+%--------------------------------------
+% Hyperref Settings
+%--------------------------------------
+\usepackage{hyperref}
+\hypersetup{%
+	pdfauthor = {Wei Li},
+    pdftitle = {Automatic Learning of Agent Behaviors Through Machine Intelligence},
+    %
+	% Use colored links instead of boxes around the links.
+    colorlinks = true, 
+    linkcolor = blue, 
+    citecolor = blue,
+    urlcolor = blue,
+    %
+    % Only link the page number in the table of contents; 
+	% other options are "none", "section" and "all".
+    linktoc = page,
+}
+
+%--------------------------------------
+% Graphics Packages & Commands
+%--------------------------------------
+%\usepackage{graphicx}
+%\usepackage[caption = false, font=footnotesize]{subfig}
+
+\usepackage{graphicx}
+\usepackage[font=footnotesize]{subfig}
+
+\graphicspath{{../img/frontmatter/}{../img/chapter_2/}{../img/chapter_3/}{../img/chapter_4/}{../img/chapter_5/}}
+
+%--------------------------------------
+% Formatting Packages & Commands
+%--------------------------------------
+% Use a vertical space instead of an indentation to mark new paragraphs.
+% Options for the skip amount are:
+% --- {\smallskipamount}
+% --- {\medskipamount}
+% --- {\bigskipamount}
+% --- custom: e.g. {2cm}
+\setlength{\parskip}{\bigskipamount}
+\setlength{\parindent}{0pt}
+
+% Set the line spacing to 1.5.
+\usepackage{setspace}
+\onehalfspacing
+
+\newlength\longest
+
+%\renewcommand*{\familydefault}{\sfdefault}
+%--------------------------------------
+
+%--------------------------------------
+% Mathematics Packages & Commands
+%--------------------------------------
+\usepackage{amsmath}
+
+\usepackage{amsthm}
+\newtheorem{thm}{Theorem}
+
+\usepackage{amssymb}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\usepackage{url, units}
+\newtheorem{defi}{Definition}
+%\newtheorem{theorem}{Theorem}[section]
+%--------------------------------------
+
+%--------------------------------------
+% Referencing Packages & Commands
+%--------------------------------------
+\usepackage[numbers, square]{natbib}
+%--------------------------------------
+
+% ---------- Enable for line numbering.
+%\usepackage{lineno}
+%\linenumbers
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+% FRONT MATTER
+%-------------------------------------------------------------------------------
+
+\frontmatter
+
+\input{./subfiles/titlepage}
+
+\cleardoublepage
+\input{./subfiles/quote}
+
+\cleardoublepage
+\addchap{Abstract}
+\input{./subfiles/abstract}
+
+\cleardoublepage
+\addchap{Acknowledgments}
+\input{./subfiles/acknowledgments}
+
+\cleardoublepage
+\setcounter{tocdepth}{4}
+\tableofcontents
+
+%-------------------------------------------------------------------------------
+% CHAPTERS
+%-------------------------------------------------------------------------------
+
+\mainmatter
+
+\chapter{Introduction}\label{ch:introduction}
+\input{./subfiles/chapter_1.tex}
+
+\chapter{Background and Related Work}\label{ch:literature_review}
+\input{./subfiles/chapter_2.tex}
+
+\chapter{Reverse Engineering Swarm Behaviors using Metric-Free Coevolution}\label{ch:swarm_simulation}
+\input{./subfiles/chapter_3.tex}
+%
+\chapter{A Physical Autonomous System for Learning Swarm Behaviors}\label{ch:swarm_physical_implementation}
+\input{./subfiles/chapter_4.tex}
+
+\chapter{Learning Individual Behaviors Through Controlled Interaction}\label{ch:interaction}
+\input{./subfiles/chapter_5.tex}
+
+\chapter{Conclusion}\label{ch:conclusion}
+\input{./subfiles/chapter_6.tex}
+
+\bibliographystyle{IEEEtrannat}
+\bibliography{upgrade}
+
+\end{document}

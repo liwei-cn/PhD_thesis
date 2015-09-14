@@ -1,0 +1,14 @@
+\newpage
+~\\[7cm]
+\settowidth\longest{\large{\textit{The Character of the Physical Law}}}
+\begin{center}
+	\parbox{\longest}{%
+   		\raggedright{\huge%
+		   Artificial evolution\\
+		   is the end of\\ 
+		   engineering's hegemony.\par\bigskip
+		}   
+  		\raggedright\large{\textit{Kevin Kelly\\Out of Control}}\par%
+	}
+\end{center}
+\newpage

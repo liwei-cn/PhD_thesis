@@ -1,0 +1,2464 @@
+@article{Harvey:SI:2015,
+year={2015},
+issn={1935-3812},
+journal={Swarm Intell.},
+volume={9},
+number={1},
+title={Application of chaos measures to a simplified boids flocking model},
+author={Harvey, John and Merrick, Kathryn and Abbass, Hussein A.},
+pages={23-41},
+}
+
+@article{Bongard2007PNAS,
+author = {Bongard, Josh and Lipson, Hod}, 
+title = {Automated reverse engineering of nonlinear dynamical systems},
+volume = {104}, 
+number = {24}, 
+pages = {9943--9948}, 
+year = {2007}, 
+journal = {PNAS} 
+}
+
+@book{Billings2013,
+ author = {Stephen A Billings},
+ title = {Nonlinear system identification: NARMAX methods in the time, frequency, and spatio-temporal domains},
+ year = {2013},
+ publisher = {Wiley},
+ address = {Hoboken, NJ, USA}
+}
+
+@article{Grotzinger:Sci:2014,
+author = {Grotzinger, John P.}, 
+title = {Habitability, Taphonomy, and the Search for Organic Carbon on Mars},
+volume = {343}, 
+number = {6169}, 
+pages = {386-387}, 
+year = {2014}, 
+doi = {10.1126/science.1249944}, 
+URL = {http://www.sciencemag.org/content/343/6169/386.short}, 
+eprint = {http://www.sciencemag.org/content/343/6169/386.full.pdf}, 
+journal = {Science} 
+}
+
+@book{Jackson1998,
+  title={Introduction to expert system},
+  author={Peter Jackson},
+  year={1998},
+  publisher={Addison-Wesley},
+  address = {Boston, MA, USA}
+}
+
+@book{Fogel1995,
+  title={Evolutionary computation: toward a new philosophy of machine intelligence},
+  author={David B. Fogel},
+  year={1995},
+  publisher={Wiley-IEEE Press},
+  address = {Street Hoboken, NJ, USA}
+}
+
+@techreport{Nilsson1984,
+    author    = "N. J. Nilsson",
+    title     = "Shakey the robot",
+    institution = "SRI International Technical Note",
+    year      = "1984",
+
+}
+
+@article{Zadeh:IC:1965,
+author={Zadeh, L.},
+title={Fuzzy sets},
+journal={Information and Control},
+volume={8},
+pages={338--353},
+year={1965},
+}
+
+@book{Newborn1992,
+  title={Kasparov versus Deep Blue: Computer Chess Comes of Age},
+  author={Monty Newborn},
+  year={1997},
+  publisher={Springer-Verlag},
+  address = {New York, NY, USA}
+}
+
+@book{Schildt1985,
+  title={Artificial intelligence using C},
+  author={Herbert Schildt},
+  year={1987},
+  publisher={McGraw-Hill},
+  address = {New York, NY, USA}
+}
+
+@book{Charniak1985,
+  title={Introduction to artificial intelligence},
+  author={Eugene Charniak},
+  year={1985},
+  publisher={Addison-Wesley},
+  address = {Reading, MA, USA}
+}
+
+@book{camazine2003self,
+  title={Self-organization in biological systems},
+  author={Camazine, Scott},
+  year={2003},
+  publisher={Princeton University Press}
+}
+
+@article{Popov:JCP:1997,
+author={Popov, A.V. and Shuvalov, V.F.},
+title={Phonotactic behavior of crickets},
+journal={J. of Comparative Physiology},
+volume={119},
+number={1},
+pages={111--126},
+year={1977},
+}
+
+@article{Stephen:Op:1990,
+  author =       {Stephen D. Sulkin},
+  title =        {Larval orientation mechanisms: The power of controlled experiments},
+  journal =      {Ophelia},
+  year =         {1990},
+  volume =    {32},
+  number =    {1-2},
+  pages =     {49--62},
+}
+
+@book{Fraenkel:DP:1961,
+    author = {Gottfried S. Fraenkel and Donald L. Gunn},
+    title = {The Orientation of Animals: Kineses, Taxes, and Compass Reactions},
+    year = {1961},
+    publisher ={Dover Publications},
+    address = {New York},
+}
+
+@article{James:ARE:1971,
+	author		= "James E. Lloyd",
+	title		= "Bioluminescent Communication in Insects",
+	journal		= "Annual Review of Entomology",
+	year		= "1971",
+	volume = "16",
+	pages = "97--122"
+}
+
+@phdthesis{Bruinsma:PHD:1979,
+	author		= "Bruinsma, O. H. ",
+	title		= "An analysis of building behaviour of the termite Macrotermes subhyalinus (Rambur)",
+	school		= "Wageningen University",
+	address	= "Wageningen, The Netherlands",
+	year		= "1979"
+}
+
+@article{Kube:AB:1993,
+title = "Collective robotics: from social insects to robots",
+journal = "Adaptive Behavior",
+volume = "2",
+number = "2",
+pages = "189--218",
+year = "1993",
+author = "C.R. Kube, E. Bonabeau"
+}
+
+
+@article{Kube:RAS:2000,
+title = "Cooperative transport by ants and robots ",
+journal = "Robotics and Autonomous Systems ",
+volume = "30",
+number = "1–2",
+pages = "85 - 101",
+year = "2000",
+note = "",
+issn = "0921-8890",
+doi = "http://dx.doi.org/10.1016/S0921-8890(99)00066-4",
+url = "http://www.sciencedirect.com/science/article/pii/S0921889099000664",
+author = "C.Ronald Kube and Eric Bonabeau",
+keywords = "Cooperative transport",
+keywords = "Ants",
+keywords = "Swarm robotics",
+keywords = "Box pushing",
+keywords = "Collective robotics "
+}
+
+
+@article{Craig:CG:1987,
+title = "Flocks, Herds, and Schools: A Distributed Behavioral Model",
+journal = "Computer Graphics",
+volume = "21",
+number = "4",
+pages = "25--34",
+year = "1987",
+author = "Craig W. Reynolds"
+}
+
+@article{Werfel:Sci:2014,
+title = "Designing Collective Behavior in a Termite-Inspired Robot Construction Team",
+journal = "Science",
+volume = "343",
+number = "6172",
+pages = "754--758",
+year = "2014",
+author = "Justin Werfel and Kirstin Petersen and Radhika Nagpal"
+}
+
+@article{Jeanson:AB:2005,
+title = "Self-organized aggregation in cockroaches ",
+journal = "Animal Behaviour ",
+volume = "69",
+number = "1",
+pages = "169 - 180",
+year = "2005",
+note = "",
+issn = "0003-3472",
+doi = "http://dx.doi.org/10.1016/j.anbehav.2004.02.009",
+url = "http://www.sciencedirect.com/science/article/pii/S0003347204002428",
+author = "Raphael Jeanson and Colette Rivault and Jean-Louis Deneubourg and Stephane Blanco and Richard Fournier and Christian Jost and Guy Theraulaz"
+}
+
+@article{Gross:IJBC:2009,
+ author = {Gross, Roderich and Dorigo, Marco},
+ title = {Towards Group Transport by Swarms of Robots},
+ journal = {Int. J. Bio-Inspired Comput.},
+ issue_date = {January 2009},
+ volume = {1},
+ number = {1/2},
+ month = jan,
+ year = {2009},
+ issn = {1758-0366},
+ pages = {1--13},
+ numpages = {13},
+ url = {http://dx.doi.org/10.1504/IJBIC.2009.022770},
+ doi = {10.1504/IJBIC.2009.022770},
+ acmid = {1813387},
+ publisher = {Inderscience Publishers},
+ address = {Inderscience Publishers, Geneva, SWITZERLAND},
+ keywords = {ANNs, artificial neural networks, autonomous mobile robots, bio\&\#45;inspired computation, collective structures, cooperation, cooperative transport, evolutionary robotics, foraging, group transport, modular robots, object manipulation, reconfigurable robots, self\&\#45;assembling robots, self\&\#45;assembly, swarm intelligence, swarm robots},
+} 
+
+@article{Turgut:SI:2008,
+year={2008},
+issn={1935-3812},
+journal={Swarm Intelligence},
+volume={2},
+number={2-4},
+doi={10.1007/s11721-008-0016-2},
+title={Self-organized flocking in mobile robot swarms},
+url={http://dx.doi.org/10.1007/s11721-008-0016-2},
+publisher={Springer US},
+keywords={Swarm robotics; Self-organization; Flocking},
+author={Turgut, AliE. and Çelikkanat, Hande and Gökçe, Fatih and Şahin, Erol},
+pages={97-120},
+language={English}
+}
+
+
+@inproceedings{Chen:AAMAS:2012,
+ author = {Chen, Jianing and Gauci, Melvin and Price, Michael J. and Gro\ss, Roderich},
+ title = {Segregation in Swarms of e-Puck Robots Based on the Brazil Nut Effect},
+ booktitle = {Proceedings of the 11th International Conference on Autonomous Agents and Multiagent Systems - Volume 1},
+ series = {AAMAS '12},
+ year = {2012},
+ isbn = {0-9817381-1-7, 978-0-9817381-1-6},
+ location = {Valencia, Spain},
+ pages = {163--170},
+ numpages = {8},
+ url = {http://dl.acm.org/citation.cfm?id=2343576.2343599},
+ acmid = {2343599},
+ publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
+ address = {Richland, SC},
+ keywords = {Brazil nut effect, collective intelligence, emergent behavior, multi-robot systems, segregation, self-organization},
+} 
+
+
+@INPROCEEDINGS{Fujibayashi:DARS:2002, 
+author={Fujibayashi, K. and Murata, S. and Sugawara, K. and Yamamura, M.}, 
+booktitle={Reliable Distributed Systems, 2002. Proceedings. 21st IEEE Symposium on}, 
+title={Self-organizing formation algorithm for active elements}, 
+year={2002}, 
+month={}, 
+pages={416-421}, 
+keywords={digital simulation;mobile robots;probability;self-adjusting systems;active elements;mobile robots;probability;self-assembling nano machines;self-organizing formation algorithm;simulation;spatial pattern;virtual springs;Algorithm design and analysis;Assembly;Birds;Extraterrestrial phenomena;Lattices;Mobile robots;Proteins;Self-assembly;Shape;Springs}, 
+doi={10.1109/RELDIS.2002.1180220}, 
+ISSN={1060-9857},}
+
+@inproceedings{mclurkin2004distributed,
+  title={Distributed algorithms for dispersion in indoor environments using a swarm of autonomous mobile robots},
+  author={McLurkin, James and Smith, Jennifer},
+  booktitle={in 7th International Symposium on Distributed Autonomous Robotic Systems (DARS},
+  year={2004},
+  organization={Citeseer}
+}
+
+@incollection{howard2002mobile,
+  title={Mobile sensor network deployment using potential fields: A distributed, scalable solution to the area coverage problem},
+  author={Howard, Andrew and Matari{\'c}, Maja J and Sukhatme, Gaurav S},
+  booktitle={Distributed Autonomous Robotic Systems 5},
+  pages={299--308},
+  year={2002},
+  publisher={Springer}
+}
+
+@article{Garnier:AL:2008,
+ author = {Garnier, Simon and Jost, Christian and Gautrais, Jacques and Asadpour, Masoud and Caprari, Gilles and Jeanson, Rapha\"{e}l and Grimal, Anne and Theraulaz, Guy},
+ title = {The Embodiment of Cockroach Aggregation Behavior in a Group of Micro-robots},
+ journal = {Artificial Life},
+ issue_date = {Fall 2008},
+ volume = {14},
+ number = {4},
+ month = oct,
+ year = {2008},
+ issn = {1064-5462},
+ pages = {387--408},
+ numpages = {22},
+ url = {http://dx.doi.org/10.1162/artl.2008.14.4.14400},
+ doi = {10.1162/artl.2008.14.4.14400},
+ acmid = {1411089},
+ publisher = {MIT Press},
+ address = {Cambridge, MA, USA},
+ keywords = {Swarm robotics, aggregation, autonomous robots, biomimetic robotics, self-organization}
+} 
+
+@incollection{Trianni:LNCS:2003,
+year={2003},
+isbn={978-3-540-20057-4},
+booktitle={Advances in Artificial Life},
+volume={2801},
+series={Lecture Notes in Computer Science},
+editor={Banzhaf, Wolfgang and Ziegler, Jens and Christaller, Thomas and Dittrich, Peter and Kim, JanT.},
+doi={10.1007/978-3-540-39432-7_93},
+title={Evolving Aggregation Behaviors in a Swarm of Robots},
+url={http://dx.doi.org/10.1007/978-3-540-39432-7_93},
+publisher={Springer Berlin Heidelberg},
+author={Trianni, Vito and Groß, Roderich and Labella, ThomasH. and Şahin, Erol and Dorigo, Marco},
+pages={865-874},
+language={English}
+}
+
+
+@incollection{Winfield:LNCS:2000,
+year={2000},
+isbn={978-4-431-67991-2},
+booktitle={Distributed Autonomous Robotic Systems 4},
+editor={Parker, LynneE. and Bekey, George and Barhen, Jacob},
+doi={10.1007/978-4-431-67919-6_26},
+title={Distributed Sensing and Data Collection Via Broken Ad Hoc Wireless Connected Networks of Mobile Robots},
+url={http://dx.doi.org/10.1007/978-4-431-67919-6_26},
+publisher={Springer Japan},
+keywords={Distributed sensing; ad hoc wireless networking},
+author={Winfield, Alan. F. T.},
+pages={273-282},
+language={English}
+}
+
+@ARTICLE{Gerkey:TRA:2002, 
+author={Gerkey, B.P. and Mataric, M.J.}, 
+journal={Robotics and Automation, IEEE Transactions on}, 
+title={Sold!: auction methods for multirobot coordination}, 
+year={2002}, 
+month={Oct}, 
+volume={18}, 
+number={5}, 
+pages={758-768}, 
+keywords={distributed control;message passing;mobile robots;multi-robot systems;protocols;resource allocation;Contract Net Protocol;MURDOCH;auction methods;auction-based task allocation system;cooperation;distributed approximation;distributed negotiation mechanisms;dynamic task allocation;failure-prone autonomous robots;long-term autonomy;multirobot coordination;noisy dynamic environments;resource centric publish/subscribe communication model;tightly coupled multirobot physical manipulation task;Contracts;Humans;Intelligent robots;Multirobot systems;Resource management;Robot kinematics;Robot sensing systems;Sensor arrays;System testing;Working environment noise}, 
+doi={10.1109/TRA.2002.803462}, 
+ISSN={1042-296X},
+}
+
+@incollection{Sahin:LNCS:2005,
+year={2005},
+isbn={978-3-540-24296-3},
+booktitle={Swarm Robotics},
+volume={3342},
+series={Lecture Notes in Computer Science},
+editor={Şahin, Erol and Spears, WilliamM.},
+doi={10.1007/978-3-540-30552-1_2},
+title={Swarm Robotics: From Sources of Inspiration to Domains of Application},
+url={http://dx.doi.org/10.1007/978-3-540-30552-1_2},
+publisher={Springer Berlin Heidelberg},
+author={Şahin, Erol},
+pages={10-20},
+language={English}
+}
+
+@incollection{Dorigo:LNCS:2004,
+year={2004},
+isbn={978-3-540-22672-7},
+booktitle={Ant Colony Optimization and Swarm Intelligence},
+volume={3172},
+series={Lecture Notes in Computer Science},
+editor={Dorigo, Marco and Birattari, Mauro and Blum, Christian and Gambardella, LucaMaria and Mondada, Francesco and Stützle, Thomas},
+doi={10.1007/978-3-540-28646-2_3},
+title={ACO for Continuous and Mixed-Variable Optimization},
+url={http://dx.doi.org/10.1007/978-3-540-28646-2_3},
+publisher={Springer Berlin Heidelberg},
+author={Socha, Krzysztof},
+pages={25-36},
+language={English}
+}
+
+
+@article{DiCaro:JAIR:1998,
+ author = {Di Caro, Gianni and Dorigo, Marco},
+ title = {AntNet: Distributed Stigmergetic Control for Communications Networks},
+ journal = {J. Artif. Int. Res.},
+ issue_date = {August 1998},
+ volume = {9},
+ number = {1},
+ month = dec,
+ year = {1998},
+ issn = {1076-9757},
+ pages = {317--365},
+ numpages = {49},
+ url = {http://dl.acm.org/citation.cfm?id=1622797.1622806},
+ acmid = {1622806},
+ publisher = {AI Access Foundation},
+ address = {USA},
+} 
+
+
+@article{Holland:AL:1999,
+author = {Holland, Owen and Melhuish, Chris}, 
+title = {Stigmergy, Self-Organization, and Sorting in Collective Robotics},
+volume = {5}, 
+number = {2}, 
+pages = {173--202}, 
+year = {1999}, 
+journal = {Artificial Life} 
+}
+
+@INPROCEEDINGS{Kennedy:ICNN:1995, 
+author={Kennedy, J. and Eberhart, R.}, 
+booktitle={Neural Networks, 1995. Proceedings., IEEE International Conference on}, 
+title={Particle swarm optimization}, 
+year={1995}, 
+month={Nov}, 
+volume={4}, 
+pages={1942-1948 vol.4}, 
+keywords={artificial intelligence;genetic algorithms;neural nets;search problems;simulation;artificial life;evolution;genetic algorithms;multidimensional search;neural network;nonlinear functions;optimization;particle swarm;simulation;social metaphor;Artificial neural networks;Birds;Educational institutions;Genetic algorithms;Humans;Marine animals;Optimization methods;Particle swarm optimization;Performance evaluation;Testing}, 
+doi={10.1109/ICNN.1995.488968},}
+
+@article{Garnier:SI:2007,
+year={2007},
+issn={1935-3812},
+journal={Swarm Intelligence},
+volume={1},
+number={1},
+doi={10.1007/s11721-007-0004-y},
+title={The biological principles of swarm intelligence},
+url={http://dx.doi.org/10.1007/s11721-007-0004-y},
+publisher={Springer US},
+keywords={Swarm intelligence; Social insects; Stigmergy; Self-organization collective behaviors},
+author={Garnier, Simon and Gautrais, Jacques and Theraulaz, Guy},
+pages={3-31},
+language={English}
+}
+
+
+@ARTICLE{Jianing:TRO:2015, 
+author={Jianing Chen and Gauci, M. and Wei Li and Kolling, A. and Gros, R.}, 
+journal={Robotics, IEEE Transactions on}, 
+title={Occlusion-Based Cooperative Transport with a Swarm of Miniature Mobile Robots}, 
+year={2015}, 
+month={April}, 
+volume={31}, 
+number={2}, 
+pages={307-321}, 
+keywords={decentralised control;materials handling equipment;mobile robots;multi-robot systems;telerobotics;convex object;e-puck robotic platform;fully decentralized strategy;microscale robotic systems;miniature mobile robot swarms;mobile goal;occlusion-based cooperative transport;physics-based computer simulation;planar environment;teleoperation;Force;Mobile robots;Robot kinematics;Robot sensing systems;Shape;Cooperative transport;cooperation without communication;e-puck;occlusion;swarm robotics}, 
+doi={10.1109/TRO.2015.2400731}, 
+ISSN={1552-3098},}
+
+@article{Cully2015,
+author = {Cully, Antoine and Clune, Jeff and Tarapore, Danesh and Mouret, Jean-Baptiste}, 
+title = {Robots that can adapt like animals},
+volume = {521}, 
+number = {7553}, 
+pages = {503--507}, 
+year = {2015}, 
+journal = {Nature} 
+}
+
+@INPROCEEDINGS{Mirm2011, 
+author={Mirmomeni, M. and Punch, W.}, 
+booktitle={Proc. 2011 IEEE Congr. Evol. Comput.}, 
+title={Co-evolving data driven models and test data sets with the application to forecast chaotic time series}, 
+year={2011}, 
+pages={14--20}, 
+publisher={IEEE Press, New Orleans, LA, USA},
+}
+
+@article{Bongard2007PNAS,
+author = {Bongard, Josh and Lipson, Hod}, 
+title = {Automated reverse engineering of nonlinear dynamical systems},
+volume = {104}, 
+number = {24}, 
+pages = {9943--9948}, 
+year = {2007}, 
+journal = {PNAS} 
+}
+
+@article{Bongard2005,
+author={J. Bongard and H. Lipson},
+journal={IEEE Trans. Evol. Comput.},
+title={Nonlinear system identification using coevolution of models and tests},
+year={2005},
+volume={9},
+number={4},
+pages={361--384},
+}
+
+@article{Vladislavleva:2009,
+ author = {Vladislavleva, Ekaterina J. and Smits, Guido F. and Den Hertog, Dick},
+ title = {Order of Nonlinearity As a Complexity Measure for Models Generated by Symbolic Regression via Pareto Genetic Programming},
+ journal = {Trans. Evol. Comp},
+ issue_date = {April 2009},
+ volume = {13},
+ number = {2},
+ month = apr,
+ year = {2009},
+ issn = {1089-778X},
+ pages = {333--349},
+ numpages = {17},
+ url = {http://dx.doi.org/10.1109/TEVC.2008.926486},
+ doi = {10.1109/TEVC.2008.926486},
+ acmid = {1650365},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+ keywords = {Complexity, complexity, evolutionary multiobjective optimization, extrapolation, genetic programming (GP), industrial data analysis, model selection},
+} 
+
+
+@BOOK{Billings2013,
+	AUTHOR = "Stephen A. Billings",
+	TITLE = "Nonlinear System Identification: NARMAX Methods in the Time, Frequency, and Spatio-Temporal Domains",
+	PUBLISHER = "Wiley-Blackwell ",
+	ADDRESS = "Hoboken, NJ, USA",
+	YEAR = "2013"	
+}
+
+@article{Tumbleston20032015,
+author = {Tumbleston, John R. and Shirvanyants, David and Ermoshkin, Nikita and Janusziewicz, Rima and Johnson, Ashley R. and Kelly, David and Chen, Kai and Pinschmidt, Robert and Rolland, Jason P. and Ermoshkin, Alexander and Samulski, Edward T. and DeSimone, Joseph M.}, 
+title = {Continuous liquid interface production of 3D objects},
+volume = {347}, 
+number = {6228}, 
+pages = {1349-1352}, 
+year = {2015}, 
+doi = {10.1126/science.aaa2397}, 
+abstract ={Additive manufacturing processes such as 3D printing use time-consuming, stepwise layer-by-layer approaches to object fabrication. We demonstrate the continuous generation of monolithic polymeric parts up to tens of centimeters in size with feature resolution below 100 micrometers. Continuous liquid interface production is achieved with an oxygen-permeable window below the ultraviolet image projection plane, which creates a “dead zone” (persistent liquid interface) where photopolymerization is inhibited between the window and the polymerizing part. We delineate critical control parameters and show that complex solid parts can be drawn out of the resin at rates of hundreds of millimeters per hour. These print speeds allow parts to be produced in minutes instead of hours.}, 
+URL = {http://www.sciencemag.org/content/347/6228/1349.abstract}, 
+eprint = {http://www.sciencemag.org/content/347/6228/1349.full.pdf}, 
+journal = {Science} 
+}
+
+@article{Eiben:Nature:2015,
+  author =       {Eiben, Agoston E. and Smith, Jim},
+  title =        {From evolutionary computation to the evolution of things},
+  journal =      {Nature},
+  year =         {2015},
+  volume =    {521},
+  number =    {7553},
+  pages =     {467--482},
+}
+
+@INPROCEEDINGS{Watson2012, 
+author={Watson, R.A. and Ficiei, S.G. and Pollack, J.B.}, 
+booktitle={Evolutionary Computation, 1999. CEC 99. Proceedings of the 1999 Congress on}, 
+title={Embodied evolution: embodying an evolutionary algorithm in a population of robots}, 
+year={1999}, 
+month={}, 
+volume={1}, 
+pages={-342 Vol. 1}, 
+keywords={artificial life;control system CAD;controllers;evolutionary computation;robots;Embodied Evolution;automatic design;distributed robotics tasks;evolutionary algorithm;evolutionary robotics;multi-agent behaviors;parallelism;physical robots;robot population;robotic controller design;task environment;Centralized control;Erbium;Evolutionary computation;Genetics;Humanoid robots;Parallel robots;Robot vision systems;Robotics and automation;Springs;World Wide Web}, 
+doi={10.1109/CEC.1999.781944},}
+
+@article{Eiben:EI:2012,
+year={2012},
+issn={1864-5909},
+journal={Evolutionary Intelligence},
+volume={5},
+number={4},
+doi={10.1007/s12065-012-0071-x},
+title={Embodied artificial evolution},
+url={http://dx.doi.org/10.1007/s12065-012-0071-x},
+publisher={Springer-Verlag},
+keywords={Evolution; Evolutionary computing; Embodiment; Embodied evolution; Self-reproduction},
+author={Eiben, A.E. and Kernbach, S. and Haasdijk, Evert},
+pages={261-272},
+language={English}
+}
+
+@incollection{eiben:inria-00531455,
+  TITLE = {{Embodied, On-line, On-board Evolution for Autonomous Robotics}},
+  AUTHOR = {Eiben, A.E. and Haasdijk, Evert and Bredeche, Nicolas},
+  URL = {https://hal.inria.fr/inria-00531455},
+  BOOKTITLE = {{Symbiotic Multi-Robot Organisms: Reliability, Adaptability, Evolution.}},
+  EDITOR = {P. Levi, S. Kernbach (Eds.)},
+  PUBLISHER = {{Springer}},
+  SERIES = {Series: Cognitive Systems Monographs},
+  VOLUME = {7},
+  PAGES = {361-382},
+  YEAR = {2010},
+  PDF = {https://hal.inria.fr/inria-00531455/file/springerbook2010onlineevorobot-draft.pdf},
+  HAL_ID = {inria-00531455},
+  HAL_VERSION = {v1},
+}
+
+@article{Floreano1996,
+  author =       {Floreano, D. and Mondada, F.},
+  title =        {Evolution of homing navigation in a real mobile robot},
+  journal =      {IEEE Trans. Syst., Man, and Cybernetics, Part B: Cybernetics},
+  year =         {1996},
+  volume =    {26},
+  number =    {3},
+  pages =     {396--407},
+}
+
+@ARTICLE{Koos:TEVC:2013, 
+author={Koos, S. and Mouret, J.-B. and Doncieux, S.}, 
+journal={Evolutionary Computation, IEEE Transactions on}, 
+title={The Transferability Approach: Crossing the Reality Gap in Evolutionary Robotics}, 
+year={2013}, 
+month={Feb}, 
+volume={17}, 
+number={1}, 
+pages={122-145}, 
+keywords={Pareto optimisation;evolutionary computation;robots;8-DOF quadrupedal robot;ER;Jakobi minimal simulation methodology;Pareto based multiobjective evolutionary algorithm;STR;evolutionary robotics;local search approach;noise based approach;physical robot;reality gap;simulation-to-reality;transferability approach;unrealistic behaviors;Adaptation models;Computational modeling;Legged locomotion;Optimization;Robustness;Evolutionary robotics;reality gap;transfer-ability approach}, 
+doi={10.1109/TEVC.2012.2185849}, 
+ISSN={1089-778X},}
+
+@article{Koos:IJRR:2013,
+  author    = {Sylvain Koos and
+               Antoine Cully and
+               Jean{-}Baptiste Mouret},
+  title     = {Fast Damage Recovery in Robotics with the T-Resilience Algorithm},
+  journal   = {CoRR},
+  volume    = {abs/1302.0386},
+  year      = {2013},
+  url       = {http://arxiv.org/abs/1302.0386},
+  timestamp = {Fri, 01 Mar 2013 15:41:02 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1302-0386},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@Article{Auerbach:PLoS:2014,
+title={Environmental Influence on the Evolution of Morphological Complexity in Machines},
+author={Auerbach JE and Bongard JC},
+volume={10},
+journal={PLoS Computational Biology},
+number={1},
+pages={e1003399},
+year={2014}
+}
+
+@article{Floreano2007514,
+title = "Evolutionary Conditions for the Emergence of Communication in Robots ",
+journal = "Current Biology ",
+volume = "17",
+number = "6",
+pages = "514 - 519",
+year = "2007",
+note = "",
+issn = "0960-9822",
+doi = "http://dx.doi.org/10.1016/j.cub.2007.01.058",
+url = "http://www.sciencedirect.com/science/article/pii/S0960982207009281",
+author = "Dario Floreano and Sara Mitri and Stéphane Magnenat and Laurent Keller",
+keywords = "EVO_EVOL "
+}
+
+@Article{Waibel2011,
+title={A Quantitative Test of Hamilton's Rule for the Evolution of Altruism},
+author={ Waibel M and Floreano D and Keller L},
+volume={9},
+journal={PLoS Biology},
+number={5},
+pages={e1000615},
+year={2011}
+}
+
+@inproceedings{montanier:inria2011,
+  TITLE = {{Surviving the Tragedy of Commons: Emergence of Altruism in a Population of Evolving Autonomous Agents}},
+  AUTHOR = {Montanier, Jean-Marc and Bredeche, Nicolas},
+  URL = {https://hal.inria.fr/inria-00601776},
+  BOOKTITLE = {{European Conference on Artificial Life}},
+  ADDRESS = {Paris, France},
+  YEAR = {2011},
+  MONTH = Aug,
+  PDF = {https://hal.inria.fr/inria-00601776/file/2011-ECAL-emergenceofaltruism.pdf},
+  HAL_ID = {inria-00601776},
+  HAL_VERSION = {v1},
+}
+
+@INPROCEEDINGS{Brooks92artificiallife,
+    author = {Rodney A. Brooks},
+    title = {Artificial Life and Real Robots},
+    booktitle = {Proceedings of the First European Conference on Artificial Life},
+    year = {1992},
+    pages = {3--10},
+    publisher = {MIT Press}
+}
+
+@INPROCEEDINGS{Batut2013,
+    author = {Berenice Batut and David P Parsons and Stephan Fischer and Guillaume Beslon and Carole Knibbe},
+    title = {In silico experimental evolution: a tool to test evolutionary scenarios},
+    booktitle = {Proceedings of the Eleventh Annual Research in Computational Molecular Biology (RECOMB) Satellite Workshop on Comparative Genomics},
+    year = {2013},
+    pages = {1--6},
+    publisher = {BioMed Central Ltd}
+}
+
+@Article{Bryson2013,
+title={Understanding Evolutionary Potential in Virtual CPU Instruction Set Architectures},
+author={Bryson D.M. and Ofria C.},
+volume={8},
+journal={PLoS ONE},
+number={12},
+pages={e83242},
+url="http://nn.cs.utexas.edu/?stanley:ec02",
+year={2013}
+}
+
+@Article{Kenneth2002,
+title={Evolving Neural Networks Through Augmenting Topologies},
+author={Kenneth O. Stanley and Risto Miikkulainen},
+volume={10},
+journal={Evolutionary Computation},
+number={2},
+pages={99-127},
+url="http://nn.cs.utexas.edu/?stanley:ec02",
+year={2002}
+}
+
+@article{Floreano2008:NN,
+year={2008},
+issn={1864-5909},
+journal={Evolutionary Intelligence},
+volume={1},
+number={1},
+doi={10.1007/s12065-007-0002-4},
+title={Neuroevolution: from architectures to learning},
+url={http://dx.doi.org/10.1007/s12065-007-0002-4},
+publisher={Springer-Verlag},
+keywords={Neural networks; Evolution; Learning},
+author={Floreano, Dario and Dürr, Peter and Mattiussi, Claudio},
+pages={47-62},
+language={English}
+}
+
+@INPROCEEDINGS{Koza:1992,
+    author = {Koza John R. and James P. Rice},
+    title = {Automatic programming of robots using genetic programming},
+    booktitle = {AAAI},
+    year = {1992},
+    pages = {1--6},
+    publisher = {MIT Press}
+}
+
+@ARTICLE{Brooks1986, 
+author={Brooks, R.A.}, 
+journal={Robotics and Automation, IEEE Journal of}, 
+title={A robust layered control system for a mobile robot}, 
+year={1986}, 
+month={Mar}, 
+volume={2}, 
+number={1}, 
+pages={14-23}, 
+keywords={Hierarchical systems;Robots, locomotion;Robustness;Acoustic sensors;Boundary conditions;Control systems;Infrared sensors;Laboratories;Mobile robots;Robot control;Robot sensing systems;Robotics and automation;Robust control}, 
+doi={10.1109/JRA.1986.1087032}, 
+ISSN={0882-4967},}
+
+@article{Harnad2000,
+	volume = {9},
+	number = {4},
+	pages = {425--445},
+	year = {2000},
+	title = {Minds, machines and Turing: The indistinguishability of indistinguishables},
+	author = {Stevan Harnad},
+	journal = {J. Logic, Language and Inform.},
+	publisher = {Springer, Netherlands}
+}
+
+@article{Hertzberg2000,
+title = "High-throughput screening: new technology for the 21st century ",
+journal = "Current Opinion in Chemical Biology ",
+volume = "4",
+number = "4",
+pages = "445 - 451",
+year = "2000",
+note = "",
+issn = "1367-5931",
+doi = "http://dx.doi.org/10.1016/S1367-5931(00)00110-1",
+url = "http://www.sciencedirect.com/science/article/pii/S1367593100001101",
+author = "Robert P Hertzberg and Andrew J Pope",
+keywords = "High-throughput screening",
+keywords = "HTS",
+keywords = "Homogenous fluorescene methods",
+keywords = "Miniaturized radiometric methods",
+keywords = "Cell-based assays "
+}
+
+@ARTICLE{Fonseca1995, 
+author={Fonseca, Carlos M. and Fleming, Peter J.}, 
+journal={Evolutionary Computation}, 
+title={An Overview of Evolutionary Algorithms in Multiobjective Optimization}, 
+year={1995}, 
+volume={3}, 
+number={1}, 
+pages={1--16}, 
+}
+
+@ARTICLE{Hansen2003, 
+author={Hansen, N and Muller, S and Koumoutsakos, P}, 
+journal={Evolutionary Computation}, 
+title={Reducing the Time Complexity of the Derandomized Evolution Strategy with Covariance Matrix Adaptation (CMA-ES)}, 
+year={2003}, 
+month={March}, 
+volume={11}, 
+number={1}, 
+pages={1-18}, 
+keywords={Evolution strategy;covariance matrix adaptation;derandomized self-adaptation;evolution path;parallelization}, 
+doi={10.1162/106365603321828970}, 
+ISSN={1063-6560},
+}
+
+@techreport{Shewchuk1994,
+ author = {Shewchuk, Jonathan R},
+ title = {An Introduction to the Conjugate Gradient Method Without the Agonizing Pain},
+ year = {1994},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Acmucs%3ACMU%2F%2FCS-94-125},
+ publisher = {Carnegie Mellon University},
+ address = {Pittsburgh, PA, USA},
+} 
+
+
+@article{Dennis1977,
+author = {J. E. Dennis, Jr. and Jorge J. Moré},
+title = {Quasi-Newton Methods, Motivation and Theory},
+journal = {SIAM Review},
+volume = {19},
+number = {1},
+pages = {46-89},
+year = {1977},
+doi = {10.1137/1019005},
+}
+
+
+@article{Hornby2011,
+year={2011},
+journal={Evolutionary Computation},
+volume={19},
+number={1},
+title={Computer-automated evolution of an X-band antenna for NASA's Space Technology 5 mission},
+author={Hornby GS and Lohn JD and Linden DS},
+pages={1--23},
+}
+
+
+@article{Wang2013,
+year={2013},
+journal={Sci. Rep.},
+volume={3},
+number={1},
+title={Highly Efficient Light-Trapping Structure Design Inspired By Natural Evolution},
+author={Wang, Chen and Yu, Shuangcheng and Chen, Wei and Sun, Cheng},
+pages={1--7},
+}
+
+@BOOK{Bellman1957,
+	AUTHOR = "R. Bellman",
+	TITLE = "Dynamic Progamming and Lagrange Multipliers",
+	PUBLISHER = "Princeton University Press",
+	ADDRESS = "Princeton, NJ, USA",
+	YEAR = "1957"	
+}
+
+@article{Gutin200281,
+title = "Traveling salesman should not be greedy: domination analysis of greedy-type heuristics for the \{TSP\} ",
+journal = "Discrete Applied Mathematics ",
+volume = "117",
+number = "1–3",
+pages = "81 - 86",
+year = "2002",
+note = "",
+issn = "0166-218X",
+doi = "http://dx.doi.org/10.1016/S0166-218X(01)00195-0",
+url = "http://www.sciencedirect.com/science/article/pii/S0166218X01001950",
+author = "Gregory Gutin and Anders Yeo and Alexey Zverovich",
+keywords = "TSP",
+keywords = "Domination analysis",
+keywords = "Greedy algorithm",
+keywords = "Nearest neighbor algorithm ",
+}
+
+@article{David2014,
+year={2014},
+journal={IEEE Transactions on Evolutionary Computation},
+volume={18},
+number={5},
+title={Genetic Algorithms for Evolving Computer Chess Programs},
+author={Omid E. David and H. Jaap van den Herik and Moshe Koppel and Nathan S. Netanyahu},
+pages={779--789},
+}
+
+@BOOK{Fogel1966,
+	AUTHOR = "Lawrence J. Fogel, Alvin J. Owens, Michael John Walsh",
+	TITLE = "Artificial Intelligence through Simulated Evolution",
+	PUBLISHER = "Wiley",
+	ADDRESS = "Chichester, UK",
+	YEAR = "1966"	
+}
+
+@BOOK{Rechenberg1994,
+	AUTHOR = "I. Rechenberg",
+	TITLE = "Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution",
+	PUBLISHER = "Fromman-Hozlboog Verlag",
+	ADDRESS = "Stuttgart",
+	YEAR = "1994"	
+}
+
+@BOOK{Koza1992,
+	AUTHOR = "J.R. Koza",
+	TITLE = "Genetic Programming",
+	PUBLISHER = "MIT Press",
+	ADDRESS = "Cambridge MA",
+	YEAR = "1992"	
+}
+
+@article{Ray2007,
+year={2007},
+issn={0924-669X},
+journal={Applied Intelligence},
+volume={26},
+number={3},
+doi={10.1007/s10489-006-0018-y},
+title={Genetic operators for combinatorial optimization in TSP and microarray gene ordering},
+url={http://dx.doi.org/10.1007/s10489-006-0018-y},
+publisher={Kluwer Academic Publishers-Plenum Publishers},
+keywords={Microarray; Gene analysis; Data mining; Biocomputing; Evolutionary algorithm; Soft computing},
+author={Ray, ShubhraSankar and Bandyopadhyay, Sanghamitra and Pal, SankarK.},
+pages={183-195},
+language={English}
+}
+
+
+@INPROCEEDINGS{Bongard04automatedrobot,
+    author = {Josh C. Bongard and Hod Lipson},
+    title = {Automated Robot Function Recovery after Unanticipated Failure or Environmental Change Using a Minimum of Hardware Trials},
+    booktitle = {In Proceedings of The 2004 NASA/DoD Conference on Evolvable Hardware},
+    year = {2004},
+    pages = {169--176},
+    publisher = {IEEE Computer Society}
+}
+
+@article{captcha,
+author = {Grossman, L.},
+title = {Computer Literacy Tests: Are You Human?},
+journal = {Time Magazine},
+month = {June},
+year = {2008},
+url = {http://www.test.org/doe/}
+}
+
+@ARTICLE{bowman:reasoning,
+	AUTHOR = "Mic Bowman and Saumya K. Debray and Larry L. Peterson",
+	TITLE = "Reasoning About Naming Systems",
+	JOURNAL = "ACM Trans. Program. Lang. Syst.",
+	VOLUME = {15},
+	NUMBER = {5},
+	PAGES = {795-825},
+	MONTH = "November",
+	YEAR = {1993}	}
+
+@ARTICLE{braams:babel,
+	AUTHOR = "Johannes Braams",
+	TITLE = "Babel, a Multilingual Style-Option System for Use with LaTeX's Standard Document Styles",
+	JOURNAL = {TUGboat},
+	VOLUME = {12},
+	NUMBER = {2},
+	PAGES = {291-301},
+	MONTH = "June",
+	YEAR = {1991}	}
+
+@INPROCEEDINGS{clark:pct,
+	AUTHOR = "Malcolm Clark",
+	TITLE = "Post Congress Tristesse",
+	BOOKTITLE = "TeX90 Conference Proceedings",
+	PAGES = "84-89",
+	ORGANIZATION = "TeX Users Group",
+	MONTH = "March", 
+	YEAR = {1991}	}
+
+@ARTICLE{herlihy:methodology,
+	AUTHOR = "Maurice Herlihy",
+	TITLE = "A Methodology for Implementing Highly Concurrent
+	Data Objects",
+	JOURNAL = {ACM Trans. Program. Lang. Syst.},
+	VOLUME = {15},
+	NUMBER = {5},
+	PAGES = {745-770},
+	MONTH = "November",
+	YEAR = {1993}	}
+
+@BOOK{Lamport:LaTeX,
+	AUTHOR = "Leslie Lamport",
+	TITLE = "LaTeX User's Guide and Document Reference Manual",
+	PUBLISHER = "Addison-Wesley Publishing Company",
+	ADDRESS = "Reading, Massachusetts",
+	YEAR = "1986"	}
+
+@BOOK{salas:calculus,
+	AUTHOR = "S.L. Salas and Einar Hille",
+	TITLE = "Calculus: One and Several Variable",
+	PUBLISHER = "John Wiley and Sons",
+	ADDRESS = "New York",
+	YEAR = "1978"	}
+
+@article{Persidis_1998,
+author = {Aris Persidis},
+title = {High-throughput Screening},
+volume = {16},
+number = {5},
+pages = {488-493},
+year = {1998},
+journal = {Nature biotechnology}
+}
+
+@article{Wikipedia_other,
+author = {Wikipedia},
+title = {Online material},
+month = Augest,
+year = {2012},
+url = {http://en.wikipedia.org/wiki/Automation}
+}
+
+@article{Gauld_2000,
+author = {Gauld, Neill and Gaston.},
+title = {Driving Miss Daisy: The Performance of an Automated Insect Idenfitication System},
+pages = {303-311},
+year = {2000},
+publisher = {Collingwood, VIC: CSIRO},
+journal = {Hymenoptera: evolution, biodiversity and biologicalcontrol}
+}
+
+@article{King_2009,
+author = {King, Ross and Jem Rowland and Stephen G. Oliver and Michael Young},
+title = {The Automation of Science},
+volume ={324},
+number = {5923},
+pages = {85-89},
+year = {2009},
+doi = {10.1126/science.1165620},
+URL = {http://www.sciencemag.org/content/324/5923/85.abstract},
+journal = {Science}
+}
+
+@article{MacLeod_2010,
+author = {N. MacLeod and M. Benfield and P. Culverhouse},
+title = {Time to automate identification},
+volume = {467},
+number = {7312},
+pages = {154-55},
+year = {2010},
+URL = {http://www.nature.com/nature/journal/v467/n7312/full/467154a.html?type=access_denied},
+journal = {Nature}
+}
+
+@ARTICLE{Bongard_2005,
+author={ Bongard, J.C. and Lipson, H.},
+journal={IEEE Transactions on Evolutionary Computation},
+title={Nonlinear System Identification Using Coevolution of Models and Tests},
+year={2005},
+volume={9},
+number={4},
+pages={ 361--384},
+doi={10.1109/TEVC.2005.850293},
+ISSN={1089-778X},
+}
+
+@article {Cohn_1994,
+   author = {Cohn, David and Atlas, Les and Ladner, Richard},
+   title = {Improving generalization with active learning},
+   journal = {Machine Learning},
+   publisher = {Springer Netherlands},
+   issn = {0885-6125},
+   keyword = {Computer Science},
+   pages = {201-221},
+   volume = {15},
+   issue = {2},
+   url = {http://dx.doi.org/10.1007/BF00993277},
+   year = {1994}
+}
+
+@incollection {Bongard_2004,
+   author = {Bongard, Josh and Lipson, Hod},
+   affiliation = {Computational Synthesis Laboratory, Sibley School of Mechanical and Aerospace Engineering, Cornell University, Ithaca, New York 14850},
+   title = {Automating Genetic Network Inference with Minimal Physical Experimentation Using Coevolution},
+   booktitle = {Genetic and Evolutionary Computation � GECCO 2004},
+   series = {Lecture Notes in Computer Science},
+   editor = {Deb, Kalyanmoy},
+   publisher = {Springer, Berlin},
+   isbn = {978-3-540-22344-3},
+   keyword = {Computer Science},
+   pages = {333-345},
+   volume = {3102},
+   year = {2004}
+}
+
+@INPROCEEDINGS{Bongard__2005,
+author={Bongard, J.C. and Lipson, H.},
+booktitle={Evolvable Hardware, 2004. Proceedings. 2004 NASA/DoD Conference on},
+title={Automated robot function recovery after unanticipated failure or environmental change using a minimum of hardware trials},
+year={2004},
+volume={},
+number={},
+pages={ 169 - 176},
+publisher = {IEEE Computer Society},
+doi={10.1109/EH.2004.1310827},
+ISSN={ },
+}
+
+@article{Bongard2005_12,
+ author = {Bongard, Josh and Lipson, Hod},
+ title = {Active Coevolutionary Learning of Deterministic Finite Automata},
+ journal = {J. Mach. Learn. Res.},
+ volume = {6},
+ month = {December},
+ year = {2005},
+ issn = {1532-4435},
+ pages = {1651--1678},
+ numpages = {28},
+ url = {http://dl.acm.org/citation.cfm?id=1046920.1194900},
+ acmid = {1194900},
+ publisher = {JMLR.org},
+}
+
+@article {Kouchmeshky_2007,
+author = {Kouchmeshky, B. and Aquino, W. and Bongard, J. C. and Lipson, H.},
+title = {Co-evolutionary algorithm for structural damage identification using minimal physical testing},
+journal = {International Journal for Numerical Methods in Engineering},
+volume = {69},
+number = {5},
+publisher = {John Wiley & Sons, Ltd.},
+issn = {1097-0207},
+url = {http://dx.doi.org/10.1002/nme.1803},
+doi = {10.1002/nme.1803},
+pages = {1085--1107},
+keywords = {genetic algorithms, damage identification, co-evolution, structural health monitoring, inverse problems},
+year = {2007},
+}
+
+@article{Bongard_2006,
+author = {Bongard, Josh and Zykov, Victor and Lipson, Hod},
+title = {Resilient Machines Through Continuous Self-Modeling},
+volume = {314},
+number = {5802},
+pages = {1118-1121},
+year = {2006},
+doi = {10.1126/science.1133687},
+URL = {http://www.sciencemag.org/content/314/5802/1118.abstract},
+eprint = {http://www.sciencemag.org/content/314/5802/1118.full.pdf},
+journal = {Science}
+}
+
+@article{Barbara_2000,
+title = "What does robotics offer animal behaviour?",
+journal = "Animal Behaviour",
+volume = "60",
+number = "5",
+pages = "545 - 558",
+year = "2000",
+note = "",
+issn = "0003-3472",
+doi = "10.1006/anbe.2000.1514",
+url = "http://www.sciencedirect.com/science/article/pii/S0003347200915148",
+author = "B. Webb"
+}
+
+@article{Barbara_1995,
+title = "Using robots to model animals: a cricket test",
+journal = "Robotics and Autonomous Systems",
+volume = "16",
+number = "2134",
+pages = "117 - 134",
+year = "1995",
+issn = "0921-8890",
+doi = "10.1016/0921-8890(95)00044-5",
+url = "http://www.sciencedirect.com/science/article/pii/0921889095000445",
+author = "B. Webb"
+}
+
+@ARTICLE{Balch_2006,
+author={Balch, T. and Dellaert, F. and Feldman, A. and Guillory, A. and Isbell, C.L. and Khan, Z. and Pratt, S.C. and Stein, A.N. and Wilde, H.},
+journal={Proceedings of the IEEE},
+title={How Multirobot Systems Research will Accelerate our Understanding of Social Animal Behavior},
+year={2006},
+volume={94},
+number={7},
+pages={1445 -1463},
+doi={10.1109/JPROC.2006.876969},
+ISSN={0018-9219},
+}
+
+@article{Krause_2011,
+title = "Interactive robots in experimental biology",
+journal = "Trends in Ecology and Evolution",
+volume = "26",
+number = "7",
+pages = "369 - 375",
+year = "2011",
+note = "",
+issn = "0169-5347",
+doi = "10.1016/j.tree.2011.03.015",
+url = "http://www.sciencedirect.com/science/article/pii/S0169534711000851",
+author = "Jens Krause and Alan F.T. Winfield and Jean-Louis Deneubourg",
+}
+
+@article{Evans_2010,
+author = {Evans, James and Rzhetsky, Andrey},
+title = {Machine Science},
+volume = {329},
+number = {5990},
+pages = {399-400},
+year = {2010},
+doi = {10.1126/science.1189416},
+URL = {http://www.sciencemag.org/content/329/5990/399.short},
+eprint = {http://www.sciencemag.org/content/329/5990/399.full.pdf},
+journal = {Science}
+}
+
+@article{Dawkins_1979,
+author = {Dawkins, R. and Krebs, J. R.},
+title = {Arms Races between and within Species},
+volume = {205},
+number = {1161},
+pages = {489-511},
+year = {1979},
+doi = {10.1098/rspb.1979.0081},
+URL = {http://rspb.royalsocietypublishing.org/content/205/1161/489.abstract},
+eprint = {http://rspb.royalsocietypublishing.org/content/205/1161/489.full.pdf+html},
+journal = {Proceedings of the Royal Society of London. Series B. Biological Sciences}
+}
+
+@article{Cliff_1995,
+    author = {Dave Cliff and Geoffrey F. Miller},
+    title = {Co-evolution of Pursuit and Evasion II: Simulation Methods and Results},
+    year = {1995},
+    volume = {92},
+    number = {2},
+    pages = {101-106},
+    publisher = {International Society for Adaptive Behavior},
+    journal = {Proceedings of the Fourth International Conference on Simulation of Adaptive Behavior}
+}
+
+@INPROCEEDINGS{Floreano_1998,
+    author = {Dario Floreano},
+    title = {Evolutionary robotics in behavior engineering and artificial life },
+    booktitle = {Evolutionary Robotics: From Intelligent Robots to Artificial Life. Applied AI Systems, 1998. Evolutionary Robotics Symposium},
+    year = {1998},
+    publisher = {AAI Books}
+}
+
+@INPROCEEDINGS{Mirmomeni_2011,
+author={Mirmomeni, M. and Punch, W.},
+booktitle={2011 IEEE Congress on Evolutionary Computation},
+title={Co-evolving data driven models and test data sets with the application to forecast chaotic time series},
+publisher = {Auburn University, New Orleans, LA},
+year={2011},
+volume={},
+number={},
+pages={14 -20},
+doi={10.1109/CEC.2011.5949592},
+ISSN={Pending},
+}
+
+@article{Eisenstein_2006,
+author = {Michael Eisenstein},
+title = {Microarrays: Quality control},
+volume = {422},
+number = {7106},
+pages = {1067-1071},
+year = {2006},
+doi = {10.1038/4421067a},
+journal = {Nature}
+}
+
+@article{Minsky_1991,
+author = {M. L. Minsky},
+title = {Logical Versus Analogical or Symbolic Versus Connectionist or Neat Versus Scruffy},
+volume = {12},
+number = {2},
+pages = {34-51},
+year = {1991},
+journal = {AI magazine}
+}
+
+@article{Turing_1950,
+author = {Turing, A.M.},
+title = {Computing Machinery and Intelligence},
+volume = {59},
+number ={236},
+pages = {433-460},
+year = {1950},
+journal = {Mind}
+}
+
+@article{Dacke_2004,
+author = {Dacke, Marie and Byrne, Marcus J. and Scholtz, Clarke H. and Warrant, Eric J.},
+title = {Lunar orientation in a beetle},
+volume = {271},
+number = {1537},
+pages = {361-365},
+year = {2004},
+doi = {10.1098/rspb.2003.2594},
+URL = {http://rspb.royalsocietypublishing.org/content/271/1537/361.abstract},
+eprint = {http://rspb.royalsocietypublishing.org/content/271/1537/361.full.pdf+html},
+journal = {Proceedings of the Royal Society of London. Series B: Biological Sciences}
+}
+
+@article{Chappell_2010,
+    author = {Jackie Chappell and Susannah Thorpe},
+    title = {AI-Inspired Biology: Does AI Have Something to Contribute to Biology?},
+    year = {2010},
+    journal = {Proceedings of the International Symposium on AI Inspired Biology: A Symposium at the AISB 2010 Convention, Leicester, UK}
+}
+
+@book{Darwin_1859,
+    author = {Charles Darwin},
+    title = {On the Origin of Species},
+    year = {1859},
+    address = {England},
+    publisher ={Dover Publications}
+}
+
+@article{John_2004,
+author = {Cartlidge, John and Bullock, Seth},
+title = {Combating Coevolutionary Disengagement by Reducing Parasite Virulence},
+volume = {12},
+number = {2},
+pages = {193--222},
+year = {2004},
+journal = {Evolutionary Computation}
+}
+
+@article{Angeline_1993,
+    author = {Peter J. Angeline and Jordan B. Pollack},
+    title = {Competitive Environments Evolve Better Solutions for Complex Tasks},
+    volume = {155},
+    number = {18},
+    pages = {1--5},
+    year = {1993},
+    journal = {Bibliometrics}
+}
+
+@article{Rosin_1997,
+author = {C. Rosin and R. Belew},
+title = {New Methods for Competitive Coevolution},
+volume = {5},
+number = {10},
+pages = {1-29},
+year = {1997},
+journal = {Evolutionary Computation}
+}
+
+@article{Ljung_1999,
+    author = {L. Ljung},
+    title = {System Identification: Theory for the user},
+    year = {1999},
+    journal = {Englewood  Cliffs, NJ: Prentice-Hall}
+}
+
+@book{Holland_1975,
+    author = {Holland, John H},
+    title = {Adaptation in natural and artificial systems: An introductory analysis with applications to
+             biology, control, and artificial intelligence},
+    year = {1975},
+    address = {Oxford, England},
+    publisher ={U Michigan Press}
+}
+
+@book{Beyer_1975,
+    author = {Beyer, H. G.},
+    title = {The theory of evolution strategies},
+    year = {2001},
+    address = {Berlin/Heidelberg, Germany},
+    publisher ={Springer-Verlag}
+}
+
+@book{Bolhuis_2004,
+    author = {J. Bolhuis and L. Giraldeau},
+    title = {The behavior of animals: mechanisms, function, and evolution},
+    year = {2004},
+    address = {USA},
+    publisher ={Wiley-Blackwell}
+}
+
+@article{Dorigo_1997,
+author={Dorigo, M. and Gambardella, L.M.},
+journal={Evolutionary Computation, IEEE Transactions on},
+title={Ant colony system: a cooperative learning approach to the traveling salesman problem},
+year={1997},
+volume={1},
+number={1},
+pages={53-66},
+keywords={ACS-3-opt;ant colony system;cooperating agents;cooperative learning approach;distributed algorithm;evolutionary computation;local search procedure;nature-inspired algorithms;pheromone;simulated annealing;traveling salesman problem;cooperative systems;distributed algorithms;learning (artificial intelligence);search problems;travelling salesman problems;},
+doi={10.1109/4235.585892},
+ISSN={1089-778X},
+}
+
+@article{King_2004,
+author = {Ken E. Whelan and Ross D. King},
+title = {Intelligent software for laboratory automation},
+volume = {22},
+number = {9},
+pages = {440-445},
+year = {2004},
+journal = {Trends in Biotechnology}
+}
+
+@article{Byrne_2003,
+author = {M. Byrne, M. Dacke.},
+title = {Visual cues used by ball-rolling dung beetles for orientation},
+volume = {189},
+number = {6},
+pages = {411-418},
+year = {2003},
+journal = {Journal of Comparative Physiology A: Neuroethology, Sensory, Neural, and Behavioral Physiology}
+}
+
+@article{Matthews_1962,
+author = {Eric G. Matthews},
+title = {Observations on the Ball-Rolling Behavior of Canthon pilularius },
+pages = {75-93},
+year = {1963},
+journal = {Psyche}
+}
+
+@book{Martin_1983,
+    author = {Martin, E.A},
+    title = {Macmillan Dictionary of Life Sciences (2nd ed.)},
+    year = {1983},
+    address = {London},
+    publisher ={Macmillan Press}
+}
+
+@article{Rano_2009,
+author = {Inaki Rano},
+title = {A steering taxis model and the qualitative analysis of its trajectories},
+volume = {17},
+number = {3},
+pages = {197-211},
+year = {2009},
+journal = {Adaptive Behaviour}
+}
+
+@INPROCEEDINGS{Farah_2002,
+    author = {Ahmed Mohamod Farah and Tom Duckett},
+    title = {Reactive Localisation of an Odour Source by a Learning Mobile Robot},
+    booktitle = {In Proceedings of the Second Swedish Workshop on Autonomous Robotics},
+    publisher = {SWAR Stockholm, Sweden},
+    year = {2002},
+    pages = {29-38}
+}
+
+
+@INPROCEEDINGS{Lilienthal_2003,
+    author = {Lilienthal, A. and Duckett, T},
+    title = {Experimental analysis of smelling Braitenberg vehicles},
+    booktitle = {In Proceedings of the ieee international conference on advanced robotics},
+    pages = {58-63},
+    publisher = {Coimbra, Portugal},
+    year = {2003},
+}
+
+@article{Vaughan_1998,
+	title = {Robot Sheepdog Project achieves automatic flock control},
+	author = {Richard Vaughan and Neil Sumpter and Andy Frost and Stephen Cameron},
+	year = {1998},
+	journal = {The fourth international conference on Autonomous agents},
+	pages = {489--493},
+    publisher = {MIT Press},
+    address = {Boston, Massachusetts},
+	url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=?doi=10.1.1.38.3029},	
+}
+
+@article{J.Halloy_2007,
+author = {Halloy J., Sempo G.},
+title = {Social Integration of Robots into Groups of Cockroaches to Control Self-Organized Choices},
+journal = {Science},
+volume = {318},
+number = {5853},
+pages = {1155-1158},
+doi = {10.1126/science.1144259},
+year = {2007},
+URL = {http://www.sciencemag.org/cgi/content/abstract/sci;318/5853/1155},
+eprint = {http://www.sciencemag.org/cgi/reprint/sci;318/5853/1155.pdf}
+}
+
+@INPROCEEDINGS{Gribovskiy_2010,
+author={Gribovskiy, A. and Halloy, J. and Deneubourg, J.-L. and Bleuler, H. and Mondada, F.},
+booktitle={Intelligent Robots and Systems (IROS), 2010 IEEE/RSJ International Conference on},
+title={Towards mixed societies of chickens and robots},
+year={2010},
+publisher = {MIT press},
+address = {Boston, Massachusetts},
+volume={},
+number={},
+pages={4722 -4728},
+}
+
+@book{Ristine_2001,
+    author = {William Ristine and Mary Ellen Didion},
+    title = {Self-organization in biological systems },
+    year = {2001},
+    address = {Princeton, US Shale Abbreviation},
+    publisher ={Princeton University Press}
+}
+
+@book{Fogel_1991,
+    author = {David B. Fogel},
+    title = {System identification through simulated evolution: a machine learning approach to modeling},
+    year = {1991},
+    address = {Needham, MA, USA},
+    publisher ={Ginn Press}
+}
+
+@book{Halland_1992,
+    author = {John H. Holland},
+    title = {Adaptation in Natural and Artificial Systems},
+    year = {1992},
+    address = {Boston, Massachusetts},
+    publisher ={MIT Press}
+}
+
+@INPROCEEDINGS{Panait_2002,
+    author = {L. Panait and S. Luke},
+    title = {A comparative study of two competitive fitness functions},
+    booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+    pages = {567-573},
+    publisher = {MIT Press},
+    address = {Boston, Massachusetts},
+    year = {2002},
+}
+
+@INPROCEEDINGS{Tan_2007,
+	title = {Competitive coevolution with k-random opponents for pareto multiobjective optimization},
+	author = {T. Tan and J. Teo},
+	year = {2007},
+	booktitle = {Natural Computation, Third International Conference on},
+	pages = {63 - 67 },
+	url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=?doi=10.1.1.38.3029},	
+}
+
+@INPROCEEDINGS{Floreano_1997,
+    author = {D. Floreano and S. Nolfi},
+    title = {Adaptive behavior in competing co-evolving species},
+    booktitle = {The 4th European Conference on Artificial Life},
+    publisher = {MIT Press},
+    pages = {378--387},
+    year = {1997},
+}
+
+@article{Golub_2010,
+author = {Todd Golub},
+title = {Counterpoint: Data first},
+volume = {464},
+number ={7289},
+pages = {679},
+year = {2010},
+journal = {Nature}
+}
+
+@article{Ljung_2010,
+title = "Perspectives on system identification",
+journal = "Annual Reviews in Control",
+volume = "34",
+number = "1",
+pages = "1 - 12",
+year = "2010",
+issn = "1367-5788",
+doi = "10.1016/j.arcontrol.2009.12.001",
+url = "http://www.sciencedirect.com/science/article/pii/S1367578810000027",
+author = "Lennart Ljung",
+}
+
+@article {Baird_2002,
+   author = {Baird, Henry S. and Coates, Allison L. and Fateman, Richard J.},
+   title = {PessimalPrint: a reverse Turing test},
+   journal = {International Journal on Document Analysis and Recognition},
+   publisher = {Springer Berlin / Heidelberg},
+   issn = {1433-2833},
+   keyword = {Computer Science},
+   pages = {158-163},
+   volume = {5},
+   issue = {2},
+   url = {http://dx.doi.org/10.1007/s10032-002-0089-1},
+   year = {2003}
+}
+
+@article{Sasaki_1998,
+title = "Total laboratory automation in Japan: Past, present and the future",
+journal = "Clinica Chimica Acta",
+volume = "278",
+number = "2",
+pages = "217 - 227",
+year = "1998",
+note = "",
+issn = "0009-8981",
+doi = "10.1016/S0009-8981(98)00148-X",
+url = "http://www.sciencedirect.com/science/article/pii/S000989819800148X",
+author = "Masahide Sasaki and Takeshi Kageoka and Katsumi Ogura and Hiromi Kataoka and Tadashi Ueta and Shigeyoshi Sugihara",
+}
+
+
+@article{Emily_2012,
+    author = {Baird, Emily AND Byrne, , Marcus J. AND Smolka, , Jochen AND Warrant, , Eric J. AND Dacke, , Marie},
+    journal = {PLoS ONE},
+    publisher = {Public Library of Science},
+    title = {The Dung Beetle Dance: An Orientation Behaviour?},
+    year = {2012},
+    month = {01},
+    volume = {7},
+    url = {http://dx.doi.org/10.1371%2Fjournal.pone.0030211},
+    pages = {e30211},
+    number = {1},
+    doi = {10.1371/journal.pone.0030211}
+}
+
+@article{Magnenat_2011,
+author = {S. Magnenat and M. Waibel},
+title = {Enki: The fast 2D robot simulator},
+year = {2011},
+journal = {[Online]. Available: http://home.gna.org/enki/}
+}
+
+@article{Mondada_2009,
+    author = {F. Mondada and M. Bonani, etc.},
+    title = {The e-puck, a robot designed for education in engineering},
+volume = {1},
+number ={1},
+pages = {59-65},
+year = {2009},
+journal = {Proc. 9th Conf. Autonomous Robot Syst. and Competitions}
+}
+
+@article{Elman_1990,
+    author = {Elman, J.L.},
+    title = {Finding structure in time},
+    volume = {14},
+    number ={2},
+    pages = {179-211},
+    year = {1990},
+    journal = {Cognitive Science}
+}
+
+@book{Beyer_2001,
+    author = {Beyer, H.G},
+    title = {The theory of evolution stratigies},
+    year = {2011},
+    address = {Berlin},
+    publisher ={Springer}
+}
+
+@book{Fraenkel_1961,
+    author = {Fraenkel, G. and Gunn, D.},
+    title = {The orientation of animals. kineses, taxes and compass reactions},
+    year = {1961},
+    address = {New York},
+    publisher ={Dover Publications}
+}
+
+@article{Yao_1999,
+    author = {Yao,X. and Lin, G.},
+    title = {Evolutionary programming made faster},
+    volume = {31},
+    number ={3},
+    pages = {398-404},
+    year = {1999},
+    journal = {IEEE Transaction on Systems, Man, and Cybernetics, Part C: Applications and Reviews}
+}
+
+@article{Yao1999,
+    author = {Yao, X. and Liu, Y and Lin, G.},
+    title = {Evolutionary programming made faster},
+    journal = {IEEE Trans. on Evol. Comput.},
+    year = {1999},
+    volume = {3},
+    number ={2},
+    pages = {82--102},
+}
+
+@article{Emily2012,
+    author = {Baird, Emily and Byrne, Marcus J. and Smolka, Jochen and Warrant, Eric J. and Dacke, Marie},
+    journal = {PLoS ONE},
+    publisher = {Public Library of Sci.},
+    title = {The dung beetle dance: an orientation behaviour?},
+    year = {2012},
+    volume = {7},
+    number = {1},
+    pages = {e30211},
+}
+
+@article{Dacke2004,
+author = {Dacke, Marie and Byrne, Marcus J. and Scholtz, Clarke H. and Warrant, Eric J.},
+title = {Lunar orientation in a beetle},
+journal = {Proc. of the Roy. Soc. of London. Series B: Biological Sci.},
+volume = {271},
+number = {1537},
+pages = {361--365},
+year = {2004},
+}
+
+@misc{captcha2008,
+author = {L. Grossman},
+title = {Computer Literacy Tests: Are You Human?},
+month = {June},
+year = {2008},
+url = {http://www.time.com/time/magazine/article/0,9171,1812084,00.html},
+}
+
+@book{Camazine2003,
+    author = {Scott Camazine and Jean-Louis Deneubourg and Nigel R. Franks and James Sneyd and Guy Theraula and Eric Bonabeau},
+    title = {Self-Organization in Biological Systems},
+    year = {2003},
+    publisher ={Princeton Univ. Press},
+    address = {Princeton, NJ}
+}
+
+@article {Luca2014,
+	author = {De Luca, Giancarlo and Mariani, Patrizio and MacKenzie, Brian R. and others},
+	title = {Fishing out collective memory of migratory schools},
+	volume = {11},
+	number = {95},
+	year = {2014},
+	publisher = {The Royal Society},
+	journal = {Journal of The Royal Society Interface}
+}
+
+
+@book{Paul2010,
+ author = {Paul Levi and Serge Kernbach},
+ title = {Symbiotic Multi-Robot Organisms: Reliability, Adaptability, Evolution},
+ year = {2010},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg}
+}
+
+@book{Eiben2003,
+ author = {Eiben, A.E. and Smith, James E.},
+ title = {Introduction to evolutionary computing},
+ year = {2003},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg}
+}
+
+@INPROCEEDINGS{Jakobi95,
+    author = {Nick Jakobi and Phil Husbands and Inman Harvey},
+    title = {Noise and the reality gap: the use of simulation in evolutionary robotics},
+    booktitle = {Advances in Artificial Life: Proc. 3rd European Conf. Artificial Life},
+    year = {1995},
+    pages = {704--720},
+    publisher = {Springer-Verlag}
+}
+
+@INPROCEEDINGS{Daniel2014, 
+author={Eldridge, B.D. and Maciejewski, A.A.}, 
+booktitle={Proc. 2014 Int. Conf. Autonomous Agents and Multi-Agent Syst.}, 
+title={Limited bandwidth recognition of collective behaviors in bio-inspired swarms}, 
+year={2014}, 
+month={5}, 
+pages={405--412}, 
+publisher={IFAAMAS Press, Paris, France},
+}
+
+@article{Krause2011,
+title = "Interactive robots in experimental biology ",
+journal = "Trends in Ecology and Evolution ",
+volume = "26",
+number = "7",
+pages = "369 --375",
+year = "2011",
+note = "",
+issn = "0169-5347",
+author = "Jens Krause and Alan F.T. Winfield and Jean-Louis Deneubourg"
+}
+
+
+@incollection{Melvin_DARS2014,
+year={2014},
+isbn={978-3-642-55145-1},
+booktitle={Distributed Autonomous Robotic Systems},
+volume={104},
+series={Springer Tracts in Advanced Robotics},
+title={Evolving Aggregation Behaviors in Multi-Robot Systems with Binary Sensors},
+publisher={Springer, Berlin, Heidelberg},
+author={Gauci, Melvin and Chen, Jianing and Dodd, TonyJ. and Gro\ss, Roderich},
+pages={355--367},
+language={English}
+}
+
+@incollection{Bjerknes2013,
+year={2013},
+isbn={978-3-642-32722-3},
+booktitle={Distributed Autonomous Robotic Systems},
+volume={83},
+series={Springer Tracts in Advanced Robotics},
+doi={10.1007/978-3-642-32723-0_31},
+title={On Fault Tolerance and Scalability of Swarm Robotic Systems},
+publisher={Springer, Berlin, Heidelberg},
+author={Bjerknes, JanDyre and Winfield, AlanF. T.},
+pages={431--444},
+language={English},
+}
+
+@ARTICLE{Turing1950,
+author = {Turing, A. M.},
+title = {Computing machinery and intelligence},
+journal = {Mind},
+year = {1950},
+volume = {59},
+number ={236},
+pages = {433--460},
+}
+
+@ARTICLE{Koos2013, 
+author={Koos, S. and Mouret,  J. B. and Doncieux, S.}, 
+journal={IEEE Trans. Evol. Computation}, 
+title={The Transferability Approach: Crossing the Reality Gap in Evolutionary Robotics}, 
+year={2013}, 
+month={Feb}, 
+volume={17}, 
+number={1}, 
+pages={122--145}, 
+keywords={Pareto optimisation;evolutionary computation;robots;8-DOF quadrupedal robot;ER;Jakobi minimal simulation methodology;Pareto based multiobjective evolutionary algorithm;STR;evolutionary robotics;local search approach;noise based approach;physical robot;reality gap;simulation-to-reality;transferability approach;unrealistic behaviors;Adaptation models;Computational modeling;Legged locomotion;Optimization;Robustness;Evolutionary robotics;reality gap;transfer-ability approach}, 
+doi={10.1109/TEVC.2012.2185849}, 
+ISSN={1089-778X},}
+
+@article{Weitz2012,
+year={2012},
+journal={PLoS ONE},
+volume={7},
+number={6},
+title={Modeling collective animal behavior with a cognitive perspective: a methodological framework},
+author={Weitz S and Blanco S and Fournier R and others},
+note={e38588},
+language={English}
+}
+
+@article{Jakob2010,
+year={2010},
+journal={The Journal of Neuroscience},
+volume={30},
+number={42},
+title={Influence of phasic and tonic dopamine release on receptor activation},
+author={Jakob K. Dreyer , Kjartan F. Herrik, Rune W. Berg and others},
+pages={14273--14283},
+language={English}
+}
+
+@article{Alan2014,
+year={2014},
+issn={1864-5909},
+journal={Evol. Intell.},
+volume={7},
+number={2},
+doi={10.1007/s12065-014-0112-8},
+title={The distributed co-evolution of an on-board simulator and controller for swarm robot behaviours},
+publisher={Springer Berlin Heidelberg},
+keywords={Evolutionary robotics; Swarm robotics; Distributed evolution; Online evolution},
+author={O'Dowd, Paul J. and Studley, Matthew and Winfield, Alan F. T.},
+pages={95--106},
+language={English}
+}
+
+
+@article {Wood2007,
+	author = {Wood, Andrew J and Ackland, Graeme J},
+	title = {Evolving the selfish herd: Emergence of distinct aggregating strategies in an individual-based model},
+	volume = {274},
+	number = {1618},
+	pages = {1637--1642},
+	year = {2007},
+	publisher = {The Royal Society},
+	journal = {Proc. of the Royal Society of London B: Biological Sciences}
+}
+
+@article{Beyer2002,
+title = "Evolution strategies {-} A comprehensive introduction",
+journal = "Natural Computing",
+volume = "1",
+number = "1",
+pages = "3--52",
+year = "2002",
+author = "Hans-Georg Beyer and Hans-Paul Schwefel",
+}
+
+@incollection{Dirk2011,
+year={2011},
+booktitle={Extreme Environmental Events},
+editor={Meyers, Robert A.},
+title={Pedestrian, Crowd and Evacuation Dynamics},
+publisher={Springer},
+author={Helbing, Dirk and Johansson, Anders},
+pages={697--716},
+}
+
+@book{Gary2008,
+ author = {Gary Bradski and Adrian Kaehler},
+ title = {Learning OpenCV: Computer Vision with the OpenCV Library},
+ year = {2008},
+ publisher = {O'Reilly Media},
+ address = {Sebastopol, CA}
+}
+
+@article{Hedwig2004,
+title = "Complex auditory behaviour emerges from simple reactive steering",
+journal = "Nature",
+volume = "430",
+number = "7001",
+pages = "781--785",
+year = "2004",
+author = "Hedwig, Berthold and Poulet, James F. A.",
+}
+
+@INPROCEEDINGS{Eldridge2005, 
+author={Eldridge, B.D. and Maciejewski, A.A.}, 
+booktitle={Sys., Man and Cybernetics, 2005 IEEE Int. Conference on}, 
+title={Using genetic algorithms to optimize social robot behavior for improved pedestrian flow}, 
+year={2005}, 
+month={October}, 
+volume={1}, 
+pages={524--529}, 
+publisher={Waikoloa, Hawaii},
+doi={10.1109/ICSMC.2005.1571199},
+}
+
+@article{Ruxton2008,
+title = "The application of genetic algorithms in behavioural ecology, illustrated with a model of anti-predator vigilance",
+journal = "Journal of Theoretical Biology ",
+volume = "250",
+number = "3",
+pages = "435--448",
+year = "2008",
+note = "",
+issn = "0022-5193",
+author = "Graeme D. Ruxton and Guy Beauchamp",
+}
+
+
+@article{Bonabeau2002,
+title = {Agent-based modeling: Methods and techniques for simulating human systems},
+author = {Bonabeau, Eric},
+journal = {PNAS},
+volume = {99},
+number = {10},
+pages = {7280--7287},
+year = {2002},
+}
+
+@article{Ljung2010,
+title = "Perspectives on system identification ",
+journal = "Annu. Reviews in Control ",
+volume = "34",
+number = "1",
+pages = "1--12",
+year = "2010",
+note = "",
+issn = "1367--5788",
+author = "Lennart Ljung",
+}
+
+@article{Shandelle2010,
+year={2010},
+journal={Notices of the AMS},
+volume={57},
+number={10},
+title={The Mathematics of Animal Behavior: An Interdisciplinary Dialogue},
+author={Shandelle M. Henson and James L. Hayward},
+pages={1248--1258},
+}
+
+@article{Michelsen1994,
+year={1994},
+issn={0340-7594},
+journal={Journal of Comparative Physiology},
+volume={175},
+number={2},
+title={Physics of directional hearing in the cricket Gryllus bimaculatus},
+publisher={Springer-Verlag},
+author={Michelsen, A. and Popov, A.V. and Lewis, B.},
+pages={153--164},
+}
+
+@inproceedings{Bongard_remote_robot_2004,
+author={Bongard, J. and Lipson, H.},
+booktitle={Proc. 2004 IEEE Int. Conf. Robot. and Autom.},
+title={Automated damage diagnosis and recovery for remote robotics},
+year={2004},
+month = {},
+publisher={IEEE Computer Society Press, New Orleans, LA},
+address = {},
+pages={3545--3550},
+}
+
+@article{Varady1997,
+title = "Reverse engineering of geometric models—an introduction ",
+journal = "Computer-Aided Design ",
+volume = "29",
+number = "4",
+pages = "255 - 268",
+year = "1997",
+author = "Tam\'as V\'arady and Ralph R Martin and Jordan Cox",
+}
+
+@article{Basso2005,
+title = "Reverse engineering of regulatory networks in human B cells",
+journal = "Nature Genetics",
+volume = "37",
+number = "4", 
+pages = "382--390",
+year = "2005",
+author = "Basso, Katia and Margolin, Adam A and Stolovitzky, Gustavo and others",
+}
+
+
+@book{Stefano2000,
+ author = {Stefano Nolfi and Dario Floreano},
+ title = {Evolutionary Robotics: The Biology, Intelligence, and Technology of Self-Organizing Machines},
+ year = {2000},
+ publisher = {MIT Press},
+ address = {Cambridge, MA}
+}
+
+@book{Ljung1999,
+ author = {Lennart Ljung},
+ title = {System Identification: Theory for the User (2nd Edition)},
+ year = {1999},
+ publisher = {Prentice Hall},
+ address = {Upper Saddle River, NJ}
+}
+
+@article{Watson2002,
+title = "Embodied Evolution: Distributing an evolutionary algorithm in a population of robots ",
+journal = "Robot. and Autonomous Systems ",
+volume = "39",
+number = "1",
+pages = "1--18",
+year = "2002",
+author = "Richard A. Watson and Sevan G. Ficici and Jordan B. Pollack",
+}
+
+
+
+@inproceedings{Zykov2004,
+author={Zykov, V. and Bongard, J. and Lipson, H.},
+booktitle={Proc. 2004 Genetic and Evol. Computation Conf.},
+title={Evolving dynamic gaits on a physical robot},
+year={2004},
+month = {},
+address = {},
+publisher = {ACM Press, Seattle, WA},
+pages={4722--4728},
+}
+
+@article{Hu1962,
+author = {Ming-Kuei Hu}, 
+title = {Visual pattern recognition by moment invariants},
+journal = {IRE Transactions on Information Theory} ,
+volume = {8}, 
+number = {2}, 
+pages={179--187},
+year = {1962}, 
+}
+
+
+@article{Kopman2013,
+author = {Kopman, Vladislav and Laut, Jeffrey and Polverino, Giovanni and others}, 
+title = {Closed-loop control of zebrafish response using a bioinspired robotic-fish in a preference test},
+journal = {J. of The Roy. Soc. Interface} ,
+volume = {10}, 
+number = {78}, 
+pages={1--8},
+year = {2013}, 
+}
+
+@article{Faria2010,
+journal={Behavioral Ecology and Sociobiology},
+volume={64},
+number={8},
+doi={10.1007/s00265-010-0988-y},
+title={A novel method for investigating the collective behaviour of fish: Introducing `Robofish'},
+publisher={Springer-Verlag},
+author={Faria, JolyonJ. and Dyer, JohnR.G. and Cl{\'e}ment, RomainO. and others},
+pages={1211--1218},
+year={2010},
+}
+
+@inproceedings{Li-etal2014:proc_gecco,
+  author =       {W.~Li and M.~Gauci and R.~Gro{\ss}},
+  title =        {Coevolutionary Learning of Swarm Behaviors Without Metrics},
+  booktitle =    {Proceedings of the 2014 Genetic and Evolutionary Computation Conference},  
+  year =         {2014},
+  publisher = {ACM Press, Vancuver, Canada},
+  address = {},
+  pages = {201--208}
+}
+
+@incollection{Halloy2013,
+booktitle={Biomimetic and Biohybrid Systems},
+volume={8064},
+series={Lecture Notes in Comput. Sci.},
+title={Towards Bio-hybrid Systems Made of Social Animals and Robots},
+publisher={Springer, Berlin, Heidelberg, Germany},
+author={Halloy, Jos{\'e} and Mondada, Francesco and Kernbach, Serge and others},
+pages={384-386},
+year={2013},
+}
+
+@incollection{Thomas2013,
+year={2013},
+booktitle={Biomimetic and Biohybrid Systems},
+volume={8064},
+series={Lecture Notes in Comput. Sci.},
+editor={},
+title={ASSISI: Mixing Animals with Robots in a Hybrid Society},
+publisher={Springer, Berlin, Heidelberg, Germany},
+author={Thomas Schmickl and Stjepan Bogdan and Luís Correia and others},
+pages={441--443}
+}
+
+@book{Camazine2001,
+ author = {Scott Camazine and Jean-Louis Deneubourg and Nigel R. Franks and others},
+ title = {Self-Organization in Biological Systems},
+ year = {2001},
+ publisher = {Princeton University Press},
+ address = {Princeton, NJ}
+}
+
+@article{Carroll1973,
+ title = {Ecology of Foraging by Ants},
+ author = {Carroll, C. R. and Janzen, D. H.},
+ journal = {Annu. Review of Ecology and Systematics},
+ volume = {4},
+ number = {},
+ pages = {231--257},
+ year = {1973},
+}
+
+
+@misc{online_supplementary_material_tevc2014,
+author = {Wei Li and Melvin Gauci and Jianing Chen and Roderich Gro\ss},
+title = {Online supplementary material},
+year = {2014},
+howpublished = "\url{http://naturalrobotics.group.shef.ac.uk/supp/2014-006/}",
+}
+
+@article{Bongard2007,
+author = {Bongard, Josh and Lipson, Hod}, 
+title = {Automated reverse engineering of nonlinear dynamical systems},
+volume = {104}, 
+number = {24}, 
+pages = {9943--9948}, 
+year = {2007}, 
+journal = {Proc. Nat. Academy of Sci.} 
+}
+
+@article{Schmidt2009,
+author = {Schmidt, Michael and Lipson, Hod}, 
+title = {Distilling Free-Form Natural Laws from Experimental Data},
+volume = {324}, 
+number = {5923}, 
+pages = {81--85}, 
+year = {2009}, 
+journal = {Sci.} 
+}
+
+@article{King2009,
+author = {King, Ross D. and Jem Rowland and Stephen G. Oliver others}, 
+title = {The Automation of Science},
+volume = {324}, 
+number = {5923}, 
+pages = {85--89}, 
+year = {2009}, 
+journal = {Sci.}, 
+}
+
+@article{Weihs1973,
+author = {D.Weihs},
+title = {Hydromechanics of Fish Schooling},
+journal = {Nature},
+volume = {241},
+number = {5387},
+pages = {290--291},
+year = {1973},
+}
+
+@article{Jeanson2005,
+title = "Self-organized aggregation in cockroaches",
+journal = "Animal Behaviour ",
+volume = "69",
+number = "1",
+pages = "169--180",
+year = "2005",
+note = "",
+author = "Raphael Jeanson and Colette Rivault and Jean-Louis Deneubourg and others"
+}
+
+@article{Parrish1999,
+author = {Parrish, Julia K. and Edelstein-Keshet, Leah}, 
+title = {Complexity, Pattern, and Evolutionary Trade-Offs in Animal Aggregation},
+volume = {284}, 
+number = {5411}, 
+pages = {99--101}, 
+year = {1999}, 
+journal = {Sci.} 
+}
+
+@inproceedings{Gribovskiy2010,
+author={Gribovskiy, A. and Halloy, J. and Deneubourg, J.-L. and others},
+booktitle={Proc. 2010 IEEE/RSJ Int. Conf. Intelligent Robots and Syst.},
+title={Towards mixed societies of chickens and robots},
+year={2010},
+month = {October},
+address = {Boston, MA},
+pages={4722--4728},
+}
+
+@article{J.Halloy2007,
+author = {J. Halloy and G. Sempo1 and G. Caprari and others},
+title = {Social integration of robots into groups of cockroaches to control self-organized choices},
+journal = {Sci.},
+volume = {318},
+number = {5853},
+pages = {1155--1158},
+year = {2007},
+}
+
+@ARTICLE{Vaughan2000,
+author={Vaughan, R. and Sumpter, N. and Henderson, J. and others},
+title={Experiments in automatic flock control},
+journal={Robot. and Autonomous Syst.},
+year={2000},
+volume={31},
+number={1},
+pages={109--117},
+}
+
+@article {Ly2014,
+author = {Le Ly, D. and Lipson, H.},
+title = {Optimal Experiment Design for Coevolutionary Active Learning},
+journal = {IEEE Trans. Evol. Computation},
+year = {2014},
+volume = {18},
+number = {3},
+pages = {394--404},
+}
+
+@article {Kouchmeshky2007,
+author = {Kouchmeshky, B. and Aquino, W. and Bongard, J. and Lipson, H.},
+title = {Co-evolutionary algorithm for structural damage identification using minimal physical testing},
+journal = {Int. J. for Numerical Methods in Eng.},
+year = {2007},
+volume = {69},
+number = {5},
+pages = {1085--1107},
+}
+
+@INPROCEEDINGS{Koos2009, 
+author={Koos, S. and Mouret, J. and Doncieux, S.}, 
+booktitle={Proc. 2009 IEEE Congr. Evol. Computation}, 
+title={Automatic system identification based on coevolution of models and tests}, 
+year={2009}, 
+month={},
+publisher={IEEE Press, Trondheim, Norway},
+address={},
+pages={560--567}, 
+}
+
+@inproceedings{Bongard_function_recovery_2004,
+author = {J. Bongard and H. Lipson},
+title = {Automated robot function recovery after unanticipated failure or environmental change using a minimum of hardware trials},
+booktitle = {Proc. 2004 NASA/DoD Conf. Evolvable Hardware},
+address = {},
+publisher = {IEEE Computer Society Press, Los Alamitos, CA},
+month  = {},
+year = {2004},
+pages = {169--176},
+}
+
+@article{Bongard2005_tevc,
+author={J. Bongard and H. Lipson},
+journal={IEEE Trans. Evol. Computation},
+title={Nonlinear system identification using coevolution of models and tests},
+year={2005},
+volume={9},
+number={4},
+pages={361--384},
+}
+
+@article{Waltz2010,
+author = {David Waltz and Bruce G. Buchanan},
+title = {Automating Science},
+journal = {Sci.},
+volume = {324},
+number = {5923},
+pages = {43--44},
+year = {2009},
+}
+
+@article{Evans2010,
+author = {Evans, James and Rzhetsky, Andrey},
+title = {Machine science},
+journal = {Sci.},
+volume = {329},
+number = {5990},
+pages = {399--400},
+year = {2010},
+}
+
+@incollection{Meyer2008,
+author = {Jean-Arcady Meyer and Agn{\'e}s Guillot},
+title = {Biologically Inspired Robots},
+booktitle = {Springer Handbook of Robot.},
+publisher = {Springer},
+year = {2008},
+editor = {B. Siciliano and O. Khatib},
+address = {Berlin, Heidelberg, Germany},
+series = {Springer Handbooks},
+pages = {1395--1422}
+}
+
+@book{Floreano2008,
+    author = {Dario Floreano and Claudio Mattiussi},
+    title = {Bio-Inspired Artificial Intelligence: Theories, Methods, and Technologies},
+    year = {2008},
+    publisher ={MIT Press},
+    address = {Cambridge, MA},
+}
+
+@book{Bolhuis2004,
+    author = {Johan J. Bolhuis and Luc-Alain Giraldeau},
+    title = {The Behavior of Animals: Mechanisms, Function, and Evolution},
+    year = {2004},
+    publisher ={Wiley},
+    address = {Hoboken, NJ}
+}
+
+@article{Sutherland1998,
+author = "William J Sutherland",
+title = "The importance of behavioural studies in conservation biology",
+journal = "Animal Behaviour ",
+volume = "56",
+number = "4",
+pages = "801--809",
+year = "1998",
+}
+
+@inproceedings{Li-etal2013:proc_gecco,
+  author =       {W.~Li and M.~Gauci and R.~Gro{\ss}},
+  title =        {A Coevolutionary Approach to Learn Animal Behavior Through Controlled Interaction},
+  booktitle =    {Proceedings of the 2013 Genetic and Evolutionary Computation Conference},  
+  Month = {},  
+  year =  {2013},
+  address = {ACM Press, Amsterdam, Netherlands},
+  pages = {223--230},
+}
+
+@inproceedings{e-puck,
+   author      = {Mondada, Francesco and Bonani, Michael and Raemy, Xavier and others},
+   booktitle   = {Proc. 9{t}h {C}onf. on {A}utonomous {R}obot {S}ystems and {C}ompetitions},
+   pages       = {59--65},
+   publisher   = {IPCB: Instituto Polit{\'e}cnico de Castelo Branco},
+   title       = {The e-puck, a robot designed for education in engineering},
+   volume      = {1},
+   year        = 2009
+}
+
+@misc{Enki,
+author={S. Magnenat and M. Waibel and A. Beyeler},
+title={Enki: The fast 2{D} robot simulator},
+note={},
+howpublished={\url{http://home.gna.org/enki/}},
+year={2011}
+}
+
+@article{Gauci2014_ijrr,
+author = {Gauci, Melvin and Chen, Jianing and Li, Wei and Dodd, Tony J. and Gro\ss, Roderich}, 
+title = {Self-organized aggregation without computation},
+volume = {33}, 
+number = {8}, 
+pages = {1145-1161}, 
+year = {2014}, 
+journal = {The Int. J. of Robot. Research} 
+}
+
+@INPROCEEDINGS{Melvin2014_aamas, 
+author={Melvin Gauci and Jianing Chen and Wei Li and T J Dodd and Roderich Gro\ss}, 
+booktitle={Proc. 2014 Int. Conf. Autonomous Agents and Multi-Agent Syst.}, 
+title={Clustering Objects with Robots That Do Not Compute}, 
+pages={421--428},
+year={2014}, 
+month={},
+address={IFAAMAS Press, Paris, France},
+}
+
+@article{SchmidtLipson2009:science,
+author = {Schmidt, Michael and Lipson, Hod}, 
+title = {Distilling free-form natural laws from experimental data},
+journal = {Sci.},
+year = {2009}, 
+volume = {324}, 
+number = {5923}, 
+pages = {81--85}, 
+}
+
+@article{Bongard-etal2006:science,
+  author =  {J. Bongard and V. Zykov and H. Lipson},
+  title = {Resilient machines through continuous self-modeling},
+  journal = {Sci.},
+  year = {2006},
+  volume = {314},
+  number ={5802},
+  pages =  {1118--1121},
+}
+
+@inproceedings{Mirmomeni2011,
+author={Mirmomeni, M. and Punch, W.},
+booktitle={Proc. 2011 IEEE Congr. Evol. Computation},
+title={Co-evolving data driven models and test data sets with the application to forecast chaotic time series},
+address = {New Orleans, LA},
+month = {June},
+year={2011},
+pages={14--20},
+}
+
+@article{Elman1990,
+    author = {Jeffrey L. Elman},
+    title = {Finding structure in time},
+    journal = {Cognitive Sci.},
+    year = {1990},
+    volume = {14},
+    number ={2},
+    pages = {179--211},
+}
+
+@book{Beyer2001,
+    author = {Hans-Georg Beyer},
+    title = {The Theory of Evolution Strategies},
+    year = {2001},
+    publisher ={Springer},
+    address = {Berlin,  Heidelberg, Germany},
+}
+
+@article{Graham1990,
+ author = {Graham, R. L. and Sloane, N. J. A.},
+ title = {Penny-packing and two-dimensional codes},
+ journal = {Discrete and Computational Geometry},
+ volume = {5},
+ number = {1},
+ month = jan,
+ year = {1990},
+ pages = {1--11},
+} 
+
+
+
+
+
+

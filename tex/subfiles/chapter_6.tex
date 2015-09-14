@@ -1,0 +1,29 @@
+\section{Discussion}
+
+This thesis presents a novel system identification/modelling method that does not rely on pre-defined metrics. The method has been applied to learn agent behaviors ranging from swarm behaviors to single deterministic/stochastic behaviors. 
+
+For the swarm behaviors, we show that the behavioral rules of the swarming agents can be directly inferred from their motion through observation. When studying an unknown swarm behavior, it would be challenging to quantitatively measure the difference between the models and agents. Using our metric-free method which based on coevolution of models and classifiers, the obtained models can still approximate the agents very accurately in terms of parameters. The evolved models was also validated using at the global level. For example, we measured the compactness of the robots executing the evolved models or real controller and showed that there were no significant difference. 
+
+The evolved classifiers also obtained a high judging accuracy when being tested systematically using a range of models. The results showed that the performance of the classifier system (which consists of multiple classifiers) does not drop with the increasing generations. This means that we can run the algorithm for a sufficient number of generations without worrying about the delegation of the performance of the classifiers. The obtained classifiers could potentially be used for detecting the abnormal behaviors (e.g. faulty agents) in the swarm. 
+
+\section{Future work}
+
+\begin{itemize}
+
+\item In the future, we will try to evolve the structure of the models such as using genetic programming or artificial neural network. This technique can be used for learning a variety of collective behaviors such as aggregation, flocking, etc.
+
+\item In chapter 5, we successfully learned the behavior of a single agent behavior through interaction. In the future, we would like to use the classifier to interact with a swarm of agents. 
+
+\item We will try to learn the stochastic swarm behavior. In the aggregation behavior we have learned in Chapter 3, the behavior of each agent is deterministic. However, if the agent's behavior in certain state is stochastic, for example, it has two kind of movements switching with certain probability.  
+
+\item Investigate whether mixed society improve the learning speed when comparing with independent observation. When learning the swarm behavior, we use insert a replica into the swarm. As we discussed, this could potentially influence the behavior of the swarm, and thus biasing the learning process. In the future, we try to separate the replica and agent. That is, we simulate a swarm of replicas executing the same model and feed the data into the classifiers. The classifiers also observe the swarm of agents. 
+
+\item We also try to apply this method to learn the signature of human beings. The research question is given the signature of  a human being, can the computer learn how to generate the same signature with similar style? 
+
+\item In principle, the proposed method is applicable to learning about human behavior. It could evolve models that aim to pass the Turing Test~\citep{Turing1950}, at least with regards to some specific subset of human behavior. In this case, the classifiers could then act as Reverse Turing Tests, which could be applied in situations where a machine needs to distinguish human agents from artificial ones as done, for example, by the ``Completely Automated Public Turing test to tell Computers and Humans Apart'' system (CAPTCHA)~\citep{captcha2008}, which is widely used for internet security purposes.
+
+\item We intend to apply our approach to learn more complex collective behaviors (for example, when the agents have more states or rules). When the behaviors become more complex, instead of analyzing only the motion of individual agents, more information (such as number of the agent's neighbors or its internal states) may need to be provided to the classifiers. The more challenging task could be applying our method to study collective animal (such as insects) behaviors. 
+%distance between one agent and its neighbors
+
+\end{itemize}
+

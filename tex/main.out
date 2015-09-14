@@ -1,0 +1,107 @@
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Problem Statement}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Contributions}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Publications}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{Thesis Outline}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Background and Related Work}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Background}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{AI and Robotics}{section.2.1}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.1.1}{The Development of AI}{subsection.2.1.1}% 12
+\BOOKMARK [3][-]{subsubsection.2.1.1.2}{AI and Robotics Combined}{subsection.2.1.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.2}{Introduction of Automation Science}{section.2.1}% 14
+\BOOKMARK [1][-]{section.2.2}{Evolutionary Computation}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.1}{Natural Evolution}{section.2.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Evolution}{subsection.2.2.1}% 17
+\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Coevolution}{subsection.2.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Introduction of Evolutionary Computation}{section.2.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Evolutionary Algorithms}{subsection.2.2.2}% 20
+\BOOKMARK [3][-]{subsubsection.2.2.2.2}{Coevolutionary Algorithms}{subsection.2.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.3}{Applications of Evolutionary Computation}{section.2.2}% 22
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Black Box Optimization}{subsection.2.2.3}% 23
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Evolutionary Robotics}{subsection.2.2.3}% 24
+\BOOKMARK [3][-]{subsubsection.2.2.3.3}{System Identification}{subsection.2.2.3}% 25
+\BOOKMARK [1][-]{section.2.3}{Combining AI/Robotics and Animal Behavior}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Animal Behavior in Nature}{section.2.3}% 27
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{Single Behaviors}{subsection.2.3.1}% 28
+\BOOKMARK [3][-]{subsubsection.2.3.1.2}{Swarm Behaviors}{subsection.2.3.1}% 29
+\BOOKMARK [2][-]{subsection.2.3.2}{Swarm Optimization and Swarm Robotics}{section.2.3}% 30
+\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Swarm Optimization}{subsection.2.3.2}% 31
+\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Swarm Robotics}{subsection.2.3.2}% 32
+\BOOKMARK [2][-]{subsection.2.3.3}{Contribution of AI/Robotics to Ethology}{section.2.3}% 33
+\BOOKMARK [3][-]{subsubsection.2.3.3.1}{Learning from Synthesis}{subsection.2.3.3}% 34
+\BOOKMARK [3][-]{subsubsection.2.3.3.2}{Robot\205Animal Interaction}{subsection.2.3.3}% 35
+\BOOKMARK [0][-]{chapter.3}{Reverse Engineering Swarm Behaviors using Metric-Free Coevolution}{}% 36
+\BOOKMARK [1][-]{section.3.1}{Problem Formulation}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.2}{Swarm Behaviors}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.2.1}{Aggregation Behavior}{section.3.2}% 39
+\BOOKMARK [2][-]{subsection.3.2.2}{Object Clustering Behavior}{section.3.2}% 40
+\BOOKMARK [1][-]{section.3.3}{Simulation Platform}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.4}{Experimental Setups}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.5}{Coevolutionary System Identification without Metrics}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.5.1}{Model Structure}{section.3.5}% 44
+\BOOKMARK [2][-]{subsection.3.5.2}{Classifier Structure}{section.3.5}% 45
+\BOOKMARK [2][-]{subsection.3.5.3}{Optimization Algorithm}{section.3.5}% 46
+\BOOKMARK [2][-]{subsection.3.5.4}{Fitness Calculation}{section.3.5}% 47
+\BOOKMARK [1][-]{section.3.6}{Results}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.6.1}{Analysis of Evolved Models}{section.3.6}% 49
+\BOOKMARK [2][-]{subsection.3.6.2}{Coevolutionary Dynamics}{section.3.6}% 50
+\BOOKMARK [2][-]{subsection.3.6.3}{Analysis of Evolved Classifiers}{section.3.6}% 51
+\BOOKMARK [3][-]{subsubsection.3.6.3.1}{Using a Single Classifier}{subsection.3.6.3}% 52
+\BOOKMARK [3][-]{subsubsection.3.6.3.2}{Using a Classifier System}{subsection.3.6.3}% 53
+\BOOKMARK [2][-]{subsection.3.6.4}{Observing Only a Subset of Agents}{section.3.6}% 54
+\BOOKMARK [2][-]{subsection.3.6.5}{Evolving Control and Morphology}{section.3.6}% 55
+\BOOKMARK [2][-]{subsection.3.6.6}{Evolving Other Behaviors}{section.3.6}% 56
+\BOOKMARK [2][-]{subsection.3.6.7}{Noise Study}{section.3.6}% 57
+\BOOKMARK [1][-]{section.3.7}{Summary}{chapter.3}% 58
+\BOOKMARK [0][-]{chapter.4}{A Physical Autonomous System for Learning Swarm Behaviors}{}% 59
+\BOOKMARK [1][-]{section.4.1}{Physical Platform}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.1.1}{Robot Arena}{section.4.1}% 61
+\BOOKMARK [2][-]{subsection.4.1.2}{Robot Platform and Sensor Implementations}{section.4.1}% 62
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Robot Platform}{subsection.4.1.2}% 63
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Sensor Implementations}{subsection.4.1.2}% 64
+\BOOKMARK [1][-]{section.4.2}{Motion Capture and Video Processing}{chapter.4}% 65
+\BOOKMARK [2][-]{subsection.4.2.1}{Motion Capture}{section.4.2}% 66
+\BOOKMARK [2][-]{subsection.4.2.2}{Video Processing}{section.4.2}% 67
+\BOOKMARK [1][-]{section.4.3}{PC and Robot Programs}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.3.1}{PC Program}{section.4.3}% 69
+\BOOKMARK [2][-]{subsection.4.3.2}{Replica Program}{section.4.3}% 70
+\BOOKMARK [2][-]{subsection.4.3.3}{Agent Program}{section.4.3}% 71
+\BOOKMARK [1][-]{section.4.4}{Experimental Setup and Protocol}{chapter.4}% 72
+\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.5.1}{Post Evaluation}{section.4.5}% 74
+\BOOKMARK [2][-]{subsection.4.5.2}{Model Validation}{section.4.5}% 75
+\BOOKMARK [1][-]{section.4.6}{Analysis of Sensitivity for Individual Failure}{chapter.4}% 76
+\BOOKMARK [1][-]{section.4.7}{Summary}{chapter.4}% 77
+\BOOKMARK [0][-]{chapter.5}{Learning Individual Behaviors Through Controlled Interaction}{}% 78
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 79
+\BOOKMARK [1][-]{section.5.2}{Methodology}{chapter.5}% 80
+\BOOKMARK [2][-]{subsection.5.2.1}{Model}{section.5.2}% 81
+\BOOKMARK [2][-]{subsection.5.2.2}{Classifier}{section.5.2}% 82
+\BOOKMARK [2][-]{subsection.5.2.3}{Optimization}{section.5.2}% 83
+\BOOKMARK [2][-]{subsection.5.2.4}{Fitness Calculation}{section.5.2}% 84
+\BOOKMARK [1][-]{section.5.3}{Case Study One}{chapter.5}% 85
+\BOOKMARK [2][-]{subsection.5.3.1}{Deterministic Behaviors}{section.5.3}% 86
+\BOOKMARK [2][-]{subsection.5.3.2}{Simulation Setup}{section.5.3}% 87
+\BOOKMARK [2][-]{subsection.5.3.3}{Results}{section.5.3}% 88
+\BOOKMARK [3][-]{subsubsection.5.3.3.1}{Analysis of Evolved Models}{subsection.5.3.3}% 89
+\BOOKMARK [3][-]{subsubsection.5.3.3.2}{Coevolutionary Dynamics}{subsection.5.3.3}% 90
+\BOOKMARK [3][-]{subsubsection.5.3.3.3}{Analysis of Evolved Classifiers}{subsection.5.3.3}% 91
+\BOOKMARK [3][-]{subsubsection.5.3.3.4}{Noise Study}{subsection.5.3.3}% 92
+\BOOKMARK [3][-]{subsubsection.5.3.3.5}{Using a Single-Population Evolutionary Algorithm}{subsection.5.3.3}% 93
+\BOOKMARK [3][-]{subsubsection.5.3.3.6}{Coevolution of Tests and Models}{subsection.5.3.3}% 94
+\BOOKMARK [1][-]{section.5.4}{Case Study Two}{chapter.5}% 95
+\BOOKMARK [2][-]{subsection.5.4.1}{Stochastic Behaviors}{section.5.4}% 96
+\BOOKMARK [2][-]{subsection.5.4.2}{Simulation Setup}{section.5.4}% 97
+\BOOKMARK [2][-]{subsection.5.4.3}{Results: Two States}{section.5.4}% 98
+\BOOKMARK [3][-]{subsubsection.5.4.3.1}{Analysis of Evolved Models}{subsection.5.4.3}% 99
+\BOOKMARK [3][-]{subsubsection.5.4.3.2}{Analysis of Evolved Classifiers}{subsection.5.4.3}% 100
+\BOOKMARK [2][-]{subsection.5.4.4}{Results: Three States}{section.5.4}% 101
+\BOOKMARK [3][-]{subsubsection.5.4.4.1}{Analysis of Evolved Models}{subsection.5.4.4}% 102
+\BOOKMARK [3][-]{subsubsection.5.4.4.2}{Analysis of Evolved Classifiers}{subsection.5.4.4}% 103
+\BOOKMARK [1][-]{section.5.5}{Summary}{chapter.5}% 104
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 105
+\BOOKMARK [1][-]{section.6.1}{Discussion}{chapter.6}% 106
+\BOOKMARK [1][-]{section.6.2}{Future work}{chapter.6}% 107
