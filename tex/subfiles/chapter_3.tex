@@ -429,7 +429,7 @@ Fig.~\subref*{fig:MAE_histgram_random_controllers} shows a histogram of the MAE 
 	\centering
 	\includegraphics[width=3.5 in]{MAE_noise_study.pdf}
 	\caption{This plot shows the total square error of the evolved parameters when increasing the percentage of noise on the measurements of the individuals' position and orientation in the aggregation behavior. Each box corresponds to 30 coevolutionary runs. See text for details.
-\label{fig:noise_study.pdf}}
+\label{fig:noise_study}}
 \end{figure}
 
 \subsection{Noise Study}\label{sec:noise_study_swarm_simulation}
@@ -438,7 +438,7 @@ We conducted a study to investigate how the performance of~\textit{Turing Learni
 
 We conducted $5$ sets of $30$ coevolutions for the noise values $M=\{0, 25, 50, 75, 100\}\%$. In a coevolution with a noise value $M$, every measurement of an individual's position is perturbed in a random direction and by a random distance chosen uniformly in $\left[0, 1.28\frac{M}{100}\right] \,\textrm{cm}$. Similarly, every orientation measurement is perturbed by a random angle chosen uniformly in $\left[-0.5\frac{M}{100}, 0.5\frac{M}{100}\right]$.
 
-Figure~\ref{fig:total_square_error_noise_study} shows the total square error of the evolved parameters in the final generations of the coevolutions. This plot reveals that the system still performs relatively well when a considerable amount of noise affects the individuals' motion tracking system.
+Figure~\ref{fig:noise_study} shows the total square error of the evolved parameters in the final generations of the coevolutions. This plot reveals that the system still performs relatively well when a considerable amount of noise affects the individuals' motion tracking system.
 
 \section{Summary}\label{sec:summary_simulation_swarm}
 

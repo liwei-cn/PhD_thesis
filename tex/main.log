@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 SEP 2015 09:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 SEP 2015 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1002,20 +1002,19 @@ Package pdftex.def Info: ../img/chapter_3/AE_box_random_controllers.pdf used on
  input line 416.
 (pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
 
-<../img/chapter_3/total_square_error_noise_study.pdf, id=768, 505.89pt x 505.89
-pt>
-File: ../img/chapter_3/total_square_error_noise_study.pdf Graphic file (type pd
-f)
- <use ../img/chapter_3/total_square_error_noise_study.pdf>
-Package pdftex.def Info: ../img/chapter_3/total_square_error_noise_study.pdf us
-ed on input line 430.
-(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
+<../img/chapter_3/MAE_noise_study.pdf, id=768, 325.20998pt x 252.93997pt>
+File: ../img/chapter_3/MAE_noise_study.pdf Graphic file (type pdf)
+
+<use ../img/chapter_3/MAE_noise_study.pdf>
+Package pdftex.def Info: ../img/chapter_3/MAE_noise_study.pdf used on input lin
+e 430.
+(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [28]
-Overfull \hbox (2.68124pt too wide) in paragraph at lines 446--448
+Overfull \hbox (2.68124pt too wide) in paragraph at lines 447--449
 []\OT1/cmr/m/n/10.95 Through com-pet-i-tive co-evo-lu-tion of mod-els and clas-
 si-fiers, the sys-tem suc-cess-fully learned
  []
@@ -1023,8 +1022,8 @@ si-fiers, the sys-tem suc-cess-fully learned
 [29]) (./main.bbl [30] [31 <../img/chapter_3/model_parameters_convergence_aggre
 gation_0degree.pdf> <../img/chapter_3/model_parameters_convergence_aggregation_
 60degree.pdf>] [32 <../img/chapter_3/MAE_histgram_random_controllers.pdf> <../i
-mg/chapter_3/AE_box_random_controllers.pdf>] [33 <../img/chapter_3/total_square
-_error_noise_study.pdf>] [34
+mg/chapter_3/AE_box_random_controllers.pdf>] [33 <../img/chapter_3/MAE_noise_st
+udy.pdf>] [34
 
 
 ] [35]
@@ -1167,7 +1166,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
  11963 strings out of 493488
- 191930 string characters out of 3141326
+ 191836 string characters out of 3141326
  301531 words of memory out of 3000000
  14716 multiletter control sequences out of 15000+200000
  21187 words of font info for 78 fonts, out of 3000000 for 9000
@@ -1230,10 +1229,10 @@ t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (60 pages, 1604532 bytes).
+Output written on main.pdf (60 pages, 1602585 bytes).
 PDF statistics:
- 1274 PDF objects out of 1440 (max. 8388607)
- 1109 compressed objects within 12 object streams
+ 1272 PDF objects out of 1440 (max. 8388607)
+ 1108 compressed objects within 12 object streams
  325 named destinations out of 1000 (max. 500000)
  395 words of extra memory for PDF output out of 10000 (max. 10000000)
 

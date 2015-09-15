@@ -427,9 +427,9 @@ We now investigate whether our coevolutionary method can learn arbitrary control
 Fig.~\subref*{fig:MAE_histgram_random_controllers} shows a histogram of the MAE of the evolved models. The distribution has a single mode close to zero, and decays rapidly for increasing values. Over $89\%$ of the $1000$ cases have an error below $0.05$. This suggests that the accuracy of~\textit{Turing Learning} is not highly sensitive to the particular behavior under investigation (i.e., most behaviors are learned equally well). Fig.~\subref*{fig:AE_box_random_controllers} shows the AEs of each model parameter. The means (standard deviations) of the AEs in each parameter were: $0.01$ ($0.05$), $0.02$ ($0.07$), $0.07$ ($0.6$) and $0.05$ ($0.20$). We performed a statistical test on the AEs between the model parameters corresponding to $I=0$ ($v_{\ell0}$ and $v_{r0}$) and $I=1$ ($v_{\ell1}$ and $v_{r1}$). The AEs of the evolved $v_{\ell0}$ and  $v_{r0}$ were significantly lower than those of the evolved $v_{\ell1}$ and  $v_{r1}$. This was likely due to the reason reported in Section~\ref{sec:analysis_evolved_models_swarm_simulation}; that is, an agent spends more time seeing nothing ($I=0$) than other agents ($I=1$) in each trial.
 \begin{figure}[!h]%htbp
 	\centering
-	\includegraphics[width=3.5 in]{total_square_error_noise_study.pdf}
+	\includegraphics[width=3.5 in]{MAE_noise_study.pdf}
 	\caption{This plot shows the total square error of the evolved parameters when increasing the percentage of noise on the measurements of the individuals' position and orientation in the aggregation behavior. Each box corresponds to 30 coevolutionary runs. See text for details.
-\label{fig:total_square_error_noise_study}}
+\label{fig:noise_study}}
 \end{figure}
 
 \subsection{Noise Study}\label{sec:noise_study_swarm_simulation}
@@ -438,7 +438,7 @@ We conducted a study to investigate how the performance of~\textit{Turing Learni
 
 We conducted $5$ sets of $30$ coevolutions for the noise values $M=\{0, 25, 50, 75, 100\}\%$. In a coevolution with a noise value $M$, every measurement of an individual's position is perturbed in a random direction and by a random distance chosen uniformly in $\left[0, 1.28\frac{M}{100}\right] \,\textrm{cm}$. Similarly, every orientation measurement is perturbed by a random angle chosen uniformly in $\left[-0.5\frac{M}{100}, 0.5\frac{M}{100}\right]$.
 
-Figure~\ref{fig:total_square_error_noise_study} shows the total square error of the evolved parameters in the final generations of the coevolutions. This plot reveals that the system still performs relatively well when a considerable amount of noise affects the individuals' motion tracking system.
+Figure~\ref{fig:noise_study} shows the total square error of the evolved parameters in the final generations of the coevolutions. This plot reveals that the system still performs relatively well when a considerable amount of noise affects the individuals' motion tracking system.
 
 \section{Summary}\label{sec:summary_simulation_swarm}
 
