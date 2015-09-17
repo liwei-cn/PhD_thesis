@@ -1,4 +1,4 @@
-\section{\textcolor{red}{Introduction}}\label{sec:introduction_interaction}
+\section{Introduction}\label{sec:introduction_interaction}
 
 In the previous chapters, we demonstrate that the metric-free approach can learn swarm behaviors only through observation. This is based on an implicit assumption that the behavioral repertoire of agents in the swarm could be fully revealed. That is, from the perspective of system identification, the target system has high observability. However, when the target system has low observability, only through passive observation may not learn all the behavioral repertoire of agents. For example, if we try to learn the behavior of an agent's response to certain stimuli, only randomly changing the stimuli (input) may not fully extract all the behavioral information of the agent, as some behavioral repertoire is hidden. Instead, the system needs to interact with the agent in an active way to explore the rare information from the agent. Based on this idea, we aim to learn such agent behaviors which have low observability. 
 
@@ -21,7 +21,7 @@ The advantages of our approach are twofold:
 
 This chapter is organized as follows. Section~\ref{sec:methodology_interaction} describes the methodology used, including the agent behaviors (deterministic and stochastic) and the implementation of the metric-free method. Section~\ref{sec:results_interaction_deterministic} presents the results of learning the deterministic agent behaviors, including analyses of the evolved models and classifiers, the coevolutionary fitness dynamics, the effect of noise on the algorithm's behavior. It also presents a comparison of the coevolutionary approach with a single-population evolutionary approach and a approach based on coevolution of tests (inputs) and models. Section~\ref{sec:results_interaction_stochastic_2states} and Section~\ref{sec:results_interaction_stochastic_3states} presents the results of learning stochastic behaviors. Section~\ref{sec:summary_interaction} summaries the chapter.
 
-\section{\textcolor{red}{Methodology}}\label{sec:methodology_interaction}
+\section{Methodology}\label{sec:methodology_interaction}
 
 This section describes the metric-free method used in this chapter to illustrate the ideas presented in the introduction. The coevolutionary algorithm is comprised of two populations: one of models, and one of classifiers, which coevolve with each other competitively. The fitness of the classifiers depends solely on their ability to distinguish the behavior of the models from the behavior of the agent, described in Section~\ref{sec:case_studies}. The fitness of the models depends solely on their ability to mislead the classifiers into making the wrong judgment, that is, classifying them as the agent.
 
@@ -62,7 +62,7 @@ The fitness of each classifier is obtained by using it to evaluate (i) each mode
 
 To validate our method, we present two case studies: deterministic behaviors and stochastic behaviors. The behaviors to be identified were chosen to serve as a tractable test-bed for proof-of-concept study. While it may loosely correspond to how some `real' agents react to the stimuli in their environment, it is not intended to mimic any specific animal. In these behaviors, non-trivial interaction with the agent is critical for leading the agent to reveal all of its behavioral repertoire. 
 
-\subsection{\textcolor{red}{Deterministic Behaviors}}\label{sec:deterministic_behavior_interaction}
+\subsection{Deterministic Behaviors}\label{sec:deterministic_behavior_interaction}
 
 We simulate a one-dimensional\footnote{In principle, the system will still work in higher dimension. As the main focus is to show how a machine interacts with the agent, for the sake of simplicity, we chose one-dimension.} environment in continuous space. The simulation advances in discrete time steps $t \in\left\{0,1,2,\dots\right\}$. The (ambient) light intensity in the environment, $I$, can be varied continuously between $0$ and $1$ (see Fig.~\ref{fig:agent_behavior_deterministic}). The agent distinguishes between three levels of light intensity, low ($0 \leq I < I_L$), medium ($I_L \leq I \leq I_H$), and high ($I_H < I \leq 1$). Hereafter, these levels will be referred to as $L$, $M$, and $H$.
 %with each level corresponding to a state of the agent
@@ -357,13 +357,13 @@ In order to compare the metric-free coevolutionary method against a more traditi
 
 Fig.~\ref{fig:evolution} reveals that the evolution is able to identify parameters $k$, $\alpha_1$, $\alpha_2$, but not $\alpha_3$. Note that, apart from the single-population evolutions not being able to consistently identify the parameter $\alpha_3$, they also rely on a pre-defined metric for their operation; in this case, computed as the square error between the model's and the agent's speed sequences. 
 
-\subsubsection{\textcolor{red}{Coevolution of Tests and Models}}\label{sec:coevolution_of_tests_and_models}
+\subsubsection{Coevolution of Tests and Models}\label{sec:coevolution_of_tests_and_models}
 
 Although we have shown that the metric-free method can learn deterministic agent behaviors, it is still possible to obtain the same results through coevolution of inputs and models, which is similar to the \textit{estimation-exploration algorithm}~\cite{Bongard2005_tevc}. Different from~\cite{Bongard2005_tevc}, we use the classifiers to generate the inputs (tests), and the inputs are used for controlling the stimulus (in this case, light intensity). The models are optimized through minimizing the square error of speed between the agent and models, given the same sequence of inputs generated by the classifiers. The classifiers compete with the models through generating the inputs that maximize the model errors. Note that in this case the classifiers are only used for generating the inputs. We call this method CoEATM. Fig.~\ref{fig:model_parameters_box_CoEATM_deterministic} shows the results of CoEATM. The models are learned with a high accuracy. In other words, there is no `true' interaction between the agents and classifiers during the experiments. The classifiers only need to learn how to output a fixed sequence to extract all the information from the agent. For a comparison of all approaches, see Table~\ref{table:relative_accuracy}. 
 
 In order to further validate and highlight the benefit of the metric-free method, we introduce the stochastic behaviors in the following section. 
 
-\section{\textcolor{red}{Case Study Two}}
+\section{Case Study Two}
 
 \subsection{Stochastic Behaviors}\label{sec:stochastic_behavior_interaction}
 
@@ -545,7 +545,7 @@ Fig.~\ref{fig:model_parameters_convergence_stochastic_3states} shows the evoluti
 
 Fig.~\ref{fig:classifier_interaction_3states} shows an example of how the classifiers evolved to interact with the agent in order to extract all of its information. The strategy learned by the classifiers shown in 3 of the 4 sub-figures (corresponding to $100^\mathrm{th}$, $200^\mathrm{th}$, $1000^\mathrm{th}$) is as follows. The classifier outputs $H$ first, and once the agent moves forward from state $1$ to state $2$, the classifier switches the light intensity into level $L$ and keeps that level. As long as the agent moves forward from state $2$ to state $3$, the classifier switches the light intensity from $L$ to $H$ and keeps in that level. Note that the classifier lost its ability to interact with the agent in the $500^\mathrm{th}$ generation shown in bottom left of Fig.~\ref{fig:classifier_interaction_3states}. However, this does not influence the learning process. 
 
-\section{\textcolor{red}{Summary}}\label{sec:summary_interaction}
+\section{Summary}\label{sec:summary_interaction}
 
 %This chapter has presented a new coevolutionary method that can autonomously learn the behavior of an agent, or any other agent. We have shown that, by allowing classifiers to control the stimuli in the agent's environment, the system is able to correctly identify the parameters of a relatively complex behavior. The behavior of the agent involves memory and consists of five cases where the agent's response to the stimuli is either proportional, constant or it decays exponentially over time. When only allowing the classifiers to passively observe the agent, the system was unable to fully learn its behavior. Moreover, evolutions that attempted to evolve the behavior using a simple pre-determined comparison metric could not evolve all the parameters. 
 

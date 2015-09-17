@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 MAR 2015 10:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 SEP 2015 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,7 +48,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
 
 ! Undefined control sequence.
 l.6 \includegraphics
-                    [width=0.75\textwidth]{uos_logo_full.jpg}~\\[0.5cm]
+                    [width=0.75\textwidth]{uos_logo_full.jpg}~\\[2.0cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -70,7 +70,7 @@ Missing character: There is no 5 in font nullfont!
 <to be read again> 
                    ]
 l.6 \includegraphics[width=0.75\textwidth]
-                                          {uos_logo_full.jpg}~\\[0.5cm]
+                                          {uos_logo_full.jpg}~\\[2.0cm]
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -79,7 +79,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.6 \includegraphics[width=0.75\textwidth]
-                                          {uos_logo_full.jpg}~\\[0.5cm]
+                                          {uos_logo_full.jpg}~\\[2.0cm]
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -95,7 +95,7 @@ Missing character: There is no s in font nullfont!
 <inserted text> 
                 $
 l.6 \includegraphics[width=0.75\textwidth]{uos_
-                                               logo_full.jpg}~\\[0.5cm]
+                                               logo_full.jpg}~\\[2.0cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -105,7 +105,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
 ! Extra }, or forgotten $.
 l.6 ...cs[width=0.75\textwidth]{uos_logo_full.jpg}
-                                                  ~\\[0.5cm]
+                                                  ~\\[2.0cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -120,7 +120,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.6 ...width=0.75\textwidth]{uos_logo_full.jpg}~\\
-                                                  [0.5cm]
+                                                  [2.0cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -129,7 +129,7 @@ or  <return>  to continue without it.
 <inserted text> 
                 $
 l.6 ...width=0.75\textwidth]{uos_logo_full.jpg}~\\
-                                                  [0.5cm]
+                                                  [2.0cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -137,7 +137,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 }
 l.6 ...width=0.75\textwidth]{uos_logo_full.jpg}~\\
-                                                  [0.5cm]
+                                                  [2.0cm]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -151,8 +151,8 @@ Overfull \hbox (52.79018pt too wide) in paragraph at lines 6--6
 
 ! Undefined control sequence.
 <argument> {\Huge 
-                  \bfseries Autonomous Learning Agent Behaviors Through Mach...
-l.9 ...nt Behaviors Through Machine Intelligence}}
+                  \bfseries Automated Reverse Engineering of Agent Behaviors}
+l.9 ...ed Reverse Engineering of Agent Behaviors}}
                                                   ~\\[1cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -161,18 +161,43 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (57.59193pt too wide) in paragraph at lines 9--9
- []\OT1/cmss/bx/n/10 Autonomous 
+Overfull \hbox (51.1669pt too wide) in paragraph at lines 9--9
+ []\OT1/cmss/bx/n/10 Automated 
  []
 
 
-Overfull \hbox (28.86125pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 Learn- 
+Overfull \hbox (15.80563pt too wide) in paragraph at lines 9--9
+ \OT1/cmss/bx/n/10 Re- 
+ []
+
+
+Overfull \hbox (23.16121pt too wide) in paragraph at lines 9--9
+ \OT1/cmss/bx/n/10 verse 
+ []
+
+
+Overfull \hbox (15.69452pt too wide) in paragraph at lines 9--9
+ \OT1/cmss/bx/n/10 En- 
+ []
+
+
+Overfull \hbox (11.72227pt too wide) in paragraph at lines 9--9
+ \OT1/cmss/bx/n/10 gi- 
+ []
+
+
+Overfull \hbox (23.22232pt too wide) in paragraph at lines 9--9
+ \OT1/cmss/bx/n/10 neer- 
  []
 
 
 Overfull \hbox (13.66672pt too wide) in paragraph at lines 9--9
  \OT1/cmss/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (8.86116pt too wide) in paragraph at lines 9--9
+ \OT1/cmss/bx/n/10 of 
  []
 
 
@@ -195,46 +220,11 @@ Overfull \hbox (15.68896pt too wide) in paragraph at lines 9--9
  \OT1/cmss/bx/n/10 iors 
  []
 
-
-Overfull \hbox (38.88907pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 Through 
- []
-
-
-Overfull \hbox (18.69455pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 Ma- 
- []
-
-
-Overfull \hbox (23.77786pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 chine 
- []
-
-
-Overfull \hbox (12.58337pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 In- 
- []
-
-
-Overfull \hbox (15.37506pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 tel- 
- []
-
-
-Overfull \hbox (8.7778pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 li- 
- []
-
-
-Overfull \hbox (26.22234pt too wide) in paragraph at lines 9--9
- \OT1/cmss/bx/n/10 gence 
- []
-
 ! Undefined control sequence.
 <argument> {\Large 
-                   \bfseries Melvin Gauci}
-l.11 \textsf{{\Large \bfseries Melvin Gauci}}
-                                             ~\\[1cm]
+                   \bfseries Wei Li}
+l.11 \textsf{{\Large \bfseries Wei Li}}
+                                       ~\\[4cm]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -242,13 +232,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (30.61122pt too wide) in paragraph at lines 11--11
- []\OT1/cmss/bx/n/10 Melvin 
+Overfull \hbox (17.75008pt too wide) in paragraph at lines 11--11
+ []\OT1/cmss/bx/n/10 Wei 
  []
 
 
-Overfull \hbox (25.639pt too wide) in paragraph at lines 11--11
- \OT1/cmss/bx/n/10 Gauci 
+Overfull \hbox (8.36115pt too wide) in paragraph at lines 11--11
+ \OT1/cmss/bx/n/10 Li 
  []
 
 ! Undefined control sequence.
@@ -283,18 +273,27 @@ Overfull \hbox (5.00002pt too wide) in paragraph at lines 14--14
  []  \OT1/cmr/m/n/10 ^^Y 
  []
 
-Missing character: There is no D in font nullfont!
+Missing character: There is no P in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no T in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no J in font nullfont!
+Missing character: There is no A in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no D in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 l.17 {\Large
              A Thesis Submitted for the Degree of~\\
@@ -408,5 +407,5 @@ Here is how much of TeX's memory you used:
  3423 multiletter control sequences out of 15000+200000
  4585 words of font info for 17 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 18i,4n,12p,132b,149s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,4n,12p,118b,149s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
