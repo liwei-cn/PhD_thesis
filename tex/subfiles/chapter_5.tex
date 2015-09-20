@@ -1,17 +1,16 @@
-\section{Introduction}\label{sec:introduction_interaction}
+\section{\textcolor{red}{Introduction}}\label{sec:introduction_interaction}
 
-In the previous chapters, we demonstrate that the metric-free approach can learn swarm behaviors only through observation. This is based on an implicit assumption that the behavioral repertoire of agents in the swarm could be fully revealed. That is, from the perspective of system identification, the target system has high observability. However, when the target system has low observability, only through passive observation may not learn all the behavioral repertoire of agents. For example, if we try to learn the behavior of an agent's response to certain stimuli, only randomly changing the stimuli (input) may not fully extract all the behavioral information of the agent, as some behavioral repertoire is hidden. Instead, the system needs to interact with the agent in an active way to explore the rare information from the agent. Based on this idea, we aim to learn such agent behaviors which have low observability. 
+In the previous chapters, we demonstrate that how \textit{Turing Learning} can be used for inferring swarm behaviors only through observation. This is based on an implicit assumption that the behavioral repertoire of agents in the swarm could be fully revealed through passive observation. That is, from the perspective of system identification, the target system has high observability. However, when the target system has low observability, some hidden information may not be revealed only through passive observation. Instead, the machine needs to interact with the agent in an active way to explore the hidden information from the agent. Based on this idea, in this chapter we aim to infer such agent behaviors through \textit{Turing Learning} with interaction. 
+%For example, if we try to learn the behavior of an agent's response to certain stimulus, only randomly changing the stimulus (input) may not fully extract all the behavioral information of the agent, as some behavioral repertoire is hidden. 
 
-Observation and interaction are widely adapted by scientists when investigating the behavior of animals. For example, when investigating animals' behavior in their natural habitat, passive observation is a preferable method as it is difficult to change the environmental stimuli. In this case, inferring the causal relations between the animal's behavior and its environmental stimuli may become challenging, because these stimuli are not under the observer's control. However, when the experiments are carried out in a controlled environment, it is possible to actively change the stimuli to interact with the animals under investigation in a meaningful way~\cite{Martin_1983, Dacke2004, Emily2012}. In~\cite{Emily2012}, in order to investigate cause of the dung beetle dance for orientation, biologists designed various experiments such as the appearance of disturbance or obstacles to interact with the dung beetle and learn how it adapts to the environmental changes. 
+Observation and interaction are widely adapted by ethologists when investigating the behavior of animals~\cite{Martin_1983, Dacke2004, Emily2012}. When investigating animals' behavior in their natural habitat, passive observation is preferable as it is difficult to change the environmental stimuli. In this case, inferring the causal relations between the animal's behavior and its environmental stimuli may become challenging, since the stimuli are not under the observer's control. However, when the experiments are carried out in a controlled laboratory, it is possible to actively change the stimuli to interact with the animals under investigation in a meaningful way. In~\cite{Emily2012}, in order to investigate causes of the dung beetle dance, biologists designed various experiments such as the appearance of disturbance or obstacles to interact with the dung beetle and learn how it adapts to the environmental changes. 
 
-In this chapter, we investigate whether a machine could learn such behaviors (demonstrated using computer simulation) through actively interacting with the agents under investigation, without the need of human intervention. We validate our approach using two case studies: deterministic agent behaviors (see Section~\ref{sec:deterministic_behavior_interaction}) and stochastic agent behaviors (see Section~\ref{sec:stochastic_behavior_interaction}). The machine outputs a model of the agent that captures its behavior in relation to the environmental stimuli. 
-
-We make the following assumptions:
-\begin{itemize}
-\item The machine can observe the agent's actions. In this work, we consider the agent's motion, and therefore assume that the machine can observe the agent's position as this changes over time.
-\item The machine is capable of simulating the actions of the agent. In this work, this corresponds to generating sequences of coordinates over a time interval.
-\item The machine is able to control the agent's environmental conditions, which in this work corresponds to the intensity of the ambient light.
-\end{itemize}
+In this chapter, we investigate whether a machine could infer the agent behaviors through actively interacting with the agents in an autonomous manner using the \textit{Turing Learning} method. To validate this, two case studies are presented: deterministic agent behavior (Section~\ref{sec:deterministic_behavior_interaction}) and stochastic behavior (Section~\ref{sec:stochastic_behavior_interaction}). In these two case studies, the machine is able to control the agent's environmental conditions, which in this thesis corresponds to the intensity of the ambient light. At the same time, it is capable of simulating the actions of the agent. The learning result is a model of the agent that captures its behavior in relation to the environmental stimulus. 
+%We make the following assumptions:
+%\begin{itemize}
+%\item The machine is capable of simulating the actions of the agent. In this work, this corresponds to generating sequences of coordinates over a time interval.
+%\item The machine is able to control the agent's environmental conditions, which in this work corresponds to the intensity of the ambient light.
+%\end{itemize}
 
 The advantages of our approach are twofold:
 \begin{itemize}
@@ -23,15 +22,15 @@ This chapter is organized as follows. Section~\ref{sec:methodology_interaction} 
 
 \section{Methodology}\label{sec:methodology_interaction}
 
-This section describes the metric-free method used in this chapter to illustrate the ideas presented in the introduction. The coevolutionary algorithm is comprised of two populations: one of models, and one of classifiers, which coevolve with each other competitively. The fitness of the classifiers depends solely on their ability to distinguish the behavior of the models from the behavior of the agent, described in Section~\ref{sec:case_studies}. The fitness of the models depends solely on their ability to mislead the classifiers into making the wrong judgment, that is, classifying them as the agent.
+In this chapter, we extend~\textit{Turing Learning} described in Chapter~\ref{ch:swarm_simulation} with interactive ability. The basic idea is the same, that is, the method is comprised of two populations: one of models, and one of classifiers, which coevolve with each other competitively. The fitness of the classifiers depends solely on their ability to distinguish the behavior of the models from the behavior of the agent. The fitness of the models depends solely on their ability to mislead the classifiers into making the wrong judgment, that is, classifying them as the agent. In this following, we will describe the implementation that is related to the work in this chapter. 
 
-\subsection{Model} 
+\subsection{Models} 
 
-The models are represented by a set of parameters govern the rules of the agents. The details of these parameters will be described in Section~\ref{sec:deterministic_behavior_interaction} and Section~\ref{sec:stochastic_behavior_interaction} As we have argued in the previous chapters, explicit representation (i.e., evolving only the parameters) makes it feasible for us to gauge the quality of the models obtained. In principle, the method will still work using implicit representation such as artificial neural networks. 
+The models are represented by a set of parameters govern the rules of the agents. The details of these parameters will be described in Section~\ref{sec:deterministic_behavior_interaction} and Section~\ref{sec:stochastic_behavior_interaction} As we have argued in the previous chapters, explicit representation (i.e., evolving only the parameters) makes it feasible for us to objectively gauge the quality of the models obtained. 
 
-\subsection{Classifier}
+\subsection{Classifiers}
 
-The structure of the classifiers is similar to the one used in Chapter~\ref{ch:swarm_simulation} (see Fig.~\ref{fig:neural_network_cf_swarm}). The only difference is the neural network takes the environmental stimuli and the agent's response as inputs and the outputs can be used to control the environmental stimuli and make decision. For the proof-of-concept study, we only use one environmental stimulus and stimulate the agent behaviors in one-dimensional environment.
+The structure of the classifiers is similar to the one used in Chapter~\ref{ch:swarm_simulation} (see Fig.~\ref{fig:neural_network_cf_swarm}). The only difference is the classifiers take the environmental stimuli and the agent's response as inputs and the outputs can be used to control the environmental stimuli and make judgment. For the proof-of-concept study, we only use one environmental stimulus and stimulate the agent behaviors in one-dimensional environment.
 Fig.~\ref{fig:neural_network_interaction} shows the structure of the classifiers used in this chapter. 
 
 \begin{figure}[!t]
@@ -46,7 +45,7 @@ Suppose the agent responses to the level of light intensity in the environment, 
 
 In order to make a judgment between a model and the agent, the classifier observes the behavior (speed) over a period of time. In addition, the classifier is also in control of the light intensity in the individual's environment. At time $t=0$, the value of the light intensity is chosen randomly with a uniform distribution in the range $\left[0,1\right]$. The neural network is then updated, using $I^{\left(0\right)}$ and $s^{\left(0\right)}$. The value of the light intensity for the next time step is obtained from the classifier's output neuron $O_1$, and the process repeats. After having iterated through all the time steps (a single trial), the final value of output neuron $O_2$ is used to make a judgment: the network decides on a model if $O_2<0.5$, and on the agent if $O_2\geq0.5$. The memory (value of hidden neurons) of the classifiers is reset at the end of every trial.
 
-\subsection{Optimization}\label{sec:optimization_algorithm_interaction}
+\subsection{Optimization Algorithm}\label{sec:optimization_algorithm_interaction}
 
 The algorithm used here is based on a ($\mu+\lambda$) evolution strategy with self-adaptive mutation strengths~\cite{Beyer_2001, Beyer2002}. It is the same as the one used in  Chapter~\ref{ch:swarm_simulation}. For the details of the implementation, see Section~\ref{sec:optimization_algorithm_swarm} of Chapter~\ref{ch:swarm_simulation}.
 

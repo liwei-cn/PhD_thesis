@@ -94,6 +94,7 @@
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \usepackage{url, units}
 \newtheorem{defi}{Definition}
+\usepackage{enumerate}
 %\newtheorem{theorem}{Theorem}[section]
 %--------------------------------------
 
@@ -147,14 +148,14 @@
 %\chapter{Reverse Engineering Swarm Behaviors Through Turing Learning}\label{ch:swarm_simulation}
 %\input{./subfiles/chapter_3.tex}
 %
-%\chapter{A Real-World Validation of Turing Learning}\label{ch:swarm_physical_implementation}
+%\chapter{A Physical Autonomous System for Inferring Agent Behaviors}\label{ch:swarm_physical_implementation}
 %\input{./subfiles/chapter_4.tex}
-%
-%\chapter{Inferring Individual Behaviors Through Interactive Turing Learning}\label{ch:interaction}
-%\input{./subfiles/chapter_5.tex}
 
-\chapter{Conclusion}\label{ch:conclusion}
-\input{./subfiles/chapter_6.tex}
+\chapter{Inferring Individual Behaviors Through Interactive Turing Learning}\label{ch:interaction}
+\input{./subfiles/chapter_5.tex}
+
+%\chapter{Conclusion}\label{ch:conclusion}
+%\input{./subfiles/chapter_6.tex}
 
 \bibliographystyle{IEEEtrannat}
 \bibliography{upgrade}
