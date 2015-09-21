@@ -1648,14 +1648,6 @@ journal = {Proc. 9th Conf. Autonomous Robot Syst. and Competitions}
     journal = {Cognitive Science}
 }
 
-@book{Beyer_2001,
-    author = {Beyer, H.G},
-    title = {The theory of evolution stratigies},
-    year = {2011},
-    address = {Berlin},
-    publisher ={Springer}
-}
-
 @book{Fraenkel_1961,
     author = {Fraenkel, G. and Gunn, D.},
     title = {The orientation of animals. kineses, taxes and compass reactions},

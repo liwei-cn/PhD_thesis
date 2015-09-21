@@ -1,6 +1,6 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Inferring Individual Behaviors Through Interactive Turing Learning}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Inferring Individual Behaviors Through Controlled Interaction}{}% 3
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.2}{Methodology}{chapter.1}% 5
 \BOOKMARK [2][-]{subsection.1.2.1}{Models}{section.1.2}% 6
@@ -8,7 +8,7 @@
 \BOOKMARK [2][-]{subsection.1.2.3}{Optimization Algorithm}{section.1.2}% 8
 \BOOKMARK [2][-]{subsection.1.2.4}{Fitness Calculation}{section.1.2}% 9
 \BOOKMARK [1][-]{section.1.3}{Case Study One}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.3.1}{Deterministic Behaviors}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.1}{Deterministic Behavior}{section.1.3}% 11
 \BOOKMARK [2][-]{subsection.1.3.2}{Simulation Setup}{section.1.3}% 12
 \BOOKMARK [2][-]{subsection.1.3.3}{Results}{section.1.3}% 13
 \BOOKMARK [3][-]{subsubsection.1.3.3.1}{Analysis of Evolved Models}{subsection.1.3.3}% 14
@@ -16,9 +16,9 @@
 \BOOKMARK [3][-]{subsubsection.1.3.3.3}{Analysis of Evolved Classifiers}{subsection.1.3.3}% 16
 \BOOKMARK [3][-]{subsubsection.1.3.3.4}{Noise Study}{subsection.1.3.3}% 17
 \BOOKMARK [3][-]{subsubsection.1.3.3.5}{Using a Single-Population Evolutionary Algorithm}{subsection.1.3.3}% 18
-\BOOKMARK [3][-]{subsubsection.1.3.3.6}{Coevolution of Tests and Models}{subsection.1.3.3}% 19
+\BOOKMARK [3][-]{subsubsection.1.3.3.6}{Coevolution of Inputs and Models}{subsection.1.3.3}% 19
 \BOOKMARK [1][-]{section.1.4}{Case Study Two}{chapter.1}% 20
-\BOOKMARK [2][-]{subsection.1.4.1}{Stochastic Behaviors}{section.1.4}% 21
+\BOOKMARK [2][-]{subsection.1.4.1}{Stochastic Behavior}{section.1.4}% 21
 \BOOKMARK [2][-]{subsection.1.4.2}{Simulation Setup}{section.1.4}% 22
 \BOOKMARK [2][-]{subsection.1.4.3}{Results: Two States}{section.1.4}% 23
 \BOOKMARK [3][-]{subsubsection.1.4.3.1}{Analysis of Evolved Models}{subsection.1.4.3}% 24

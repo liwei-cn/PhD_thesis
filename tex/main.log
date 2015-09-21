@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 SEP 2015 12:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  21 SEP 2015 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,15 +658,19 @@ Class scrbook Warning: \float@addtolists detected!
 
  [10]
 Chapter 1.
-(./subfiles/chapter_5.tex [1
+(./subfiles/chapter_5.tex
+
+LaTeX Warning: Reference `ch:swarm_simulation' on page 1 undefined on input lin
+e 3.
+
+[1
 
 
 
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -686,7 +690,7 @@ LaTeX Warning: Reference `fig:neural_network_cf_swarm' on page 3 undefined on i
 nput line 33.
 
 
-<../img/chapter_5/Neural_network_CF_Interaction.pdf, id=228, 360.34625pt x 380.
+<../img/chapter_5/Neural_network_CF_Interaction.pdf, id=240, 360.34625pt x 380.
 42125pt>
 File: ../img/chapter_5/Neural_network_CF_Interaction.pdf Graphic file (type pdf
 )
@@ -704,11 +708,10 @@ LaTeX Warning: Reference `sec:optimization_algorithm_swarm' on page 4 undefined
  on input line 50.
 
 
-LaTeX Warning: Reference `ch:swarm_simulation' on page 4 undefined on input lin
-e 50.
+Underfull \vbox (badness 1983) has occurred while \output is active []
 
-[4 <../img/chapter_5/Neural_network_CF_Interaction.pdf>]
-<../img/chapter_5/agent_behavior_deterministic.pdf, id=262, 596.2275pt x 498.86
+ [4 <../img/chapter_5/Neural_network_CF_Interaction.pdf>]
+<../img/chapter_5/agent_behavior_deterministic.pdf, id=273, 596.2275pt x 498.86
 375pt>
 File: ../img/chapter_5/agent_behavior_deterministic.pdf Graphic file (type pdf)
 
@@ -716,8 +719,11 @@ File: ../img/chapter_5/agent_behavior_deterministic.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../img/chapter_5/agent_behavior_deterministic.pdf used
  on input line 77.
 (pdftex.def)             Requested size: 252.94499pt x 211.6375pt.
- [5] [6 <../img/chapter_5/agent_behavior_deterministic.pdf>] [7]
-<../img/chapter_5/parameters_compare_without_noise.pdf, id=302, 562.1pt x 421.5
+ [5] [6 <../img/chapter_5/agent_behavior_deterministic.pdf>]
+Underfull \vbox (badness 4846) has occurred while \output is active []
+
+ [7]
+<../img/chapter_5/parameters_compare_without_noise.pdf, id=314, 562.1pt x 421.5
 75pt>
 File: ../img/chapter_5/parameters_compare_without_noise.pdf Graphic file (type 
 pdf)
@@ -725,8 +731,8 @@ pdf)
 Package pdftex.def Info: ../img/chapter_5/parameters_compare_without_noise.pdf 
 used on input line 130.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
- [8 <../img/chapter_5/parameters_compare_without_noise.pdf>]
-<../img/chapter_5/convergence_compare_without_noise.pdf, id=330, 562.1pt x 421.
+ [8]
+<../img/chapter_5/convergence_compare_without_noise.pdf, id=321, 562.1pt x 421.
 575pt>
 File: ../img/chapter_5/convergence_compare_without_noise.pdf Graphic file (type
  pdf)
@@ -735,7 +741,7 @@ Package pdftex.def Info: ../img/chapter_5/convergence_compare_without_noise.pdf
  used on input line 145.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-<../img/chapter_5/parameters_convergence_without_noise.pdf, id=331, 562.1pt x 4
+<../img/chapter_5/parameters_convergence_without_noise.pdf, id=322, 562.1pt x 4
 21.575pt>
 File: ../img/chapter_5/parameters_convergence_without_noise.pdf Graphic file (t
 ype pdf)
@@ -744,7 +750,7 @@ Package pdftex.def Info: ../img/chapter_5/parameters_convergence_without_noise.
 pdf used on input line 151.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-<../img/chapter_5/fitness_without_noise_auto.pdf, id=332, 562.1pt x 421.575pt>
+<../img/chapter_5/fitness_without_noise_auto.pdf, id=323, 562.1pt x 421.575pt>
 File: ../img/chapter_5/fitness_without_noise_auto.pdf Graphic file (type pdf)
 
 <use ../img/chapter_5/fitness_without_noise_auto.pdf>
@@ -752,7 +758,7 @@ Package pdftex.def Info: ../img/chapter_5/fitness_without_noise_auto.pdf used o
 n input line 160.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-<../img/chapter_5/fitness_without_noise_random_1.pdf, id=333, 562.1pt x 421.575
+<../img/chapter_5/fitness_without_noise_random_1.pdf, id=324, 562.1pt x 421.575
 pt>
 File: ../img/chapter_5/fitness_without_noise_random_1.pdf Graphic file (type pd
 f)
@@ -760,16 +766,11 @@ f)
 Package pdftex.def Info: ../img/chapter_5/fitness_without_noise_random_1.pdf us
 ed on input line 163.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <../img/chapter_5/convergence_compare_without_noise.pdf>] [10 <../img/chapt
-er_5/parameters_convergence_without_noise.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <../img/chapter_5/fitness_without_noise_auto.pdf> <../img/chapter_5/fitnes
-s_without_noise_random_1.pdf>]
-<../img/chapter_5/grid_visualization_random.pdf, id=391, 216.81pt x 250.16963pt
+ [9 <../img/chapter_5/parameters_compare_without_noise.pdf>] [10 <../img/chapte
+r_5/convergence_compare_without_noise.pdf> <../img/chapter_5/parameters_converg
+ence_without_noise.pdf>] [11 <../img/chapter_5/fitness_without_noise_auto.pdf> 
+<../img/chapter_5/fitness_without_noise_random_1.pdf>]
+<../img/chapter_5/grid_visualization_random.pdf, id=402, 216.81pt x 250.16963pt
 >
 File: ../img/chapter_5/grid_visualization_random.pdf Graphic file (type pdf)
  <use ../img/chapter_5/grid_visualization_random.pdf>
@@ -777,7 +778,7 @@ Package pdftex.def Info: ../img/chapter_5/grid_visualization_random.pdf used on
  input line 188.
 (pdftex.def)             Requested size: 216.81pt x 250.18045pt.
 
-<../img/chapter_5/classifier_accuracy_higher_resolution.pdf, id=392, 562.1pt x 
+<../img/chapter_5/classifier_accuracy_higher_resolution.pdf, id=403, 562.1pt x 
 421.575pt>
 File: ../img/chapter_5/classifier_accuracy_higher_resolution.pdf Graphic file (
 type pdf)
@@ -786,7 +787,7 @@ Package pdftex.def Info: ../img/chapter_5/classifier_accuracy_higher_resolution
 .pdf used on input line 194.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-<../img/chapter_5/light_intensity_output.pdf, id=395, 1276.77pt x 707.64375pt>
+<../img/chapter_5/light_intensity_output.pdf, id=406, 1276.77pt x 707.64375pt>
 File: ../img/chapter_5/light_intensity_output.pdf Graphic file (type pdf)
 
 <use ../img/chapter_5/light_intensity_output.pdf>
@@ -807,7 +808,7 @@ er_accuracy_higher_resolution.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <../img/chapter_5/light_intensity_output.pdf>] [15] [16]
-<../img/chapter_5/parameters_with_noise_interactive.pdf, id=469, 562.1pt x 421.
+<../img/chapter_5/parameters_with_noise_interactive.pdf, id=480, 562.1pt x 421.
 575pt>
 File: ../img/chapter_5/parameters_with_noise_interactive.pdf Graphic file (type
  pdf)
@@ -816,14 +817,19 @@ Package pdftex.def Info: ../img/chapter_5/parameters_with_noise_interactive.pdf
  used on input line 280.
 (pdftex.def)             Requested size: 231.26378pt x 173.4451pt.
  [17]
-<../img/chapter_5/ES_parameters_without_noise.pdf, id=478, 562.1pt x 421.575pt>
+<../img/chapter_5/ES_parameters_without_noise.pdf, id=488, 562.1pt x 421.575pt>
 File: ../img/chapter_5/ES_parameters_without_noise.pdf Graphic file (type pdf)
 <use ../img/chapter_5/ES_parameters_without_noise.pdf>
 Package pdftex.def Info: ../img/chapter_5/ES_parameters_without_noise.pdf used 
 on input line 324.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
- [18 <../img/chapter_5/parameters_with_noise_interactive.pdf>]
-<../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf, id=495, 325.20
+
+
+LaTeX Warning: Reference `sec:simulation_setup_deterministic' on page 18 undefi
+ned on input line 349.
+
+[18 <../img/chapter_5/parameters_with_noise_interactive.pdf>]
+<../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf, id=504, 325.20
 998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf Graphic fi
 le (type pdf)
@@ -832,123 +838,148 @@ le (type pdf)
 Package pdftex.def Info: ../img/chapter_5/model_parameters_box_CoEATM_determini
 stic.pdf used on input line 353.
 (pdftex.def)             Requested size: 216.81pt x 216.81271pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [19 <../img/chapter_5/ES_parameters_without_noise.pdf>] [20 <../img/chapter_5/
 model_parameters_box_CoEATM_deterministic.pdf>]
-<../img/chapter_5/stochastic_interaction_nstates.pdf, id=538, 589.20125pt x 182
-.6825pt>
+<../img/chapter_5/stochastic_interaction_nstates.pdf, id=547, 594.22pt x 182.68
+25pt>
 File: ../img/chapter_5/stochastic_interaction_nstates.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/stochastic_interaction_nstates.pdf>
 Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_nstates.pdf us
 ed on input line 371.
-(pdftex.def)             Requested size: 252.94499pt x 78.4265pt.
+(pdftex.def)             Requested size: 252.94499pt x 77.76306pt.
  [21 <../img/chapter_5/stochastic_interaction_nstates.pdf>]
-<../img/chapter_5/stochastic_interaction_2states.pdf, id=566, 372.39125pt x 225
+<../img/chapter_5/stochastic_interaction_2states.pdf, id=575, 372.39125pt x 225
 .84375pt>
 File: ../img/chapter_5/stochastic_interaction_2states.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/stochastic_interaction_2states.pdf>
 Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_2states.pdf us
-ed on input line 387.
+ed on input line 384.
 (pdftex.def)             Requested size: 216.81pt x 131.49258pt.
 
-<../img/chapter_5/stochastic_interaction_3states.pdf, id=567, 370.38374pt x 209
+<../img/chapter_5/stochastic_interaction_3states.pdf, id=576, 370.38374pt x 209
 .78375pt>
 File: ../img/chapter_5/stochastic_interaction_3states.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/stochastic_interaction_3states.pdf>
 Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_3states.pdf us
-ed on input line 390.
+ed on input line 387.
 (pdftex.def)             Requested size: 216.81pt x 122.8014pt.
  [22 <../img/chapter_5/stochastic_interaction_2states.pdf> <../img/chapter_5/st
 ochastic_interaction_3states.pdf>]
-<../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf, id=611, 325.
+
+LaTeX Warning: Reference `sec:simulation_setup_deterministic' on page 23 undefi
+ned on input line 407.
+
+
+LaTeX Warning: Reference `sec:simulation_setup_deterministic' on page 23 undefi
+ned on input line 407.
+
+
+LaTeX Warning: Reference `sec:single_population_EA' on page 23 undefined on inp
+ut line 407.
+
+
+LaTeX Warning: Reference `sec:coevolution_of_tests_and_models' on page 23 undef
+ined on input line 407.
+
+[23]
+<../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf, id=626, 325.
 20998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf Graphic 
 file (type pdf)
 
 <use ../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_nometric_2
-states.pdf used on input line 419.
+states.pdf used on input line 418.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_coevolution_metric_2states.pdf, id=612, 325.20
+<../img/chapter_5/parameters_box_coevolution_metric_2states.pdf, id=627, 325.20
 998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_metric_2states.pdf Graphic fi
 le (type pdf)
 
 <use ../img/chapter_5/parameters_box_coevolution_metric_2states.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_metric_2st
-ates.pdf used on input line 422.
+ates.pdf used on input line 421.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_evolution_metric_2states.pdf, id=613, 325.2099
+<../img/chapter_5/parameters_box_evolution_metric_2states.pdf, id=628, 325.2099
 8pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_evolution_metric_2states.pdf Graphic file
  (type pdf)
 
 <use ../img/chapter_5/parameters_box_evolution_metric_2states.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_box_evolution_metric_2stat
-es.pdf used on input line 425.
+es.pdf used on input line 424.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 
-LaTeX Warning: Float too large for page by 157.27238pt on input line 427.
+LaTeX Warning: Float too large for page by 157.27238pt on input line 426.
 
 
-Underfull \vbox (badness 3209) has occurred while \output is active []
+LaTeX Warning: Reference `eq:AE' on page 24 undefined on input line 431.
 
- [23]
+
+LaTeX Warning: Reference `ch:swarm_simulation' on page 24 undefined on input li
+ne 431.
+
+
+LaTeX Warning: Reference `eq:AE' on page 24 undefined on input line 431.
+
+
+LaTeX Warning: Reference `ch:swarm_simulation' on page 24 undefined on input li
+ne 431.
+
+[24]
 <../img/chapter_5/model_parameters_convergence_nometric_interaction_2states.pdf
-, id=625, 325.20998pt x 325.20998pt>
+, id=640, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_interaction_2state
 s.pdf Graphic file (type pdf)
 
 <use ../img/chapter_5/model_parameters_convergence_nometric_interaction_2states
 .pdf>
 Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_interaction_2states.pdf used on input line 457.
+_interaction_2states.pdf used on input line 456.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.pdf, i
-d=626, 325.20998pt x 325.20998pt>
+d=641, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.p
 df Graphic file (type pdf)
 
 <use ../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.pd
 f>
 Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive1_2states.pdf used on input line 460.
+_passive1_2states.pdf used on input line 459.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.pdf, i
-d=627, 325.20998pt x 325.20998pt>
+d=642, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.p
 df Graphic file (type pdf)
 
 <use ../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.pd
 f>
 Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive2_2states.pdf used on input line 463.
+_passive2_2states.pdf used on input line 462.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 
-LaTeX Warning: Float too large for page by 143.67238pt on input line 465.
+LaTeX Warning: Float too large for page by 143.67238pt on input line 464.
 
 
-<../img/chapter_5/classifier_interaction_2states.pdf, id=628, 505.89pt x 505.89
+<../img/chapter_5/classifier_interaction_2states.pdf, id=643, 505.89pt x 505.89
 pt>
 File: ../img/chapter_5/classifier_interaction_2states.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/classifier_interaction_2states.pdf>
 Package pdftex.def Info: ../img/chapter_5/classifier_interaction_2states.pdf us
-ed on input line 471.
+ed on input line 470.
 (pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
- [24]
-<../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf, id=638, 325.
+
+<../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf, id=647, 325.
 20998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf Graphic 
 file (type pdf)
@@ -958,7 +989,7 @@ Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_nometric_3
 states.pdf used on input line 487.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_coevolution_metric_3states.pdf, id=639, 325.20
+<../img/chapter_5/parameters_box_coevolution_metric_3states.pdf, id=648, 325.20
 998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_metric_3states.pdf Graphic fi
 le (type pdf)
@@ -968,7 +999,7 @@ Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_metric_3st
 ates.pdf used on input line 490.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_evolution_metric_3states.pdf, id=640, 325.2099
+<../img/chapter_5/parameters_box_evolution_metric_3states.pdf, id=649, 325.2099
 8pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_evolution_metric_3states.pdf Graphic file
  (type pdf)
@@ -982,8 +1013,23 @@ es.pdf used on input line 493.
 LaTeX Warning: Float too large for page by 157.27238pt on input line 495.
 
 [25]
+
+LaTeX Warning: Reference `eq:AE' on page 26 undefined on input line 500.
+
+
+LaTeX Warning: Reference `ch:swarm_simulation' on page 26 undefined on input li
+ne 500.
+
+
+LaTeX Warning: Reference `eq:AE' on page 26 undefined on input line 500.
+
+
+LaTeX Warning: Reference `ch:swarm_simulation' on page 26 undefined on input li
+ne 500.
+
+
 <../img/chapter_5/model_parameters_convergence_nometric_interaction_3states.pdf
-, id=654, 325.20998pt x 325.20998pt>
+, id=661, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_interaction_3state
 s.pdf Graphic file (type pdf)
 
@@ -994,7 +1040,7 @@ _interaction_3states.pdf used on input line 525.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.pdf, i
-d=655, 325.20998pt x 325.20998pt>
+d=662, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.p
 df Graphic file (type pdf)
 
@@ -1005,7 +1051,7 @@ _passive1_3states.pdf used on input line 528.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.pdf, i
-d=656, 325.20998pt x 325.20998pt>
+d=663, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.p
 df Graphic file (type pdf)
 
@@ -1019,7 +1065,7 @@ _passive2_3states.pdf used on input line 531.
 LaTeX Warning: Float too large for page by 143.67238pt on input line 533.
 
 
-<../img/chapter_5/classifier_interaction_3states.pdf, id=657, 505.89pt x 505.89
+<../img/chapter_5/classifier_interaction_3states.pdf, id=664, 505.89pt x 505.89
 pt>
 File: ../img/chapter_5/classifier_interaction_3states.pdf Graphic file (type pd
 f)
@@ -1167,7 +1213,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D7847596852EE55FAE1330E1F469E750;2181.
+(rerunfilecheck)             Checksum: 6C2F8357CF1115C8AF9655EACBA9AEFB;2175.
 
 
 LaTeX Warning: There were undefined references.
@@ -1178,13 +1224,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 11912 strings out of 493488
- 191621 string characters out of 3141326
- 307311 words of memory out of 3000000
- 14689 multiletter control sequences out of 15000+200000
+ 11920 strings out of 493488
+ 192013 string characters out of 3141326
+ 308710 words of memory out of 3000000
+ 14697 multiletter control sequences out of 15000+200000
  18384 words of font info for 69 fonts, out of 3000000 for 9000
  960 hyphenation exceptions out of 8191
- 40i,21n,47p,2135b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,21n,47p,2145b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1206,10 +1252,10 @@ ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (60 pages, 1543944 bytes).
+Output written on main.pdf (60 pages, 1571287 bytes).
 PDF statistics:
- 1254 PDF objects out of 1440 (max. 8388607)
- 1089 compressed objects within 11 object streams
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 1099 compressed objects within 11 object streams
  311 named destinations out of 1000 (max. 500000)
  388 words of extra memory for PDF output out of 10000 (max. 10000000)
 
