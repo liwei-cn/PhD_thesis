@@ -7,13 +7,13 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12524 items from 5000.
+Reallocated field_info (elt_size=4) to 10940 items from 5000.
 Database file #1: upgrade.bib
-Repeated entry---line 488 of file upgrade.bib
+Repeated entry---line 532 of file upgrade.bib
  : @article{Bongard2007PNAS
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 529 of file upgrade.bib
+Repeated entry---line 573 of file upgrade.bib
  : @book{Billings2013
  :                   ,
 I'm skipping whatever remains of this entry
@@ -23,45 +23,45 @@ I'm skipping whatever remains of this entry
 Warning--missing institution in Shewchuk1994
 
 Done.
-You've used 171 entries,
+You've used 135 entries,
             4060 wiz_defined-function locations,
-            1962 strings with 37247 characters,
-and the built_in function-call counts, 137495 in all, are:
-= -- 11281
-> -- 2992
-< -- 1385
-+ -- 1573
-- -- 439
-* -- 6788
-:= -- 20793
-add.period$ -- 374
-call.type$ -- 171
-change.case$ -- 162
-chr.to.int$ -- 2817
-cite$ -- 172
-duplicate$ -- 9767
-empty$ -- 10871
-format.name$ -- 854
-if$ -- 31653
+            1758 strings with 32525 characters,
+and the built_in function-call counts, 110913 in all, are:
+= -- 9087
+> -- 2448
+< -- 1114
++ -- 1290
+- -- 362
+* -- 5527
+:= -- 16744
+add.period$ -- 298
+call.type$ -- 135
+change.case$ -- 130
+chr.to.int$ -- 2289
+cite$ -- 136
+duplicate$ -- 7844
+empty$ -- 8727
+format.name$ -- 687
+if$ -- 25550
 int.to.chr$ -- 0
-int.to.str$ -- 171
-missing$ -- 1572
-newline$ -- 611
-num.names$ -- 356
-pop$ -- 3331
+int.to.str$ -- 135
+missing$ -- 1263
+newline$ -- 497
+num.names$ -- 282
+pop$ -- 2675
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 10701
+skip$ -- 8617
 stack$ -- 0
-substring$ -- 6763
-swap$ -- 8213
-text.length$ -- 337
+substring$ -- 5492
+swap$ -- 6638
+text.length$ -- 269
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 1
-while$ -- 643
-width$ -- 174
-write$ -- 2522
+while$ -- 511
+width$ -- 138
+write$ -- 2019
 (There were 2 error messages)

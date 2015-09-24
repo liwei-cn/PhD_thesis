@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {1.2.1}Biological Evolution}{5}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Introduction of Evolutionary Computation}{6}{subsection.1.2.2}
 \contentsline {subsubsection}{\numberline {1.2.2.1}Evolutionary Algorithms}{6}{subsubsection.1.2.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2.2}Coevolutionary Algorithms}{8}{subsubsection.1.2.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Coevolutionary Algorithms}{7}{subsubsection.1.2.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Applications of Evolutionary Computation}{12}{subsection.1.2.3}
 \contentsline {subsubsection}{\numberline {1.2.3.1}Black Box Optimization}{12}{subsubsection.1.2.3.1}
 \contentsline {subsubsection}{\numberline {1.2.3.2}Evolutionary Robotics}{14}{subsubsection.1.2.3.2}
