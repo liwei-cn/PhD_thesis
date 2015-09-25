@@ -1,3 +1,45 @@
+@book{dorigo2008ant,
+  title={Ant Colony Optimization and Swarm Intelligence: 6th International Conference, ANTS 2008, Brussels, Belgium, September 22-24, 2008, Proceedings},
+  author={Dorigo, Marco and Birattari, Mauro and Blum, Christian and Clerc, Maurice and St{\"u}tzle, Thomas and Winfield, Alan},
+  volume={5217},
+  year={2008},
+  publisher={Springer}
+}
+
+@article{Ignacio2009,
+year={2009},
+journal={Adaptive Behavior},
+volume={17},
+number={3},
+title={A steering taxis model and the qualitative analysis of its trajectories},
+author={Rano, Ignacio},
+pages={197--211},
+}
+
+@INPROCEEDINGS{Ljungquist1993, 
+author={Ljungquist, Dag and Balchen, Jens G.}, 
+booktitle={Decision and Control, 1993., Proceedings of the 32nd IEEE Conference on}, 
+title={Recursive prediction error methods for online estimation in nonlinear state-space models}, 
+year={1993}, 
+pages={714-719 vol.1}, 
+keywords={Kalman filters;estimation theory;filtering and prediction theory;parameter estimation;search problems;state estimation;state-space methods;extended Kalman filter;line-search strategy;nonlinear process;nonlinear state-space models;online estimation;online tracking capabilities;recursive prediction error methods;robustness;Aluminum;Electrical equipment industry;Industrial control;Noise measurement;Nonlinear control systems;Predictive models;Recursive estimation;Robustness;State estimation;Time measurement}, 
+doi={10.1109/CDC.1993.325056}, 
+month={Dec},
+}
+
+@article{Alan:2014,
+year={2014},
+issn={1864-5909},
+journal={Evol. Intell.},
+volume={7},
+number={2},
+doi={10.1007/s12065-014-0112-8},
+title={The distributed co-evolution of an on-board simulator and controller for swarm robot behaviours},
+author={O'Dowd, Paul J. and Studley, Matthew and Winfield, Alan F. T.},
+pages={95--106},
+language={English}
+}
+
 @article{kauffman1995,
   title={Escaping the red queen effect},
   author={Kauffman, Stuart A},

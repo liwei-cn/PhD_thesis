@@ -18,6 +18,122 @@
 \fi
 #2}}
 
+\bibitem[Grotzinger(2014)]{Grotzinger:Sci:2014}
+\BIBentryALTinterwordspacing
+J.~P. Grotzinger, ``Habitability, taphonomy, and the search for organic carbon
+  on mars,'' \emph{Science}, vol. 343, no. 6169, pp. 386--387, 2014. [Online].
+  Available: \url{http://www.sciencemag.org/content/343/6169/386.short}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Hertzberg and Pope(2000)]{Hertzberg2000}
+\BIBentryALTinterwordspacing
+R.~P. Hertzberg and A.~J. Pope, ``High-throughput screening: new technology for
+  the 21st century,'' \emph{Current Opinion in Chemical Biology}, vol.~4,
+  no.~4, pp. 445 -- 451, 2000. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S1367593100001101}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Bolhuis and Giraldeau(2004)]{Bolhuis_2004}
+J.~Bolhuis and L.~Giraldeau, \emph{The behavior of animals: mechanisms,
+  function, and evolution}.\hskip 1em plus 0.5em minus 0.4em\relax USA:
+  Wiley-Blackwell, 2004.
+
+\bibitem[Sutherland(1998)]{Sutherland1998}
+W.~J. Sutherland, ``The importance of behavioural studies in conservation
+  biology,'' \emph{Animal Behaviour}, vol.~56, no.~4, pp. 801--809, 1998.
+
+\bibitem[Floreano and Mattiussi(2008)]{Floreano2008}
+D.~Floreano and C.~Mattiussi, \emph{Bio-Inspired Artificial Intelligence:
+  Theories, Methods, and Technologies}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Cambridge, MA: MIT Press, 2008.
+
+\bibitem[Meyer and Guillot(2008)]{Meyer2008}
+J.-A. Meyer and A.~Guillot, ``Biologically inspired robots,'' in \emph{Springer
+  Handbook of Robot.}, ser. Springer Handbooks, B.~Siciliano and O.~Khatib,
+  Eds.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg, Germany:
+  Springer, 2008, pp. 1395--1422.
+
+\bibitem[King et~al.(2009)]{King_2009}
+\BIBentryALTinterwordspacing
+R.~King, J.~Rowland, S.~G. Oliver, and M.~Young, ``The automation of science,''
+  \emph{Science}, vol. 324, no. 5923, pp. 85--89, 2009. [Online]. Available:
+  \url{http://www.sciencemag.org/content/324/5923/85.abstract}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Evans and Rzhetsky(2010)]{Evans_2010}
+\BIBentryALTinterwordspacing
+J.~Evans and A.~Rzhetsky, ``Machine science,'' \emph{Science}, vol. 329, no.
+  5990, pp. 399--400, 2010. [Online]. Available:
+  \url{http://www.sciencemag.org/content/329/5990/399.short}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Waltz and Buchanan(2009)]{Waltz2010}
+D.~Waltz and B.~G. Buchanan, ``Automating science,'' \emph{Sci.}, vol. 324, no.
+  5923, pp. 43--44, 2009.
+
+\bibitem[Ljung(2010)]{Ljung2010}
+L.~Ljung, ``Perspectives on system identification,'' \emph{Annu. Reviews in
+  Control}, vol.~34, no.~1, pp. 1--12, 2010.
+
+\bibitem[Billings(2013)]{Billings2013}
+S.~A. Billings, \emph{Nonlinear System Identification: NARMAX Methods in the
+  Time, Frequency, and Spatio-Temporal Domains}.\hskip 1em plus 0.5em minus
+  0.4em\relax Hoboken, NJ, USA: Wiley-Blackwell, 2013.
+
+\bibitem[Henson and Hayward(2010)]{Shandelle2010}
+S.~M. Henson and J.~L. Hayward, ``The mathematics of animal behavior: An
+  interdisciplinary dialogue,'' \emph{Notices of the AMS}, vol.~57, no.~10, pp.
+  1248--1258, 2010.
+
+\bibitem[Bonabeau(2002)]{Bonabeau2002}
+E.~Bonabeau, ``Agent-based modeling: Methods and techniques for simulating
+  human systems,'' \emph{PNAS}, vol.~99, no.~10, pp. 7280--7287, 2002.
+
+\bibitem[Bongard and Lipson(2005)]{Bongard2005_tevc}
+J.~Bongard and H.~Lipson, ``Nonlinear system identification using coevolution
+  of models and tests,'' \emph{IEEE Trans. Evol. Computation}, vol.~9, no.~4,
+  pp. 361--384, 2005.
+
+\bibitem[Bongard and Lipson(2007)]{Bongard2007PNAS}
+------, ``Automated reverse engineering of nonlinear dynamical systems,''
+  \emph{PNAS}, vol. 104, no.~24, pp. 9943--9948, 2007.
+
+\bibitem[Ruxton and Beauchamp(2008)]{Ruxton2008}
+G.~D. Ruxton and G.~Beauchamp, ``The application of genetic algorithms in
+  behavioural ecology, illustrated with a model of anti-predator vigilance,''
+  \emph{Journal of Theoretical Biology}, vol. 250, no.~3, pp. 435--448, 2008.
+
+\bibitem[Camazine et~al.(2001)]{Camazine2001}
+S.~Camazine, J.-L. Deneubourg, N.~R. Franks, \emph{et~al.},
+  \emph{Self-Organization in Biological Systems}.\hskip 1em plus 0.5em minus
+  0.4em\relax Princeton, NJ: Princeton University Press, 2001.
+
+\bibitem[Helbing and Johansson(2011)]{Dirk2011}
+D.~Helbing and A.~Johansson, ``Pedestrian, crowd and evacuation dynamics,'' in
+  \emph{Extreme Environmental Events}, R.~A. Meyers, Ed.\hskip 1em plus 0.5em
+  minus 0.4em\relax Springer, 2011, pp. 697--716.
+
+\bibitem[Harvey et~al.(2015)]{Harvey:SI:2015}
+J.~Harvey, K.~Merrick, and H.~A. Abbass, ``Application of chaos measures to a
+  simplified boids flocking model,'' \emph{Swarm Intell.}, vol.~9, no.~1, pp.
+  23--41, 2015.
+
+\bibitem[S et~al.(2012)]{Weitz2012}
+W.~S, B.~S, F.~R, \emph{et~al.}, ``\BIBforeignlanguage{English}{Modeling
+  collective animal behavior with a cognitive perspective: a methodological
+  framework},'' \emph{\BIBforeignlanguage{English}{PLoS ONE}}, vol.~7, no.~6,
+  2012, e38588.
+
+\bibitem[Gauci et~al.(2014)]{Gauci2014_ijrr}
+M.~Gauci, J.~Chen, W.~Li, T.~J. Dodd, and R.~Gro\ss, ``Self-organized
+  aggregation without computation,'' \emph{The Int. J. of Robot. Research},
+  vol.~33, no.~8, pp. 1145--1161, 2014.
+
+\bibitem[Gauci et~al.(2014)]{Melvin2014_aamas}
+------, ``Clustering objects with robots that do not compute,'' in \emph{Proc.
+  2014 Int. Conf. Autonomous Agents and Multi-Agent Syst.}, IFAAMAS Press,
+  Paris, France, 2014, pp. 421--428.
+
 \bibitem[Schildt(1987)]{Schildt1985}
 H.~Schildt, \emph{Artificial intelligence using C}.\hskip 1em plus 0.5em minus
   0.4em\relax New York, NY, USA: McGraw-Hill, 1987.
@@ -109,13 +225,6 @@ A.~Persidis, ``High-throughput screening,'' \emph{Nature biotechnology},
 K.~E. Whelan and R.~D. King, ``Intelligent software for laboratory
   automation,'' \emph{Trends in Biotechnology}, vol.~22, no.~9, pp. 440--445,
   2004.
-
-\bibitem[King et~al.(2009)]{King_2009}
-\BIBentryALTinterwordspacing
-R.~King, J.~Rowland, S.~G. Oliver, and M.~Young, ``The automation of science,''
-  \emph{Science}, vol. 324, no. 5923, pp. 85--89, 2009. [Online]. Available:
-  \url{http://www.sciencemag.org/content/324/5923/85.abstract}
-\BIBentrySTDinterwordspacing
 
 \bibitem[Gauld and Gaston.(2000)]{Gauld_2000}
 N.~Gauld and Gaston., ``Driving miss daisy: The performance of an automated
@@ -229,6 +338,12 @@ C.~Wang, S.~Yu, W.~Chen, and C.~Sun, ``Highly efficient light-trapping
 R.~Bellman, \emph{Dynamic Progamming and Lagrange Multipliers}.\hskip 1em plus
   0.5em minus 0.4em\relax Princeton, NJ, USA: Princeton University Press, 1957.
 
+\bibitem[Hansen et~al.(2003)]{Hansen2003}
+N.~Hansen, S.~Muller, and P.~Koumoutsakos, ``Reducing the time complexity of
+  the derandomized evolution strategy with covariance matrix adaptation
+  (cma-es),'' \emph{Evolutionary Computation}, vol.~11, no.~1, pp. 1--18, March
+  2003.
+
 \bibitem[J.~E.~Dennis and Moré(1977)]{Dennis1977}
 J.~J.~E.~Dennis and J.~J. Moré, ``Quasi-newton methods, motivation and
   theory,'' \emph{SIAM Review}, vol.~19, no.~1, pp. 46--89, 1977.
@@ -236,12 +351,6 @@ J.~J.~E.~Dennis and J.~J. Moré, ``Quasi-newton methods, motivation and
 \bibitem[Shewchuk(1994)]{Shewchuk1994}
 J.~R. Shewchuk, ``An introduction to the conjugate gradient method without the
   agonizing pain,'' Pittsburgh, PA, USA, Tech. Rep., 1994.
-
-\bibitem[Hansen et~al.(2003)]{Hansen2003}
-N.~Hansen, S.~Muller, and P.~Koumoutsakos, ``Reducing the time complexity of
-  the derandomized evolution strategy with covariance matrix adaptation
-  (cma-es),'' \emph{Evolutionary Computation}, vol.~11, no.~1, pp. 1--18, March
-  2003.
 
 \bibitem[Fonseca and Fleming(1995)]{Fonseca1995}
 C.~M. Fonseca and P.~J. Fleming, ``An overview of evolutionary algorithms in
@@ -344,6 +453,13 @@ S.~Koos, A.~Cully, and J.~Mouret, ``Fast damage recovery in robotics with the
   Available: \url{http://arxiv.org/abs/1302.0386}
 \BIBentrySTDinterwordspacing
 
+\bibitem[O'Dowd et~al.(2014)]{Alan:2014}
+P.~J. O'Dowd, M.~Studley, and A.~F.~T. Winfield,
+  ``\BIBforeignlanguage{English}{The distributed co-evolution of an on-board
+  simulator and controller for swarm robot behaviours},''
+  \emph{\BIBforeignlanguage{English}{Evol. Intell.}}, vol.~7, no.~2, pp.
+  95--106, 2014.
+
 \bibitem[Floreano and Mondada(1996)]{Floreano1996}
 D.~Floreano and F.~Mondada, ``Evolution of homing navigation in a real mobile
   robot,'' \emph{IEEE Trans. Syst., Man, and Cybernetics, Part B: Cybernetics},
@@ -396,10 +512,11 @@ D.~B. Fogel, \emph{System identification through simulated evolution: a machine
   learning approach to modeling}.\hskip 1em plus 0.5em minus 0.4em\relax
   Needham, MA, USA: Ginn Press, 1991.
 
-\bibitem[Billings(2013)]{Billings2013}
-S.~A. Billings, \emph{Nonlinear System Identification: NARMAX Methods in the
-  Time, Frequency, and Spatio-Temporal Domains}.\hskip 1em plus 0.5em minus
-  0.4em\relax Hoboken, NJ, USA: Wiley-Blackwell, 2013.
+\bibitem[Ljungquist and Balchen(1993)]{Ljungquist1993}
+D.~Ljungquist and J.~G. Balchen, ``Recursive prediction error methods for
+  online estimation in nonlinear state-space models,'' in \emph{Decision and
+  Control, 1993., Proceedings of the 32nd IEEE Conference on}, Dec 1993, pp.
+  714--719 vol.1.
 
 \bibitem[Vladislavleva et~al.(2009)]{Vladislavleva:2009}
 \BIBentryALTinterwordspacing
@@ -409,6 +526,10 @@ E.~J. Vladislavleva, G.~F. Smits, and D.~Den~Hertog, ``Order of nonlinearity as
   333--349, Apr. 2009. [Online]. Available:
   \url{http://dx.doi.org/10.1109/TEVC.2008.926486}
 \BIBentrySTDinterwordspacing
+
+\bibitem[Eiben and Smith(2003)]{Eiben2003}
+A.~Eiben and J.~E. Smith, \emph{Introduction to evolutionary computing}.\hskip
+  1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg: Springer-Verlag, 2003.
 
 \bibitem[Bongard and Lipson(2005)]{Bongard2005}
 J.~Bongard and H.~Lipson, ``Nonlinear system identification using coevolution
@@ -433,10 +554,6 @@ S.~Koos, J.~Mouret, and S.~Doncieux, ``Automatic system identification based on
   coevolution of models and tests,'' in \emph{Proc. 2009 IEEE Congr. Evol.
   Computation}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE Press, Trondheim,
   Norway, 2009, pp. 560--567.
-
-\bibitem[Bongard and Lipson(2007)]{Bongard2007PNAS}
-J.~Bongard and H.~Lipson, ``Automated reverse engineering of nonlinear
-  dynamical systems,'' \emph{PNAS}, vol. 104, no.~24, pp. 9943--9948, 2007.
 
 \bibitem[Mirmomeni and Punch(2011)]{Mirm2011}
 M.~Mirmomeni and W.~Punch, ``Co-evolving data driven models and test data sets
@@ -484,12 +601,6 @@ P.~J. O'Dowd, M.~Studley, and A.~F.~T. Winfield,
   \emph{\BIBforeignlanguage{English}{Evol. Intell.}}, vol.~7, no.~2, pp.
   95--106, 2014.
 
-\bibitem[Jakobi et~al.(1995)]{Jakobi95}
-N.~Jakobi, P.~Husbands, and I.~Harvey, ``Noise and the reality gap: the use of
-  simulation in evolutionary robotics,'' in \emph{Advances in Artificial Life:
-  Proc. 3rd European Conf. Artificial Life}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer-Verlag, 1995, pp. 704--720.
-
 \bibitem[Hedwig and Poulet(2004)]{Hedwig2004}
 B.~Hedwig and J.~F.~A. Poulet, ``Complex auditory behaviour emerges from simple
   reactive steering,'' \emph{Nature}, vol. 430, no. 7001, pp. 781--785, 2004.
@@ -512,10 +623,9 @@ M.~D. M.~Byrne, ``Visual cues used by ball-rolling dung beetles for
 E.~G. Matthews, ``Observations on the ball-rolling behavior of canthon
   pilularius,'' \emph{Psyche}, pp. 75--93, 1963.
 
-\bibitem[Camazine et~al.(2001)]{Camazine2001}
-S.~Camazine, J.-L. Deneubourg, N.~R. Franks, \emph{et~al.},
-  \emph{Self-Organization in Biological Systems}.\hskip 1em plus 0.5em minus
-  0.4em\relax Princeton, NJ: Princeton University Press, 2001.
+\bibitem[Rano(2009)]{Ignacio2009}
+I.~Rano, ``A steering taxis model and the qualitative analysis of its
+  trajectories,'' \emph{Adaptive Behavior}, vol.~17, no.~3, pp. 197--211, 2009.
 
 \bibitem[Garnier et~al.(2007)]{Garnier:SI:2007}
 \BIBentryALTinterwordspacing
@@ -585,6 +695,13 @@ K.~Socha, ``\BIBforeignlanguage{English}{Aco for continuous and mixed-variable
   \url{http://dx.doi.org/10.1007/978-3-540-28646-2_3}
 \BIBentrySTDinterwordspacing
 
+\bibitem[Dorigo et~al.(2008)]{dorigo2008ant}
+M.~Dorigo, M.~Birattari, C.~Blum, M.~Clerc, T.~St{\"u}tzle, and A.~Winfield,
+  \emph{Ant Colony Optimization and Swarm Intelligence: 6th International
+  Conference, ANTS 2008, Brussels, Belgium, September 22-24, 2008,
+  Proceedings}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2008, vol.
+  5217.
+
 \bibitem[Bjerknes and Winfield(2013)]{Bjerknes2013}
 J.~Bjerknes and A.~T. Winfield, ``\BIBforeignlanguage{English}{On fault
   tolerance and scalability of swarm robotic systems},'' in
@@ -641,11 +758,6 @@ V.~Trianni, R.~Groß, T.~Labella, E.~Şahin, and M.~Dorigo,
   0.4em\relax Springer Berlin Heidelberg, 2003, vol. 2801, pp. 865--874.
   [Online]. Available: \url{http://dx.doi.org/10.1007/978-3-540-39432-7_93}
 \BIBentrySTDinterwordspacing
-
-\bibitem[Gauci et~al.(2014)]{Gauci2014_ijrr}
-M.~Gauci, J.~Chen, W.~Li, T.~J. Dodd, and R.~Gro\ss, ``Self-organized
-  aggregation without computation,'' \emph{The Int. J. of Robot. Research},
-  vol.~33, no.~8, pp. 1145--1161, 2014.
 
 \bibitem[Garnier et~al.(2008)]{Garnier:AL:2008}
 \BIBentryALTinterwordspacing
@@ -717,20 +829,6 @@ J.~Werfel, K.~Petersen, and R.~Nagpal, ``Designing collective behavior in a
   termite-inspired robot construction team,'' \emph{Science}, vol. 343, no.
   6172, pp. 754--758, 2014.
 
-\bibitem[Fraenkel and Gunn(1961)]{Fraenkel:DP:1961}
-G.~S. Fraenkel and D.~L. Gunn, \emph{The Orientation of Animals: Kineses,
-  Taxes, and Compass Reactions}.\hskip 1em plus 0.5em minus 0.4em\relax New
-  York: Dover Publications, 1961.
-
-\bibitem[Sulkin(1990)]{Stephen:Op:1990}
-S.~D. Sulkin, ``Larval orientation mechanisms: The power of controlled
-  experiments,'' \emph{Ophelia}, vol.~32, no. 1-2, pp. 49--62, 1990.
-
-\bibitem[Rano(2009)]{Rano_2009}
-I.~Rano, ``A steering taxis model and the qualitative analysis of its
-  trajectories,'' \emph{Adaptive Behaviour}, vol.~17, no.~3, pp. 197--211,
-  2009.
-
 \bibitem[Camazine(2003)]{camazine2003self}
 S.~Camazine, \emph{Self-organization in biological systems}.\hskip 1em plus
   0.5em minus 0.4em\relax Princeton University Press, 2003.
@@ -742,15 +840,9 @@ B.~Webb, ``What does robotics offer animal behaviour?'' \emph{Animal
   \url{http://www.sciencedirect.com/science/article/pii/S0003347200915148}
 \BIBentrySTDinterwordspacing
 
-\bibitem[Meyer and Guillot(2008)]{Meyer2008}
-J.-A. Meyer and A.~Guillot, ``Biologically inspired robots,'' in \emph{Springer
-  Handbook of Robot.}, ser. Springer Handbooks, B.~Siciliano and O.~Khatib,
-  Eds.\hskip 1em plus 0.5em minus 0.4em\relax Berlin, Heidelberg, Germany:
-  Springer, 2008, pp. 1395--1422.
-
 \bibitem[Webb(1995)]{Barbara_1995}
 \BIBentryALTinterwordspacing
-B.~Webb, ``Using robots to model animals: a cricket test,'' \emph{Robotics and
+------, ``Using robots to model animals: a cricket test,'' \emph{Robotics and
   Autonomous Systems}, vol.~16, no. 2134, pp. 117 -- 134, 1995. [Online].
   Available:
   \url{http://www.sciencedirect.com/science/article/pii/0921889095000445}
@@ -854,5 +946,94 @@ A.~Gribovskiy, J.~Halloy, J.-L. Deneubourg, H.~Bleuler, and F.~Mondada,
 V.~Kopman, J.~Laut, G.~Polverino, \emph{et~al.}, ``Closed-loop control of
   zebrafish response using a bioinspired robotic-fish in a preference test,''
   \emph{J. of The Roy. Soc. Interface}, vol.~10, no.~78, pp. 1--8, 2013.
+
+\bibitem[Turing(1950)]{Turing1950}
+A.~M. Turing, ``Computing machinery and intelligence,'' \emph{Mind}, vol.~59,
+  no. 236, pp. 433--460, 1950.
+
+\bibitem[Harnad(2000)]{Harnad2000}
+S.~Harnad, ``Minds, machines and turing: The indistinguishability of
+  indistinguishables,'' \emph{J. Logic, Language and Inform.}, vol.~9, no.~4,
+  pp. 425--445, 2000.
+
+\bibitem[Elman(1990)]{Elman1990}
+J.~L. Elman, ``Finding structure in time,'' \emph{Cognitive Sci.}, vol.~14,
+  no.~2, pp. 179--211, 1990.
+
+\bibitem[Beyer and Schwefel(2002)]{Beyer2002}
+H.-G. Beyer and H.-P. Schwefel, ``Evolution strategies {-} a comprehensive
+  introduction,'' \emph{Natural Computing}, vol.~1, no.~1, pp. 3--52, 2002.
+
+\bibitem[Yao et~al.(1999)]{Yao1999}
+X.~Yao, Y.~Liu, and G.~Lin, ``Evolutionary programming made faster,''
+  \emph{IEEE Trans. on Evol. Comput.}, vol.~3, no.~2, pp. 82--102, 1999.
+
+\bibitem[Mondada et~al.(2009)]{e-puck}
+F.~Mondada, M.~Bonani, X.~Raemy, \emph{et~al.}, ``The e-puck, a robot designed
+  for education in engineering,'' in \emph{Proc. 9{t}h {C}onf. on {A}utonomous
+  {R}obot {S}ystems and {C}ompetitions}, vol.~1.\hskip 1em plus 0.5em minus
+  0.4em\relax IPCB: Instituto Polit{\'e}cnico de Castelo Branco, 2009, pp.
+  59--65.
+
+\bibitem[Magnenat et~al.(2011)]{Enki}
+S.~Magnenat, M.~Waibel, and A.~Beyeler, ``Enki: The fast 2{D} robot
+  simulator,'' \url{http://home.gna.org/enki/}, 2011.
+
+\bibitem[Graham and Sloane(1990)]{Graham1990}
+R.~L. Graham and N.~J.~A. Sloane, ``Penny-packing and two-dimensional codes,''
+  \emph{Discrete and Computational Geometry}, vol.~5, no.~1, pp. 1--11, 1990.
+
+\bibitem[Levi and Kernbach(2010)]{Paul2010}
+P.~Levi and S.~Kernbach, \emph{Symbiotic Multi-Robot Organisms: Reliability,
+  Adaptability, Evolution}.\hskip 1em plus 0.5em minus 0.4em\relax Berlin,
+  Heidelberg: Springer-Verlag, 2010.
+
+\bibitem[Eldridge and Maciejewski(2014)]{Daniel2014}
+B.~Eldridge and A.~Maciejewski, ``Limited bandwidth recognition of collective
+  behaviors in bio-inspired swarms,'' in \emph{Proc. 2014 Int. Conf. Autonomous
+  Agents and Multi-Agent Syst.}\hskip 1em plus 0.5em minus 0.4em\relax IFAAMAS
+  Press, Paris, France, 5 2014, pp. 405--412.
+
+\bibitem[Bradski and Kaehler(2008)]{Gary2008}
+G.~Bradski and A.~Kaehler, \emph{Learning OpenCV: Computer Vision with the
+  OpenCV Library}.\hskip 1em plus 0.5em minus 0.4em\relax Sebastopol, CA:
+  O'Reilly Media, 2008.
+
+\bibitem[Hu(1962)]{Hu1962}
+M.-K. Hu, ``Visual pattern recognition by moment invariants,'' \emph{IRE
+  Transactions on Information Theory}, vol.~8, no.~2, pp. 179--187, 1962.
+
+\bibitem[Li et~al.(2014)]{online_supplementary_material_tevc2014}
+W.~Li, M.~Gauci, J.~Chen, and R.~Gro\ss, ``Online supplementary material,''
+  \url{http://naturalrobotics.group.shef.ac.uk/supp/2014-006/}, 2014.
+
+\bibitem[King et~al.(2009)]{King2009}
+R.~D. King, J.~Rowland, \emph{et~al.}, ``The automation of science,''
+  \emph{Sci.}, vol. 324, no. 5923, pp. 85--89, 2009.
+
+\bibitem[Schmidt and Lipson(2009)]{Schmidt2009}
+M.~Schmidt and H.~Lipson, ``Distilling free-form natural laws from experimental
+  data,'' \emph{Sci.}, vol. 324, no. 5923, pp. 81--85, 2009.
+
+\bibitem[Martin(1983)]{Martin_1983}
+E.~Martin, \emph{Macmillan Dictionary of Life Sciences (2nd ed.)}.\hskip 1em
+  plus 0.5em minus 0.4em\relax London: Macmillan Press, 1983.
+
+\bibitem[Dacke et~al.(2004)]{Dacke2004}
+M.~Dacke, M.~J. Byrne, C.~H. Scholtz, and E.~J. Warrant, ``Lunar orientation in
+  a beetle,'' \emph{Proc. of the Roy. Soc. of London. Series B: Biological
+  Sci.}, vol. 271, no. 1537, pp. 361--365, 2004.
+
+\bibitem[Baird et~al.(2012)]{Emily2012}
+E.~Baird, M.~J. Byrne, J.~Smolka, E.~J. Warrant, and M.~Dacke, ``The dung
+  beetle dance: an orientation behaviour?'' \emph{PLoS ONE}, vol.~7, no.~1, p.
+  e30211, 2012.
+
+\bibitem[Grossman(2008)]{captcha2008}
+\BIBentryALTinterwordspacing
+L.~Grossman, ``Computer literacy tests: Are you human?'' June 2008. [Online].
+  Available:
+  \url{http://www.time.com/time/magazine/article/0,9171,1812084,00.html}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
