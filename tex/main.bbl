@@ -48,11 +48,9 @@ M.~Newborn, \emph{Kasparov versus Deep Blue: Computer Chess Comes of
   Age}.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA:
   Springer-Verlag, 1997.
 
-\bibitem[Buchanan and Shortliffe(1984)]{Buchanan:1984}
-B.~G. Buchanan and E.~H. Shortliffe, \emph{Rule Based Expert Systems: The Mycin
-  Experiments of the Stanford Heuristic Programming Project (The Addison-Wesley
-  Series in Artificial Intelligence)}.\hskip 1em plus 0.5em minus 0.4em\relax
-  Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc., 1984.
+\bibitem[Connell(1990)]{Jonathan1990}
+J.~H. Connell, \emph{Minimalist Mobile Robotics}.\hskip 1em plus 0.5em minus
+  0.4em\relax Burlington, MA, USA: Morgan Kaufmann, 1990.
 
 \bibitem[Lindsay et~al.(1993)]{Robert1993}
 \BIBentryALTinterwordspacing
@@ -72,22 +70,36 @@ P.~Salvaneschi, M.~Cedei, and M.~Lazzari, ``Applying ai to structural safety
 L.~Zadeh, ``Fuzzy sets,'' \emph{Information and Control}, vol.~8, pp. 338--353,
   1965.
 
-\bibitem[Nilsson(1984)]{Nilsson1984}
-N.~J. Nilsson, ``Shakey the robot,'' SRI International Technical Note, Tech.
-  Rep., 1984.
-
 \bibitem[Brooks(1986)]{Brooks1986}
 R.~Brooks, ``A robust layered control system for a mobile robot,''
   \emph{Robotics and Automation, IEEE Journal of}, vol.~2, no.~1, pp. 14--23,
   Mar 1986.
 
-\bibitem[Sasaki et~al.(1998)]{Sasaki_1998}
-\BIBentryALTinterwordspacing
-M.~Sasaki, T.~Kageoka, K.~Ogura, H.~Kataoka, T.~Ueta, and S.~Sugihara, ``Total
-  laboratory automation in japan: Past, present and the future,'' \emph{Clinica
-  Chimica Acta}, vol. 278, no.~2, pp. 217 -- 227, 1998. [Online]. Available:
-  \url{http://www.sciencedirect.com/science/article/pii/S000989819800148X}
-\BIBentrySTDinterwordspacing
+\bibitem[Nilsson(1984)]{Nilsson1984}
+N.~J. Nilsson, ``Shakey the robot,'' SRI International Technical Note, Tech.
+  Rep., 1984.
+
+\bibitem[Dimitrov et~al.(2013)]{Dimitrov:ICSMC:2013}
+V.~Dimitrov, M.~DeDonato, A.~Panzica, S.~Zutshi, M.~Wills, and T.~Padir,
+  ``Hierarchical navigation architecture and robotic arm controller for a
+  sample return rover,'' in \emph{Systems, Man, and Cybernetics (SMC), 2013
+  IEEE International Conference on}, Oct 2013, pp. 4476--4481.
+
+\bibitem[Buchanan and Shortliffe(1984)]{Buchanan:1984}
+B.~G. Buchanan and E.~H. Shortliffe, \emph{Rule Based Expert Systems: The Mycin
+  Experiments of the Stanford Heuristic Programming Project (The Addison-Wesley
+  Series in Artificial Intelligence)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc., 1984.
+
+\bibitem[Brooks(1989)]{Brooks:1989}
+R.~A. Brooks, ``A robot that walks; emergent behaviors from a carefully evolved
+  network,'' Cambridge, MA, USA, Tech. Rep., 1989.
+
+\bibitem[Steinlechner and Parson(2001)]{Steinlechner2001}
+M.~Steinlechner and W.~Parson, ``Automation and high through-put for a dna
+  database laboratory: development of a laboratory information management
+  system,'' \emph{Croatian medical journal}, vol.~42, no.~3, pp. 252--255,
+  2001.
 
 \bibitem[Persidis(1998)]{Persidis_1998}
 A.~Persidis, ``High-throughput screening,'' \emph{Nature biotechnology},
@@ -121,6 +133,10 @@ N.~MacLeod, M.~Benfield, and P.~Culverhouse, ``Time to automate
 \bibitem[Darwin(1859)]{Darwin_1859}
 C.~Darwin, \emph{On the Origin of Species}.\hskip 1em plus 0.5em minus
   0.4em\relax England: Dover Publications, 1859.
+
+\bibitem[Li and Tusheng(2009)]{BiLi2009}
+B.~Li and L.~Tusheng, ``Comments on coevolution in genetic algorithms (in
+  chinsese),'' \emph{Computer Science}, vol.~36, no.~4, pp. 34--63, 2009.
 
 \bibitem[Holland(1992)]{Halland_1992}
 J.~H. Holland, \emph{Adaptation in Natural and Artificial Systems}.\hskip 1em
@@ -176,10 +192,24 @@ T.~Tan and J.~Teo, ``Competitive coevolution with k-random opponents for pareto
   \url{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=?doi=10.1.1.38.3029}
 \BIBentrySTDinterwordspacing
 
+\bibitem[Fogel(1997)]{Fogel:1997}
+D.~B. Fogel, ``The advantages of evolutionary computation,'' in
+  \emph{Biocomputing and Emergent Computation: Proceedings of BCEC97}.\hskip
+  1em plus 0.5em minus 0.4em\relax World Scientific Press, 1997, pp. 1--11.
+
+\bibitem[GS et~al.(2011)]{Hornby2011}
+H.~GS, L.~JD, and L.~DS, ``Computer-automated evolution of an x-band antenna
+  for nasa's space technology 5 mission,'' \emph{Evolutionary Computation},
+  vol.~19, no.~1, pp. 1--23, 2011.
+
 \bibitem[David et~al.(2014)]{David2014}
 O.~E. David, H.~J. van~den Herik, M.~Koppel, and N.~S. Netanyahu, ``Genetic
   algorithms for evolving computer chess programs,'' \emph{IEEE Transactions on
   Evolutionary Computation}, vol.~18, no.~5, pp. 779--789, 2014.
+
+\bibitem[Kauffman(1995)]{kauffman1995}
+S.~A. Kauffman, ``Escaping the red queen effect,'' \emph{The McKinsey
+  Quarterly}, no.~1, p. 118, 1995.
 
 \bibitem[Gutin et~al.(2002)]{Gutin200281}
 \BIBentryALTinterwordspacing
@@ -194,11 +224,6 @@ G.~Gutin, A.~Yeo, and A.~Zverovich, ``Traveling salesman should not be greedy:
 C.~Wang, S.~Yu, W.~Chen, and C.~Sun, ``Highly efficient light-trapping
   structure design inspired by natural evolution,'' \emph{Sci. Rep.}, vol.~3,
   no.~1, pp. 1--7, 2013.
-
-\bibitem[GS et~al.(2011)]{Hornby2011}
-H.~GS, L.~JD, and L.~DS, ``Computer-automated evolution of an x-band antenna
-  for nasa's space technology 5 mission,'' \emph{Evolutionary Computation},
-  vol.~19, no.~1, pp. 1--23, 2011.
 
 \bibitem[Bellman(1957)]{Bellman1957}
 R.~Bellman, \emph{Dynamic Progamming and Lagrange Multipliers}.\hskip 1em plus
@@ -372,9 +397,9 @@ D.~B. Fogel, \emph{System identification through simulated evolution: a machine
   Needham, MA, USA: Ginn Press, 1991.
 
 \bibitem[Billings(2013)]{Billings2013}
-S.~A. Billings, \emph{Nonlinear system identification: NARMAX methods in the
-  time, frequency, and spatio-temporal domains}.\hskip 1em plus 0.5em minus
-  0.4em\relax Hoboken, NJ, USA: Wiley, 2013.
+S.~A. Billings, \emph{Nonlinear System Identification: NARMAX Methods in the
+  Time, Frequency, and Spatio-Temporal Domains}.\hskip 1em plus 0.5em minus
+  0.4em\relax Hoboken, NJ, USA: Wiley-Blackwell, 2013.
 
 \bibitem[Vladislavleva et~al.(2009)]{Vladislavleva:2009}
 \BIBentryALTinterwordspacing

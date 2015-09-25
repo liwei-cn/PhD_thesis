@@ -1,3 +1,54 @@
+@article{kauffman1995,
+  title={Escaping the red queen effect},
+  author={Kauffman, Stuart A},
+  journal={The McKinsey Quarterly},
+  number={1},
+  pages={118},
+  year={1995},
+  publisher={McKinsey and Company, Inc.}
+}
+
+@INPROCEEDINGS{Fogel:1997, 
+author={Fogel, David B.}, 
+booktitle={Biocomputing and Emergent Computation: Proceedings of BCEC97}, 
+title={The Advantages of Evolutionary Computation}, 
+year={1997}, 
+pages={1--11}, 
+publisher={World Scientific Press},
+}
+
+@article{BiLi2009,
+  title={Comments on Coevolution in Genetic Algorithms (in Chinsese)},
+  author={Li, Bi and Lin Tusheng},
+  journal={Computer Science},
+  volume={36},
+  number={4},
+  pages={34--63},
+  year={2009},
+}
+
+
+@article{Steinlechner2001,
+  title={Automation and high through-put for a DNA database laboratory: development of a laboratory information management system},
+  author={Steinlechner, Martin and Parson, Walther},
+  journal={Croatian medical journal},
+  volume={42},
+  number={3},
+  pages={252--255},
+  year={2001},
+}
+
+@INPROCEEDINGS{Dimitrov:ICSMC:2013, 
+author={Dimitrov, V. and DeDonato, M. and Panzica, A. and Zutshi, S. and Wills, M. and Padir, T.}, 
+booktitle={Systems, Man, and Cybernetics (SMC), 2013 IEEE International Conference on}, 
+title={Hierarchical Navigation Architecture and Robotic Arm Controller for a Sample Return Rover}, 
+year={2013}, 
+pages={4476-4481}, 
+keywords={aerospace robotics;aircraft navigation;manipulators;mobile robots;planetary rovers;AERO;NASA sample return robot centennial challenge;autonomous exploration rover;cascade classifier;inverse Jacobian based robot arm controller;robotic arm controller;sample return rover;space exploration rover;tier navigation architecture;Manipulators;Navigation;Planning;Robot kinematics;Robot sensing systems;driving with tentacles;histogram of gradients;inverse jacobian;sample return rover}, 
+doi={10.1109/SMC.2013.761}, 
+month={Oct},
+}
+
 @article{Robert1993,
 title = "DENDRAL: A case study of the first expert system for scientific hypothesis formation",
 journal = "Artificial Intelligence",
@@ -61,14 +112,6 @@ number = {24},
 pages = {9943--9948}, 
 year = {2007}, 
 journal = {PNAS} 
-}
-
-@book{Billings2013,
- author = {Stephen A Billings},
- title = {Nonlinear system identification: NARMAX methods in the time, frequency, and spatio-temporal domains},
- year = {2013},
- publisher = {Wiley},
- address = {Hoboken, NJ, USA}
 }
 
 @article{Grotzinger:Sci:2014,
@@ -527,16 +570,6 @@ title={Co-evolving data driven models and test data sets with the application to
 year={2011}, 
 pages={14--20}, 
 publisher={IEEE Press, New Orleans, LA, USA},
-}
-
-@article{Bongard2007PNAS,
-author = {Bongard, Josh and Lipson, Hod}, 
-title = {Automated reverse engineering of nonlinear dynamical systems},
-volume = {104}, 
-number = {24}, 
-pages = {9943--9948}, 
-year = {2007}, 
-journal = {PNAS} 
 }
 
 @article{Bongard2005,
@@ -2483,18 +2516,29 @@ pages={14--20},
 }
 
 @article{Graham1990,
- author = {Graham, R. L. and Sloane, N. J. A.},
- title = {Penny-packing and two-dimensional codes},
- journal = {Discrete and Computational Geometry},
- volume = {5},
- number = {1},
- month = jan,
- year = {1990},
- pages = {1--11},
+    author = {Graham, R. L. and Sloane, N. J. A.},
+    title = {Penny-packing and two-dimensional codes},
+    journal = {Discrete and Computational Geometry},
+    year = {1990},
+    volume = {5},
+    number ={1},
+    pages = {1--11},
+}
+
+@book{Jonathan1990,
+    author = {Jonathan H. Connell},
+    title = {Minimalist Mobile Robotics},
+    year = {1990},
+    publisher ={Morgan Kaufmann},
+    address = {Burlington, MA, USA},
+}
+
+@techreport{Brooks:1989,
+ author = {Brooks, Rodney A.},
+ title = {A Robot That Walks; Emergent Behaviors from a Carefully Evolved Network},
+ year = {1989},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Amitai%3AMIT-AILab%2F%2FAIM-1091},
+ publisher = {Massachusetts Institute of Technology},
+ address = {Cambridge, MA, USA},
 } 
-
-
-
-
-
 

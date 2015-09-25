@@ -7,61 +7,54 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10940 items from 5000.
+Reallocated field_info (elt_size=4) to 11204 items from 5000.
 Database file #1: upgrade.bib
-Repeated entry---line 532 of file upgrade.bib
- : @article{Bongard2007PNAS
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 573 of file upgrade.bib
- : @book{Billings2013
- :                   ,
-I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
 -- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing institution in Brooks:1989
 Warning--missing institution in Shewchuk1994
 
 Done.
-You've used 135 entries,
+You've used 141 entries,
             4060 wiz_defined-function locations,
-            1758 strings with 32525 characters,
-and the built_in function-call counts, 110913 in all, are:
-= -- 9087
-> -- 2448
-< -- 1114
-+ -- 1290
-- -- 362
-* -- 5527
-:= -- 16744
-add.period$ -- 298
-call.type$ -- 135
-change.case$ -- 130
-chr.to.int$ -- 2289
-cite$ -- 136
-duplicate$ -- 7844
-empty$ -- 8727
-format.name$ -- 687
-if$ -- 25550
+            1796 strings with 33415 characters,
+and the built_in function-call counts, 114584 in all, are:
+= -- 9381
+> -- 2507
+< -- 1146
++ -- 1321
+- -- 370
+* -- 5682
+:= -- 17313
+add.period$ -- 311
+call.type$ -- 141
+change.case$ -- 135
+chr.to.int$ -- 2346
+cite$ -- 143
+duplicate$ -- 8132
+empty$ -- 9062
+format.name$ -- 707
+if$ -- 26394
 int.to.chr$ -- 0
-int.to.str$ -- 135
-missing$ -- 1263
-newline$ -- 497
-num.names$ -- 282
-pop$ -- 2675
+int.to.str$ -- 141
+missing$ -- 1312
+newline$ -- 513
+num.names$ -- 294
+pop$ -- 2786
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 8617
+skip$ -- 8909
 stack$ -- 0
-substring$ -- 5492
-swap$ -- 6638
-text.length$ -- 269
+substring$ -- 5635
+swap$ -- 6848
+text.length$ -- 276
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
-warning$ -- 1
-while$ -- 511
-width$ -- 138
-write$ -- 2019
-(There were 2 error messages)
+warning$ -- 2
+while$ -- 530
+width$ -- 144
+write$ -- 2095
+(There were 2 warnings)
