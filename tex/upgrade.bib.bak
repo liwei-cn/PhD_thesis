@@ -1,3 +1,13 @@
+@article{bongard2005active,
+  title={Active coevolutionary learning of deterministic finite automata},
+  author={Bongard, Josh and Lipson, Hod},
+  journal={The Journal of Machine Learning Research},
+  volume={6},
+  pages={1651--1678},
+  year={2005},
+  publisher={JMLR. org}
+}
+
 @book{dorigo2008ant,
   title={Ant Colony Optimization and Swarm Intelligence: 6th International Conference, ANTS 2008, Brussels, Belgium, September 22-24, 2008, Proceedings},
   author={Dorigo, Marco and Birattari, Mauro and Blum, Christian and Clerc, Maurice and St{\"u}tzle, Thomas and Winfield, Alan},
@@ -1221,7 +1231,7 @@ ISSN={1089-778X},
 }
 
 @INPROCEEDINGS{Bongard__2005,
-author={Bongard, J.C. and Lipson, H.},
+author={Bongard, J. C. and Lipson, H.},
 booktitle={Evolvable Hardware, 2004. Proceedings. 2004 NASA/DoD Conference on},
 title={Automated robot function recovery after unanticipated failure or environmental change using a minimum of hardware trials},
 year={2004},
