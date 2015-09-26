@@ -23,7 +23,7 @@ This chapter is organized as follows. Section~\ref{sec:methodology_interaction} 
 \section{Methodology}\label{sec:methodology_interaction}
 
 We extend~\textit{Turing Learning} (described in Chapter~\ref{ch:swarm_simulation}) with interactive capability. In the following, we will describe the implementation that is related to the work in this chapter.
-%The basic idea is the same (this sentence is probamatic), that is, the method is comprised of two populations: one of models, and one of classifiers, which coevolve with each other competitively. The fitness of the classifiers depends solely on their ability to distinguish the behavior of the models from the behavior of the agent. The fitness of the models depends solely on their ability to mislead the classifiers into making the wrong judgment, that is, classifying them as the agent. 
+%The basic idea is the same (this sentence is problematic), that is, the method is comprised of two populations: one of models, and one of classifiers, which coevolve with each other competitively. The fitness of the classifiers depends solely on their ability to distinguish the behavior of the models from the behavior of the agent. The fitness of the models depends solely on their ability to mislead the classifiers into making the wrong judgment, that is, classifying them as the agent. 
 
 \subsection{Models}\label{sec:model_deterministic_interaction} 
 
