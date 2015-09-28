@@ -43,7 +43,8 @@ Figure~\ref{fig:neural_network_interaction} shows the structure of the classifie
     \label{fig:neural_network_interaction}
 \end{figure}
 
-Suppose the agent responds to the level of light intensity in the environment. We assume that the classifier can observe the agent's speed. The classifier (network) has two inputs. One is the light intensity in the environment at time step $t$, $I^{\left(t\right)}\in [0,1]$, and the other is the speed $v^{\left(t\right)}$ of the agent. In order to make this setup more feasible to implement, it is assumed that the system cannot directly measure the speed of the individual, but rather its position. The speed of the individual for the classifier's input is then calculated by subtracting the previous estimated position from the current estimated position, and dividing the resulting number by the time interval between two measurements.
+Suppose the agent responds to the level of light intensity in the environment. We assume that the classifier can observe the agent's speed. The classifier (network) has two inputs. One is the light intensity in the environment at time step $t$, $I^{\left(t\right)}\in [0,1]$, and the other is the speed $v^{\left(t\right)}$ of the agent. The speed of the individual for the classifier's input is calculated by subtracting the previous estimated position from the current estimated position, and dividing the resulting number by the time interval between two measurements.
+%In order to make this setup more feasible to implement, it is assumed that the system cannot directly measure the speed of the individual, but rather its position.
 
 In order to make a judgment between a model and the agent, the classifier observes the behavior (speed) over a period of time. In addition, the classifier is also in control of the light intensity in the individual's environment. At time $t=0$, the value of the light intensity is chosen randomly with a uniform distribution in the range $\left[0,1\right]$. The neural network is then updated, using $I^{\left(0\right)}$ and $v^{\left(0\right)}$. The value of the light intensity for the next time step is obtained from the classifier's output neuron $O_1$, and the process repeats. After having iterated through all the time steps (a single trial), the final value of output neuron $O_2$ is used to make a judgment: the network decides on a model if $O_2<0.5$, and on the agent if $O_2\geq0.5$. The memory (value of hidden neurons) of the classifiers is reset at the end of every trial.
 
@@ -346,7 +347,7 @@ CoEAIM & $4.0\times10^{-5}$ & $4.9\times10^{-5}$ & $1.1\times10^{-3}$ & $2.5\tim
 \label{table:relative_accuracy} % is used to refer this table in the text 
 \end{table} 
 
-In order to compare \textit{Turing Learning} against a more traditional approach, we used a simple evolution where a single population of models evolves. We call this method SPEA. As there are now no classifiers, an interactive approach is not possible, and thus we conducted $100$ evolutionary runs for the Passive 1 and Passive 2 methods of changing the light intensity in the agent's environment. The structure of the evolution is identical to the sub-algorithms used in the coevolution, except for the fitness evaluation step. Now, in each generation, $100$ experiments are performed on the agent using $100$ randomly generated intensity patterns. The $100$ intensity patterns are used to evaluate a model $100$ times. The average square error between the model's and the agent's speed sequences is used as the model's fitness. Each evolutionary run lasts $100,000$ generations. In other words, the number and duration of experiments on the agent is kept the same as that in the coevolutionary approach, as outlined in Section~\ref{sec:simulation_setup_deterministic}.
+In order to compare \textit{Turing Learning} against a more traditional approach, we used a simple evolution where a single population of models evolves. We call this method SPEA. As there are now no classifiers, an interactive approach is not possible, and thus we conducted $100$ evolutionary runs for the Passive 1 and Passive 2 methods of changing the light intensity in the agent's environment. The structure of the evolution is identical to the sub-algorithms used in the coevolution, except for the fitness evaluation step. Now, in each generation, $100$ experiments are performed on the agent using $100$ randomly generated intensity patterns. The $100$ intensity patterns are used to evaluate a model $100$ times. The average square error between the model's and the agent's speed sequences is used as the model's fitness. Each evolutionary run lasts $100,000$ generations. In other words, the number and duration of experiments on the agent is kept the same as that in the coevolutionary approach, as outlined in Section~\ref{sec:simulation_setup_deterministic_interaction}.
 
 \begin{figure}[!t]
 	\centering
@@ -362,7 +363,7 @@ In this section, we compare \textit{Turing Learning} with another coevolutionary
 
 In order to further validate and highlight the benefit of \textit{Turing Learning}, we investigate the stochastic behaviors in the following section. 
 
-\section{Case Study Two}\label{sec:case_study_two_stochastic_interaction}
+\section{\textcolor{red}{Case Study Two}}\label{sec:case_study_two_stochastic_interaction}
 
 \subsection{Stochastic Behavior}\label{sec:stochastic_behavior_interaction}
 
