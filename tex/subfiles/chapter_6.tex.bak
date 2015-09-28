@@ -1,4 +1,4 @@
-\section{Summary of Findings}
+\section{\textcolor{red}{Summary of Findings}}
 
 This thesis presents a novel system identification/modeling method---\textit{Turing Learning} for inferring agent behavior. Through competitive coevolution between classifiers and models, the method does not rely on predefined metrics for measuring the difference between the agents and models. Instead, the classifiers substitute the metrics, which are incorporated into the evolutionary process. During the evolutionary process, the classifiers only need to output a Boolean value indicating whether the observed individual is an agent or model.  
 
@@ -8,7 +8,7 @@ When inferring the deterministic/stochastic behaviors of a single agent, we exte
 
 In a later case study, in which \textit{Turing Learning} was applied to infer the stochastic behaviors of a single agent. We have shown that through actively interacting with the agent during the experimental process, the classifiers can `intelligently' change the stimulus based on the agent's observed behavior in order to extract the hidden information from the agent. In other words, the classifiers could dynamically capture the motion of the agent to adjust the environmental stimulus. This intelligent behavior is also observed in humans when scientists try to investigate the animals' behavior in response to stimuli~\cite{Emily_2012}. As the agent's behavior under investigation is stochastic, it is impossible to evolve a fixed sequence of inputs to extract all the agent's behavioral information. Given the same input, the agent would probably behave differently and this make it hard to optimize the models using predefined metrics. We compared the results obtained by \textit{Turing Learning} and two other metric-based system identification methods, and show that \textit{Turing Learning} learn the agent behavior significantly better than the other two methods. This highlight the benefits of~\textit{Turing Learning} in inferring agent behavior.
 
-\section{Future work}
+\section{\textcolor{red}{Future work}}
 
 In spite of the encouraging results obtained when applying \textit{Turing Learning} to infer agent behaviors, we do not claim that this method can be directly used for modeling animal behaviors. There are still questions need to be discussed before conducting experiments on animals. In the following, we provide some points that could be considered as our future work.
 

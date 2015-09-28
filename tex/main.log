@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 SEP 2015 17:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 SEP 2015 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,7 +613,7 @@ Configuring pdfsync
 **** pdfsync.sty: started
 
 (./subfiles/titlepage.tex
-<../img/frontmatter/uos_logo_full.jpg, id=426, 1079.03125pt x 426.59375pt>
+<../img/frontmatter/uos_logo_full.jpg, id=120, 1079.03125pt x 426.59375pt>
 File: ../img/frontmatter/uos_logo_full.jpg Graphic file (type jpg)
 
 <use ../img/frontmatter/uos_logo_full.jpg>
@@ -661,768 +661,74 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
- [9])
+) [7])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
-[10]
+ [8]
 Chapter 1.
-(./subfiles/chapter_1.tex [1
+(./subfiles/chapter_5.tex
 
+LaTeX Warning: Reference `ch:swarm_simulation' on page 1 undefined on input lin
+e 3.
 
+[1
 
-
-] [2] [3] [4] [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
- [6] [7]) [8]
-Chapter 2.
-(./subfiles/chapter_2.tex [9
-
-
-] [10] [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-[13]
-Overfull \hbox (8.15157pt too wide) in alignment at lines 60--60
-[][][][] 
- []
-
-[14]
-<../img/chapter_2/evolutionary_algorithm_classification.pdf, id=803, 574.145pt 
-x 191.71625pt>
-File: ../img/chapter_2/evolutionary_algorithm_classification.pdf Graphic file (
-type pdf)
-
-<use ../img/chapter_2/evolutionary_algorithm_classification.pdf>
-Package pdftex.def Info: ../img/chapter_2/evolutionary_algorithm_classification
-.pdf used on input line 73.
-(pdftex.def)             Requested size: 303.53377pt x 101.35754pt.
-
-<../img/chapter_2/evolutionary_algorithms_flow.pdf, id=805, 565.11125pt x 595.2
-2375pt>
-File: ../img/chapter_2/evolutionary_algorithms_flow.pdf Graphic file (type pdf)
-
- <use ../img/chapter_2/evolutionary_algorithms_flow.pdf>
-Package pdftex.def Info: ../img/chapter_2/evolutionary_algorithms_flow.pdf used
- on input line 83.
-(pdftex.def)             Requested size: 180.67499pt x 190.29384pt.
- [15 <../img/chapter_2/evolutionary_algorithm_classification.pdf>] [16 <../img/
-chapter_2/evolutionary_algorithms_flow.pdf>] [17] [18] [19]
-<../img/chapter_2/black_box_optimization.pdf, id=921, 419.5675pt x 239.89626pt>
-File: ../img/chapter_2/black_box_optimization.pdf Graphic file (type pdf)
-<use ../img/chapter_2/black_box_optimization.pdf>
-Package pdftex.def Info: ../img/chapter_2/black_box_optimization.pdf used on in
-put line 190.
-(pdftex.def)             Requested size: 231.26378pt x 132.22885pt.
-
-Underfull \vbox (badness 2717) has occurred while \output is active []
-
- [20]
-[21 <../img/chapter_2/black_box_optimization.pdf>] [22] [23]
-<../img/chapter_2/system_identification_approach_offline.pdf, id=1024, 442.6537
-5pt x 187.70125pt>
-File: ../img/chapter_2/system_identification_approach_offline.pdf Graphic file 
-(type pdf)
-
-<use ../img/chapter_2/system_identification_approach_offline.pdf>
-Package pdftex.def Info: ../img/chapter_2/system_identification_approach_offlin
-e.pdf used on input line 239.
-(pdftex.def)             Requested size: 180.67499pt x 76.61432pt.
-
-<../img/chapter_2/system_identification_approach_online.pdf, id=1025, 364.36125
-pt x 316.18124pt>
-File: ../img/chapter_2/system_identification_approach_online.pdf Graphic file (
-type pdf)
-
-<use ../img/chapter_2/system_identification_approach_online.pdf>
-Package pdftex.def Info: ../img/chapter_2/system_identification_approach_online
-.pdf used on input line 242.
-(pdftex.def)             Requested size: 180.67499pt x 156.78278pt.
- [24] [25 <../img/chapter_2/system_identification_approach_offline.pdf> <../img
-/chapter_2/system_identification_approach_online.pdf>] [26] [27] [28] [29]
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
- [30]
-[31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
-[33] [34] [35]) [36
 
 
 
 ]
-Chapter 3.
-(./subfiles/chapter_3.tex [37] [38]
-<../img/chapter_3/Neural_Network_CF_Swarm.pdf, id=1335, 363.3575pt x 380.42125p
-t>
-File: ../img/chapter_3/Neural_Network_CF_Swarm.pdf Graphic file (type pdf)
- <use ../img/chapter_3/Neural_Network_CF_Swarm.pdf>
-Package pdftex.def Info: ../img/chapter_3/Neural_Network_CF_Swarm.pdf used on i
-nput line 28.
-(pdftex.def)             Requested size: 216.81pt x 226.99486pt.
- [39 <../img/chapter_3/Neural_Network_CF_Swarm.pdf>] [40]
-Underfull \vbox (badness 1308) has occurred while \output is active []
 
- [41]
-Underfull \vbox (badness 1558) has occurred while \output is active []
+LaTeX Warning: Reference `ch:swarm_simulation' on page 2 undefined on input lin
+e 25.
 
- [42]
-<../img/chapter_3/e-puck_body.png, id=1399, 4589.145pt x 3143.745pt>
-File: ../img/chapter_3/e-puck_body.png Graphic file (type png)
 
-<use ../img/chapter_3/e-puck_body.png>
-Package pdftex.def Info: ../img/chapter_3/e-puck_body.png used on input line 11
-1.
-(pdftex.def)             Requested size: 252.94499pt x 173.26628pt.
+LaTeX Warning: Reference `ch:swarm_simulation' on page 2 undefined on input lin
+e 34.
 
-<../img/chapter_3/snapshot_aggregation_initial.pdf, id=1400, 505.89pt x 505.89p
-t>
-File: ../img/chapter_3/snapshot_aggregation_initial.pdf Graphic file (type pdf)
 
- <use ../img/chapter_3/snapshot_aggregation_initial.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_aggregation_initial.pdf used
- on input line 121.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
+LaTeX Warning: Reference `fig:neural_network_cf_swarm' on page 2 undefined on i
+nput line 34.
 
-<../img/chapter_3/snapshot_aggregation_60s.pdf, id=1401, 505.89pt x 505.89pt>
-File: ../img/chapter_3/snapshot_aggregation_60s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/snapshot_aggregation_60s.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_aggregation_60s.pdf used on 
-input line 124.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
-
-<../img/chapter_3/snapshot_aggregation_180s.pdf, id=1402, 505.89pt x 505.89pt>
-File: ../img/chapter_3/snapshot_aggregation_180s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/snapshot_aggregation_180s.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_aggregation_180s.pdf used on
- input line 127.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
-
-<../img/chapter_3/snapshot_aggregation_300s.pdf, id=1403, 505.89pt x 505.89pt>
-File: ../img/chapter_3/snapshot_aggregation_300s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/snapshot_aggregation_300s.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_aggregation_300s.pdf used on
- input line 130.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 136.
-
-[43]
-Underfull \vbox (badness 1117) has occurred while \output is active []
-
- [44 <../img/chapter_3/e-puck_body.png> <../img/chapter_3/snapshot_aggregation_
-initial.pdf> <../img/chapter_3/snapshot_aggregation_60s.pdf> <../img/chapter_3/
-snapshot_aggregation_180s.pdf> <../img/chapter_3/snapshot_aggregation_300s.pdf>
-]
-<../img/chapter_3/snapshot_clustering_initial.pdf, id=1436, 505.89pt x 505.89pt
->
-File: ../img/chapter_3/snapshot_clustering_initial.pdf Graphic file (type pdf)
- <use ../img/chapter_3/snapshot_clustering_initial.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_clustering_initial.pdf used 
-on input line 146.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
-
-<../img/chapter_3/snapshot_clustering_20s.pdf, id=1437, 505.89pt x 505.89pt>
-File: ../img/chapter_3/snapshot_clustering_20s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/snapshot_clustering_20s.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_clustering_20s.pdf used on i
-nput line 149.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
-
-<../img/chapter_3/snapshot_clustering_40s.pdf, id=1438, 505.89pt x 505.89pt>
-File: ../img/chapter_3/snapshot_clustering_40s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/snapshot_clustering_40s.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_clustering_40s.pdf used on i
-nput line 152.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
-
-<../img/chapter_3/snapshot_clustering_60s.pdf, id=1439, 505.89pt x 505.89pt>
-File: ../img/chapter_3/snapshot_clustering_60s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/snapshot_clustering_60s.pdf>
-Package pdftex.def Info: ../img/chapter_3/snapshot_clustering_60s.pdf used on i
-nput line 155.
-(pdftex.def)             Requested size: 126.47249pt x 126.47218pt.
- [45 <../img/chapter_3/snapshot_clustering_initial.pdf> <../img/chapter_3/snaps
-hot_clustering_20s.pdf> <../img/chapter_3/snapshot_clustering_40s.pdf> <../img/
-chapter_3/snapshot_clustering_60s.pdf>] [46] [47]
-<../img/chapter_3/model_parameters_box_aggregation.pdf, id=1481, 325.20998pt x 
-252.93997pt>
-File: ../img/chapter_3/model_parameters_box_aggregation.pdf Graphic file (type 
-pdf)
- <use ../img/chapter_3/model_parameters_box_aggregation.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_box_aggregation.pdf 
-used on input line 204.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-<../img/chapter_3/model_parameters_box_clustering.pdf, id=1482, 325.20998pt x 2
-52.93997pt>
-File: ../img/chapter_3/model_parameters_box_clustering.pdf Graphic file (type p
-df)
- <use ../img/chapter_3/model_parameters_box_clustering.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_box_clustering.pdf u
-sed on input line 207.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48 <../img/chapter_3/model_parameters_box_aggregation.pdf> <../img/chapter_3/
-model_parameters_box_clustering.pdf>] [49]
-<../img/chapter_3/model_parameters_convergence_aggregation.pdf, id=1543, 325.20
-998pt x 252.93997pt>
-File: ../img/chapter_3/model_parameters_convergence_aggregation.pdf Graphic fil
-e (type pdf)
-
-<use ../img/chapter_3/model_parameters_convergence_aggregation.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_convergence_aggregat
-ion.pdf used on input line 237.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-<../img/chapter_3/model_parameters_convergence_clustering.pdf, id=1544, 325.209
-98pt x 252.93997pt>
-File: ../img/chapter_3/model_parameters_convergence_clustering.pdf Graphic file
- (type pdf)
-
-<use ../img/chapter_3/model_parameters_convergence_clustering.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_convergence_clusteri
-ng.pdf used on input line 240.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-<../img/chapter_3/model_validation_aggregation_simulation.pdf, id=1545, 325.209
-98pt x 252.93997pt>
-File: ../img/chapter_3/model_validation_aggregation_simulation.pdf Graphic file
- (type pdf)
-
-<use ../img/chapter_3/model_validation_aggregation_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_validation_aggregation_simulati
-on.pdf used on input line 248.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-<../img/chapter_3/model_validation_clustering_simulation.pdf, id=1546, 325.2099
-8pt x 252.93997pt>
-File: ../img/chapter_3/model_validation_clustering_simulation.pdf Graphic file 
-(type pdf)
-
-<use ../img/chapter_3/model_validation_clustering_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_validation_clustering_simulatio
-n.pdf used on input line 251.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
- [50] [51 <../img/chapter_3/model_parameters_convergence_aggregation.pdf> <../i
-mg/chapter_3/model_parameters_convergence_clustering.pdf>]
-<../img/chapter_3/fitness_curve_aggregation_simulation.pdf, id=1607, 325.20998p
-t x 252.93997pt>
-File: ../img/chapter_3/fitness_curve_aggregation_simulation.pdf Graphic file (t
-ype pdf)
-
-<use ../img/chapter_3/fitness_curve_aggregation_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/fitness_curve_aggregation_simulation.
-pdf used on input line 268.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/fitness_curve_clustering_simulation.pdf, id=1608, 325.20998pt
- x 252.93997pt>
-File: ../img/chapter_3/fitness_curve_clustering_simulation.pdf Graphic file (ty
-pe pdf)
- <use ../img/chapter_3/fitness_curve_clustering_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/fitness_curve_clustering_simulation.p
-df used on input line 271.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-[52 <../img/chapter_3/model_validation_aggregation_simulation.pdf> <../img/chap
-ter_3/model_validation_clustering_simulation.pdf>] [53 <../img/chapter_3/fitnes
-s_curve_aggregation_simulation.pdf> <../img/chapter_3/fitness_curve_clustering_
-simulation.pdf>]
-<../img/chapter_3/classifier_decision_accuracy_simulation.pdf, id=1640, 325.209
-98pt x 252.93997pt>
-File: ../img/chapter_3/classifier_decision_accuracy_simulation.pdf Graphic file
- (type pdf)
-
-<use ../img/chapter_3/classifier_decision_accuracy_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/classifier_decision_accuracy_simulati
-on.pdf used on input line 286.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-<../img/chapter_3/classifier_fitness_simulation.pdf, id=1641, 325.20998pt x 252
-.93997pt>
-File: ../img/chapter_3/classifier_fitness_simulation.pdf Graphic file (type pdf
-)
- <use ../img/chapter_3/classifier_fitness_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/classifier_fitness_simulation.pdf use
-d on input line 293.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-<../img/chapter_3/classifier_output_sequence.pdf, id=1642, 505.89pt x 505.89pt>
-File: ../img/chapter_3/classifier_output_sequence.pdf Graphic file (type pdf)
-<use ../img/chapter_3/classifier_output_sequence.pdf>
-Package pdftex.def Info: ../img/chapter_3/classifier_output_sequence.pdf used o
-n input line 307.
-(pdftex.def)             Requested size: 216.81pt x 216.81056pt.
-
-<../img/chapter_3/classifier_output_hidden_neurons.pdf, id=1643, 505.89pt x 505
-.89pt>
-File: ../img/chapter_3/classifier_output_hidden_neurons.pdf Graphic file (type 
-pdf)
- <use ../img/chapter_3/classifier_output_hidden_neurons.pdf>
-Package pdftex.def Info: ../img/chapter_3/classifier_output_hidden_neurons.pdf 
-used on input line 310.
-(pdftex.def)             Requested size: 216.81pt x 216.81056pt.
- [54]
-Underfull \vbox (badness 3098) has occurred while \output is active []
-
- [55 <../img/chapter_3/classifier_decision_accuracy_simulation.pdf> <../img/cha
-pter_3/classifier_fitness_simulation.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56 <../img/chapter_3/classifier_output_sequence.pdf> <../img/chapter_3/classi
-fier_output_hidden_neurons.pdf>] [57] [58]
-<../img/chapter_3/last_generation_classifier_scalability.pdf, id=1707, 505.89pt
- x 505.89pt>
-File: ../img/chapter_3/last_generation_classifier_scalability.pdf Graphic file 
-(type pdf)
- <use ../img/chapter_3/last_generation_classifier_scalability.pdf>
-Package pdftex.def Info: ../img/chapter_3/last_generation_classifier_scalabilit
-y.pdf used on input line 342.
-(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
-
-<../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf, id=17
-08, 505.89pt x 505.89pt>
-File: ../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf G
-raphic file (type pdf)
-
-<use ../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf>
-Package pdftex.def Info: ../img/chapter_3/last_generation_judgment_accuracy_cf_
-num_selection.pdf used on input line 349.
-(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
-
-<../img/chapter_3/model_parameters_box_aggregation_scalability.pdf, id=1712, 32
-5.20998pt x 252.93997pt>
-File: ../img/chapter_3/model_parameters_box_aggregation_scalability.pdf Graphic
- file (type pdf)
-
-<use ../img/chapter_3/model_parameters_box_aggregation_scalability.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_box_aggregation_scal
-ability.pdf used on input line 360.
-(pdftex.def)             Requested size: 216.81pt x 168.63136pt.
-
-[59] [60 <../img/chapter_3/last_generation_classifier_scalability.pdf>]
-[61 <../img/chapter_3/last_generation_judgment_accuracy_cf_num_selection.pdf> <
-../img/chapter_3/model_parameters_box_aggregation_scalability.pdf>]
-<../img/chapter_3/Angle_I=0.pdf, id=1749, 412.54124pt x 212.795pt>
-File: ../img/chapter_3/Angle_I=0.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/Angle_I=0.pdf>
-Package pdftex.def Info: ../img/chapter_3/Angle_I=0.pdf used on input line 378.
-
-(pdftex.def)             Requested size: 158.99377pt x 82.01236pt.
-
-<../img/chapter_3/Angle_I=1.pdf, id=1750, 402.50375pt x 167.62625pt>
-File: ../img/chapter_3/Angle_I=1.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/Angle_I=1.pdf>
-Package pdftex.def Info: ../img/chapter_3/Angle_I=1.pdf used on input line 381.
-
-(pdftex.def)             Requested size: 158.99377pt x 66.2129pt.
-
-<../img/chapter_3/model_parameters_box_aggregation_0degree.pdf, id=1753, 325.20
-998pt x 252.93997pt>
-File: ../img/chapter_3/model_parameters_box_aggregation_0degree.pdf Graphic fil
-e (type pdf)
-
-<use ../img/chapter_3/model_parameters_box_aggregation_0degree.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_box_aggregation_0deg
-ree.pdf used on input line 390.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/model_parameters_box_aggregation_60degree.pdf, id=1754, 325.2
-0998pt x 252.93997pt>
-File: ../img/chapter_3/model_parameters_box_aggregation_60degree.pdf Graphic fi
-le (type pdf)
-
-<use ../img/chapter_3/model_parameters_box_aggregation_60degree.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_box_aggregation_60de
-gree.pdf used on input line 393.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/model_parameters_convergence_aggregation_0degree.pdf, id=1755
-, 325.20998pt x 325.20998pt>
-File: ../img/chapter_3/model_parameters_convergence_aggregation_0degree.pdf Gra
-phic file (type pdf)
-
-<use ../img/chapter_3/model_parameters_convergence_aggregation_0degree.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_convergence_aggregat
-ion_0degree.pdf used on input line 402.
-(pdftex.def)             Requested size: 252.94499pt x 252.94818pt.
-
-<../img/chapter_3/model_parameters_convergence_aggregation_60degree.pdf, id=175
-6, 325.20998pt x 325.20998pt>
-File: ../img/chapter_3/model_parameters_convergence_aggregation_60degree.pdf Gr
-aphic file (type pdf)
-
-<use ../img/chapter_3/model_parameters_convergence_aggregation_60degree.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_convergence_aggregat
-ion_60degree.pdf used on input line 405.
-(pdftex.def)             Requested size: 252.94499pt x 252.94818pt.
-
-Underfull \vbox (badness 1442) has occurred while \output is active []
-
- [62 <../img/chapter_3/Angle_I=0.pdf> <../img/chapter_3/Angle_I=1.pdf>] [63 <..
-/img/chapter_3/model_parameters_box_aggregation_0degree.pdf> <../img/chapter_3/
-model_parameters_box_aggregation_60degree.pdf>]
-<../img/chapter_3/MAE_histgram_random_controllers.pdf, id=1854, 325.20998pt x 2
-52.93997pt>
-File: ../img/chapter_3/MAE_histgram_random_controllers.pdf Graphic file (type p
-df)
- <use ../img/chapter_3/MAE_histgram_random_controllers.pdf>
-Package pdftex.def Info: ../img/chapter_3/MAE_histgram_random_controllers.pdf u
-sed on input line 424.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/AE_box_random_controllers.pdf, id=1855, 325.20998pt x 252.939
-97pt>
-File: ../img/chapter_3/AE_box_random_controllers.pdf Graphic file (type pdf)
- <use ../img/chapter_3/AE_box_random_controllers.pdf>
-Package pdftex.def Info: ../img/chapter_3/AE_box_random_controllers.pdf used on
- input line 427.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
- [64]
-<../img/chapter_3/MAE_noise_study.pdf, id=1869, 325.20998pt x 252.93997pt>
-File: ../img/chapter_3/MAE_noise_study.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/MAE_noise_study.pdf>
-Package pdftex.def Info: ../img/chapter_3/MAE_noise_study.pdf used on input lin
-e 441.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65]
-Overfull \hbox (3.45602pt too wide) in paragraph at lines 458--460
-[][][]\OT1/cmr/m/n/12 Through com-pet-i-tive co-evo-lu-tion of mod-els and clas
--si-fiers, the sys-tem suc-cess-fully learned
- []
-
-[66]) [67] [68 <../img/chapter_3/model_parameters_convergence_aggregation_0degr
-ee.pdf> <../img/chapter_3/model_parameters_convergence_aggregation_60degree.pdf
->] [69 <../img/chapter_3/MAE_histgram_random_controllers.pdf> <../img/chapter_3
-/AE_box_random_controllers.pdf>] [70 <../img/chapter_3/MAE_noise_study.pdf>]
-Chapter 4.
-(./subfiles/chapter_4.tex [71
-
-
-]
-<../img/chapter_3/physical_system_setup.pdf, id=1969, 1284.8pt x 770.88pt>
-File: ../img/chapter_3/physical_system_setup.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/physical_system_setup.pdf>
-Package pdftex.def Info: ../img/chapter_3/physical_system_setup.pdf used on inp
-ut line 11.
-(pdftex.def)             Requested size: 252.94499pt x 151.76192pt.
-
-<../img/chapter_3/drawing_epuck_schematic.pdf, id=1970, 885.3075pt x 601.24625p
-t>
-File: ../img/chapter_3/drawing_epuck_schematic.pdf Graphic file (type pdf)
- <use ../img/chapter_3/drawing_epuck_schematic.pdf>
-Package pdftex.def Info: ../img/chapter_3/drawing_epuck_schematic.pdf used on i
-nput line 18.
-(pdftex.def)             Requested size: 252.94499pt x 171.77898pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72 <../img/chapter_3/physical_system_setup.pdf>] [73 <../img/chapter_3/drawin
-g_epuck_schematic.pdf>]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no • in font cmr12!
- [74]
-<../img/chapter_4/robot_arena.jpg, id=2037, 702.625pt x 803.0pt>
-File: ../img/chapter_4/robot_arena.jpg Graphic file (type jpg)
-
-<use ../img/chapter_4/robot_arena.jpg>
-Package pdftex.def Info: ../img/chapter_4/robot_arena.jpg used on input line 59
-.
-(pdftex.def)             Requested size: 216.81pt x 247.77567pt.
- [75]
-<../img/chapter_4/binary_agents.png, id=2047, 702.625pt x 803.0pt>
-File: ../img/chapter_4/binary_agents.png Graphic file (type png)
-
-<use ../img/chapter_4/binary_agents.png>
-Package pdftex.def Info: ../img/chapter_4/binary_agents.png used on input line 
-74.
-(pdftex.def)             Requested size: 119.24506pt x 136.27539pt.
-
-<../img/chapter_4/binary_model_one.png, id=2048, 702.625pt x 803.0pt>
-File: ../img/chapter_4/binary_model_one.png Graphic file (type png)
-
-<use ../img/chapter_4/binary_model_one.png>
-Package pdftex.def Info: ../img/chapter_4/binary_model_one.png used on input li
-ne 77.
-(pdftex.def)             Requested size: 119.24506pt x 136.27539pt.
-
-<../img/chapter_4/binary_model_two.png, id=2049, 702.625pt x 803.0pt>
-File: ../img/chapter_4/binary_model_two.png Graphic file (type png)
-
-<use ../img/chapter_4/binary_model_two.png>
-Package pdftex.def Info: ../img/chapter_4/binary_model_two.png used on input li
-ne 80.
-(pdftex.def)             Requested size: 119.24506pt x 136.27539pt.
-
-<../img/chapter_4/image_processing_flow.pdf, id=2052, 177.66376pt x 207.77625pt
->
-File: ../img/chapter_4/image_processing_flow.pdf Graphic file (type pdf)
- <use ../img/chapter_4/image_processing_flow.pdf>
-Package pdftex.def Info: ../img/chapter_4/image_processing_flow.pdf used on inp
-ut line 90.
-(pdftex.def)             Requested size: 252.94499pt x 295.82741pt.
-
-<../img/chapter_3/replica_pc_interation.pdf, id=2053, 191.71625pt x 206.7725pt>
-File: ../img/chapter_3/replica_pc_interation.pdf Graphic file (type pdf)
-<use ../img/chapter_3/replica_pc_interation.pdf>
-Package pdftex.def Info: ../img/chapter_3/replica_pc_interation.pdf used on inp
-ut line 98.
-(pdftex.def)             Requested size: 252.94499pt x 272.82695pt.
- [76 <../img/chapter_4/robot_arena.jpg>] [77 <../img/chapter_4/binary_agents.pn
-g (PNG copy)> <../img/chapter_4/binary_model_one.png (PNG copy)> <../img/chapte
-r_4/binary_model_two.png (PNG copy)>] [78 <../img/chapter_4/image_processing_fl
-ow.pdf>] [79 <../img/chapter_3/replica_pc_interation.pdf>] [80]
-<../img/chapter_3/best_model_parameters_physical.pdf, id=2128, 325.20998pt x 25
-2.93997pt>
-File: ../img/chapter_3/best_model_parameters_physical.pdf Graphic file (type pd
-f)
- <use ../img/chapter_3/best_model_parameters_physical.pdf>
-Package pdftex.def Info: ../img/chapter_3/best_model_parameters_physical.pdf us
-ed on input line 166.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/model_parameters_convergence_compare_physical.pdf, id=2130, 3
-25.20998pt x 252.93997pt>
-File: ../img/chapter_3/model_parameters_convergence_compare_physical.pdf Graphi
-c file (type pdf)
-
-<use ../img/chapter_3/model_parameters_convergence_compare_physical.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_convergence_compare_
-physical.pdf used on input line 179.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/model_parameters_convergence_compare_simulation.pdf, id=2131,
- 325.20998pt x 252.93997pt>
-File: ../img/chapter_3/model_parameters_convergence_compare_simulation.pdf Grap
-hic file (type pdf)
-
-<use ../img/chapter_3/model_parameters_convergence_compare_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/model_parameters_convergence_compare_
-simulation.pdf used on input line 182.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-[81 <../img/chapter_3/best_model_parameters_physical.pdf>]
-<../img/chapter_3/MAE_physical.pdf, id=2154, 325.20998pt x 252.93997pt>
-File: ../img/chapter_3/MAE_physical.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/MAE_physical.pdf>
-Package pdftex.def Info: ../img/chapter_3/MAE_physical.pdf used on input line 1
-97.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/MAE_simulation.pdf, id=2155, 325.20998pt x 252.93997pt>
-File: ../img/chapter_3/MAE_simulation.pdf Graphic file (type pdf)
-
-<use ../img/chapter_3/MAE_simulation.pdf>
-Package pdftex.def Info: ../img/chapter_3/MAE_simulation.pdf used on input line
- 200.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
- [82 <../img/chapter_3/model_parameters_convergence_compare_physical.pdf> <../i
-mg/chapter_3/model_parameters_convergence_compare_simulation.pdf>]
-<../img/chapter_3/aggregation_dynamics_proportion.pdf, id=2195, 325.20998pt x 2
-52.93997pt>
-File: ../img/chapter_3/aggregation_dynamics_proportion.pdf Graphic file (type p
-df)
- <use ../img/chapter_3/aggregation_dynamics_proportion.pdf>
-Package pdftex.def Info: ../img/chapter_3/aggregation_dynamics_proportion.pdf u
-sed on input line 218.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/aggregation_dynamics_compactness.pdf, id=2196, 325.20998pt x 
-252.93997pt>
-File: ../img/chapter_3/aggregation_dynamics_compactness.pdf Graphic file (type 
-pdf)
- <use ../img/chapter_3/aggregation_dynamics_compactness.pdf>
-Package pdftex.def Info: ../img/chapter_3/aggregation_dynamics_compactness.pdf 
-used on input line 221.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-[83]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84 <../img/chapter_3/MAE_physical.pdf> <../img/chapter_3/MAE_simulation.pdf>]
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [85 <../img/chapter_3/aggregation_dynamics_proportion.pdf> <../img/chapter_3/a
-ggregation_dynamics_compactness.pdf>]
-<../img/chapter_3/aggregation_model_validation_physical.pdf, id=2252, 325.20998
-pt x 252.93997pt>
-File: ../img/chapter_3/aggregation_model_validation_physical.pdf Graphic file (
-type pdf)
-
-<use ../img/chapter_3/aggregation_model_validation_physical.pdf>
-Package pdftex.def Info: ../img/chapter_3/aggregation_model_validation_physical
-.pdf used on input line 233.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_3/physical_snapshot_0s.jpg, id=2253, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_0s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_0s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_0s.jpg used on inpu
-t line 243.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
-
-<../img/chapter_3/physical_snapshot_20s.jpg, id=2254, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_20s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_20s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_20s.jpg used on inp
-ut line 246.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
-
-<../img/chapter_3/physical_snapshot_40s.jpg, id=2255, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_40s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_40s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_40s.jpg used on inp
-ut line 249.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
-
-<../img/chapter_3/physical_snapshot_180s.jpg, id=2256, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_180s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_180s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_180s.jpg used on in
-put line 252.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
-
-<../img/chapter_3/physical_snapshot_360s.jpg, id=2257, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_360s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_360s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_360s.jpg used on in
-put line 255.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
-
-<../img/chapter_3/physical_snapshot_420s.jpg, id=2258, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_420s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_420s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_420s.jpg used on in
-put line 258.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
-
-<../img/chapter_3/physical_snapshot_480s.jpg, id=2259, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_480s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_480s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_480s.jpg used on in
-put line 261.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
-
-<../img/chapter_3/physical_snapshot_600s.jpg, id=2260, 1284.8pt x 803.0pt>
-File: ../img/chapter_3/physical_snapshot_600s.jpg Graphic file (type jpg)
-
-<use ../img/chapter_3/physical_snapshot_600s.jpg>
-Package pdftex.def Info: ../img/chapter_3/physical_snapshot_600s.jpg used on in
-put line 264.
-(pdftex.def)             Requested size: 122.85876pt x 76.7759pt.
- [86 <../img/chapter_3/aggregation_model_validation_physical.pdf>] [87 <../img/
-chapter_3/physical_snapshot_0s.jpg> <../img/chapter_3/physical_snapshot_20s.jpg
-> <../img/chapter_3/physical_snapshot_40s.jpg> <../img/chapter_3/physical_snaps
-hot_180s.jpg> <../img/chapter_3/physical_snapshot_360s.jpg> <../img/chapter_3/p
-hysical_snapshot_420s.jpg> <../img/chapter_3/physical_snapshot_480s.jpg> <../im
-g/chapter_3/physical_snapshot_600s.jpg>]
-<../img/chapter_4/classifier_decision_accuracy_physical.pdf, id=2289, 325.20998
-pt x 252.93997pt>
-File: ../img/chapter_4/classifier_decision_accuracy_physical.pdf Graphic file (
-type pdf)
-
-<use ../img/chapter_4/classifier_decision_accuracy_physical.pdf>
-Package pdftex.def Info: ../img/chapter_4/classifier_decision_accuracy_physical
-.pdf used on input line 282.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_4/classifier_fitness_physical.pdf, id=2290, 325.20998pt x 252.9
-3997pt>
-File: ../img/chapter_4/classifier_fitness_physical.pdf Graphic file (type pdf)
- <use ../img/chapter_4/classifier_fitness_physical.pdf>
-Package pdftex.def Info: ../img/chapter_4/classifier_fitness_physical.pdf used 
-on input line 289.
-(pdftex.def)             Requested size: 252.94499pt x 196.7366pt.
-
-<../img/chapter_4/algorithm_sensitivity_analysis.pdf, id=2291, 562.1pt x 421.57
-5pt>
-File: ../img/chapter_4/algorithm_sensitivity_analysis.pdf Graphic file (type pd
-f)
- <use ../img/chapter_4/algorithm_sensitivity_analysis.pdf>
-Package pdftex.def Info: ../img/chapter_4/algorithm_sensitivity_analysis.pdf us
-ed on input line 296.
-(pdftex.def)             Requested size: 252.94499pt x 189.70699pt.
- [88 <../img/chapter_4/classifier_decision_accuracy_physical.pdf>] [89 <../img/
-chapter_4/classifier_fitness_physical.pdf> <../img/chapter_4/algorithm_sensitiv
-ity_analysis.pdf>] [90]) [91] [92
-
-
-]
-Chapter 5.
-(./subfiles/chapter_5.tex [93] [94]
-<../img/chapter_5/Neural_network_CF_Interaction.pdf, id=2396, 360.34625pt x 380
-.42125pt>
+[2]
+<../img/chapter_5/Neural_network_CF_Interaction.pdf, id=225, 360.34625pt x 380.
+42125pt>
 File: ../img/chapter_5/Neural_network_CF_Interaction.pdf Graphic file (type pdf
 )
  <use ../img/chapter_5/Neural_network_CF_Interaction.pdf>
 Package pdftex.def Info: ../img/chapter_5/Neural_network_CF_Interaction.pdf use
 d on input line 41.
 (pdftex.def)             Requested size: 187.90244pt x 198.36583pt.
- [95 <../img/chapter_5/Neural_network_CF_Interaction.pdf>] [96]
-<../img/chapter_5/agent_behavior_deterministic.pdf, id=2423, 660.4675pt x 498.8
-6375pt>
+ [3 <../img/chapter_5/Neural_network_CF_Interaction.pdf>]
+
+LaTeX Warning: Reference `ch:swarm_simulation' on page 4 undefined on input lin
+e 53.
+
+
+LaTeX Warning: Reference `sec:optimization_algorithm_swarm' on page 4 undefined
+ on input line 53.
+
+[4]
+<../img/chapter_5/agent_behavior_deterministic.pdf, id=258, 660.4675pt x 498.86
+375pt>
 File: ../img/chapter_5/agent_behavior_deterministic.pdf Graphic file (type pdf)
 
  <use ../img/chapter_5/agent_behavior_deterministic.pdf>
 Package pdftex.def Info: ../img/chapter_5/agent_behavior_deterministic.pdf used
  on input line 80.
 (pdftex.def)             Requested size: 252.94499pt x 191.05453pt.
- [97 <../img/chapter_5/agent_behavior_deterministic.pdf>] [98]
-<../img/chapter_5/parameters_compare_without_noise.pdf, id=2453, 562.1pt x 421.
-575pt>
+ [5 <../img/chapter_5/agent_behavior_deterministic.pdf>] [6]
+<../img/chapter_5/parameters_compare_without_noise.pdf, id=291, 562.1pt x 421.5
+75pt>
 File: ../img/chapter_5/parameters_compare_without_noise.pdf Graphic file (type 
 pdf)
  <use ../img/chapter_5/parameters_compare_without_noise.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_compare_without_noise.pdf 
 used on input line 131.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
- [99]
-[100 <../img/chapter_5/parameters_compare_without_noise.pdf>]
-<../img/chapter_5/convergence_compare_without_noise.pdf, id=2482, 562.1pt x 421
-.575pt>
+ [7] [8 <../img/chapter_5/parameters_compare_without_noise.pdf>]
+<../img/chapter_5/convergence_compare_without_noise.pdf, id=323, 562.1pt x 421.
+575pt>
 File: ../img/chapter_5/convergence_compare_without_noise.pdf Graphic file (type
  pdf)
  <use ../img/chapter_5/convergence_compare_without_noise.pdf>
@@ -1430,8 +736,8 @@ Package pdftex.def Info: ../img/chapter_5/convergence_compare_without_noise.pdf
  used on input line 146.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-<../img/chapter_5/parameters_convergence_without_noise.pdf, id=2483, 562.1pt x 
-421.575pt>
+<../img/chapter_5/parameters_convergence_without_noise.pdf, id=324, 562.1pt x 4
+21.575pt>
 File: ../img/chapter_5/parameters_convergence_without_noise.pdf Graphic file (t
 ype pdf)
  <use ../img/chapter_5/parameters_convergence_without_noise.pdf>
@@ -1439,15 +745,16 @@ Package pdftex.def Info: ../img/chapter_5/parameters_convergence_without_noise.
 pdf used on input line 152.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-<../img/chapter_5/fitness_without_noise_auto.pdf, id=2484, 562.1pt x 421.575pt>
+<../img/chapter_5/fitness_without_noise_auto.pdf, id=325, 562.1pt x 421.575pt>
 File: ../img/chapter_5/fitness_without_noise_auto.pdf Graphic file (type pdf)
+
 <use ../img/chapter_5/fitness_without_noise_auto.pdf>
 Package pdftex.def Info: ../img/chapter_5/fitness_without_noise_auto.pdf used o
 n input line 161.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-<../img/chapter_5/fitness_without_noise_random_1.pdf, id=2485, 562.1pt x 421.57
-5pt>
+<../img/chapter_5/fitness_without_noise_random_1.pdf, id=326, 562.1pt x 421.575
+pt>
 File: ../img/chapter_5/fitness_without_noise_random_1.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/fitness_without_noise_random_1.pdf>
@@ -1457,20 +764,19 @@ ed on input line 164.
 
 Underfull \vbox (badness 1616) has occurred while \output is active []
 
- [101 <../img/chapter_5/convergence_compare_without_noise.pdf> <../img/chapter_
-5/parameters_convergence_without_noise.pdf>] [102 <../img/chapter_5/fitness_wit
-hout_noise_auto.pdf> <../img/chapter_5/fitness_without_noise_random_1.pdf>] [10
-3]
-<../img/chapter_5/grid_visualization_random.pdf, id=2542, 216.81pt x 250.16963p
-t>
+ [9 <../img/chapter_5/convergence_compare_without_noise.pdf> <../img/chapter_5/
+parameters_convergence_without_noise.pdf>] [10 <../img/chapter_5/fitness_withou
+t_noise_auto.pdf> <../img/chapter_5/fitness_without_noise_random_1.pdf>] [11]
+<../img/chapter_5/grid_visualization_random.pdf, id=385, 216.81pt x 250.16963pt
+>
 File: ../img/chapter_5/grid_visualization_random.pdf Graphic file (type pdf)
  <use ../img/chapter_5/grid_visualization_random.pdf>
 Package pdftex.def Info: ../img/chapter_5/grid_visualization_random.pdf used on
  input line 189.
 (pdftex.def)             Requested size: 216.81pt x 250.18045pt.
 
-<../img/chapter_5/classifier_accuracy_higher_resolution.pdf, id=2543, 562.1pt x
- 421.575pt>
+<../img/chapter_5/classifier_accuracy_higher_resolution.pdf, id=386, 562.1pt x 
+421.575pt>
 File: ../img/chapter_5/classifier_accuracy_higher_resolution.pdf Graphic file (
 type pdf)
  <use ../img/chapter_5/classifier_accuracy_higher_resolution.pdf>
@@ -1478,9 +784,10 @@ Package pdftex.def Info: ../img/chapter_5/classifier_accuracy_higher_resolution
 .pdf used on input line 195.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-[104 <../img/chapter_5/grid_visualization_random.pdf>]
-<../img/chapter_5/light_intensity_output.pdf, id=2562, 1276.77pt x 707.64375pt>
+[12 <../img/chapter_5/grid_visualization_random.pdf>]
+<../img/chapter_5/light_intensity_output.pdf, id=407, 1276.77pt x 707.64375pt>
 File: ../img/chapter_5/light_intensity_output.pdf Graphic file (type pdf)
+
 <use ../img/chapter_5/light_intensity_output.pdf>
 Package pdftex.def Info: ../img/chapter_5/light_intensity_output.pdf used on in
 put line 201.
@@ -1488,27 +795,26 @@ put line 201.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105 <../img/chapter_5/classifier_accuracy_higher_resolution.pdf>] [106 <../im
-g/chapter_5/light_intensity_output.pdf>] [107] [108]
-<../img/chapter_5/parameters_with_noise_interactive.pdf, id=2619, 562.1pt x 421
-.575pt>
+ [13 <../img/chapter_5/classifier_accuracy_higher_resolution.pdf>] [14 <../img/
+chapter_5/light_intensity_output.pdf>] [15] [16]
+<../img/chapter_5/parameters_with_noise_interactive.pdf, id=463, 562.1pt x 421.
+575pt>
 File: ../img/chapter_5/parameters_with_noise_interactive.pdf Graphic file (type
  pdf)
  <use ../img/chapter_5/parameters_with_noise_interactive.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_with_noise_interactive.pdf
  used on input line 281.
 (pdftex.def)             Requested size: 231.26378pt x 173.4451pt.
- [109 <../img/chapter_5/parameters_with_noise_interactive.pdf>]
-<../img/chapter_5/ES_parameters_without_noise.pdf, id=2638, 562.1pt x 421.575pt
->
+ [17 <../img/chapter_5/parameters_with_noise_interactive.pdf>]
+<../img/chapter_5/ES_parameters_without_noise.pdf, id=483, 562.1pt x 421.575pt>
 File: ../img/chapter_5/ES_parameters_without_noise.pdf Graphic file (type pdf)
- <use ../img/chapter_5/ES_parameters_without_noise.pdf>
+<use ../img/chapter_5/ES_parameters_without_noise.pdf>
 Package pdftex.def Info: ../img/chapter_5/ES_parameters_without_noise.pdf used 
 on input line 325.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
- [110 <../img/chapter_5/ES_parameters_without_noise.pdf>]
-<../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf, id=2661, 325.2
-0998pt x 325.20998pt>
+ [18 <../img/chapter_5/ES_parameters_without_noise.pdf>]
+<../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf, id=506, 325.20
+998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf Graphic fi
 le (type pdf)
 
@@ -1516,9 +822,9 @@ le (type pdf)
 Package pdftex.def Info: ../img/chapter_5/model_parameters_box_CoEATM_determini
 stic.pdf used on input line 354.
 (pdftex.def)             Requested size: 216.81pt x 216.81271pt.
- [111]
-<../img/chapter_5/stochastic_interaction_nstates.pdf, id=2672, 619.31375pt x 18
-2.6825pt>
+ [19]
+<../img/chapter_5/stochastic_interaction_nstates.pdf, id=517, 619.31375pt x 182
+.6825pt>
 File: ../img/chapter_5/stochastic_interaction_nstates.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/stochastic_interaction_nstates.pdf>
@@ -1528,9 +834,9 @@ ed on input line 372.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112 <../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf>]
-<../img/chapter_5/stochastic_interaction_2states.pdf, id=2691, 449.68pt x 225.8
-4375pt>
+ [20 <../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf>]
+<../img/chapter_5/stochastic_interaction_2states.pdf, id=536, 449.68pt x 225.84
+375pt>
 File: ../img/chapter_5/stochastic_interaction_2states.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/stochastic_interaction_2states.pdf>
@@ -1538,19 +844,19 @@ Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_2states.pdf us
 ed on input line 386.
 (pdftex.def)             Requested size: 216.81pt x 108.88965pt.
 
-<../img/chapter_5/stochastic_interaction_3states.pdf, id=2692, 437.635pt x 209.
-78375pt>
+<../img/chapter_5/stochastic_interaction_3states.pdf, id=537, 437.635pt x 209.7
+8375pt>
 File: ../img/chapter_5/stochastic_interaction_3states.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/stochastic_interaction_3states.pdf>
 Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_3states.pdf us
 ed on input line 389.
 (pdftex.def)             Requested size: 216.81pt x 103.93129pt.
- [113 <../img/chapter_5/stochastic_interaction_nstates.pdf>] [114 <../img/chapt
-er_5/stochastic_interaction_2states.pdf> <../img/chapter_5/stochastic_interacti
-on_3states.pdf>]
-<../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf, id=2765, 325
-.20998pt x 325.20998pt>
+ [21 <../img/chapter_5/stochastic_interaction_nstates.pdf>] [22 <../img/chapter
+_5/stochastic_interaction_2states.pdf> <../img/chapter_5/stochastic_interaction
+_3states.pdf>]
+<../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf, id=610, 325.
+20998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf Graphic 
 file (type pdf)
 
@@ -1559,8 +865,8 @@ Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_nometric_2
 states.pdf used on input line 422.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_coevolution_metric_2states.pdf, id=2766, 325.2
-0998pt x 325.20998pt>
+<../img/chapter_5/parameters_box_coevolution_metric_2states.pdf, id=611, 325.20
+998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_metric_2states.pdf Graphic fi
 le (type pdf)
 
@@ -1569,8 +875,8 @@ Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_metric_2st
 ates.pdf used on input line 425.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_evolution_metric_2states.pdf, id=2767, 325.209
-98pt x 325.20998pt>
+<../img/chapter_5/parameters_box_evolution_metric_2states.pdf, id=612, 325.2099
+8pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_evolution_metric_2states.pdf Graphic file
  (type pdf)
 
@@ -1582,9 +888,16 @@ es.pdf used on input line 428.
 
 LaTeX Warning: Float too large for page by 125.07262pt on input line 430.
 
-[115]
+[23]
+
+LaTeX Warning: Reference `eq:AE' on page 24 undefined on input line 435.
+
+
+LaTeX Warning: Reference `eq:AE' on page 24 undefined on input line 435.
+
+
 <../img/chapter_5/model_parameters_convergence_nometric_interaction_2states.pdf
-, id=2782, 325.20998pt x 325.20998pt>
+, id=626, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_interaction_2state
 s.pdf Graphic file (type pdf)
 
@@ -1595,7 +908,7 @@ _interaction_2states.pdf used on input line 460.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.pdf, i
-d=2783, 325.20998pt x 325.20998pt>
+d=627, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.p
 df Graphic file (type pdf)
 
@@ -1606,7 +919,7 @@ _passive1_2states.pdf used on input line 463.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.pdf, i
-d=2784, 325.20998pt x 325.20998pt>
+d=628, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.p
 df Graphic file (type pdf)
 
@@ -1620,126 +933,124 @@ _passive2_2states.pdf used on input line 466.
 LaTeX Warning: Float too large for page by 110.57262pt on input line 468.
 
 
-<../img/chapter_5/classifier_interaction_2states.pdf, id=2785, 505.89pt x 505.8
-9pt>
+<../img/chapter_5/classifier_interaction_2states.pdf, id=629, 505.89pt x 505.89
+pt>
 File: ../img/chapter_5/classifier_interaction_2states.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/classifier_interaction_2states.pdf>
 Package pdftex.def Info: ../img/chapter_5/classifier_interaction_2states.pdf us
 ed on input line 474.
 (pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [116]
-<../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf, id=2795, 325
-.20998pt x 325.20998pt>
+ [24]
+<../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf, id=639, 325.
+20998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf Graphic 
 file (type pdf)
 
 <use ../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_nometric_3
-states.pdf used on input line 491.
+states.pdf used on input line 492.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_coevolution_metric_3states.pdf, id=2796, 325.2
-0998pt x 325.20998pt>
+<../img/chapter_5/parameters_box_coevolution_metric_3states.pdf, id=640, 325.20
+998pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_coevolution_metric_3states.pdf Graphic fi
 le (type pdf)
 
 <use ../img/chapter_5/parameters_box_coevolution_metric_3states.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_metric_3st
-ates.pdf used on input line 494.
+ates.pdf used on input line 495.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
-<../img/chapter_5/parameters_box_evolution_metric_3states.pdf, id=2797, 325.209
-98pt x 325.20998pt>
+<../img/chapter_5/parameters_box_evolution_metric_3states.pdf, id=641, 325.2099
+8pt x 325.20998pt>
 File: ../img/chapter_5/parameters_box_evolution_metric_3states.pdf Graphic file
  (type pdf)
 
 <use ../img/chapter_5/parameters_box_evolution_metric_3states.pdf>
 Package pdftex.def Info: ../img/chapter_5/parameters_box_evolution_metric_3stat
-es.pdf used on input line 497.
+es.pdf used on input line 498.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 
-LaTeX Warning: Float too large for page by 125.07262pt on input line 499.
+LaTeX Warning: Float too large for page by 125.07262pt on input line 500.
 
-[117]
+
+LaTeX Warning: Reference `eq:AE' on page 25 undefined on input line 505.
+
+
+LaTeX Warning: Reference `eq:AE' on page 25 undefined on input line 505.
+
+[25]
 <../img/chapter_5/model_parameters_convergence_nometric_interaction_3states.pdf
-, id=2813, 325.20998pt x 325.20998pt>
+, id=654, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_interaction_3state
 s.pdf Graphic file (type pdf)
 
 <use ../img/chapter_5/model_parameters_convergence_nometric_interaction_3states
 .pdf>
 Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_interaction_3states.pdf used on input line 529.
+_interaction_3states.pdf used on input line 530.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.pdf, i
-d=2814, 325.20998pt x 325.20998pt>
+d=655, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.p
 df Graphic file (type pdf)
 
 <use ../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.pd
 f>
 Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive1_3states.pdf used on input line 532.
+_passive1_3states.pdf used on input line 533.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 <../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.pdf, i
-d=2815, 325.20998pt x 325.20998pt>
+d=656, 325.20998pt x 325.20998pt>
 File: ../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.p
 df Graphic file (type pdf)
 
 <use ../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.pd
 f>
 Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive2_3states.pdf used on input line 535.
+_passive2_3states.pdf used on input line 536.
 (pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
 
 
-LaTeX Warning: Float too large for page by 110.57262pt on input line 537.
+LaTeX Warning: Float too large for page by 110.57262pt on input line 538.
 
 
-<../img/chapter_5/classifier_interaction_3states.pdf, id=2816, 505.89pt x 505.8
-9pt>
+<../img/chapter_5/classifier_interaction_3states.pdf, id=657, 505.89pt x 505.89
+pt>
 File: ../img/chapter_5/classifier_interaction_3states.pdf Graphic file (type pd
 f)
  <use ../img/chapter_5/classifier_interaction_3states.pdf>
 Package pdftex.def Info: ../img/chapter_5/classifier_interaction_3states.pdf us
-ed on input line 543.
+ed on input line 544.
 (pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
- [118]) [119]
-[120 <../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf> <../img
-/chapter_5/parameters_box_coevolution_metric_2states.pdf> <../img/chapter_5/par
-ameters_box_evolution_metric_2states.pdf>] [121 <../img/chapter_5/model_paramet
-ers_convergence_nometric_interaction_2states.pdf> <../img/chapter_5/model_param
-eters_convergence_nometric_passive1_2states.pdf> <../img/chapter_5/model_parame
-ters_convergence_nometric_passive2_2states.pdf>] [122 <../img/chapter_5/classif
-ier_interaction_2states.pdf>] [123 <../img/chapter_5/parameters_box_coevolution
-_nometric_3states.pdf> <../img/chapter_5/parameters_box_coevolution_metric_3sta
-tes.pdf> <../img/chapter_5/parameters_box_evolution_metric_3states.pdf>]
-[124 <../img/chapter_5/model_parameters_convergence_nometric_interaction_3state
-s.pdf> <../img/chapter_5/model_parameters_convergence_nometric_passive1_3states
-.pdf> <../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.
-pdf>] [125 <../img/chapter_5/classifier_interaction_3states.pdf>] [126
+ [26]) (./main.bbl [27] [28 <../img/chapter_5/parameters_box_coevolution_nometr
+ic_2states.pdf> <../img/chapter_5/parameters_box_coevolution_metric_2states.pdf
+> <../img/chapter_5/parameters_box_evolution_metric_2states.pdf>] [29 <../img/c
+hapter_5/model_parameters_convergence_nometric_interaction_2states.pdf> <../img
+/chapter_5/model_parameters_convergence_nometric_passive1_2states.pdf> <../img/
+chapter_5/model_parameters_convergence_nometric_passive2_2states.pdf>] [30 <../
+img/chapter_5/classifier_interaction_2states.pdf>] [31 <../img/chapter_5/parame
+ters_box_coevolution_nometric_3states.pdf> <../img/chapter_5/parameters_box_coe
+volution_metric_3states.pdf> <../img/chapter_5/parameters_box_evolution_metric_
+3states.pdf>]
+[32 <../img/chapter_5/model_parameters_convergence_nometric_interaction_3states
+.pdf> <../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.
+pdf> <../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.p
+df>] [33 <../img/chapter_5/classifier_interaction_3states.pdf>] [34
 
 
-]
-Chapter 6.
-(./subfiles/chapter_6.tex [127] [128]) (./main.bbl [129] [130
-
-
-] [131]
+] [35]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[132] [133]
+[36] [37]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -1750,13 +1061,13 @@ Missing character: There is no “ in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[134]
+[38]
 Underfull \hbox (badness 1990) in paragraph at lines 273--276
 [][][]\OT1/cmr/m/n/12 I. Rechen-berg, \OT1/cmr/m/it/12 Evo-lu-tion-sstrate-gie:
  Op-ti-mierung tech-nis-cher Sys-teme nach
  []
 
-[135] [136]
+[39] [40]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -1768,7 +1079,7 @@ Missing character: There is no ¼ in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[137] [138]
+[41] [42]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1781,7 +1092,7 @@ Missing character: There is no ¼ in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[139] [140]
+[43] [44]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1794,7 +1105,7 @@ Missing character: There is no ¼ in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[141]
+[45]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1803,7 +1114,7 @@ Missing character: There is no ¼ in font cmr12!
 ** the default language instead.
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
-[142]
+[46]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1842,7 +1153,7 @@ Missing character: There is no ž in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[143]
+[47]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ‡ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -1861,15 +1172,18 @@ Missing character: There is no ž in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[144] [145] [146] [147])
+[48] [49] [50] [51])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
- [148]
+ [52]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 973CEFCA280E1D26FB15490105E9559A;7912.
+(rerunfilecheck)             Checksum: CB41193F73ECCD36695810382D2035B6;2180.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1877,84 +1191,34 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 12940 strings out of 493488
- 222171 string characters out of 3141326
- 336214 words of memory out of 3000000
- 15315 multiletter control sequences out of 15000+200000
- 18479 words of font info for 67 fonts, out of 3000000 for 9000
+ 11991 strings out of 493488
+ 193492 string characters out of 3141326
+ 314588 words of memory out of 3000000
+ 14761 multiletter control sequences out of 15000+200000
+ 12306 words of font info for 45 fonts, out of 3000000 for 9000
  960 hyphenation exceptions out of 8191
- 40i,31n,49p,2480b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (158 pages, 5274646 bytes).
+ 40i,31n,49p,2145b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
+2/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (60 pages, 1567081 bytes).
 PDF statistics:
- 3362 PDF objects out of 3580 (max. 8388607)
- 2926 compressed objects within 30 object streams
- 622 named destinations out of 1000 (max. 500000)
- 1326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1281 PDF objects out of 1440 (max. 8388607)
+ 1115 compressed objects within 12 object streams
+ 326 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
 
