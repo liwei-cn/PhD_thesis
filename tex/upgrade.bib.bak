@@ -1,3 +1,90 @@
+@article{eiben2013triangle,
+  title={The triangle of life: Evolving robots in real-time and real-space},
+  author={Eiben, AE and Bredeche, N and Hoogendoorn, M and Stradner, J and Timmis, J and Tyrrell, A and Winfield, A and others},
+  journal={Advances in Artificial Life, ECAL},
+  pages={1056--1063},
+  year={2013}
+}
+
+@inproceedings{hornby1999autonomous,
+  title={Autonomous evolution of gaits with the sony quadruped robot},
+  author={Hornby, GS and Fujita, M and Takamura, S and Yamamoto, T and Hanagata, O},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  volume={2},
+  pages={1297--1304},
+  year={1999},
+  organization={Citeseer}
+}
+
+@article{Haasdijk:PlusOne:2014,
+     title = {Combining Environment-Driven Adaptation and Task-Driven Optimisation in Evolutionary Robotics},
+     author = {Haasdijk E and Bredeche N and Eiben AE},
+     journal = {PLoS ONE },
+     volume = {9},
+     number = {6},
+     pages = {e98466},
+     year={2014},
+}
+
+@incollection{Eiben:2014:PPSN,
+year={2014},
+isbn={978-3-319-10761-5},
+booktitle={Parallel Problem Solving from Nature – PPSN XIII},
+volume={8672},
+series={Lecture Notes in Computer Science},
+editor={Bartz-Beielstein, Thomas and Branke, Jürgen and Filipič, Bogdan and Smith, Jim},
+doi={10.1007/978-3-319-10762-2_3},
+title={In Vivo Veritas: Towards the Evolution of Things},
+url={http://dx.doi.org/10.1007/978-3-319-10762-2_3},
+publisher={Springer International Publishing},
+keywords={Embodied Evolution; Evolutionary Computing; Evolutionary Robotics; Self-reproducing Robots},
+author={Eiben, AgostonEndre},
+pages={24-39},
+language={English}
+}
+
+@ARTICLE{Eiben:2015:ER,
+  
+ AUTHOR={Eiben, A.E.},   
+	 
+TITLE={Grand challenges for evolutionary robotics},      
+	
+JOURNAL={Frontiers in Robotics and AI},      
+	
+VOLUME={1},      
+	
+YEAR={2014},      
+	
+NUMBER={4},     
+	  
+URL={http://www.frontiersin.org/evolutionary_robotics/10.3389/frobt.2014.00004/full},       
+	
+DOI={10.3389/frobt.2014.00004},      
+	
+ISSN={2296-9144} 
+}
+
+@ARTICLE{Doncieux2015,
+  
+ AUTHOR={Doncieux, Stephane  and  Bredeche, Nicolas  and  Mouret, Jean-Baptiste  and  Eiben, A.E. (Gusz)},   
+	 
+TITLE={Evolutionary Robotics: What, Why, and Where to},      
+	
+JOURNAL={Frontiers in Robotics and AI},      
+	
+VOLUME={2},      
+	
+YEAR={2015},      
+	
+NUMBER={4},     
+	  
+URL={http://www.frontiersin.org/evolutionary_robotics/10.3389/frobt.2015.00004/abstract},       
+	
+DOI={10.3389/frobt.2015.00004},      
+	
+ISSN={2296-9144} ,      
+}
+
 @phdthesis{Melvin:PhD:2014,
 	author		= "Gauci, Melvin",
 	title		= "Swarm Robotic Systems with Minimal Information Processing",

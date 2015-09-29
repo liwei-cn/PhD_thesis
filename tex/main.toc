@@ -1,29 +1,24 @@
 \contentsline {chapter}{Abstract}{iii}{chapter*.1}
 \contentsline {chapter}{Acknowledgments}{v}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Inferring Individual Behaviors Through Interactive Turing Learning}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Methodology}{2}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Models}{2}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Classifiers}{3}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Optimization Algorithm}{4}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Fitness Calculation}{4}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Case Study One}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Deterministic Behavior}{5}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Simulation Setup}{7}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Results}{8}{subsection.1.3.3}
-\contentsline {subsubsection}{\numberline {1.3.3.1}Analysis of Evolved Models}{8}{subsubsection.1.3.3.1}
-\contentsline {subsubsection}{\numberline {1.3.3.2}Coevolutionary Dynamics}{10}{subsubsection.1.3.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3.3}Analysis of Evolved Classifiers}{12}{subsubsection.1.3.3.3}
-\contentsline {subsubsection}{\numberline {1.3.3.4}Noise Study}{17}{subsubsection.1.3.3.4}
-\contentsline {subsubsection}{\numberline {1.3.3.5}Using a Single-Population Evolutionary Algorithm}{18}{subsubsection.1.3.3.5}
-\contentsline {subsubsection}{\numberline {1.3.3.6}Coevolution of Inputs and Models}{19}{subsubsection.1.3.3.6}
-\contentsline {section}{\numberline {1.4}\leavevmode {\color {red}Case Study Two}}{21}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Stochastic Behavior}{21}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Simulation Setup}{23}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Results: Two States}{23}{subsection.1.4.3}
-\contentsline {subsubsection}{\numberline {1.4.3.1}Analysis of Evolved Models}{23}{subsubsection.1.4.3.1}
-\contentsline {subsubsection}{\numberline {1.4.3.2}Analysis of Evolved Classifiers}{25}{subsubsection.1.4.3.2}
-\contentsline {subsection}{\numberline {1.4.4}Results: Three States}{25}{subsection.1.4.4}
-\contentsline {subsubsection}{\numberline {1.4.4.1}Analysis of Evolved Models}{25}{subsubsection.1.4.4.1}
-\contentsline {subsubsection}{\numberline {1.4.4.2}Analysis of Evolved Classifiers}{26}{subsubsection.1.4.4.2}
-\contentsline {section}{\numberline {1.5}Summary}{27}{section.1.5}
+\contentsline {chapter}{\numberline {1}Background and Related Work}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The Development of AI and Robotics}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Introduction of Automation Science}{4}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Evolutionary Computation}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Biological Evolution}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Introduction of Evolutionary Computation}{6}{subsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.1}Principles}{6}{subsubsection.1.2.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Strengths}{10}{subsubsection.1.2.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.3}Weaknesses}{11}{subsubsection.1.2.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Applications of Evolutionary Computation}{12}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Black Box Optimization}{13}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Evolutionary Robotics}{15}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}System Identification}{17}{subsubsection.1.2.3.3}
+\contentsline {section}{\numberline {1.3}Combining AI/Robotics and Animal Behavior}{20}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Animal Behavior in Nature}{20}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Swarm Optimization and Swarm Robotics}{22}{subsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.2.1}Swarm Optimization}{22}{subsubsection.1.3.2.1}
+\contentsline {subsubsection}{\numberline {1.3.2.2}Swarm Robotics}{23}{subsubsection.1.3.2.2}
+\contentsline {subsection}{\numberline {1.3.3}Contribution of AI/Robotics to Ethology}{25}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Learning from Synthesis}{25}{subsubsection.1.3.3.1}
+\contentsline {subsubsection}{\numberline {1.3.3.2}Robot--Animal Interaction}{27}{subsubsection.1.3.3.2}

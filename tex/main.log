@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 SEP 2015 21:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 SEP 2015 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,7 +613,7 @@ Configuring pdfsync
 **** pdfsync.sty: started
 
 (./subfiles/titlepage.tex
-<../img/frontmatter/uos_logo_full.jpg, id=120, 1079.03125pt x 426.59375pt>
+<../img/frontmatter/uos_logo_full.jpg, id=426, 1079.03125pt x 426.59375pt>
 File: ../img/frontmatter/uos_logo_full.jpg Graphic file (type jpg)
 
 <use ../img/frontmatter/uos_logo_full.jpg>
@@ -661,396 +661,121 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [7])
+) [7]
+Underfull \vbox (badness 5985) has occurred while \output is active []
+
+ [8]
+[9])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [8]
+ [10]
 Chapter 1.
-(./subfiles/chapter_5.tex
-
-LaTeX Warning: Reference `ch:swarm_simulation' on page 1 undefined on input lin
-e 3.
-
-[1
+(./subfiles/chapter_2.tex [1
 
 
 
 
-]
+] [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `ch:swarm_simulation' on page 2 undefined on input lin
-e 25.
+ [3]
+[4] [5]
+Overfull \hbox (8.15157pt too wide) in alignment at lines 70--70
+[][][][] 
+ []
 
-
-LaTeX Warning: Reference `ch:swarm_simulation' on page 2 undefined on input lin
-e 34.
-
-
-LaTeX Warning: Reference `fig:neural_network_cf_swarm' on page 2 undefined on i
-nput line 34.
-
-[2]
-<../img/chapter_5/Neural_network_CF_Interaction.pdf, id=225, 360.34625pt x 380.
-42125pt>
-File: ../img/chapter_5/Neural_network_CF_Interaction.pdf Graphic file (type pdf
-)
- <use ../img/chapter_5/Neural_network_CF_Interaction.pdf>
-Package pdftex.def Info: ../img/chapter_5/Neural_network_CF_Interaction.pdf use
-d on input line 41.
-(pdftex.def)             Requested size: 187.90244pt x 198.36583pt.
- [3 <../img/chapter_5/Neural_network_CF_Interaction.pdf>]
-
-LaTeX Warning: Reference `ch:swarm_simulation' on page 4 undefined on input lin
-e 53.
-
-
-LaTeX Warning: Reference `sec:optimization_algorithm_swarm' on page 4 undefined
- on input line 53.
-
-[4]
-<../img/chapter_5/agent_behavior_deterministic.pdf, id=258, 660.4675pt x 498.86
-375pt>
-File: ../img/chapter_5/agent_behavior_deterministic.pdf Graphic file (type pdf)
-
- <use ../img/chapter_5/agent_behavior_deterministic.pdf>
-Package pdftex.def Info: ../img/chapter_5/agent_behavior_deterministic.pdf used
- on input line 80.
-(pdftex.def)             Requested size: 252.94499pt x 191.05453pt.
- [5 <../img/chapter_5/agent_behavior_deterministic.pdf>] [6]
-<../img/chapter_5/parameters_compare_without_noise.pdf, id=291, 562.1pt x 421.5
-75pt>
-File: ../img/chapter_5/parameters_compare_without_noise.pdf Graphic file (type 
-pdf)
- <use ../img/chapter_5/parameters_compare_without_noise.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_compare_without_noise.pdf 
-used on input line 131.
-(pdftex.def)             Requested size: 216.81pt x 162.60599pt.
- [7] [8 <../img/chapter_5/parameters_compare_without_noise.pdf>]
-<../img/chapter_5/convergence_compare_without_noise.pdf, id=323, 562.1pt x 421.
-575pt>
-File: ../img/chapter_5/convergence_compare_without_noise.pdf Graphic file (type
- pdf)
- <use ../img/chapter_5/convergence_compare_without_noise.pdf>
-Package pdftex.def Info: ../img/chapter_5/convergence_compare_without_noise.pdf
- used on input line 146.
-(pdftex.def)             Requested size: 216.81pt x 162.60599pt.
-
-<../img/chapter_5/parameters_convergence_without_noise.pdf, id=324, 562.1pt x 4
-21.575pt>
-File: ../img/chapter_5/parameters_convergence_without_noise.pdf Graphic file (t
-ype pdf)
- <use ../img/chapter_5/parameters_convergence_without_noise.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_convergence_without_noise.
-pdf used on input line 152.
-(pdftex.def)             Requested size: 216.81pt x 162.60599pt.
-
-<../img/chapter_5/fitness_without_noise_auto.pdf, id=325, 562.1pt x 421.575pt>
-File: ../img/chapter_5/fitness_without_noise_auto.pdf Graphic file (type pdf)
-
-<use ../img/chapter_5/fitness_without_noise_auto.pdf>
-Package pdftex.def Info: ../img/chapter_5/fitness_without_noise_auto.pdf used o
-n input line 161.
-(pdftex.def)             Requested size: 216.81pt x 162.60599pt.
-
-<../img/chapter_5/fitness_without_noise_random_1.pdf, id=326, 562.1pt x 421.575
-pt>
-File: ../img/chapter_5/fitness_without_noise_random_1.pdf Graphic file (type pd
-f)
- <use ../img/chapter_5/fitness_without_noise_random_1.pdf>
-Package pdftex.def Info: ../img/chapter_5/fitness_without_noise_random_1.pdf us
-ed on input line 164.
-(pdftex.def)             Requested size: 216.81pt x 162.60599pt.
-
-Underfull \vbox (badness 1616) has occurred while \output is active []
-
- [9 <../img/chapter_5/convergence_compare_without_noise.pdf> <../img/chapter_5/
-parameters_convergence_without_noise.pdf>] [10 <../img/chapter_5/fitness_withou
-t_noise_auto.pdf> <../img/chapter_5/fitness_without_noise_random_1.pdf>] [11]
-<../img/chapter_5/grid_visualization_random.pdf, id=385, 216.81pt x 250.16963pt
->
-File: ../img/chapter_5/grid_visualization_random.pdf Graphic file (type pdf)
- <use ../img/chapter_5/grid_visualization_random.pdf>
-Package pdftex.def Info: ../img/chapter_5/grid_visualization_random.pdf used on
- input line 189.
-(pdftex.def)             Requested size: 216.81pt x 250.18045pt.
-
-<../img/chapter_5/classifier_accuracy_higher_resolution.pdf, id=386, 562.1pt x 
-421.575pt>
-File: ../img/chapter_5/classifier_accuracy_higher_resolution.pdf Graphic file (
+[6]
+<../img/chapter_2/evolutionary_algorithm_classification.pdf, id=686, 574.145pt 
+x 191.71625pt>
+File: ../img/chapter_2/evolutionary_algorithm_classification.pdf Graphic file (
 type pdf)
- <use ../img/chapter_5/classifier_accuracy_higher_resolution.pdf>
-Package pdftex.def Info: ../img/chapter_5/classifier_accuracy_higher_resolution
-.pdf used on input line 195.
-(pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-[12 <../img/chapter_5/grid_visualization_random.pdf>]
-<../img/chapter_5/light_intensity_output.pdf, id=407, 1276.77pt x 707.64375pt>
-File: ../img/chapter_5/light_intensity_output.pdf Graphic file (type pdf)
+<use ../img/chapter_2/evolutionary_algorithm_classification.pdf>
+Package pdftex.def Info: ../img/chapter_2/evolutionary_algorithm_classification
+.pdf used on input line 84.
+(pdftex.def)             Requested size: 303.53377pt x 101.35754pt.
 
-<use ../img/chapter_5/light_intensity_output.pdf>
-Package pdftex.def Info: ../img/chapter_5/light_intensity_output.pdf used on in
-put line 201.
-(pdftex.def)             Requested size: 433.60901pt x 252.93753pt.
+<../img/chapter_2/evolutionary_algorithms_flow.pdf, id=688, 565.11125pt x 595.2
+2375pt>
+File: ../img/chapter_2/evolutionary_algorithms_flow.pdf Graphic file (type pdf)
 
+ <use ../img/chapter_2/evolutionary_algorithms_flow.pdf>
+Package pdftex.def Info: ../img/chapter_2/evolutionary_algorithms_flow.pdf used
+ on input line 94.
+(pdftex.def)             Requested size: 180.67499pt x 190.29384pt.
+ [7 <../img/chapter_2/evolutionary_algorithm_classification.pdf>] [8 <../img/ch
+apter_2/evolutionary_algorithms_flow.pdf>] [9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 146.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
+ [10] [11]
+[12]
+<../img/chapter_2/black_box_optimization.pdf, id=818, 419.5675pt x 239.89626pt>
+File: ../img/chapter_2/black_box_optimization.pdf Graphic file (type pdf)
+<use ../img/chapter_2/black_box_optimization.pdf>
+Package pdftex.def Info: ../img/chapter_2/black_box_optimization.pdf used on in
+put line 202.
+(pdftex.def)             Requested size: 231.26378pt x 132.22885pt.
+ [13 <../img/chapter_2/black_box_optimization.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <../img/chapter_5/classifier_accuracy_higher_resolution.pdf>] [14 <../img/
-chapter_5/light_intensity_output.pdf>] [15] [16]
-<../img/chapter_5/parameters_with_noise_interactive.pdf, id=463, 562.1pt x 421.
-575pt>
-File: ../img/chapter_5/parameters_with_noise_interactive.pdf Graphic file (type
- pdf)
- <use ../img/chapter_5/parameters_with_noise_interactive.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_with_noise_interactive.pdf
- used on input line 281.
-(pdftex.def)             Requested size: 231.26378pt x 173.4451pt.
- [17 <../img/chapter_5/parameters_with_noise_interactive.pdf>]
-<../img/chapter_5/ES_parameters_without_noise.pdf, id=483, 562.1pt x 421.575pt>
-File: ../img/chapter_5/ES_parameters_without_noise.pdf Graphic file (type pdf)
-<use ../img/chapter_5/ES_parameters_without_noise.pdf>
-Package pdftex.def Info: ../img/chapter_5/ES_parameters_without_noise.pdf used 
-on input line 325.
-(pdftex.def)             Requested size: 216.81pt x 162.60599pt.
- [18 <../img/chapter_5/ES_parameters_without_noise.pdf>]
-<../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf, id=506, 325.20
-998pt x 325.20998pt>
-File: ../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf Graphic fi
-le (type pdf)
+ [14]
+Overfull \hbox (7.37265pt too wide) in paragraph at lines 234--236
+[][][]\OT1/cmr/m/n/12 There are two main re-search aims in evo-lu-tion-ary robo
+tics [[]]: 1) engineering---developing
+ []
 
-<use ../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf>
-Package pdftex.def Info: ../img/chapter_5/model_parameters_box_CoEATM_determini
-stic.pdf used on input line 354.
-(pdftex.def)             Requested size: 216.81pt x 216.81271pt.
+[15] [16]
+<../img/chapter_2/system_identification_approach_offline.pdf, id=938, 466.74374
+pt x 187.70125pt>
+File: ../img/chapter_2/system_identification_approach_offline.pdf Graphic file 
+(type pdf)
+
+<use ../img/chapter_2/system_identification_approach_offline.pdf>
+Package pdftex.def Info: ../img/chapter_2/system_identification_approach_offlin
+e.pdf used on input line 250.
+(pdftex.def)             Requested size: 180.67499pt x 72.65901pt.
+
+<../img/chapter_2/system_identification_approach_online.pdf, id=939, 364.36125p
+t x 316.18124pt>
+File: ../img/chapter_2/system_identification_approach_online.pdf Graphic file (
+type pdf)
+
+<use ../img/chapter_2/system_identification_approach_online.pdf>
+Package pdftex.def Info: ../img/chapter_2/system_identification_approach_online
+.pdf used on input line 253.
+(pdftex.def)             Requested size: 180.67499pt x 156.78278pt.
+ [17] [18 <../img/chapter_2/system_identification_approach_offline.pdf> <../img
+/chapter_2/system_identification_approach_online.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [19]
-<../img/chapter_5/stochastic_interaction_nstates.pdf, id=517, 619.31375pt x 182
-.6825pt>
-File: ../img/chapter_5/stochastic_interaction_nstates.pdf Graphic file (type pd
-f)
- <use ../img/chapter_5/stochastic_interaction_nstates.pdf>
-Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_nstates.pdf us
-ed on input line 372.
-(pdftex.def)             Requested size: 252.94499pt x 74.61319pt.
-
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <../img/chapter_5/model_parameters_box_CoEATM_deterministic.pdf>]
-<../img/chapter_5/stochastic_interaction_2states.pdf, id=536, 449.68pt x 225.84
-375pt>
-File: ../img/chapter_5/stochastic_interaction_2states.pdf Graphic file (type pd
-f)
- <use ../img/chapter_5/stochastic_interaction_2states.pdf>
-Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_2states.pdf us
-ed on input line 386.
-(pdftex.def)             Requested size: 216.81pt x 108.88965pt.
+ [21]
+[22] [23] [24] [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<../img/chapter_5/stochastic_interaction_3states.pdf, id=537, 437.635pt x 209.7
-8375pt>
-File: ../img/chapter_5/stochastic_interaction_3states.pdf Graphic file (type pd
-f)
- <use ../img/chapter_5/stochastic_interaction_3states.pdf>
-Package pdftex.def Info: ../img/chapter_5/stochastic_interaction_3states.pdf us
-ed on input line 389.
-(pdftex.def)             Requested size: 216.81pt x 103.93129pt.
- [21 <../img/chapter_5/stochastic_interaction_nstates.pdf>] [22 <../img/chapter
-_5/stochastic_interaction_2states.pdf> <../img/chapter_5/stochastic_interaction
-_3states.pdf>]
-<../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf, id=610, 325.
-20998pt x 325.20998pt>
-File: ../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf Graphic 
-file (type pdf)
-
-<use ../img/chapter_5/parameters_box_coevolution_nometric_2states.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_nometric_2
-states.pdf used on input line 422.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/parameters_box_coevolution_metric_2states.pdf, id=611, 325.20
-998pt x 325.20998pt>
-File: ../img/chapter_5/parameters_box_coevolution_metric_2states.pdf Graphic fi
-le (type pdf)
-
-<use ../img/chapter_5/parameters_box_coevolution_metric_2states.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_metric_2st
-ates.pdf used on input line 425.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/parameters_box_evolution_metric_2states.pdf, id=612, 325.2099
-8pt x 325.20998pt>
-File: ../img/chapter_5/parameters_box_evolution_metric_2states.pdf Graphic file
- (type pdf)
-
-<use ../img/chapter_5/parameters_box_evolution_metric_2states.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_box_evolution_metric_2stat
-es.pdf used on input line 428.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
+ [26]
+[27]) (./main.bbl [28
 
 
-LaTeX Warning: Float too large for page by 125.07262pt on input line 430.
 
-[23]
-
-LaTeX Warning: Reference `eq:AE' on page 24 undefined on input line 435.
-
-
-LaTeX Warning: Reference `eq:AE' on page 24 undefined on input line 435.
-
-
-<../img/chapter_5/model_parameters_convergence_nometric_interaction_2states.pdf
-, id=626, 325.20998pt x 325.20998pt>
-File: ../img/chapter_5/model_parameters_convergence_nometric_interaction_2state
-s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_5/model_parameters_convergence_nometric_interaction_2states
-.pdf>
-Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_interaction_2states.pdf used on input line 460.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.pdf, i
-d=627, 325.20998pt x 325.20998pt>
-File: ../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.p
-df Graphic file (type pdf)
-
-<use ../img/chapter_5/model_parameters_convergence_nometric_passive1_2states.pd
-f>
-Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive1_2states.pdf used on input line 463.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.pdf, i
-d=628, 325.20998pt x 325.20998pt>
-File: ../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.p
-df Graphic file (type pdf)
-
-<use ../img/chapter_5/model_parameters_convergence_nometric_passive2_2states.pd
-f>
-Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive2_2states.pdf used on input line 466.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-
-LaTeX Warning: Float too large for page by 110.57262pt on input line 468.
-
-
-<../img/chapter_5/classifier_interaction_2states.pdf, id=629, 505.89pt x 505.89
-pt>
-File: ../img/chapter_5/classifier_interaction_2states.pdf Graphic file (type pd
-f)
- <use ../img/chapter_5/classifier_interaction_2states.pdf>
-Package pdftex.def Info: ../img/chapter_5/classifier_interaction_2states.pdf us
-ed on input line 474.
-(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
- [24]
-<../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf, id=639, 325.
-20998pt x 325.20998pt>
-File: ../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf Graphic 
-file (type pdf)
-
-<use ../img/chapter_5/parameters_box_coevolution_nometric_3states.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_nometric_3
-states.pdf used on input line 492.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/parameters_box_coevolution_metric_3states.pdf, id=640, 325.20
-998pt x 325.20998pt>
-File: ../img/chapter_5/parameters_box_coevolution_metric_3states.pdf Graphic fi
-le (type pdf)
-
-<use ../img/chapter_5/parameters_box_coevolution_metric_3states.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_box_coevolution_metric_3st
-ates.pdf used on input line 495.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/parameters_box_evolution_metric_3states.pdf, id=641, 325.2099
-8pt x 325.20998pt>
-File: ../img/chapter_5/parameters_box_evolution_metric_3states.pdf Graphic file
- (type pdf)
-
-<use ../img/chapter_5/parameters_box_evolution_metric_3states.pdf>
-Package pdftex.def Info: ../img/chapter_5/parameters_box_evolution_metric_3stat
-es.pdf used on input line 498.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-
-LaTeX Warning: Float too large for page by 125.07262pt on input line 500.
-
-
-LaTeX Warning: Reference `eq:AE' on page 25 undefined on input line 505.
-
-
-LaTeX Warning: Reference `eq:AE' on page 25 undefined on input line 505.
-
-[25]
-<../img/chapter_5/model_parameters_convergence_nometric_interaction_3states.pdf
-, id=654, 325.20998pt x 325.20998pt>
-File: ../img/chapter_5/model_parameters_convergence_nometric_interaction_3state
-s.pdf Graphic file (type pdf)
-
-<use ../img/chapter_5/model_parameters_convergence_nometric_interaction_3states
-.pdf>
-Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_interaction_3states.pdf used on input line 530.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.pdf, i
-d=655, 325.20998pt x 325.20998pt>
-File: ../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.p
-df Graphic file (type pdf)
-
-<use ../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.pd
-f>
-Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive1_3states.pdf used on input line 533.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-<../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.pdf, i
-d=656, 325.20998pt x 325.20998pt>
-File: ../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.p
-df Graphic file (type pdf)
-
-<use ../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.pd
-f>
-Package pdftex.def Info: ../img/chapter_5/model_parameters_convergence_nometric
-_passive2_3states.pdf used on input line 536.
-(pdftex.def)             Requested size: 202.35622pt x 202.35754pt.
-
-
-LaTeX Warning: Float too large for page by 110.57262pt on input line 538.
-
-
-<../img/chapter_5/classifier_interaction_3states.pdf, id=657, 505.89pt x 505.89
-pt>
-File: ../img/chapter_5/classifier_interaction_3states.pdf Graphic file (type pd
-f)
- <use ../img/chapter_5/classifier_interaction_3states.pdf>
-Package pdftex.def Info: ../img/chapter_5/classifier_interaction_3states.pdf us
-ed on input line 544.
-(pdftex.def)             Requested size: 252.94499pt x 252.94437pt.
- [26]) (./main.bbl [27] [28 <../img/chapter_5/parameters_box_coevolution_nometr
-ic_2states.pdf> <../img/chapter_5/parameters_box_coevolution_metric_2states.pdf
-> <../img/chapter_5/parameters_box_evolution_metric_2states.pdf>] [29 <../img/c
-hapter_5/model_parameters_convergence_nometric_interaction_2states.pdf> <../img
-/chapter_5/model_parameters_convergence_nometric_passive1_2states.pdf> <../img/
-chapter_5/model_parameters_convergence_nometric_passive2_2states.pdf>] [30 <../
-img/chapter_5/classifier_interaction_2states.pdf>] [31 <../img/chapter_5/parame
-ters_box_coevolution_nometric_3states.pdf> <../img/chapter_5/parameters_box_coe
-volution_metric_3states.pdf> <../img/chapter_5/parameters_box_evolution_metric_
-3states.pdf>]
-[32 <../img/chapter_5/model_parameters_convergence_nometric_interaction_3states
-.pdf> <../img/chapter_5/model_parameters_convergence_nometric_passive1_3states.
-pdf> <../img/chapter_5/model_parameters_convergence_nometric_passive2_3states.p
-df>] [33 <../img/chapter_5/classifier_interaction_3states.pdf>] [34
-
-
-] [35]
+] [29]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[36] [37]
+[30] [31] [32]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
@@ -1061,15 +786,16 @@ Missing character: There is no ì in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[38]
+
 Underfull \hbox (badness 1990) in paragraph at lines 273--276
 [][][]\OT1/cmr/m/n/12 I. Rechen-berg, \OT1/cmr/m/it/12 Evo-lu-tion-sstrate-gie:
  Op-ti-mierung tech-nis-cher Sys-teme nach
  []
 
-[39] [40]
+[33] [34]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
+ [35]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no º in font cmr12!
 
@@ -1079,7 +805,14 @@ Missing character: There is no º in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[41] [42]
+[36]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+[37]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1092,20 +825,26 @@ Missing character: There is no º in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[43] [44]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ì in font cmti12!
+Missing character: There is no ƒ in font cmr12!
+Missing character: There is no ç in font cmr12!
+[38] [39]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
+[40]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[45]
+[41]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1114,7 +853,6 @@ Missing character: There is no º in font cmr12!
 ** the default language instead.
 Missing character: There is no √ in font cmr12!
 Missing character: There is no º in font cmr12!
-[46]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1137,6 +875,7 @@ Missing character: There is no û in font cmr12!
 ** the default language instead.
 Missing character: There is no ≈ in font cmr12!
 Missing character: There is no û in font cmr12!
+[42]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -1153,7 +892,7 @@ Missing character: There is no û in font cmr12!
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
-[47]
+[43]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no á in font cmr12!
 Missing character: There is no √ in font cmr12!
@@ -1172,53 +911,376 @@ Missing character: There is no û in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
-[48] [49] [50] [51])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
- [52]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+[44] [45] [46] [47])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+ [48]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CB41193F73ECCD36695810382D2035B6;2180.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 
 
-LaTeX Warning: There were undefined references.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 973CEFCA280E1D26FB15490105E9559A;7912
+(rerunfilecheck)             After:  55B35FA5CCE5DA440FCA910BF26CC4AF;1883.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 11991 strings out of 493488
- 193492 string characters out of 3141326
- 314588 words of memory out of 3000000
- 14761 multiletter control sequences out of 15000+200000
- 12306 words of font info for 45 fonts, out of 3000000 for 9000
+ 12204 strings out of 493488
+ 194667 string characters out of 3141326
+ 326002 words of memory out of 3000000
+ 14930 multiletter control sequences out of 15000+200000
+ 11685 words of font info for 43 fonts, out of 3000000 for 9000
  960 hyphenation exceptions out of 8191
- 40i,31n,49p,2145b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive
-/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (60 pages, 1567081 bytes).
+ 40i,26n,49p,3134b,831s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{equation.2.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.2.3.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.2.4} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.2.3} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.2.2.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.2.2.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.2.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.2.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{table.2.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.4.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.4.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.4.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.4.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.3.3.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.3.3.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.3.3.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.3.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.3.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.3.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.1.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.1.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.3.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.3.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.2.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.1.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.1.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.1.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.1.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.1.1.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.3.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.3.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.3.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.3.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.2.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.2.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.2.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.2.2.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.2.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.2.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (58 pages, 634709 bytes).
 PDF statistics:
- 1281 PDF objects out of 1440 (max. 8388607)
- 1115 compressed objects within 12 object streams
- 326 named destinations out of 1000 (max. 500000)
- 388 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1537 PDF objects out of 1728 (max. 8388607)
+ 1423 compressed objects within 15 object streams
+ 398 named destinations out of 1000 (max. 500000)
+ 871 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -174,10 +174,10 @@ We conducted $10$ coevolution runs using the physical system. Each run lasted $1
 
 \begin{figure}[!t]%
 	\centering
-		\subfloat[(a) Physical Coevolutions\label{fig:model_parameters_convergence_compare_simulation}]{%
+		\subfloat[Physical Coevolutions\label{fig:model_parameters_convergence_compare_simulation}]{%
 			\includegraphics[width=3.5 in]{model_parameters_convergence_compare_physical.pdf} %grid_visualization
 		}\\
-		\subfloat[(b) Simulated Coevolutions\label{fig:model_parameters_convergence_compare_physical}]{%
+		\subfloat[Simulated Coevolutions\label{fig:model_parameters_convergence_compare_physical}]{%
 			\includegraphics[width=3.5 in]{model_parameters_convergence_compare_simulation.pdf}
 		}
 		\caption{Evolutionary progress of each model parameter in $10$ (a) physical and (b) simulated coevolution runs. Curves represent median values across $10$ runs. Dotted black lines indicate true values.}
@@ -192,10 +192,10 @@ To investigate the effects of real-world conditions on the coevolutionary proces
 %One reason for this may be the limitations in motion data capture and extraction. In particular, given the relatively small diameter of the e-puck in our arena, inferring its orientation is particularly challenging.
 \begin{figure}[!t]%
 	\centering
-		\subfloat[(a) Physical Coevolutions\label{fig:MAE_simulation}]{%
+		\subfloat[Physical Coevolutions\label{fig:MAE_simulation}]{%
 			\includegraphics[width=3.5 in]{MAE_physical.pdf} %grid_visualization
 		}\\
-		\subfloat[(b) Simulated Coevolutions\label{fig:MAE_physical}]{%
+		\subfloat[Simulated Coevolutions\label{fig:MAE_physical}]{%
 			\includegraphics[width=3.5 in]{MAE_simulation.pdf}
 		}
 		\caption{Evolutionary progress of the MAE (defined in Equation~\eqref{eq:MAE}) of models in $10$ (a) physical and (b) simulated coevolution runs. Curves represent median values across $10$ runs. The red curve represents the average error of all models in a generation. The green and blue curves show, respectively, the errors of the models with the highest subjective and the highest objective fitness in a generation.}
@@ -213,10 +213,10 @@ The set of initial configurations of the robots was common to both controllers. 
 %
 \begin{figure}[!t]%
 	\centering
-		\subfloat[(a) Largest Cluster Dynamics \label{fig:aggregation_dynamics_proportion}]{
+		\subfloat[Largest Cluster Dynamics \label{fig:aggregation_dynamics_proportion}]{
 			\includegraphics[width=3.5 in]{aggregation_dynamics_proportion.pdf}
 		}\\
-		\subfloat[(b) Dispersion Dynamics \label{fig:aggregation_dynamics_compactness}]{
+		\subfloat[Dispersion Dynamics \label{fig:aggregation_dynamics_compactness}]{
 			\includegraphics[width=3.5 in]{aggregation_dynamics_compactness.pdf}
 		}
 		\caption{Average aggregation dynamics in $10$ physical trials with $40$ e-puck robots executing the original controller (red) and the evolved controller (blue). In (a), the vertical axis shows the proportion of robots in the largest cluster; in (b), it shows the robots' dispersion (see Section~\ref{sec:analysis_evolved_models_swarm_simulation}). Dotted lines in (a) and (b), respectively, represent the maximum proportion and minimum dispersion that $40$ robots can achieve.}

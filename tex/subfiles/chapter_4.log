@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 SEP 2015 18:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 SEP 2015 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -535,9 +535,9 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-<write> ...tocol_swarm_physical' on page \thepage 
+<write> ...setup_swarm_physical' on page \thepage 
                                                   \space undefined\on@line .
-l.1 ...f{sec:experimental_protocol_swarm_physical}
+l.1 ...\ref{sec:experimental_setup_swarm_physical}
                                                   . Compared with simulation...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -546,8 +546,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `sec:experimental_protocol_swarm_physical' on page  un
-defined on input line 1.
+LaTeX Warning: Reference `sec:experimental_setup_swarm_physical' on page  undef
+ined on input line 1.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no C in font nullfont!
@@ -923,30 +923,6 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Undefined control sequence.
-<write> ...arena_physical_swarm' on page \thepage 
-                                                  \space undefined\on@line .
-l.3 ...ection~\ref{sec:robot_arena_physical_swarm}
-                                                  ), the robot platform and ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `sec:robot_arena_physical_swarm' on page  undefined on
- input line 3.
-
-Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -967,6 +943,9 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -988,30 +967,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Undefined control sequence.
-<write> ...ensor_implementation' on page \thepage 
-                                                  \space undefined\on@line .
-l.3 ...f{sec:robot_platform_sensor_implementation}
-                                                  ). Section~\ref{motion_cap...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `sec:robot_platform_sensor_implementation' on page  un
-defined on input line 3.
-
-Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1082,30 +1037,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Undefined control sequence.
-<write> ...pture_swarm_physical' on page \thepage 
-                                                  \space undefined\on@line .
-l.3 ...ion~\ref{sec:motion_capture_swarm_physical}
-                                                  ) and video processing (Se...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `sec:motion_capture_swarm_physical' on page  undefined
- on input line 3.
-
-Missing character: There is no ) in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -1124,30 +1055,6 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Undefined control sequence.
-<write> ...ssing_physical_swarm' on page \thepage 
-                                                  \space undefined\on@line .
-l.3 ...n~\ref{sec:video_processing_physical_swarm}
-                                                  ). Section~\ref{sec:coevol...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `sec:video_processing_physical_swarm' on page  undefin
-ed on input line 3.
-
-Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1421,30 +1328,6 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Undefined control sequence.
-<write> ...model_physical_swarm' on page \thepage 
-                                                  \space undefined\on@line .
-l.3 ...{sec:analysis_evolved_model_physical_swarm}
-                                                  ) and the analysis of the ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `sec:analysis_evolved_model_physical_swarm' on page  u
-ndefined on input line 3.
-
-Missing character: There is no ) in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -1482,30 +1365,6 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-! Undefined control sequence.
-<write> ...ifier_physical_swarm' on page \thepage 
-                                                  \space undefined\on@line .
-l.3 ...analysis_evolved_classifier_physical_swarm}
-                                                  ). Section~\ref{sec:analys...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `sec:analysis_evolved_classifier_physical_swarm' on pa
-ge  undefined on input line 3.
-
-Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1517,7 +1376,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...c:analysis_algorithm' on page \thepage 
                                                   \space undefined\on@line .
-l.3 ...arm}). Section~\ref{sec:analysis_algorithm}
+l.3 ...fiers. Section~\ref{sec:analysis_algorithm}
                                                    analyzes the sensitivity ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1690,36 +1549,6 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 3--4
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 3--4
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 3--4
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 3--4
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 3--4
-[]
- []
-
-
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 3--4
 []
  []
 
@@ -6558,82 +6387,6 @@ Overfull \hbox (19.42207pt too wide) in paragraph at lines 45--46
  []
 
 
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-! Undefined control sequence.
-<write> ...l_platform_swarm_physical}{{}{\thepage 
-                                                  }}
-l.46 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{sec:experimental_platform_swarm_physical}{{}{}}
-! Undefined control sequence.
-<write> ...fig:physical_system_setup}{{}{\thepage 
-                                                  }}
-l.46 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{fig:physical_system_setup}{{}{}}
-! Undefined control sequence.
-<write> ...abel{fig:e_puck_schematic}{{}{\thepage 
-                                                  }}
-l.46 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{fig:e_puck_schematic}{{}{}}
-! Undefined control sequence.
-<write> ...obot_arena_physical_swarm}{{}{\thepage 
-                                                  }}
-l.46 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{sec:robot_arena_physical_swarm}{{}{}}
-! Undefined control sequence.
-<write> ...orm_sensor_implementation}{{}{\thepage 
-                                                  }}
-l.46 
-     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{sec:robot_platform_sensor_implementation}{{}{}}
-]
-
 ! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -8651,6 +8404,106 @@ Overfull \hbox (704.69398pt too wide) in paragraph at lines 55--65
 []\OML/cmm/m/it/10 rena:jpg[][]$
  []
 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+! Undefined control sequence.
+<write> ...l_platform_swarm_physical}{{}{\thepage 
+                                                  }}
+l.65 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:experimental_platform_swarm_physical}{{}{}}
+! Undefined control sequence.
+<write> ...fig:physical_system_setup}{{}{\thepage 
+                                                  }}
+l.65 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{fig:physical_system_setup}{{}{}}
+! Undefined control sequence.
+<write> ...abel{fig:e_puck_schematic}{{}{\thepage 
+                                                  }}
+l.65 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{fig:e_puck_schematic}{{}{}}
+! Undefined control sequence.
+<write> ...obot_arena_physical_swarm}{{}{\thepage 
+                                                  }}
+l.65 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:robot_arena_physical_swarm}{{}{}}
+! Undefined control sequence.
+<write> ...orm_sensor_implementation}{{}{\thepage 
+                                                  }}
+l.65 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:robot_platform_sensor_implementation}{{}{}}
+! Undefined control sequence.
+<write> ...processing_swarm_physical}{{}{\thepage 
+                                                  }}
+l.65 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{motion_capture_and_video_processing_swarm_physical}{{}{}}
+! Undefined control sequence.
+<write> ...on_capture_swarm_physical}{{}{\thepage 
+                                                  }}
+l.65 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sec:motion_capture_swarm_physical}{{}{}}
+]
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -15750,7 +15603,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.177 		\subfloat
-                 [(a) Physical Coevolutions\label{fig:model_parameters_conve...
+                 [Physical Coevolutions\label{fig:model_parameters_convergen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -15758,9 +15611,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -15870,7 +15720,7 @@ Overfull \hbox (196.86555pt too wide) in paragraph at lines 175--179
 <recently read> \subfloat 
                           
 l.180 		\subfloat
-                 [(b) Simulated Coevolutions\label{fig:model_parameters_conv...
+                 [Simulated Coevolutions\label{fig:model_parameters_converge...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -15878,9 +15728,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -16941,7 +16788,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.195 		\subfloat
-                 [(a) Physical Coevolutions\label{fig:MAE_simulation}]{%
+                 [Physical Coevolutions\label{fig:MAE_simulation}]{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -16949,9 +16796,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no y in font nullfont!
@@ -17079,7 +16923,7 @@ Overfull \hbox (53.89166pt too wide) in paragraph at lines 191--197
 <recently read> \subfloat 
                           
 l.198 		\subfloat
-                 [(b) Simulated Coevolutions\label{fig:MAE_physical}]{%
+                 [Simulated Coevolutions\label{fig:MAE_physical}]{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -17087,9 +16931,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -18017,7 +17858,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.216 		\subfloat
-                 [(a) Largest Cluster Dynamics \label{fig:aggregation_dynami...
+                 [Largest Cluster Dynamics \label{fig:aggregation_dynamics_p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -18104,20 +17945,20 @@ asconstructedbytakingthemedianvaluesoftheparametersoverthe$$runs; whichare \OT1
  []
 
 
-Overfull \hbox (1609.06053pt too wide) in paragraph at lines 208--218
+Overfull \hbox (1595.99684pt too wide) in paragraph at lines 208--218
 [] \OML/cmm/m/it/10 :$$Thesetofinitialconfigurationsoftherobotswascommontobothc
 ontrollers:Asitwasnotnecessarytoextracttheorientationoftherobots; aredcircularm
 arkerwasattachedtoeachrobotsothatitspositioncanbeextractedwithhigheraccuracyint
 heofflineanalysis []\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 [!\OM
-L/cmm/m/it/10 t\OT1/cmr/m/n/10 ][(\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 )\OML/cmm/m
-/it/10 LargestClusterDynamics[]\OT1/cmr/m/n/10 ][]$ 
+L/cmm/m/it/10 t\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 LargestClusterDynamics[]\OT1/
+cmr/m/n/10 ][]$ 
  []
 
 ! Undefined control sequence.
 <recently read> \subfloat 
                           
 l.219 		\subfloat
-                 [(b) Dispersion Dynamics \label{fig:aggregation_dynamics_co...
+                 [Dispersion Dynamics \label{fig:aggregation_dynamics_compac...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -18125,9 +17966,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -18386,7 +18224,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.226 ... fit between them~\cite{Gauci2014_ijrr}.}
+l.226 ...it between them''~\cite{Gauci2014_ijrr}.}
                                                    over time with the origin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18397,7 +18235,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.226 ... fit between them~\cite{Gauci2014_ijrr}.}
+l.226 ...it between them''~\cite{Gauci2014_ijrr}.}
                                                    over time with the origin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18409,7 +18247,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.226 ... fit between them~\cite{Gauci2014_ijrr}.}
+l.226 ...it between them''~\cite{Gauci2014_ijrr}.}
                                                    over time with the origin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18421,8 +18259,8 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Citation `Gauci2014_ijrr' on page  undefined on input line 226.
 
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 226--226
-[][]\OT1/cmr/m/n/10 A
+Overfull \hbox (12.50003pt too wide) in paragraph at lines 226--226
+[][]\OT1/cmr/m/n/10 ``A
  []
 
 
@@ -18666,8 +18504,8 @@ Overfull \hbox (25.00002pt too wide) in paragraph at lines 226--226
  []
 
 
-Overfull \hbox (38.20837pt too wide) in paragraph at lines 226--226
-\OT1/cmr/m/n/10 them [[]].| 
+Overfull \hbox (43.20839pt too wide) in paragraph at lines 226--226
+\OT1/cmr/m/n/10 them'' [[]].| 
  []
 
 ! Undefined control sequence.
@@ -27280,6 +27118,10 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -27603,11 +27445,11 @@ Overfull \hbox (13.2888pt too wide) in paragraph at lines 348--349
 
  
 Here is how much of TeX's memory you used:
- 70 strings out of 493488
- 1644 string characters out of 3141326
- 75980 words of memory out of 3000000
- 3470 multiletter control sequences out of 15000+200000
+ 63 strings out of 493488
+ 1365 string characters out of 3141326
+ 75823 words of memory out of 3000000
+ 3463 multiletter control sequences out of 15000+200000
  5272 words of font info for 19 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 24i,6n,21p,1454b,134s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,6n,21p,1147b,134s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

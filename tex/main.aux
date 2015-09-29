@@ -22,170 +22,235 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
-\citation{bongard2005active}
-\citation{Martin_1983,Dacke2004,Emily2012}
-\citation{Emily2012}
-\@writefile{toc}{\contentsline {chapter}{\numberline {1}Inferring Individual Behaviors Through Interactive Turing Learning}{1}{chapter.1}}
+\citation{Schildt1985}
+\citation{Charniak1985}
+\citation{Fogel1995}
+\citation{Minsky_1991}
+\citation{Turing_1950}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Background and Related Work}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{ch:interaction}{{1}{1}{Inferring Individual Behaviors Through Interactive Turing Learning\relax }{chapter.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}}
-\newlabel{sec:introduction_interaction}{{1.1}{1}{Introduction\relax }{section.1.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Methodology}{2}{section.1.2}}
-\newlabel{sec:methodology_interaction}{{1.2}{2}{Methodology\relax }{section.1.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Models}{2}{subsection.1.2.1}}
-\newlabel{sec:model_deterministic_interaction}{{1.2.1}{2}{Models\relax }{subsection.1.2.1}{}}
-\citation{Elman1990}
-\citation{Elman1990}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces This diagram shows the structure of the classifiers used in this chapter. It is a recurrent Elman neural network\nobreakspace  {}\cite  {Elman1990} with $i$ input neurons, $h$ hidden neurons, and two output neurons ($O_1$ and $O_2$). $O_1$, which controls the stimulus, is fed back into the input; $O_2$ is used for making a judgment. Two bias neurons with a constant input of 1.0 are connected to each neuron of the hidden and output layers. See text for details.}}{3}{figure.1.1}}
-\newlabel{fig:neural_network_interaction}{{\relax 1.1}{3}{This diagram shows the structure of the classifiers used in this chapter. It is a recurrent Elman neural network~\cite {Elman1990} with $i$ input neurons, $h$ hidden neurons, and two output neurons ($O_1$ and $O_2$). $O_1$, which controls the stimulus, is fed back into the input; $O_2$ is used for making a judgment. Two bias neurons with a constant input of 1.0 are connected to each neuron of the hidden and output layers. See text for details}{figure.1.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Classifiers}{3}{subsection.1.2.2}}
-\citation{Beyer2002,Eiben2003}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Optimization Algorithm}{4}{subsection.1.2.3}}
-\newlabel{sec:optimization_algorithm_interaction}{{1.2.3}{4}{Optimization Algorithm\relax }{subsection.1.2.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}Fitness Calculation}{4}{subsection.1.2.4}}
-\newlabel{sec:fitness_calculation_interaction}{{1.2.4}{4}{Fitness Calculation\relax }{subsection.1.2.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Case Study One}{4}{section.1.3}}
-\newlabel{sec:case_study_one_deterministic_interaction}{{1.3}{4}{Case Study One\relax }{section.1.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces The deterministic behavior under investigation. It shows how the agent responses to the level of light intensity ($L$, $M$ and $H$) in its environment. Each state represents the agent's speed. See text for details.}}{5}{figure.1.2}}
-\newlabel{fig:agent_behavior_deterministic}{{\relax 1.2}{5}{The deterministic behavior under investigation. It shows how the agent responses to the level of light intensity ($L$, $M$ and $H$) in its environment. Each state represents the agent's speed. See text for details}{figure.1.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Deterministic Behavior}{5}{subsection.1.3.1}}
-\newlabel{sec:deterministic_behavior_interaction}{{1.3.1}{5}{Deterministic Behavior\relax }{subsection.1.3.1}{}}
-\newlabel{eq:agent_behavior_linear_response}{{\relax 1.1}{5}{Deterministic Behavior\relax }{equation.1.3.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {\relax 1.1}{\ignorespaces This table shows the change of the agent's speed (shown in Figure\nobreakspace  {}\ref  {fig:agent_behavior_deterministic}), for an example sequence of light levels.}}{6}{table.1.1}}
-\newlabel{tab:example_sequence}{{\relax 1.1}{6}{This table shows the change of the agent's speed (shown in Figure~\ref {fig:agent_behavior_deterministic}), for an example sequence of light levels}{table.1.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}Simulation Setup}{7}{subsection.1.3.2}}
-\newlabel{sec:simulation_setup_deterministic_interaction}{{1.3.2}{7}{Simulation Setup\relax }{subsection.1.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.3}{\ignorespaces This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm  {th}$ generation in the coevolutions. Each box corresponds to $100$ coevolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively. Note that in order to zoom in on the relevant range, some boxes and outliers are omitted from the plot.}}{8}{figure.1.3}}
-\newlabel{fig:parameters_compare_without_noise}{{\relax 1.3}{8}{This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm {th}$ generation in the coevolutions. Each box corresponds to $100$ coevolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively. Note that in order to zoom in on the relevant range, some boxes and outliers are omitted from the plot}{figure.1.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.3}Results}{8}{subsection.1.3.3}}
-\newlabel{sec:results_interaction_deterministic}{{1.3.3}{8}{Results\relax }{subsection.1.3.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.1}Analysis of Evolved Models}{8}{subsubsection.1.3.3.1}}
-\newlabel{sec:analysis_evolved_models_deterministic_interaction}{{1.3.3.1}{8}{Analysis of Evolved Models\relax }{subsubsection.1.3.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.4}{\ignorespaces This plot shows the total square errors of the evolved model parameters compared to those of the agent over generations. The models with the highest subjective fitness in each generation are selected. Each box corresponds to $100$ coevolution runs, and the solid lines correspond to the median error.}}{9}{figure.1.4}}
-\newlabel{fig:convergence_compare}{{\relax 1.4}{9}{This plot shows the total square errors of the evolved model parameters compared to those of the agent over generations. The models with the highest subjective fitness in each generation are selected. Each box corresponds to $100$ coevolution runs, and the solid lines correspond to the median error}{figure.1.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.5}{\ignorespaces This plot shows how the square error in the individual model parameters changes over the generations in the Interactive coevolution. The curves correspond to median values from $100$ coevolution runs.}}{9}{figure.1.5}}
-\newlabel{fig:parameters_convergence}{{\relax 1.5}{9}{This plot shows how the square error in the individual model parameters changes over the generations in the Interactive coevolution. The curves correspond to median values from $100$ coevolution runs}{figure.1.5}{}}
-\newlabel{fig:fitness_without_noise_auto}{{\relax 1.6a}{10}{Subfigure 1 \relax 1.6a\relax }{subfigure.\relax 1.6.1}{}}
-\newlabel{sub@fig:fitness_without_noise_auto}{{(a)}{\relax 1.6(a)}{Subfigure 1 \relax 1.6a\relax }{subfigure.\relax 1.6.1}{}}
-\newlabel{fig:fitness_with_noise_random_1}{{\relax 1.6b}{10}{Subfigure 1 \relax 1.6b\relax }{subfigure.\relax 1.6.2}{}}
-\newlabel{sub@fig:fitness_with_noise_random_1}{{(b)}{\relax 1.6(b)}{Subfigure 1 \relax 1.6b\relax }{subfigure.\relax 1.6.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.6}{\ignorespaces This plot shows the subjective fitness (normalized) of the classifiers and the models in (a) the Interactive coevolution, and (b) the Passive 1 coevolution. The curves show the average fitness across $100$ coevolution runs.}}{10}{figure.1.6}}
-\newlabel{fig:fitness_dynamics}{{\relax 1.6}{10}{This plot shows the subjective fitness (normalized) of the classifiers and the models in (a) the Interactive coevolution, and (b) the Passive 1 coevolution. The curves show the average fitness across $100$ coevolution runs}{figure.1.6}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Interactive coevolution }}}{10}{subfigure.6.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Passive 1 coevolution }}}{10}{subfigure.6.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.2}Coevolutionary Dynamics}{10}{subsubsection.1.3.3.2}}
-\newlabel{sec:coevolutionary_dynamic_deterministic_interaction}{{1.3.3.2}{10}{Coevolutionary Dynamics\relax }{subsubsection.1.3.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.7}{\ignorespaces This figure shows the landscape of $U^{*}$ (log scale) for the overall best classifier over the six sub-spaces with two parameters as degrees of freedom (from $100$ coevolution runs). Each axis in each plot ranges between 0 and 1, corresponding to the minimum and maximum magnitude of noise added into each parameter respectively. See text for details.}}{12}{figure.1.7}}
-\newlabel{fig:grid_search}{{\relax 1.7}{12}{This figure shows the landscape of $U^{*}$ (log scale) for the overall best classifier over the six sub-spaces with two parameters as degrees of freedom (from $100$ coevolution runs). Each axis in each plot ranges between 0 and 1, corresponding to the minimum and maximum magnitude of noise added into each parameter respectively. See text for details}{figure.1.7}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.3}Analysis of Evolved Classifiers}{12}{subsubsection.1.3.3.3}}
-\newlabel{sec: analysis_evolved_classifiers_deterministic_interaction}{{1.3.3.3}{12}{Analysis of Evolved Classifiers\relax }{subsubsection.1.3.3.3}{}}
-\newlabel{eq:noise_on_magnitudes}{{\relax 1.2}{12}{Analysis of Evolved Classifiers\relax }{equation.1.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.8}{\ignorespaces This plot shows the average judgment [$U$, see Equation\nobreakspace  {}\ref  {eq:performance_metric_model}] of the best evolved classifier over 100 trials when the magnitude of noise added into each parameter of the agent is within 0.1.}}{13}{figure.1.8}}
-\newlabel{fig:classifier_accuracy_higher_resolution}{{\relax 1.8}{13}{This plot shows the average judgment [$U$, see Equation~\ref {eq:performance_metric_model}] of the best evolved classifier over 100 trials when the magnitude of noise added into each parameter of the agent is within 0.1}{figure.1.8}{}}
-\newlabel{eq:performance_metric_model}{{\relax 1.3}{13}{Analysis of Evolved Classifiers\relax }{equation.1.3.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.9}{\ignorespaces This plot shows the light intensity sequences as output by the overall best classifier (circular points), along with the corresponding speeds of the agents (diamond-shaped points) in four trials conducted on different agents: (a) the agent; (b) a model similar to the agent, generated randomly according to Equation\nobreakspace  {}\ref  {eq:noise_on_magnitudes} with $M=0.5$; (c) a model whose speed is linear to the light intensity; and (d) a static model, whose speed is always $0$ (i.e. $k=0$). The colors of the circular points (red, green, blue) correspond to light intensities at levels $L$, $M$ and $H$, respectively.}}{14}{figure.1.9}}
-\newlabel{fig:post_evaluation_light_output}{{\relax 1.9}{14}{This plot shows the light intensity sequences as output by the overall best classifier (circular points), along with the corresponding speeds of the agents (diamond-shaped points) in four trials conducted on different agents: (a) the agent; (b) a model similar to the agent, generated randomly according to Equation~\ref {eq:noise_on_magnitudes} with $M=0.5$; (c) a model whose speed is linear to the light intensity; and (d) a static model, whose speed is always $0$ (i.e. $k=0$). The colors of the circular points (red, green, blue) correspond to light intensities at levels $L$, $M$ and $H$, respectively}{figure.1.9}{}}
-\newlabel{eq:performance_metric_classifier}{{\relax 1.4}{14}{Analysis of Evolved Classifiers\relax }{equation.1.3.4}{}}
-\newlabel{eq:max_operation}{{\relax 1.5}{15}{Analysis of Evolved Classifiers\relax }{equation.1.3.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.10}{\ignorespaces This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm  {th}$ generation of the Interactive coevolution with noise (for a comparison to the case without noise, see Figure\nobreakspace  {}\ref  {fig:parameters_compare_without_noise}). The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively. }}{17}{figure.1.10}}
-\newlabel{fig:parameters_compare_with_noise}{{\relax 1.10}{17}{This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm {th}$ generation of the Interactive coevolution with noise (for a comparison to the case without noise, see Figure~\ref {fig:parameters_compare_without_noise}). The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively}{figure.1.10}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.4}Noise Study}{17}{subsubsection.1.3.3.4}}
-\newlabel{sec:noise_study_deterministic_interaction}{{1.3.3.4}{17}{Noise Study\relax }{subsubsection.1.3.3.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.11}{\ignorespaces This plots shows the distributions of the evolved models with the highest fitness in the $100000^\textrm  {th}$ generation in the simple evolutions with a single population. Each box corresponds to 100 evolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively. Note that in order to zoom in on the relevant range, some boxes and outliers are omitted from the plot. }}{18}{figure.1.11}}
-\newlabel{fig:evolution}{{\relax 1.11}{18}{This plots shows the distributions of the evolved models with the highest fitness in the $100000^\textrm {th}$ generation in the simple evolutions with a single population. Each box corresponds to 100 evolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively. Note that in order to zoom in on the relevant range, some boxes and outliers are omitted from the plot}{figure.1.11}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.5}Using a Single-Population Evolutionary Algorithm}{18}{subsubsection.1.3.3.5}}
-\newlabel{sec:single_population_EA_deterministic_interaction}{{1.3.3.5}{18}{Using a Single-Population Evolutionary Algorithm\relax }{subsubsection.1.3.3.5}{}}
-\citation{Bongard2005_tevc}
-\@writefile{lot}{\contentsline {table}{\numberline {\relax 1.2}{\ignorespaces This table shows a comparison of all approaches. The numbers show the relative errors of the evolved parameters (median values over 100 runs) with respect to the parameters of the agent (in absolute percentage).}}{19}{table.1.2}}
-\newlabel{table:relative_accuracy}{{\relax 1.2}{19}{This table shows a comparison of all approaches. The numbers show the relative errors of the evolved parameters (median values over 100 runs) with respect to the parameters of the agent (in absolute percentage)}{table.1.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.6}Coevolution of Inputs and Models}{19}{subsubsection.1.3.3.6}}
-\newlabel{sec:coevolution_inputs_and_models_deterministic_interaction}{{1.3.3.6}{19}{Coevolution of Inputs and Models\relax }{subsubsection.1.3.3.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.12}{\ignorespaces This plots shows the distributions of the evolved models with the highest fitness in the $100000^\textrm  {th}$ generation in the simple evolutions with a single population. Each box corresponds to 100 coevolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively. }}{20}{figure.1.12}}
-\newlabel{fig:model_parameters_box_CoEATM_deterministic}{{\relax 1.12}{20}{This plots shows the distributions of the evolved models with the highest fitness in the $100000^\textrm {th}$ generation in the simple evolutions with a single population. Each box corresponds to 100 coevolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). From top to bottom, these are 1.25, 0.8, 0.4, 0.2, respectively}{figure.1.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.13}{\ignorespaces A state machine which represents the stochastic behavior of the agent under investigation. The initial state is 1. $p_1$, $p_2$ are probabilities. The ambient light intensity that the agent responds to has two levels: $H$ and $L$. See text for details.}}{21}{figure.1.13}}
-\newlabel{fig:stochastic_behavior_n_states}{{\relax 1.13}{21}{A state machine which represents the stochastic behavior of the agent under investigation. The initial state is 1. $p_1$, $p_2$ are probabilities. The ambient light intensity that the agent responds to has two levels: $H$ and $L$. See text for details}{figure.1.13}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}\leavevmode {\color  {red}Case Study Two}}{21}{section.1.4}}
-\newlabel{sec:case_study_two_stochastic_interaction}{{1.4}{21}{\textcolor {red}{Case Study Two}\relax }{section.1.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}Stochastic Behavior}{21}{subsection.1.4.1}}
-\newlabel{sec:stochastic_behavior_interaction}{{1.4.1}{21}{Stochastic Behavior\relax }{subsection.1.4.1}{}}
-\newlabel{fig:stochastic_interaction_2states}{{\relax 1.14a}{22}{Subfigure 1 \relax 1.14a\relax }{subfigure.\relax 1.14.1}{}}
-\newlabel{sub@fig:stochastic_interaction_2states}{{(a)}{\relax 1.14(a)}{Subfigure 1 \relax 1.14a\relax }{subfigure.\relax 1.14.1}{}}
-\newlabel{fig:stochastic_interaction_3states}{{\relax 1.14b}{22}{Subfigure 1 \relax 1.14b\relax }{subfigure.\relax 1.14.2}{}}
-\newlabel{sub@fig:stochastic_interaction_3states}{{(b)}{\relax 1.14(b)}{Subfigure 1 \relax 1.14b\relax }{subfigure.\relax 1.14.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.14}{\ignorespaces The stochastic behaviors with (a) 2 states and (b) 3 states under invesitgation. $p_1$ and $p_2$ are probabilities. For all the other cases (e.g., $H/(1-p_1)$), the agent stays in the same state.}}{22}{figure.1.14}}
-\newlabel{fig:stochastic_interaction_case_study}{{\relax 1.14}{22}{The stochastic behaviors with (a) 2 states and (b) 3 states under invesitgation. $p_1$ and $p_2$ are probabilities. For all the other cases (e.g., $H/(1-p_1)$), the agent stays in the same state}{figure.1.14}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {2 states }}}{22}{subfigure.14.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {3 states}}}{22}{subfigure.14.2}}
-\newlabel{eq:parameters_2_states}{{\relax 1.6}{23}{Stochastic Behavior\relax }{equation.1.4.6}{}}
-\newlabel{eq:parameters_3_states}{{\relax 1.7}{23}{Stochastic Behavior\relax }{equation.1.4.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}Simulation Setup}{23}{subsection.1.4.2}}
-\newlabel{sec:simulation_setup_stochastic_interaction}{{1.4.2}{23}{Simulation Setup\relax }{subsection.1.4.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.3}Results: Two States}{23}{subsection.1.4.3}}
-\newlabel{sec:results_interaction_stochastic_2states}{{1.4.3}{23}{Results: Two States\relax }{subsection.1.4.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.3.1}Analysis of Evolved Models}{23}{subsubsection.1.4.3.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {\relax 1.3}{\ignorespaces This table shows a comparison of all approaches for learning the 2-state stochastic behavior shown in Figure\nobreakspace  {}\ref  {fig:stochastic_interaction_case_study}\leavevmode {\color  {blue}(a)}. The values show means of AEs (defined in Equation\nobreakspace  {}\ref  {eq:AE}) of each evolved model parameter with respect to that of the agent.}}{24}{table.1.3}}
-\newlabel{table:relative_accuracy_stochastic_2states}{{\relax 1.3}{24}{This table shows a comparison of all approaches for learning the 2-state stochastic behavior shown in Figure~\ref {fig:stochastic_interaction_case_study}\textcolor {blue}{(a)}. The values show means of AEs (defined in Equation~\ref {eq:AE}) of each evolved model parameter with respect to that of the agent}{table.1.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.3.2}Analysis of Evolved Classifiers}{25}{subsubsection.1.4.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.4}Results: Three States}{25}{subsection.1.4.4}}
-\newlabel{sec:results_interaction_stochastic_3states}{{1.4.4}{25}{Results: Three States\relax }{subsection.1.4.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.4.1}Analysis of Evolved Models}{25}{subsubsection.1.4.4.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {\relax 1.4}{\ignorespaces This table shows a comparison of all approaches for inferring the 3-state agent behavior shown in Figure\nobreakspace  {}\ref  {fig:stochastic_interaction_case_study}\leavevmode {\color  {blue}(b)}. The values show means of AEs (defined in Equation\nobreakspace  {}\ref  {eq:AE}) of each evolved model parameter with respect to that of the agent.}}{26}{table.1.4}}
-\newlabel{table:relative_accuracy_stochastic_3states}{{\relax 1.4}{26}{This table shows a comparison of all approaches for inferring the 3-state agent behavior shown in Figure~\ref {fig:stochastic_interaction_case_study}\textcolor {blue}{(b)}. The values show means of AEs (defined in Equation~\ref {eq:AE}) of each evolved model parameter with respect to that of the agent}{table.1.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.4.4.2}Analysis of Evolved Classifiers}{26}{subsubsection.1.4.4.2}}
+\newlabel{ch:literature_review}{{1}{1}{Background and Related Work\relax }{chapter.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}}
+\newlabel{sec:background}{{1.1}{1}{Background\relax }{section.1.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}The Development of AI and Robotics}{1}{subsection.1.1.1}}
+\newlabel{sec:development_of_AI_Robotics}{{1.1.1}{1}{The Development of AI and Robotics\relax }{subsection.1.1.1}{}}
+\citation{Jackson1998}
+\citation{Jonathan1990}
+\citation{Robert1993}
+\citation{Salvaneschi1996}
+\citation{Zadeh:IC:1965}
+\citation{Cully2015}
+\citation{Nilsson1984}
+\citation{Dimitrov:ICSMC:2013}
+\citation{Brooks1986}
+\citation{Buchanan:1984}
+\citation{Brooks:1989}
+\citation{Steinlechner2001}
+\citation{Persidis_1998}
+\citation{King_2004,King_2009}
+\citation{King_2004}
+\citation{King_2009}
+\citation{Gauld_2000}
+\citation{MacLeod_2010}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}Introduction of Automation Science}{4}{subsection.1.1.2}}
+\citation{King_2009}
+\citation{Darwin_1859}
+\citation{Desai2007}
+\citation{Russell1965}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Evolutionary Computation}{5}{section.1.2}}
+\newlabel{sec:evolutionary_computation}{{1.2}{5}{Evolutionary Computation\relax }{section.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Biological Evolution}{5}{subsection.1.2.1}}
+\newlabel{sec:natural_evolution}{{1.2.1}{5}{Biological Evolution\relax }{subsection.1.2.1}{}}
+\citation{BiLi2009}
+\citation{BiLi2009}
+\citation{Halland_1992}
+\@writefile{lot}{\contentsline {table}{\numberline {\relax 1.1}{\ignorespaces The relationship between different species that coevolve. Symbols `+', `-' and `0' represent beneficial, harmful and neutral in a relationship, respectively. For example, ``+, -'' indicates A benefits and B get harmed.}}{6}{table.1.1}}
+\newlabel{tab:relationship_species_coevolution}{{\relax 1.1}{6}{The relationship between different species that coevolve. Symbols `+', `-' and `0' represent beneficial, harmful and neutral in a relationship, respectively. For example, ``+, -'' indicates A benefits and B get harmed}{table.1.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Introduction of Evolutionary Computation}{6}{subsection.1.2.2}}
+\newlabel{sec:intro_evolutionary_computation}{{1.2.2}{6}{Introduction of Evolutionary Computation\relax }{subsection.1.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.2.1}Principles}{6}{subsubsection.1.2.2.1}}
+\newlabel{sec:principles_evolutionary_computation}{{1.2.2.1}{6}{Principles\relax }{subsubsection.1.2.2.1}{}}
+\citation{Fogel1966}
+\citation{Rechenberg1994,Schwefel1995}
+\citation{Koza1992}
+\citation{Eiben:Nature:2015}
+\citation{Eiben:Nature:2015}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Classification of evolutionary algorithms}}{7}{figure.1.1}}
+\newlabel{fig:evolutionary_algorithm_classification}{{\relax 1.1}{7}{Classification of evolutionary algorithms\relax }{figure.1.1}{}}
+\citation{Rosin_1997,Bongard2005,Zhou2006,tan2006coevolutionary}
+\citation{Dawkins_1979}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces This diagram shows the flow of evolutionary algorithms. Adapted from \cite  {Eiben:Nature:2015}}}{8}{figure.1.2}}
+\newlabel{fig:evolutionary_algorithms_flow}{{\relax 1.2}{8}{This diagram shows the flow of evolutionary algorithms. Adapted from \cite {Eiben:Nature:2015}\relax }{figure.1.2}{}}
+\citation{John_2004}
+\citation{Angeline_1993}
+\citation{BiLi2009}
+\citation{Rosin_1997}
+\citation{BiLi2009}
+\newlabel{equ:simple_fitness_calculation}{{\relax 1.1}{9}{Principles\relax }{equation.1.2.1}{}}
+\citation{Rosin_1997}
+\citation{Panait_2002}
+\citation{Tan_2007}
+\citation{Panait_2002}
+\citation{Tan_2007}
+\citation{Rosin_1997}
+\citation{BiLi2009}
+\citation{Fogel:1997}
+\newlabel{equ:competitive_fitness_sharing}{{\relax 1.3}{10}{Principles\relax }{equation.1.2.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.2.2}Strengths}{10}{subsubsection.1.2.2.2}}
+\citation{Hornby2011}
+\citation{Dawkins_1979}
+\citation{gross2002evolving}
+\citation{Angeline_1993,David2014}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.2.3}Weaknesses}{11}{subsubsection.1.2.2.3}}
+\citation{Bongard2005}
+\citation{John_2004}
+\citation{Rosin_1997}
+\citation{Juille98coevolvingthe}
+\citation{John_2004}
+\citation{Wang2013}
+\citation{Hornby2011}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Applications of Evolutionary Computation}{12}{subsection.1.2.3}}
+\newlabel{sec:application_evolutionary_computation}{{1.2.3}{12}{Applications of Evolutionary Computation\relax }{subsection.1.2.3}{}}
+\citation{BBOC2015}
+\citation{Melvin:PhD:2014}
+\citation{Bellman1957}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.3}{\ignorespaces This diagram shows the process of black box optimization. The task is to find a candidate solution (input) that can optimize (e.g., maximize or minimize) the objective function.}}{13}{figure.1.3}}
+\newlabel{fig:black_box_optimization}{{\relax 1.3}{13}{This diagram shows the process of black box optimization. The task is to find a candidate solution (input) that can optimize (e.g., maximize or minimize) the objective function}{figure.1.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.3.1}Black Box Optimization}{13}{subsubsection.1.2.3.1}}
+\newlabel{sec:black_box_optimization}{{1.2.3.1}{13}{Black Box Optimization\relax }{subsubsection.1.2.3.1}{}}
+\citation{Hansen2003}
+\citation{Dennis1977}
+\citation{Shewchuk1994}
+\citation{Fonseca1995}
+\citation{Fonseca1995}
+\citation{Doncieux2015,Eiben:2015:ER}
+\citation{Floreano_1997,Floreano2008:NN}
+\citation{Kenneth2002}
+\citation{Doncieux2015}
+\citation{Nelson2009345}
+\citation{Floreano1996}
+\citation{nolfi2000evolutionary}
+\citation{Bryson2013}
+\citation{Batut2013}
+\citation{montanier:inria2011,Waibel2011}
+\citation{Floreano2007514}
+\citation{Auerbach:PLoS:2014}
+\citation{Cliff_1995,Floreano_1998}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.3.2}Evolutionary Robotics}{15}{subsubsection.1.2.3.2}}
+\newlabel{sec:evolutionary_robotics}{{1.2.3.2}{15}{Evolutionary Robotics\relax }{subsubsection.1.2.3.2}{}}
+\citation{Jakobi95}
+\citation{Koos:TEVC:2013,Koos:IJRR:2013,Alan:2014}
+\citation{Koos:TEVC:2013,Koos:IJRR:2013}
+\citation{Floreano1996,hornby1999autonomous,Zykov2004}
+\citation{Floreano1996}
+\citation{Floreano1996}
+\citation{Floreano1996}
+\citation{Watson2012,eiben:inria-00531455,Eiben:EI:2012,eiben2013triangle}
+\citation{Eiben:2014:PPSN,Eiben:Nature:2015}
+\citation{Tumbleston20032015}
+\citation{Ljung_1999,Billings2013}
+\citation{Ljung_1999}
+\citation{Bongard_2005}
+\citation{Bongard_2005}
+\citation{Fogel_1991}
+\citation{Ljungquist1993}
+\citation{Billings2013}
+\citation{Vladislavleva:2009}
+\citation{Eiben2003}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.3.3}System Identification}{17}{subsubsection.1.2.3.3}}
+\citation{Bongard2005}
+\citation{Bongard_remote_robot_2004,Bongard_function_recovery_2004,Koos2009,Bongard2007PNAS,Mirm2011,Ly2014}
+\citation{Bongard_remote_robot_2004}
+\citation{Bongard_function_recovery_2004}
+\citation{Bongard_function_recovery_2004}
+\citation{Koos2009}
+\citation{Bongard_remote_robot_2004}
+\citation{Kouchmeshky_2007}
+\citation{Mirmomeni_2011}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.4}{\ignorespaces Diagrams showing two approaches for system identification. $(I_i, O_i)$, where $i \in \delimiter "4266308 1, 2, \cdots  , n\delimiter "5267309 $, represent pairs of input and output data. Redrawn from \cite  {Bongard_2005}}}{18}{figure.1.4}}
+\newlabel{fig:modeling_approaches}{{\relax 1.4}{18}{Diagrams showing two approaches for system identification. $(I_i, O_i)$, where $i \in \lbrace 1, 2, \cdots , n\rbrace $, represent pairs of input and output data. Redrawn from \cite {Bongard_2005}\relax }{figure.1.4}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces { offline}}}{18}{subfigure.4.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces { online}}}{18}{subfigure.4.2}}
+\citation{Bongard-etal2006:science,Koos2013,Cully2015}
+\citation{Alan2014}
+\citation{Bongard-etal2006:science}
+\citation{Alan2014}
+\citation{Hedwig2004}
+\citation{Emily_2012}
+\citation{Byrne_2003,Matthews_1962}
+\citation{Ignacio2009}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Combining AI/Robotics and Animal Behavior}{20}{section.1.3}}
+\newlabel{sec:combine_AI_robotics_animal_behavior}{{1.3}{20}{Combining AI/Robotics and Animal Behavior\relax }{section.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Animal Behavior in Nature}{20}{subsection.1.3.1}}
+\newlabel{sec:animal_behavior_in_nature}{{1.3.1}{20}{Animal Behavior in Nature\relax }{subsection.1.3.1}{}}
+\citation{Camazine2001}
+\citation{Garnier:SI:2007}
+\citation{Craig:CG:1987}
+\citation{Jeanson:AB:2005}
+\citation{Carroll1973}
+\citation{James:ARE:1971}
+\citation{Bruinsma:PHD:1979}
+\citation{Dorigo_1997}
+\citation{Kennedy:ICNN:1995}
+\citation{dorigo2008ant}
+\citation{Holland:AL:1999}
+\citation{DiCaro:JAIR:1998}
+\citation{Dorigo:LNCS:2004}
+\citation{dorigo2008ant}
+\citation{Kennedy:ICNN:1995}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}Swarm Optimization and Swarm Robotics}{22}{subsection.1.3.2}}
+\newlabel{sec:swarm_optimization_swarm_robotics}{{1.3.2}{22}{Swarm Optimization and Swarm Robotics\relax }{subsection.1.3.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.2.1}Swarm Optimization}{22}{subsubsection.1.3.2.1}}
+\newlabel{sec:swarm_optimization_related_work}{{1.3.2.1}{22}{Swarm Optimization\relax }{subsubsection.1.3.2.1}{}}
+\citation{Kennedy:ICNN:1995}
+\newlabel{eq:particle_velocity_update}{{\relax 1.4}{23}{Swarm Optimization\relax }{equation.1.3.4}{}}
+\newlabel{eq:particle_position_update}{{\relax 1.5}{23}{Swarm Optimization\relax }{equation.1.3.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.2.2}Swarm Robotics}{23}{subsubsection.1.3.2.2}}
+\newlabel{sec:swarm_robotics_related_work}{{1.3.2.2}{23}{Swarm Robotics\relax }{subsubsection.1.3.2.2}{}}
+\citation{Bjerknes2013}
+\citation{Jianing:TRO:2015,Melvin_DARS2014}
+\citation{Sahin:LNCS:2005}
+\citation{Rodeirch2015}
+\citation{Gerkey:TRA:2002}
+\citation{Winfield:LNCS:2000}
+\citation{Trianni:LNCS:2003,Gauci2014_ijrr,Garnier:AL:2008,Jeanson:AB:2005}
+\citation{howard2002mobile,mclurkin2004distributed}
+\citation{Fujibayashi:DARS:2002,Chen:AAMAS:2012}
+\citation{Turgut:SI:2008}
+\citation{Kube:AB:1993,Kube:RAS:2000,Gross:IJBC:2009,Jianing:TRO:2015}
+\citation{Jeanson:AB:2005}
+\citation{Gauci2014_ijrr}
+\citation{Werfel:Sci:2014}
+\citation{Turgut:SI:2008}
+\citation{Craig:CG:1987}
+\citation{Jianing:TRO:2015}
+\citation{camazine2003self}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.3}Contribution of AI/Robotics to Ethology}{25}{subsection.1.3.3}}
+\newlabel{sec:contribution_of_AI/robotics_to_ethology}{{1.3.3}{25}{Contribution of AI/Robotics to Ethology\relax }{subsection.1.3.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.1}Learning from Synthesis}{25}{subsubsection.1.3.3.1}}
+\citation{Barbara_2000,Meyer2008}
+\citation{Ignacio2009}
+\citation{Barbara_1995}
+\citation{Popov:JCP:1997}
+\citation{Farah_2002}
+\citation{Lilienthal_2003}
+\citation{Balch_2006}
+\citation{Chappell_2010}
+\citation{Faria2010,Halloy2013,J.Halloy2007,Thomas2013,Vaughan2000}
+\citation{Krause2011}
+\citation{J.Halloy_2007}
+\citation{Krause_2011}
+\citation{Faria2010}
+\citation{Kopman2013}
+\citation{J.Halloy2007}
+\citation{Vaughan_1998,Vaughan2000}
+\citation{Gribovskiy_2010}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.2}Robot--Animal Interaction}{27}{subsubsection.1.3.3.2}}
+\newlabel{sec:robot_animal_interaction}{{1.3.3.2}{27}{Robot--Animal Interaction\relax }{subsubsection.1.3.3.2}{}}
 \bibstyle{IEEEtrannat}
 \bibdata{upgrade}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Summary}{27}{section.1.5}}
-\newlabel{sec:summary_interaction}{{1.5}{27}{Summary\relax }{section.1.5}{}}
-\newlabel{fig:parameters_box_coevolution_nometric}{{\relax 1.15a}{28}{Subfigure 1 \relax 1.15a\relax }{subfigure.\relax 1.15.1}{}}
-\newlabel{sub@fig:parameters_box_coevolution_nometric}{{(a)}{\relax 1.15(a)}{Subfigure 1 \relax 1.15a\relax }{subfigure.\relax 1.15.1}{}}
-\newlabel{fig:parameters_box_coevolution_metric}{{\relax 1.15b}{28}{Subfigure 1 \relax 1.15b\relax }{subfigure.\relax 1.15.2}{}}
-\newlabel{sub@fig:parameters_box_coevolution_metric}{{(b)}{\relax 1.15(b)}{Subfigure 1 \relax 1.15b\relax }{subfigure.\relax 1.15.2}{}}
-\newlabel{fig:parameters_box_evolution_metric}{{\relax 1.15c}{28}{Subfigure 1 \relax 1.15c\relax }{subfigure.\relax 1.15.3}{}}
-\newlabel{sub@fig:parameters_box_evolution_metric}{{(c)}{\relax 1.15(c)}{Subfigure 1 \relax 1.15c\relax }{subfigure.\relax 1.15.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.15}{\ignorespaces This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm  {th}$ generation in the coevolutions. Each box corresponds to $30$ coevolution runs. The dotted lines correspond to the values of the three parameters that the system is expected to learn (i.e. those of the agent). See text for details.}}{28}{figure.1.15}}
-\newlabel{fig:parameters_box_stochastic_two states}{{\relax 1.15}{28}{This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm {th}$ generation in the coevolutions. Each box corresponds to $30$ coevolution runs. The dotted lines correspond to the values of the three parameters that the system is expected to learn (i.e. those of the agent). See text for details}{figure.1.15}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Turing Learning }}}{28}{subfigure.15.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {SP-EA }}}{28}{subfigure.15.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {CEA-IM }}}{28}{subfigure.15.3}}
-\newlabel{fig:model_parameters_convergence_nometric_interaction_2states}{{\relax 1.16a}{29}{Subfigure 1 \relax 1.16a\relax }{subfigure.\relax 1.16.1}{}}
-\newlabel{sub@fig:model_parameters_convergence_nometric_interaction_2states}{{(a)}{\relax 1.16(a)}{Subfigure 1 \relax 1.16a\relax }{subfigure.\relax 1.16.1}{}}
-\newlabel{fig:model_parameters_convergence_nometric_passive1_2states}{{\relax 1.16b}{29}{Subfigure 1 \relax 1.16b\relax }{subfigure.\relax 1.16.2}{}}
-\newlabel{sub@fig:model_parameters_convergence_nometric_passive1_2states}{{(b)}{\relax 1.16(b)}{Subfigure 1 \relax 1.16b\relax }{subfigure.\relax 1.16.2}{}}
-\newlabel{fig:model_parameters_convergence_nometric_passive2_2states}{{\relax 1.16c}{29}{Subfigure 1 \relax 1.16c\relax }{subfigure.\relax 1.16.3}{}}
-\newlabel{sub@fig:model_parameters_convergence_nometric_passive2_2states}{{(c)}{\relax 1.16(c)}{Subfigure 1 \relax 1.16c\relax }{subfigure.\relax 1.16.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.16}{\ignorespaces Evolutionary process of the evolved model parameters for (a) ``Interactive'', (b) ``Passive 1'' and (c) ``Passive 2'' setups of the metric-free method when learning the 2-state agent behavior. Curves represent mean values across 30 coevolution runs. Dotted black lines indicate true values.}}{29}{figure.1.16}}
-\newlabel{fig:model_parameters_convergence_stochastic_2states}{{\relax 1.16}{29}{Evolutionary process of the evolved model parameters for (a) ``Interactive'', (b) ``Passive 1'' and (c) ``Passive 2'' setups of the metric-free method when learning the 2-state agent behavior. Curves represent mean values across 30 coevolution runs. Dotted black lines indicate true values}{figure.1.16}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Interactive }}}{29}{subfigure.16.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Passive 1 }}}{29}{subfigure.16.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Passive 2 }}}{29}{subfigure.16.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.17}{\ignorespaces This plot shows an example of how the classifier with the highest subjective fitness in different generations (of a particular coevolution run) dynamically change the light intensity to interact with the 2-state agent during a trial.}}{30}{figure.1.17}}
-\newlabel{fig:classifier_interaction_2states}{{\relax 1.17}{30}{This plot shows an example of how the classifier with the highest subjective fitness in different generations (of a particular coevolution run) dynamically change the light intensity to interact with the 2-state agent during a trial}{figure.1.17}{}}
-\newlabel{fig:parameters_box_coevolution_nometric}{{\relax 1.18a}{31}{Subfigure 1 \relax 1.18a\relax }{subfigure.\relax 1.18.1}{}}
-\newlabel{sub@fig:parameters_box_coevolution_nometric}{{(a)}{\relax 1.18(a)}{Subfigure 1 \relax 1.18a\relax }{subfigure.\relax 1.18.1}{}}
-\newlabel{fig:parameters_box_coevolution_metric}{{\relax 1.18b}{31}{Subfigure 1 \relax 1.18b\relax }{subfigure.\relax 1.18.2}{}}
-\newlabel{sub@fig:parameters_box_coevolution_metric}{{(b)}{\relax 1.18(b)}{Subfigure 1 \relax 1.18b\relax }{subfigure.\relax 1.18.2}{}}
-\newlabel{fig:parameters_box_evolution_metric}{{\relax 1.18c}{31}{Subfigure 1 \relax 1.18c\relax }{subfigure.\relax 1.18.3}{}}
-\newlabel{sub@fig:parameters_box_evolution_metric}{{(c)}{\relax 1.18(c)}{Subfigure 1 \relax 1.18c\relax }{subfigure.\relax 1.18.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.18}{\ignorespaces This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm  {th}$ generation in the coevolutions. Each box corresponds to $30$ coevolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). See text for details.}}{31}{figure.1.18}}
-\newlabel{fig:parameters_box_stochastic_three_states}{{\relax 1.18}{31}{This plot shows the distributions of the evolved models with the highest subjective fitness in the $1000^\textrm {th}$ generation in the coevolutions. Each box corresponds to $30$ coevolution runs. The dotted lines correspond to the values of the four parameters that the system is expected to learn (i.e. those of the agent). See text for details}{figure.1.18}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Turing Learning }}}{31}{subfigure.18.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {SP-EA }}}{31}{subfigure.18.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {CEA-IM }}}{31}{subfigure.18.3}}
-\newlabel{fig:model_parameters_convergence_nometric_interaction_3states}{{\relax 1.19a}{32}{Subfigure 1 \relax 1.19a\relax }{subfigure.\relax 1.19.1}{}}
-\newlabel{sub@fig:model_parameters_convergence_nometric_interaction_3states}{{(a)}{\relax 1.19(a)}{Subfigure 1 \relax 1.19a\relax }{subfigure.\relax 1.19.1}{}}
-\newlabel{fig:model_parameters_convergence_nometric_passive1_3states}{{\relax 1.19b}{32}{Subfigure 1 \relax 1.19b\relax }{subfigure.\relax 1.19.2}{}}
-\newlabel{sub@fig:model_parameters_convergence_nometric_passive1_3states}{{(b)}{\relax 1.19(b)}{Subfigure 1 \relax 1.19b\relax }{subfigure.\relax 1.19.2}{}}
-\newlabel{fig:model_parameters_convergence_nometric_passive2_3states}{{\relax 1.19c}{32}{Subfigure 1 \relax 1.19c\relax }{subfigure.\relax 1.19.3}{}}
-\newlabel{sub@fig:model_parameters_convergence_nometric_passive2_3states}{{(c)}{\relax 1.19(c)}{Subfigure 1 \relax 1.19c\relax }{subfigure.\relax 1.19.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.19}{\ignorespaces Evolutionary process of the evolved model parameters for (a) ``Interactive'', (b) ``Passive 1'' and (c) ``Passive 2'' setups of the metric-free method when learning the 3-state agent behavior. Curves represent mean values across 30 coevolution runs. Dotted black lines indicate true values.}}{32}{figure.1.19}}
-\newlabel{fig:model_parameters_convergence_stochastic_3states}{{\relax 1.19}{32}{Evolutionary process of the evolved model parameters for (a) ``Interactive'', (b) ``Passive 1'' and (c) ``Passive 2'' setups of the metric-free method when learning the 3-state agent behavior. Curves represent mean values across 30 coevolution runs. Dotted black lines indicate true values}{figure.1.19}{}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Interactive }}}{32}{subfigure.19.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Passive 1 }}}{32}{subfigure.19.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Passive 2 }}}{32}{subfigure.19.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.20}{\ignorespaces This plot shows an example of how the classifier with the highest subjective fitness in different generations (of a particular coevolution run) dynamically change the light intensity to interact with the 3-state agent during a trial.}}{33}{figure.1.20}}
-\newlabel{fig:classifier_interaction_3states}{{\relax 1.20}{33}{This plot shows an example of how the classifier with the highest subjective fitness in different generations (of a particular coevolution run) dynamically change the light intensity to interact with the 3-state agent during a trial}{figure.1.20}{}}
 \bibcite{Grotzinger:Sci:2014}{{1}{2014}{{Grotzinger}}{{}}}
 \bibcite{Hertzberg2000}{{2}{2000}{{Hertzberg and Pope}}{{}}}
 \bibcite{Bolhuis_2004}{{3}{2004}{{Bolhuis and Giraldeau}}{{}}}
@@ -261,115 +326,121 @@
 \bibcite{Dennis1977}{{73}{1977}{{J.~E.~Dennis and Moré}}{{}}}
 \bibcite{Shewchuk1994}{{74}{1994}{{Shewchuk}}{{}}}
 \bibcite{Fonseca1995}{{75}{1995}{{Fonseca and Fleming}}{{}}}
-\bibcite{Floreano_1997}{{76}{1997}{{Floreano and Nolfi}}{{}}}
-\bibcite{Floreano2008:NN}{{77}{2008}{{Floreano et~al.}}{{}}}
-\bibcite{Kenneth2002}{{78}{2002}{{Stanley and Miikkulainen}}{{}}}
-\bibcite{Nelson2009345}{{79}{2009}{{Nelson et~al.}}{{}}}
-\bibcite{Floreano1996}{{80}{1996}{{Floreano and Mondada}}{{}}}
-\bibcite{nolfi2000evolutionary}{{81}{2000}{{Nolfi and Floreano}}{{}}}
-\bibcite{Bryson2013}{{82}{2013}{{D.M. and C.}}{{}}}
-\bibcite{Batut2013}{{83}{2013}{{Batut et~al.}}{{}}}
-\bibcite{montanier:inria2011}{{84}{2011}{{Montanier and Bredeche}}{{}}}
-\bibcite{Waibel2011}{{85}{2011}{{M et~al.}}{{}}}
-\bibcite{Floreano2007514}{{86}{2007}{{Floreano et~al.}}{{}}}
-\bibcite{Auerbach:PLoS:2014}{{87}{2014}{{JE and JC}}{{}}}
-\bibcite{Cliff_1995}{{88}{1995}{{Cliff and Miller}}{{}}}
-\bibcite{Floreano_1998}{{89}{1998}{{Floreano}}{{}}}
-\bibcite{Jakobi95}{{90}{1995}{{Jakobi et~al.}}{{}}}
-\bibcite{Koos:TEVC:2013}{{91}{2013}{{Koos et~al.}}{{}}}
-\bibcite{Koos:IJRR:2013}{{92}{2013}{{Koos et~al.}}{{}}}
-\bibcite{Alan:2014}{{93}{2014}{{O'Dowd et~al.}}{{}}}
-\bibcite{Watson2012}{{94}{1999}{{Watson et~al.}}{{}}}
-\bibcite{eiben:inria-00531455}{{95}{2010}{{Eiben et~al.}}{{}}}
-\bibcite{Eiben:EI:2012}{{96}{2012}{{Eiben et~al.}}{{}}}
-\bibcite{Tumbleston20032015}{{97}{2015}{{Tumbleston et~al.}}{{}}}
-\bibcite{Ljung_1999}{{98}{1999}{{Ljung}}{{}}}
-\bibcite{Bongard_2005}{{99}{2005}{{Bongard and Lipson}}{{}}}
-\bibcite{Fogel_1991}{{100}{1991}{{Fogel}}{{}}}
-\bibcite{Ljungquist1993}{{101}{1993}{{Ljungquist and Balchen}}{{}}}
-\bibcite{Vladislavleva:2009}{{102}{2009}{{Vladislavleva et~al.}}{{}}}
-\bibcite{Eiben2003}{{103}{2003}{{Eiben and Smith}}{{}}}
-\bibcite{Bongard_remote_robot_2004}{{104}{2004}{{Bongard and Lipson}}{{}}}
-\bibcite{Bongard_function_recovery_2004}{{105}{2004}{{Bongard and Lipson}}{{}}}
-\bibcite{Koos2009}{{106}{2009}{{Koos et~al.}}{{}}}
-\bibcite{Mirm2011}{{107}{2011}{{Mirmomeni and Punch}}{{}}}
-\bibcite{Ly2014}{{108}{2014}{{Le~Ly and Lipson}}{{}}}
-\bibcite{Kouchmeshky_2007}{{109}{2007}{{Kouchmeshky et~al.}}{{}}}
-\bibcite{Mirmomeni_2011}{{110}{2011}{{Mirmomeni and Punch}}{{}}}
-\bibcite{Bongard-etal2006:science}{{111}{2006}{{Bongard et~al.}}{{}}}
-\bibcite{Koos2013}{{112}{2013}{{Koos et~al.}}{{}}}
-\bibcite{Alan2014}{{113}{2014}{{O'Dowd et~al.}}{{}}}
-\bibcite{Hedwig2004}{{114}{2004}{{Hedwig and Poulet}}{{}}}
-\bibcite{Emily_2012}{{115}{2012}{{Baird et~al.}}{{}}}
-\bibcite{Byrne_2003}{{116}{2003}{{M.~Byrne}}{{}}}
-\bibcite{Matthews_1962}{{117}{1963}{{Matthews}}{{}}}
-\bibcite{Ignacio2009}{{118}{2009}{{Rano}}{{}}}
-\bibcite{Garnier:SI:2007}{{119}{2007}{{Garnier et~al.}}{{}}}
-\bibcite{Craig:CG:1987}{{120}{1987}{{Reynolds}}{{}}}
-\bibcite{Jeanson:AB:2005}{{121}{2005}{{Jeanson et~al.}}{{}}}
-\bibcite{Carroll1973}{{122}{1973}{{Carroll and Janzen}}{{}}}
-\bibcite{James:ARE:1971}{{123}{1971}{{Lloyd}}{{}}}
-\bibcite{Bruinsma:PHD:1979}{{124}{1979}{{Bruinsma}}{{}}}
-\bibcite{Dorigo_1997}{{125}{1997}{{Dorigo and Gambardella}}{{}}}
-\bibcite{Kennedy:ICNN:1995}{{126}{1995}{{Kennedy and Eberhart}}{{}}}
-\bibcite{dorigo2008ant}{{127}{2008}{{Dorigo et~al.}}{{}}}
-\bibcite{Holland:AL:1999}{{128}{1999}{{Holland and Melhuish}}{{}}}
-\bibcite{DiCaro:JAIR:1998}{{129}{1998}{{Di~Caro and Dorigo}}{{}}}
-\bibcite{Dorigo:LNCS:2004}{{130}{2004}{{Socha}}{{}}}
-\bibcite{Bjerknes2013}{{131}{2013}{{Bjerknes and Winfield}}{{}}}
-\bibcite{Jianing:TRO:2015}{{132}{2015}{{Chen et~al.}}{{}}}
-\bibcite{Melvin_DARS2014}{{133}{2014}{{Gauci et~al.}}{{}}}
-\bibcite{Sahin:LNCS:2005}{{134}{2005}{{Şahin}}{{}}}
-\bibcite{Rodeirch2015}{{135}{2015}{{Blum and Gro{\ss }}}{{}}}
-\bibcite{Gerkey:TRA:2002}{{136}{2002}{{Gerkey and Mataric}}{{}}}
-\bibcite{Winfield:LNCS:2000}{{137}{2000}{{Winfield}}{{}}}
-\bibcite{Trianni:LNCS:2003}{{138}{2003}{{Trianni et~al.}}{{}}}
-\bibcite{Garnier:AL:2008}{{139}{2008}{{Garnier et~al.}}{{}}}
-\bibcite{howard2002mobile}{{140}{2002}{{Howard et~al.}}{{}}}
-\bibcite{mclurkin2004distributed}{{141}{2004}{{McLurkin and Smith}}{{}}}
-\bibcite{Fujibayashi:DARS:2002}{{142}{2002}{{Fujibayashi et~al.}}{{}}}
-\bibcite{Chen:AAMAS:2012}{{143}{2012}{{Chen et~al.}}{{}}}
-\bibcite{Turgut:SI:2008}{{144}{2008}{{Turgut et~al.}}{{}}}
-\bibcite{Kube:AB:1993}{{145}{1993}{{C.R.~Kube}}{{}}}
-\bibcite{Kube:RAS:2000}{{146}{2000}{{Kube and Bonabeau}}{{}}}
-\bibcite{Gross:IJBC:2009}{{147}{2009}{{Gross and Dorigo}}{{}}}
-\bibcite{Werfel:Sci:2014}{{148}{2014}{{Werfel et~al.}}{{}}}
-\bibcite{camazine2003self}{{149}{2003}{{Camazine}}{{}}}
-\bibcite{Barbara_2000}{{150}{2000}{{Webb}}{{}}}
-\bibcite{Barbara_1995}{{151}{1995}{{Webb}}{{}}}
-\bibcite{Popov:JCP:1997}{{152}{1977}{{Popov and Shuvalov}}{{}}}
-\bibcite{Farah_2002}{{153}{2002}{{Farah and Duckett}}{{}}}
-\bibcite{Lilienthal_2003}{{154}{2003}{{Lilienthal and Duckett}}{{}}}
-\bibcite{Balch_2006}{{155}{2006}{{Balch et~al.}}{{}}}
-\bibcite{Chappell_2010}{{156}{2010}{{Chappell and Thorpe}}{{}}}
-\bibcite{Faria2010}{{157}{2010}{{Faria et~al.}}{{}}}
-\bibcite{Halloy2013}{{158}{2013}{{Halloy et~al.}}{{}}}
-\bibcite{J.Halloy2007}{{159}{2007}{{Halloy et~al.}}{{}}}
-\bibcite{Thomas2013}{{160}{2013}{{Schmickl et~al.}}{{}}}
-\bibcite{Vaughan2000}{{161}{2000}{{Vaughan et~al.}}{{}}}
-\bibcite{Krause2011}{{162}{2011}{{Krause et~al.}}{{}}}
-\bibcite{J.Halloy_2007}{{163}{2007}{{Halloy~J.}}{{}}}
-\bibcite{Krause_2011}{{164}{2011}{{Krause et~al.}}{{}}}
-\bibcite{Kopman2013}{{165}{2013}{{Kopman et~al.}}{{}}}
-\bibcite{Vaughan_1998}{{166}{1998}{{Vaughan et~al.}}{{}}}
-\bibcite{Gribovskiy_2010}{{167}{2010}{{Gribovskiy et~al.}}{{}}}
-\bibcite{Turing1950}{{168}{1950}{{Turing}}{{}}}
-\bibcite{Harnad2000}{{169}{2000}{{Harnad}}{{}}}
-\bibcite{Elman1990}{{170}{1990}{{Elman}}{{}}}
-\bibcite{Beyer2002}{{171}{2002}{{Beyer and Schwefel}}{{}}}
-\bibcite{Yao1999}{{172}{1999}{{Yao et~al.}}{{}}}
-\bibcite{e-puck}{{173}{2009}{{Mondada et~al.}}{{}}}
-\bibcite{Enki}{{174}{2011}{{Magnenat et~al.}}{{}}}
-\bibcite{Graham1990}{{175}{1990}{{Graham and Sloane}}{{}}}
-\bibcite{Paul2010}{{176}{2010}{{Levi and Kernbach}}{{}}}
-\bibcite{Daniel2014}{{177}{2014}{{Eldridge and Maciejewski}}{{}}}
-\bibcite{Gary2008}{{178}{2008}{{Bradski and Kaehler}}{{}}}
-\bibcite{Hu1962}{{179}{1962}{{Hu}}{{}}}
-\bibcite{online_supplementary_material_tevc2014}{{180}{2014}{{Li et~al.}}{{}}}
-\bibcite{King2009}{{181}{2009}{{King et~al.}}{{}}}
-\bibcite{Schmidt2009}{{182}{2009}{{Schmidt and Lipson}}{{}}}
-\bibcite{bongard2005active}{{183}{2005}{{Bongard and Lipson}}{{}}}
-\bibcite{Martin_1983}{{184}{1983}{{Martin}}{{}}}
-\bibcite{Dacke2004}{{185}{2004}{{Dacke et~al.}}{{}}}
-\bibcite{Emily2012}{{186}{2012}{{Baird et~al.}}{{}}}
-\bibcite{captcha2008}{{187}{2008}{{Grossman}}{{}}}
+\bibcite{Doncieux2015}{{76}{2015}{{Doncieux et~al.}}{{}}}
+\bibcite{Eiben:2015:ER}{{77}{2014}{{Eiben}}{{}}}
+\bibcite{Floreano_1997}{{78}{1997}{{Floreano and Nolfi}}{{}}}
+\bibcite{Floreano2008:NN}{{79}{2008}{{Floreano et~al.}}{{}}}
+\bibcite{Kenneth2002}{{80}{2002}{{Stanley and Miikkulainen}}{{}}}
+\bibcite{Nelson2009345}{{81}{2009}{{Nelson et~al.}}{{}}}
+\bibcite{Floreano1996}{{82}{1996}{{Floreano and Mondada}}{{}}}
+\bibcite{nolfi2000evolutionary}{{83}{2000}{{Nolfi and Floreano}}{{}}}
+\bibcite{Bryson2013}{{84}{2013}{{D.M. and C.}}{{}}}
+\bibcite{Batut2013}{{85}{2013}{{Batut et~al.}}{{}}}
+\bibcite{montanier:inria2011}{{86}{2011}{{Montanier and Bredeche}}{{}}}
+\bibcite{Waibel2011}{{87}{2011}{{M et~al.}}{{}}}
+\bibcite{Floreano2007514}{{88}{2007}{{Floreano et~al.}}{{}}}
+\bibcite{Auerbach:PLoS:2014}{{89}{2014}{{JE and JC}}{{}}}
+\bibcite{Cliff_1995}{{90}{1995}{{Cliff and Miller}}{{}}}
+\bibcite{Floreano_1998}{{91}{1998}{{Floreano}}{{}}}
+\bibcite{Jakobi95}{{92}{1995}{{Jakobi et~al.}}{{}}}
+\bibcite{Koos:TEVC:2013}{{93}{2013}{{Koos et~al.}}{{}}}
+\bibcite{Koos:IJRR:2013}{{94}{2013}{{Koos et~al.}}{{}}}
+\bibcite{Alan:2014}{{95}{2014}{{O'Dowd et~al.}}{{}}}
+\bibcite{hornby1999autonomous}{{96}{1999}{{Hornby et~al.}}{{}}}
+\bibcite{Zykov2004}{{97}{2004}{{Zykov et~al.}}{{}}}
+\bibcite{Watson2012}{{98}{1999}{{Watson et~al.}}{{}}}
+\bibcite{eiben:inria-00531455}{{99}{2010}{{Eiben et~al.}}{{}}}
+\bibcite{Eiben:EI:2012}{{100}{2012}{{Eiben et~al.}}{{}}}
+\bibcite{eiben2013triangle}{{101}{2013}{{Eiben et~al.}}{{}}}
+\bibcite{Eiben:2014:PPSN}{{102}{2014}{{Eiben}}{{}}}
+\bibcite{Tumbleston20032015}{{103}{2015}{{Tumbleston et~al.}}{{}}}
+\bibcite{Ljung_1999}{{104}{1999}{{Ljung}}{{}}}
+\bibcite{Bongard_2005}{{105}{2005}{{Bongard and Lipson}}{{}}}
+\bibcite{Fogel_1991}{{106}{1991}{{Fogel}}{{}}}
+\bibcite{Ljungquist1993}{{107}{1993}{{Ljungquist and Balchen}}{{}}}
+\bibcite{Vladislavleva:2009}{{108}{2009}{{Vladislavleva et~al.}}{{}}}
+\bibcite{Eiben2003}{{109}{2003}{{Eiben and Smith}}{{}}}
+\bibcite{Bongard_remote_robot_2004}{{110}{2004}{{Bongard and Lipson}}{{}}}
+\bibcite{Bongard_function_recovery_2004}{{111}{2004}{{Bongard and Lipson}}{{}}}
+\bibcite{Koos2009}{{112}{2009}{{Koos et~al.}}{{}}}
+\bibcite{Mirm2011}{{113}{2011}{{Mirmomeni and Punch}}{{}}}
+\bibcite{Ly2014}{{114}{2014}{{Le~Ly and Lipson}}{{}}}
+\bibcite{Kouchmeshky_2007}{{115}{2007}{{Kouchmeshky et~al.}}{{}}}
+\bibcite{Mirmomeni_2011}{{116}{2011}{{Mirmomeni and Punch}}{{}}}
+\bibcite{Bongard-etal2006:science}{{117}{2006}{{Bongard et~al.}}{{}}}
+\bibcite{Koos2013}{{118}{2013}{{Koos et~al.}}{{}}}
+\bibcite{Alan2014}{{119}{2014}{{O'Dowd et~al.}}{{}}}
+\bibcite{Hedwig2004}{{120}{2004}{{Hedwig and Poulet}}{{}}}
+\bibcite{Emily_2012}{{121}{2012}{{Baird et~al.}}{{}}}
+\bibcite{Byrne_2003}{{122}{2003}{{M.~Byrne}}{{}}}
+\bibcite{Matthews_1962}{{123}{1963}{{Matthews}}{{}}}
+\bibcite{Ignacio2009}{{124}{2009}{{Rano}}{{}}}
+\bibcite{Garnier:SI:2007}{{125}{2007}{{Garnier et~al.}}{{}}}
+\bibcite{Craig:CG:1987}{{126}{1987}{{Reynolds}}{{}}}
+\bibcite{Jeanson:AB:2005}{{127}{2005}{{Jeanson et~al.}}{{}}}
+\bibcite{Carroll1973}{{128}{1973}{{Carroll and Janzen}}{{}}}
+\bibcite{James:ARE:1971}{{129}{1971}{{Lloyd}}{{}}}
+\bibcite{Bruinsma:PHD:1979}{{130}{1979}{{Bruinsma}}{{}}}
+\bibcite{Dorigo_1997}{{131}{1997}{{Dorigo and Gambardella}}{{}}}
+\bibcite{Kennedy:ICNN:1995}{{132}{1995}{{Kennedy and Eberhart}}{{}}}
+\bibcite{dorigo2008ant}{{133}{2008}{{Dorigo et~al.}}{{}}}
+\bibcite{Holland:AL:1999}{{134}{1999}{{Holland and Melhuish}}{{}}}
+\bibcite{DiCaro:JAIR:1998}{{135}{1998}{{Di~Caro and Dorigo}}{{}}}
+\bibcite{Dorigo:LNCS:2004}{{136}{2004}{{Socha}}{{}}}
+\bibcite{Bjerknes2013}{{137}{2013}{{Bjerknes and Winfield}}{{}}}
+\bibcite{Jianing:TRO:2015}{{138}{2015}{{Chen et~al.}}{{}}}
+\bibcite{Melvin_DARS2014}{{139}{2014}{{Gauci et~al.}}{{}}}
+\bibcite{Sahin:LNCS:2005}{{140}{2005}{{Şahin}}{{}}}
+\bibcite{Rodeirch2015}{{141}{2015}{{Blum and Gro{\ss }}}{{}}}
+\bibcite{Gerkey:TRA:2002}{{142}{2002}{{Gerkey and Mataric}}{{}}}
+\bibcite{Winfield:LNCS:2000}{{143}{2000}{{Winfield}}{{}}}
+\bibcite{Trianni:LNCS:2003}{{144}{2003}{{Trianni et~al.}}{{}}}
+\bibcite{Garnier:AL:2008}{{145}{2008}{{Garnier et~al.}}{{}}}
+\bibcite{howard2002mobile}{{146}{2002}{{Howard et~al.}}{{}}}
+\bibcite{mclurkin2004distributed}{{147}{2004}{{McLurkin and Smith}}{{}}}
+\bibcite{Fujibayashi:DARS:2002}{{148}{2002}{{Fujibayashi et~al.}}{{}}}
+\bibcite{Chen:AAMAS:2012}{{149}{2012}{{Chen et~al.}}{{}}}
+\bibcite{Turgut:SI:2008}{{150}{2008}{{Turgut et~al.}}{{}}}
+\bibcite{Kube:AB:1993}{{151}{1993}{{C.R.~Kube}}{{}}}
+\bibcite{Kube:RAS:2000}{{152}{2000}{{Kube and Bonabeau}}{{}}}
+\bibcite{Gross:IJBC:2009}{{153}{2009}{{Gross and Dorigo}}{{}}}
+\bibcite{Werfel:Sci:2014}{{154}{2014}{{Werfel et~al.}}{{}}}
+\bibcite{camazine2003self}{{155}{2003}{{Camazine}}{{}}}
+\bibcite{Barbara_2000}{{156}{2000}{{Webb}}{{}}}
+\bibcite{Barbara_1995}{{157}{1995}{{Webb}}{{}}}
+\bibcite{Popov:JCP:1997}{{158}{1977}{{Popov and Shuvalov}}{{}}}
+\bibcite{Farah_2002}{{159}{2002}{{Farah and Duckett}}{{}}}
+\bibcite{Lilienthal_2003}{{160}{2003}{{Lilienthal and Duckett}}{{}}}
+\bibcite{Balch_2006}{{161}{2006}{{Balch et~al.}}{{}}}
+\bibcite{Chappell_2010}{{162}{2010}{{Chappell and Thorpe}}{{}}}
+\bibcite{Faria2010}{{163}{2010}{{Faria et~al.}}{{}}}
+\bibcite{Halloy2013}{{164}{2013}{{Halloy et~al.}}{{}}}
+\bibcite{J.Halloy2007}{{165}{2007}{{Halloy et~al.}}{{}}}
+\bibcite{Thomas2013}{{166}{2013}{{Schmickl et~al.}}{{}}}
+\bibcite{Vaughan2000}{{167}{2000}{{Vaughan et~al.}}{{}}}
+\bibcite{Krause2011}{{168}{2011}{{Krause et~al.}}{{}}}
+\bibcite{J.Halloy_2007}{{169}{2007}{{Halloy~J.}}{{}}}
+\bibcite{Krause_2011}{{170}{2011}{{Krause et~al.}}{{}}}
+\bibcite{Kopman2013}{{171}{2013}{{Kopman et~al.}}{{}}}
+\bibcite{Vaughan_1998}{{172}{1998}{{Vaughan et~al.}}{{}}}
+\bibcite{Gribovskiy_2010}{{173}{2010}{{Gribovskiy et~al.}}{{}}}
+\bibcite{Turing1950}{{174}{1950}{{Turing}}{{}}}
+\bibcite{Harnad2000}{{175}{2000}{{Harnad}}{{}}}
+\bibcite{Elman1990}{{176}{1990}{{Elman}}{{}}}
+\bibcite{Beyer2002}{{177}{2002}{{Beyer and Schwefel}}{{}}}
+\bibcite{Yao1999}{{178}{1999}{{Yao et~al.}}{{}}}
+\bibcite{e-puck}{{179}{2009}{{Mondada et~al.}}{{}}}
+\bibcite{Enki}{{180}{2011}{{Magnenat et~al.}}{{}}}
+\bibcite{Graham1990}{{181}{1990}{{Graham and Sloane}}{{}}}
+\bibcite{Paul2010}{{182}{2010}{{Levi and Kernbach}}{{}}}
+\bibcite{Daniel2014}{{183}{2014}{{Eldridge and Maciejewski}}{{}}}
+\bibcite{Gary2008}{{184}{2008}{{Bradski and Kaehler}}{{}}}
+\bibcite{Hu1962}{{185}{1962}{{Hu}}{{}}}
+\bibcite{online_supplementary_material_tevc2014}{{186}{2014}{{Li et~al.}}{{}}}
+\bibcite{King2009}{{187}{2009}{{King et~al.}}{{}}}
+\bibcite{Schmidt2009}{{188}{2009}{{Schmidt and Lipson}}{{}}}
+\bibcite{bongard2005active}{{189}{2005}{{Bongard and Lipson}}{{}}}
+\bibcite{Martin_1983}{{190}{1983}{{Martin}}{{}}}
+\bibcite{Dacke2004}{{191}{2004}{{Dacke et~al.}}{{}}}
+\bibcite{Emily2012}{{192}{2012}{{Baird et~al.}}{{}}}
+\bibcite{captcha2008}{{193}{2008}{{Grossman}}{{}}}

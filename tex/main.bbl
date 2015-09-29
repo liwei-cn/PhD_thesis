@@ -402,6 +402,21 @@ C.~M. Fonseca and P.~J. Fleming, ``An overview of evolutionary algorithms in
   multiobjective optimization,'' \emph{Evolutionary Computation}, vol.~3,
   no.~1, pp. 1--16, 1995.
 
+\bibitem[Doncieux et~al.(2015)]{Doncieux2015}
+\BIBentryALTinterwordspacing
+S.~Doncieux, N.~Bredeche, J.-B. Mouret, and A.~G. Eiben, ``Evolutionary
+  robotics: What, why, and where to,'' \emph{Frontiers in Robotics and AI},
+  vol.~2, no.~4, 2015. [Online]. Available:
+  \url{http://www.frontiersin.org/evolutionary_robotics/10.3389/frobt.2015.00004/abstract}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Eiben(2014)]{Eiben:2015:ER}
+\BIBentryALTinterwordspacing
+A.~Eiben, ``Grand challenges for evolutionary robotics,'' \emph{Frontiers in
+  Robotics and AI}, vol.~1, no.~4, 2014. [Online]. Available:
+  \url{http://www.frontiersin.org/evolutionary_robotics/10.3389/frobt.2014.00004/full}
+\BIBentrySTDinterwordspacing
+
 \bibitem[Floreano and Nolfi(1997)]{Floreano_1997}
 D.~Floreano and S.~Nolfi, ``Adaptive behavior in competing co-evolving
   species,'' in \emph{The 4th European Conference on Artificial Life}.\hskip
@@ -519,6 +534,17 @@ P.~J. O'Dowd, M.~Studley, and A.~F.~T. Winfield,
   \emph{\BIBforeignlanguage{English}{Evol. Intell.}}, vol.~7, no.~2, pp.
   95--106, 2014.
 
+\bibitem[Hornby et~al.(1999)]{hornby1999autonomous}
+G.~Hornby, M.~Fujita, S.~Takamura, T.~Yamamoto, and O.~Hanagata, ``Autonomous
+  evolution of gaits with the sony quadruped robot,'' in \emph{Proceedings of
+  the Genetic and Evolutionary Computation Conference}, vol.~2.\hskip 1em plus
+  0.5em minus 0.4em\relax Citeseer, 1999, pp. 1297--1304.
+
+\bibitem[Zykov et~al.(2004)]{Zykov2004}
+V.~Zykov, J.~Bongard, and H.~Lipson, ``Evolving dynamic gaits on a physical
+  robot,'' in \emph{Proc. 2004 Genetic and Evol. Computation Conf.}\hskip 1em
+  plus 0.5em minus 0.4em\relax ACM Press, Seattle, WA, 2004, pp. 4722--4728.
+
 \bibitem[Watson et~al.(1999)]{Watson2012}
 R.~Watson, S.~Ficiei, and J.~Pollack, ``Embodied evolution: embodying an
   evolutionary algorithm in a population of robots,'' in \emph{Evolutionary
@@ -541,6 +567,23 @@ A.~Eiben, S.~Kernbach, and E.~Haasdijk, ``\BIBforeignlanguage{English}{Embodied
   artificial evolution},'' \emph{\BIBforeignlanguage{English}{Evolutionary
   Intelligence}}, vol.~5, no.~4, pp. 261--272, 2012. [Online]. Available:
   \url{http://dx.doi.org/10.1007/s12065-012-0071-x}
+\BIBentrySTDinterwordspacing
+
+\bibitem[Eiben et~al.(2013)]{eiben2013triangle}
+A.~Eiben, N.~Bredeche, M.~Hoogendoorn, J.~Stradner, J.~Timmis, A.~Tyrrell,
+  A.~Winfield, \emph{et~al.}, ``The triangle of life: Evolving robots in
+  real-time and real-space,'' \emph{Advances in Artificial Life, ECAL}, pp.
+  1056--1063, 2013.
+
+\bibitem[Eiben(2014)]{Eiben:2014:PPSN}
+\BIBentryALTinterwordspacing
+A.~Eiben, ``\BIBforeignlanguage{English}{In vivo veritas: Towards the evolution
+  of things},'' in \emph{\BIBforeignlanguage{English}{Parallel Problem Solving
+  from Nature – PPSN XIII}}, ser. Lecture Notes in Computer Science,
+  T.~Bartz-Beielstein, J.~Branke, B.~Filipič, and J.~Smith, Eds.\hskip 1em
+  plus 0.5em minus 0.4em\relax Springer International Publishing, 2014, vol.
+  8672, pp. 24--39. [Online]. Available:
+  \url{http://dx.doi.org/10.1007/978-3-319-10762-2_3}
 \BIBentrySTDinterwordspacing
 
 \bibitem[Tumbleston et~al.(2015)]{Tumbleston20032015}
