@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="black_box_optimization.eps">
   <defs
      id="defs4">
     <marker
@@ -114,27 +114,27 @@
     <text
        xml:space="preserve"
        style="font-size:43px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
-       x="474"
+       x="480"
        y="360.36218"
        id="text4765"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4767"
-         x="474"
+         x="480"
          y="360.36218"
          style="font-size:22px">output</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4769"
        y="358.36218"
-       x="96"
+       x="82"
        style="font-size:43px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        xml:space="preserve"><tspan
          style="font-size:22px"
          y="358.36218"
-         x="96"
+         x="82"
          id="tspan4771"
-         sodipodi:role="line">intput</tspan></text>
+         sodipodi:role="line">input</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
        d="m 520,372.36218 0,200 -80,0"

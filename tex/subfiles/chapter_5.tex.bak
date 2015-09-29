@@ -408,11 +408,13 @@ For the 2-state machine shown in Figure~\subref*{fig:stochastic_interaction_2sta
 
 \subsection{Simulation Setup}\label{sec:simulation_setup_stochastic_interaction}
 
-For \textit{Turing Learning}, we still used three setups: ``Interactive'', ``Passive 1'' and ``Passive 2'', as discussed in Section~\ref{sec:simulation_setup_deterministic_interaction}. We also compared \textit{Turing Learning} with the two metric-based methods (SP-EA and CEA-IM) described in Section~\ref{sec:single_population_EA_deterministic_interaction} and Section~\ref{sec:coevolution_inputs_and_models_deterministic_interaction}, respectively. Note that for each setup, we added a certain amount of noise into the measurement of speed. This is realized by multiplying the agent's real speed with a random value in $[0.95, 1.05]$ in each time step. 
+For \textit{Turing Learning}, we still used three setups: ``Interactive'', ``Passive 1'' and ``Passive 2'', as discussed in Section~\ref{sec:simulation_setup_deterministic_interaction}. We also compared \textit{Turing Learning} with the two metric-based methods (SP-EA and CEA-IM) described in Section~\ref{sec:single_population_EA_deterministic_interaction} and Section~\ref{sec:coevolution_inputs_and_models_deterministic_interaction}, respectively. For each setup, we added a certain amount of noise into the measurement of speed. This is realized by multiplying the agent's real speed with a random value in $[0.95, 1.05]$ in each time step. 
 
 \subsection{Results: Two States}\label{sec:results_interaction_stochastic_2states}
 
-In this section, we compare and analyze the results obtained using the methods discussed in the previous section (\ref{sec:simulation_setup_stochastic_interaction}) for inferring the 2-state agent behavior shown in Figure~\subref*{fig:stochastic_interaction_2states}.
+In this section, we present the results of inferring the 2-state agent behavior shown in Figure~\subref*{fig:stochastic_interaction_2states}, using the setups in Section~\ref{sec:simulation_setup_stochastic_interaction}. 
+
+%compare and analyze the results obtained using the methods discussed in the previous section (\ref{sec:simulation_setup_stochastic_interaction}) for inferring the 2-state agent behavior shown in Figure~\subref*{fig:stochastic_interaction_2states}.
 
 \subsubsection{Analysis of Evolved Models}
 \begin{figure}[!t]%htbp

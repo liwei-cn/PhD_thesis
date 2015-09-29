@@ -295,7 +295,7 @@ The coevolutionary dynamics of the object clustering behavior is similar. Compar
 	\label{fig:classifier_fitness_swarm_simulation}
 \end{figure}
 
-\subsection{\textcolor{red}{Analysis of Evolved Classifiers}}\label{sec:analysis_evolved_classifiers_swarm_simulation}
+\subsection{Analysis of Evolved Classifiers}\label{sec:analysis_evolved_classifiers_swarm_simulation}
 
 The primary outcome of the \textit{Turing Learning} method (and of any system identification method) is the model, which has been discussed in the previous section. However, the evolved classifiers can also be considered as a useful byproduct. For instance they could be used to detect abnormal agents in a swarm. We will now analyze the performance of the evolved classifiers. For the remainder of this paper, we consider only the aggregation case study.
 

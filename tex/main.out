@@ -1,24 +1,8 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Background and Related Work}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.1}{The Development of AI and Robotics}{section.1.1}% 5
-\BOOKMARK [2][-]{subsection.1.1.2}{Introduction of Automation Science}{section.1.1}% 6
-\BOOKMARK [1][-]{section.1.2}{Evolutionary Computation}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.2.1}{Biological Evolution}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.2}{Introduction of Evolutionary Computation}{section.1.2}% 9
-\BOOKMARK [3][-]{subsubsection.1.2.2.1}{Principles}{subsection.1.2.2}% 10
-\BOOKMARK [3][-]{subsubsection.1.2.2.2}{Strengths}{subsection.1.2.2}% 11
-\BOOKMARK [3][-]{subsubsection.1.2.2.3}{Weaknesses}{subsection.1.2.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.3}{Applications of Evolutionary Computation}{section.1.2}% 13
-\BOOKMARK [3][-]{subsubsection.1.2.3.1}{Black Box Optimization}{subsection.1.2.3}% 14
-\BOOKMARK [3][-]{subsubsection.1.2.3.2}{Evolutionary Robotics}{subsection.1.2.3}% 15
-\BOOKMARK [3][-]{subsubsection.1.2.3.3}{System Identification}{subsection.1.2.3}% 16
-\BOOKMARK [1][-]{section.1.3}{Combining AI/Robotics and Animal Behavior}{chapter.1}% 17
-\BOOKMARK [2][-]{subsection.1.3.1}{Animal Behavior in Nature}{section.1.3}% 18
-\BOOKMARK [2][-]{subsection.1.3.2}{Swarm Optimization and Swarm Robotics}{section.1.3}% 19
-\BOOKMARK [3][-]{subsubsection.1.3.2.1}{Swarm Optimization}{subsection.1.3.2}% 20
-\BOOKMARK [3][-]{subsubsection.1.3.2.2}{Swarm Robotics}{subsection.1.3.2}% 21
-\BOOKMARK [2][-]{subsection.1.3.3}{Contribution of AI/Robotics to Ethology}{section.1.3}% 22
-\BOOKMARK [3][-]{subsubsection.1.3.3.1}{Learning from Synthesis}{subsection.1.3.3}% 23
-\BOOKMARK [3][-]{subsubsection.1.3.3.2}{Robot\205Animal Interaction}{subsection.1.3.3}% 24
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Motivation and Objectives}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Problem Statement}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Contributions}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Publications}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{Thesis Outline}{chapter.1}% 8

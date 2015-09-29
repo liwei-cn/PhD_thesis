@@ -44,8 +44,8 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1319"
-     inkscape:window-height="850"
+     inkscape:window-width="1280"
+     inkscape:window-height="756"
      inkscape:window-x="36"
      inkscape:window-y="6"
      inkscape:window-maximized="0">
@@ -114,19 +114,6 @@
        height="80"
        x="438.15384"
        y="568.36218" />
-    <text
-       xml:space="preserve"
-       style="font-size:53.99750519px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
-       x="409.31552"
-       y="771.4892"
-       id="text3769"
-       sodipodi:linespacing="125%"
-       transform="scale(1.255756,0.79633305)"><tspan
-         sodipodi:role="line"
-         id="tspan3771"
-         x="409.31552"
-         y="771.4892"
-         style="font-size:24px">selection</tspan></text>
     <rect
        y="352.36218"
        x="440"
@@ -252,5 +239,17 @@
          x="176"
          id="tspan5364"
          sodipodi:role="line">Yes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="530"
+       y="616.36218"
+       id="text3014"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3016"
+         x="530"
+         y="616.36218"
+         style="font-size:24px">selection</tspan></text>
   </g>
 </svg>
