@@ -1,8 +1,28 @@
 \contentsline {chapter}{Abstract}{iii}{chapter*.1}
 \contentsline {chapter}{Acknowledgments}{v}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Motivation and Objectives}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problem Statement}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Contributions}{5}{section.1.3}
-\contentsline {section}{\numberline {1.4}Publications}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Thesis Outline}{7}{section.1.5}
+\contentsline {chapter}{\numberline {1}Reverse Engineering Swarm Behaviors Through Turing Learning}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Methodology}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Turing Learning}{3}{subsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}Models}{3}{subsubsection.1.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.2}Classifiers}{3}{subsubsection.1.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.1.3}Optimization Algorithm}{5}{subsubsection.1.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.1.4}Fitness Calculation}{6}{subsubsection.1.1.1.4}
+\contentsline {subsubsection}{\numberline {1.1.1.5}Termination Criterion}{7}{subsubsection.1.1.1.5}
+\contentsline {subsection}{\numberline {1.1.2}Case Studies}{7}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Problem Formulation}{7}{subsubsection.1.1.2.1}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Aggregation}{9}{subsubsection.1.1.2.2}
+\contentsline {subsubsection}{\numberline {1.1.2.3}Object Clustering}{11}{subsubsection.1.1.2.3}
+\contentsline {section}{\numberline {1.2}Simulation Platform and Setups}{11}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Simulation Platform}{11}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Simulation Setups}{12}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Simulation Results}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Analysis of Evolved Models}{12}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Coevolutionary Dynamics}{17}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Analysis of Evolved Classifiers}{19}{subsection.1.3.3}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Using a Single Classifier}{21}{subsubsection.1.3.3.1}
+\contentsline {subsubsection}{\numberline {1.3.3.2}Using a Classifier System}{23}{subsubsection.1.3.3.2}
+\contentsline {subsection}{\numberline {1.3.4}Observing Only a Subset of Agents}{25}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Evolving Control and Morphology}{28}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.6}Evolving Other Behaviors}{29}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.7}Noise Study}{30}{subsection.1.3.7}
+\contentsline {section}{\numberline {1.4}Summary}{31}{section.1.4}

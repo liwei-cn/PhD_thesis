@@ -363,7 +363,7 @@ In this section, we compare \textit{Turing Learning} with another coevolutionary
 
 In order to further validate and highlight the benefit of \textit{Turing Learning}, we investigate the stochastic behaviors in the following section. 
 
-\section{\textcolor{red}{Case Study Two}}\label{sec:case_study_two_stochastic_interaction}
+\section{Case Study Two}\label{sec:case_study_two_stochastic_interaction}
 
 \subsection{Stochastic Behavior}\label{sec:stochastic_behavior_interaction}
 
@@ -478,9 +478,9 @@ In order to show the advantage of ``Interactive'' setup of \textit{Turing Learni
 \label{fig:classifier_interaction_2states}
 \end{figure}
 %
-In order to investigate why the ``Interactive'' setup of \textit{Turing Learning} learns the agent behavior much faster than the two passive setups. We post-evaluated how the classifiers interact with the agent during a trial. 
+In order to investigate why the ``Interactive'' setup of \textit{Turing Learning} learns the agent behavior much faster than the two passive setups, we post-evaluated how the classifiers interact with the agent during a trial. 
 
-Figure~\ref{fig:classifier_interaction_2states} shows how the classifier with the highest subjective fitness in different generations (of a particular coevolution run) interact with the agent in a trial. Similar phenomenon could be observed in other coevolution runs. As shown in the top left of Figure~\ref{fig:classifier_interaction_2states}, the classifier outputs $H$ level and then waits until the agent `jumps' from state $1$ to state $2$ (and this process is stochastic), and it immediately switches the light intensity from $H$ to $L$ level in order to make the agent stay in state $2$ as long as possible. Therefore, the agent's behavior in state $2$ (hidden information) can be observed longer and inferred efficiently. Note that the classifier has learned a good strategy and exhibited such `intelligent' behavior at the very beginning of the coevolution run (before $50$ generations in this case). After $500$ generations, the classifier slightly changed the strategy. Instead of always outputting $H$ level, it keeps switching between $H$ and $L$ level until it observes the agent `jumps' from state $1$ to state $2$, and after that it immediately switches the light intensity from $H$ to $L$ level. This is unlikely to happen when generating random sequences of inputs.
+Figure~\ref{fig:classifier_interaction_2states} shows how the classifier with the highest subjective fitness in different generations (of a particular coevolution run) interact with the agent in a trial. Similar phenomenon could be observed in other coevolution runs. As shown in the top left of Figure~\ref{fig:classifier_interaction_2states}, the classifier keeps the light intensity at the $H$ level at the beginning. Once it observes the agent `jumps' from state $1$ to state $2$ (and this process is stochastic), and the classifier immediately switches the light intensity from $H$ to $L$ level in order to make the agent stay in state $2$ as long as possible. Therefore, the agent's behavior in state $2$ (hidden information) can be observed longer and inferred efficiently. Note that the classifier has learned a good strategy and exhibited such `intelligent' behavior at the very beginning of the coevolution run (before $50$ generations in this case). After $500$ generations, the classifier slightly changed the strategy. Instead of always outputting $H$ level, it keeps switching between $H$ and $L$ level until it observes the agent `jumps' from state $1$ to state $2$, and after that it immediately switches the light intensity from $H$ to $L$ level. This is unlikely to happen when generating random sequences of inputs.
 
 \subsection{Results: Three States}\label{sec:results_interaction_stochastic_3states}
 

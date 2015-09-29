@@ -22,37 +22,198 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
-\citation{Grotzinger:Sci:2014}
-\citation{Hertzberg2000}
-\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
+\citation{Camazine2001}
+\citation{J.Halloy2007}
+\citation{Turing1950,Harnad2000}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Reverse Engineering Swarm Behaviors Through Turing Learning}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lol}{\addvspace {10\p@ }}
-\newlabel{ch:introduction}{{1}{1}{Introduction\relax }{chapter.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Motivation and Objectives}{1}{section.1.1}}
-\citation{Bolhuis_2004}
-\citation{Bolhuis_2004}
-\citation{Sutherland1998}
-\citation{Floreano2008}
-\citation{Meyer2008}
-\citation{King_2009,Evans_2010,Waltz2010}
-\citation{Evans_2010}
-\citation{Ljung2010,Billings2013}
-\citation{Shandelle2010}
-\citation{Bonabeau2002}
-\citation{Bongard2005_tevc,Bongard2007PNAS,Ruxton2008}
-\citation{Camazine2001}
-\citation{Dirk2011}
-\citation{Harvey:SI:2015}
-\citation{Weitz2012}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Problem Statement}{4}{section.1.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Contributions}{5}{section.1.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Publications}{6}{section.1.4}}
+\newlabel{ch:swarm_simulation}{{1}{1}{Reverse Engineering Swarm Behaviors Through Turing Learning\relax }{chapter.1}{}}
 \citation{Gauci2014_ijrr}
 \citation{Melvin2014_aamas}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Thesis Outline}{7}{section.1.5}}
+\citation{Gauci2014_ijrr}
+\citation{Melvin2014_aamas}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Methodology}{2}{section.1.1}}
+\newlabel{sec:methodology_swarm_simulation}{{1.1}{2}{Methodology\relax }{section.1.1}{}}
+\citation{J.Halloy2007}
+\citation{Elman1990}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}Turing Learning}{3}{subsection.1.1.1}}
+\newlabel{sec:turing_learning_swarm_simulation}{{1.1.1}{3}{Turing Learning\relax }{subsection.1.1.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1.1}Models}{3}{subsubsection.1.1.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1.2}Classifiers}{3}{subsubsection.1.1.1.2}}
+\citation{Beyer2002,Eiben2003}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces The plot shows the structure of a classifier, which is a recurrent Elman neural network, with $i$ inputs, $h$ hidden neurons, and one output neuron ($O$). $O$ is used for making a judgment. Two bias neurons (which are not shown) with a constant input of 1.0 are connected to each neuron of the hidden and output layers. See text for details.}}{4}{figure.1.1}}
+\newlabel{fig:neural_network_cf_swarm}{{\relax 1.1}{4}{The plot shows the structure of a classifier, which is a recurrent Elman neural network, with $i$ inputs, $h$ hidden neurons, and one output neuron ($O$). $O$ is used for making a judgment. Two bias neurons (which are not shown) with a constant input of 1.0 are connected to each neuron of the hidden and output layers. See text for details}{figure.1.1}{}}
+\newlabel{equ:logistic_sigmoid}{{\relax 1.1}{4}{Classifiers\relax }{equation.1.1.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1.3}Optimization Algorithm}{5}{subsubsection.1.1.1.3}}
+\newlabel{sec:optimization_algorithm_swarm}{{1.1.1.3}{5}{Optimization Algorithm\relax }{subsubsection.1.1.1.3}{}}
+\newlabel{eq:x_recomb}{{\relax 1.2}{5}{Optimization Algorithm\relax }{equation.1.1.2}{}}
+\citation{Yao1999}
+\newlabel{eq:sigma_mutation}{{\relax 1.4}{6}{Optimization Algorithm\relax }{equation.1.1.4}{}}
+\newlabel{eq:x_mutation}{{\relax 1.5}{6}{Optimization Algorithm\relax }{equation.1.1.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1.4}Fitness Calculation}{6}{subsubsection.1.1.1.4}}
+\newlabel{sec:fitness_calculation_swarm}{{1.1.1.4}{6}{Fitness Calculation\relax }{subsubsection.1.1.1.4}{}}
+\citation{e-puck}
+\citation{Gauci2014_ijrr}
+\citation{Melvin2014_aamas}
+\citation{Hedwig2004}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1.5}Termination Criterion}{7}{subsubsection.1.1.1.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}Case Studies}{7}{subsection.1.1.2}}
+\newlabel{sec:case_studies_swarm_simulation}{{1.1.2}{7}{Case Studies\relax }{subsection.1.1.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2.1}Problem Formulation}{7}{subsubsection.1.1.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces An e-puck robot fitted with a black `skirt' and a top marker for motion tracking.}}{8}{figure.1.2}}
+\newlabel{fig:e-puck_body}{{\relax 1.2}{8}{An e-puck robot fitted with a black `skirt' and a top marker for motion tracking}{figure.1.2}{}}
+\newlabel{controller:form}{{\relax 1.6}{8}{Problem Formulation\relax }{equation.1.1.6}{}}
+\citation{Gauci2014_ijrr}
+\citation{Gauci2014_ijrr}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.3}{\ignorespaces Snapshots of the aggregation behavior of $50$ agents in simulation. }}{9}{figure.1.3}}
+\newlabel{fig:aggregation_snapshoot}{{\relax 1.3}{9}{Snapshots of the aggregation behavior of $50$ agents in simulation}{figure.1.3}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces { \relax \fontsize {8}{9.5}\selectfont {initial configuration}}}}{9}{subfigure.3.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\relax \fontsize {8}{9.5}\selectfont {after $60$ $\unit {s}$}}}}{9}{subfigure.3.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {\relax \fontsize {8}{9.5}\selectfont {after $180$ $\unit {s}$}}}}{9}{subfigure.3.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {\relax \fontsize {8}{9.5}\selectfont {after $300$ $\unit {s}$}}}}{9}{subfigure.3.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2.2}Aggregation}{9}{subsubsection.1.1.2.2}}
+\newlabel{sec:aggregation_behavior}{{1.1.2.2}{9}{Aggregation\relax }{subsubsection.1.1.2.2}{}}
+\citation{Gauci2014_ijrr}
+\citation{Melvin2014_aamas}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.4}{\ignorespaces Snapshots of the object clustering behavior in simulation. There are $5$ agents (blue) and 10 objects (green).}}{10}{figure.1.4}}
+\newlabel{fig:clustering_snapshoot}{{\relax 1.4}{10}{Snapshots of the object clustering behavior in simulation. There are $5$ agents (blue) and 10 objects (green)}{figure.1.4}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\relax \fontsize {8}{9.5}\selectfont {initial configuration}}}}{10}{subfigure.4.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\relax \fontsize {8}{9.5}\selectfont {after $20$ $\unit {s}$}}}}{10}{subfigure.4.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {\relax \fontsize {8}{9.5}\selectfont {after $40$ $\unit {s}$}}}}{10}{subfigure.4.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {\relax \fontsize {8}{9.5}\selectfont {after $60$ $\unit {s}$}}}}{10}{subfigure.4.4}}
+\newlabel{eq:aggregation_optimal_controller}{{\relax 1.7}{10}{Aggregation\relax }{equation.1.1.7}{}}
+\citation{Melvin2014_aamas}
+\citation{Enki}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2.3}Object Clustering}{11}{subsubsection.1.1.2.3}}
+\newlabel{eq:clustering_optimal_controller}{{\relax 1.8}{11}{Object Clustering\relax }{equation.1.1.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Simulation Platform and Setups}{11}{section.1.2}}
+\newlabel{sec:simulation_platform_setups}{{1.2}{11}{Simulation Platform and Setups\relax }{section.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Simulation Platform}{11}{subsection.1.2.1}}
+\newlabel{sec:platform_swarm_simulation}{{1.2.1}{11}{Simulation Platform\relax }{subsection.1.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Simulation Setups}{12}{subsection.1.2.2}}
+\newlabel{sec:setup_swarm_simulation}{{1.2.2}{12}{Simulation Setups\relax }{subsection.1.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Simulation Results}{12}{section.1.3}}
+\newlabel{sec:results_swarm_simulation}{{1.3}{12}{Simulation Results\relax }{section.1.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.1}Analysis of Evolved Models}{12}{subsection.1.3.1}}
+\newlabel{sec:analysis_evolved_models_swarm_simulation}{{1.3.1}{12}{Analysis of Evolved Models\relax }{subsection.1.3.1}{}}
+\newlabel{fig:model_parameters_box_aggregation}{{\relax 1.5a}{13}{Subfigure 1 \relax 1.5a\relax }{subfigure.\relax 1.5.1}{}}
+\newlabel{sub@fig:model_parameters_box_aggregation}{{(a)}{\relax 1.5(a)}{Subfigure 1 \relax 1.5a\relax }{subfigure.\relax 1.5.1}{}}
+\newlabel{fig:model_parameters_box_clustering}{{\relax 1.5b}{13}{Subfigure 1 \relax 1.5b\relax }{subfigure.\relax 1.5.2}{}}
+\newlabel{sub@fig:model_parameters_box_clustering}{{(b)}{\relax 1.5(b)}{Subfigure 1 \relax 1.5b\relax }{subfigure.\relax 1.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.5}{\ignorespaces Parameters of the evolved models with the highest subjective fitness in the $1000^\textrm  {th}$ generation in the coevolutions for (a) the aggregation behavior and (b) the object clustering behavior. Each box corresponds to 30 coevolution runs in simulation. The dotted black lines correspond to the values of the parameters that the system is expected to learn (i.e., those of the agent).}}{13}{figure.1.5}}
+\newlabel{fig:model_parameters_box}{{\relax 1.5}{13}{Parameters of the evolved models with the highest subjective fitness in the $1000^\textrm {th}$ generation in the coevolutions for (a) the aggregation behavior and (b) the object clustering behavior. Each box corresponds to 30 coevolution runs in simulation. The dotted black lines correspond to the values of the parameters that the system is expected to learn (i.e., those of the agent)}{figure.1.5}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) Aggregation }}}{13}{subfigure.5.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) Object Clustering}}}{13}{subfigure.5.2}}
+\newlabel{eq:AE}{{\relax 1.9}{13}{Analysis of Evolved Models\relax }{equation.1.3.9}{}}
+\citation{Graham1990}
+\citation{Graham1990}
+\citation{Paul2010}
+\citation{Gauci2014_ijrr}
+\citation{Gauci2014_ijrr}
+\citation{Melvin2014_aamas}
+\citation{Graham1990}
+\newlabel{eq:MAE}{{\relax 1.10}{14}{Analysis of Evolved Models\relax }{equation.1.3.10}{}}
+\newlabel{fig:model_parameters_convergence_aggregation}{{\relax 1.6a}{15}{Subfigure 1 \relax 1.6a\relax }{subfigure.\relax 1.6.1}{}}
+\newlabel{sub@fig:model_parameters_convergence_aggregation}{{(a)}{\relax 1.6(a)}{Subfigure 1 \relax 1.6a\relax }{subfigure.\relax 1.6.1}{}}
+\newlabel{fig:model_parameters_convergence_clustering}{{\relax 1.6b}{15}{Subfigure 1 \relax 1.6b\relax }{subfigure.\relax 1.6.2}{}}
+\newlabel{sub@fig:model_parameters_convergence_clustering}{{(b)}{\relax 1.6(b)}{Subfigure 1 \relax 1.6b\relax }{subfigure.\relax 1.6.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.6}{\ignorespaces Evolutionary process of the evolved model parameters for (a) the aggregation behavior and (b) the object clustering behavior. Curves represent median values across 30 coevolution runs. Dotted black lines indicate true values. }}{15}{figure.1.6}}
+\newlabel{fig:model_parameters_convergence}{{\relax 1.6}{15}{Evolutionary process of the evolved model parameters for (a) the aggregation behavior and (b) the object clustering behavior. Curves represent median values across 30 coevolution runs. Dotted black lines indicate true values}{figure.1.6}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) Aggregation }}}{15}{subfigure.6.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) Object Clustering}}}{15}{subfigure.6.2}}
+\newlabel{fn:boxplot}{{5}{15}{Analysis of Evolved Models\relax }{equation.1.3.10}{}}
+\newlabel{fig:model_validation_aggregation_simulation}{{\relax 1.7a}{16}{Subfigure 1 \relax 1.7a\relax }{subfigure.\relax 1.7.1}{}}
+\newlabel{sub@fig:model_validation_aggregation_simulation}{{(a)}{\relax 1.7(a)}{Subfigure 1 \relax 1.7a\relax }{subfigure.\relax 1.7.1}{}}
+\newlabel{fig:model_validation_clustering_simulation}{{\relax 1.7b}{16}{Subfigure 1 \relax 1.7b\relax }{subfigure.\relax 1.7.2}{}}
+\newlabel{sub@fig:model_validation_clustering_simulation}{{(b)}{\relax 1.7(b)}{Subfigure 1 \relax 1.7b\relax }{subfigure.\relax 1.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.7}{\ignorespaces (a) Dispersion (after $\unit  [400]{s}$) of $50$ agents executing the original aggregation controller (red box) or one of the $30$ evolved models (blue boxes) of the $1000^\mathrm  {th}$ generation. (b) Dispersion (after $\unit  [400]{s}$) of $50$ objects in a swarm of $25$ agents executing the original object clustering controller (red box) or one of the $30$ evolved models (blue boxes). In both (a) and (b), boxes show distributions over $30$ trials. The dotted black lines indicate the minimum dispersion that $50$ agents/objects can possible achieve\nobreakspace  {}\cite  {Graham1990}. See Section\nobreakspace  {}\ref  {sec:analysis_evolved_models_swarm_simulation} for details.}}{16}{figure.1.7}}
+\newlabel{fig:model_validation_simulation}{{\relax 1.7}{16}{(a) Dispersion (after $\unit [400]{s}$) of $50$ agents executing the original aggregation controller (red box) or one of the $30$ evolved models (blue boxes) of the $1000^\mathrm {th}$ generation. (b) Dispersion (after $\unit [400]{s}$) of $50$ objects in a swarm of $25$ agents executing the original object clustering controller (red box) or one of the $30$ evolved models (blue boxes). In both (a) and (b), boxes show distributions over $30$ trials. The dotted black lines indicate the minimum dispersion that $50$ agents/objects can possible achieve~\cite {Graham1990}. See Section~\ref {sec:analysis_evolved_models_swarm_simulation} for details}{figure.1.7}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) Aggregation }}}{16}{subfigure.7.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) Object Clustering}}}{16}{subfigure.7.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.2}Coevolutionary Dynamics}{17}{subsection.1.3.2}}
+\newlabel{sec:coevolutionary_dynamics_simulation_swarm_simulation}{{1.3.2}{17}{Coevolutionary Dynamics\relax }{subsection.1.3.2}{}}
+\newlabel{fig:fitness_curve_aggregation_simulation}{{\relax 1.8a}{18}{Subfigure 1 \relax 1.8a\relax }{subfigure.\relax 1.8.1}{}}
+\newlabel{sub@fig:fitness_curve_aggregation_simulation}{{(a)}{\relax 1.8(a)}{Subfigure 1 \relax 1.8a\relax }{subfigure.\relax 1.8.1}{}}
+\newlabel{fig:fitness_curve_clustering_simulation}{{\relax 1.8b}{18}{Subfigure 1 \relax 1.8b\relax }{subfigure.\relax 1.8.2}{}}
+\newlabel{sub@fig:fitness_curve_clustering_simulation}{{(b)}{\relax 1.8(b)}{Subfigure 1 \relax 1.8b\relax }{subfigure.\relax 1.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.8}{\ignorespaces This plot shows the subjective fitness of the classifiers and the models for (a) the aggregation behavior and (b) the object clustering behavior. The curves show the median value across 30 coevolution runs.}}{18}{figure.1.8}}
+\newlabel{fig:fitness_dynamics_simulation}{{\relax 1.8}{18}{This plot shows the subjective fitness of the classifiers and the models for (a) the aggregation behavior and (b) the object clustering behavior. The curves show the median value across 30 coevolution runs}{figure.1.8}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) Aggregation }}}{18}{subfigure.8.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) Object Clustering }}}{18}{subfigure.8.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.9}{\ignorespaces The average decision accuracy of the best classifiers and classifier systems over generations (nonlinear scale) in $30$ coevolution runs. The error bars show standard deviations. See text for details.}}{19}{figure.1.9}}
+\newlabel{fig:classifier_decision_accuracy_swarm_simulation}{{\relax 1.9}{19}{The average decision accuracy of the best classifiers and classifier systems over generations (nonlinear scale) in $30$ coevolution runs. The error bars show standard deviations. See text for details}{figure.1.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.3}Analysis of Evolved Classifiers}{19}{subsection.1.3.3}}
+\newlabel{sec:analysis_evolved_classifiers_swarm_simulation}{{1.3.3}{19}{Analysis of Evolved Classifiers\relax }{subsection.1.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.10}{\ignorespaces This plot shows the average fitness of the classifiers over generations (nonlinear scale) in $30$ coevolution runs. The fitness is calculated based on $14641$ testing models. See text for details.}}{20}{figure.1.10}}
+\newlabel{fig:classifier_fitness_swarm_simulation}{{\relax 1.10}{20}{This plot shows the average fitness of the classifiers over generations (nonlinear scale) in $30$ coevolution runs. The fitness is calculated based on $14641$ testing models. See text for details}{figure.1.10}{}}
+\newlabel{fig:classifier_output_sequence}{{\relax 1.11a}{21}{Subfigure 1 \relax 1.11a\relax }{subfigure.\relax 1.11.1}{}}
+\newlabel{sub@fig:classifier_output_sequence}{{(a)}{\relax 1.11(a)}{Subfigure 1 \relax 1.11a\relax }{subfigure.\relax 1.11.1}{}}
+\newlabel{fig:classifier_output_hidden_neurons}{{\relax 1.11b}{21}{Subfigure 1 \relax 1.11b\relax }{subfigure.\relax 1.11.2}{}}
+\newlabel{sub@fig:classifier_output_hidden_neurons}{{(b)}{\relax 1.11(b)}{Subfigure 1 \relax 1.11b\relax }{subfigure.\relax 1.11.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.11}{\ignorespaces This plot shows the (a) decision-making process and (b) the corresponding activation value of the $5$ hidden neurons of a classifier for three random-chosen agents and the replica that executes a very good model in a trial. Hidden neurons are labeled as $\textrm  {h}1$, $\textrm  {h}2$, $\textrm  {h}3$, $\textrm  {h}4$, and $\textrm  {h}5$.}}{21}{figure.1.11}}
+\newlabel{fig:classifier_output}{{\relax 1.11}{21}{This plot shows the (a) decision-making process and (b) the corresponding activation value of the $5$ hidden neurons of a classifier for three random-chosen agents and the replica that executes a very good model in a trial. Hidden neurons are labeled as $\textrm {h}1$, $\textrm {h}2$, $\textrm {h}3$, $\textrm {h}4$, and $\textrm {h}5$}{figure.1.11}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) decision-making process}}}{21}{subfigure.11.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) activation of hidden neurons}}}{21}{subfigure.11.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.1}Using a Single Classifier}{21}{subsubsection.1.3.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.3.3.2}Using a Classifier System}{23}{subsubsection.1.3.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.12}{\ignorespaces This plot shows the decision accuracy of the\nobreakspace  {}\textit  {classifier system (archive)} in the $1000^\mathrm  {th}$ generation of $30$ coevolution runs for different numbers of agents in the group. A single replica was present in each trial. In each case, $14641$ different models were tested.}}{25}{figure.1.12}}
+\newlabel{fig:classifier_scalability_aggregation}{{\relax 1.12}{25}{This plot shows the decision accuracy of the~\textit {classifier system (archive)} in the $1000^\mathrm {th}$ generation of $30$ coevolution runs for different numbers of agents in the group. A single replica was present in each trial. In each case, $14641$ different models were tested}{figure.1.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.4}Observing Only a Subset of Agents}{25}{subsection.1.3.4}}
+\newlabel{sec:observing_a_subset_agents_swarm_simulation}{{1.3.4}{25}{Observing Only a Subset of Agents\relax }{subsection.1.3.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.13}{\ignorespaces This plot shows the decision accuracy of the\nobreakspace  {}\textit  {classifier system (archive)} in the $1000^\mathrm  {th}$ generation of $30$ coevolution runs with various number of classifiers chosen to form a system.}}{26}{figure.1.13}}
+\newlabel{fig:last_generation_judgment_accuracy_cf_num_selection}{{\relax 1.13}{26}{This plot shows the decision accuracy of the~\textit {classifier system (archive)} in the $1000^\mathrm {th}$ generation of $30$ coevolution runs with various number of classifiers chosen to form a system}{figure.1.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.14}{\ignorespaces MAE (defined in Equation\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:MAE}\unskip \@@italiccorr )}}) of the evolved models with the highest subjective fitness after $1000$ generations, when using\nobreakspace  {}\textit  {Turing Learning} with varying numbers of agents (excluding the replica). Red and blue boxes show, respectively, the cases where all agents are observed, and one agent is observed. Boxes show distributions over $30$ coevolution runs. }}{26}{figure.1.14}}
+\newlabel{fig:model_parameters_box_aggregation_scalability}{{\relax 1.14}{26}{MAE (defined in Equation~\eqref {eq:MAE}) of the evolved models with the highest subjective fitness after $1000$ generations, when using~\textit {Turing Learning} with varying numbers of agents (excluding the replica). Red and blue boxes show, respectively, the cases where all agents are observed, and one agent is observed. Boxes show distributions over $30$ coevolution runs}{figure.1.14}{}}
+\citation{Daniel2014}
+\newlabel{fig:Angle_I=0}{{\relax 1.15a}{27}{Subfigure 1 \relax 1.15a\relax }{subfigure.\relax 1.15.1}{}}
+\newlabel{sub@fig:Angle_I=0}{{(a)}{\relax 1.15(a)}{Subfigure 1 \relax 1.15a\relax }{subfigure.\relax 1.15.1}{}}
+\newlabel{fig:Angle_I=1}{{\relax 1.15b}{27}{Subfigure 1 \relax 1.15b\relax }{subfigure.\relax 1.15.2}{}}
+\newlabel{sub@fig:Angle_I=1}{{(b)}{\relax 1.15(b)}{Subfigure 1 \relax 1.15b\relax }{subfigure.\relax 1.15.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.15}{\ignorespaces A diagram showing the angle of view of the agent's sensor investigated in Section\nobreakspace  {}\ref  {sec:evolving_control_and_morphology_swarm_simulation}.}}{27}{figure.1.15}}
+\newlabel{fig:Angle_I}{{\relax 1.15}{27}{A diagram showing the angle of view of the agent's sensor investigated in Section~\ref {sec:evolving_control_and_morphology_swarm_simulation}}{figure.1.15}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) }}}{27}{subfigure.15.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) }}}{27}{subfigure.15.2}}
+\newlabel{fig:model_parameters_box_aggregation_0degree}{{\relax 1.16a}{28}{Subfigure 1 \relax 1.16a\relax }{subfigure.\relax 1.16.1}{}}
+\newlabel{sub@fig:model_parameters_box_aggregation_0degree}{{(a)}{\relax 1.16(a)}{Subfigure 1 \relax 1.16a\relax }{subfigure.\relax 1.16.1}{}}
+\newlabel{fig:model_parameters_box_aggregation_60degree}{{\relax 1.16b}{28}{Subfigure 1 \relax 1.16b\relax }{subfigure.\relax 1.16.2}{}}
+\newlabel{sub@fig:model_parameters_box_aggregation_60degree}{{(b)}{\relax 1.16(b)}{Subfigure 1 \relax 1.16b\relax }{subfigure.\relax 1.16.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.16}{\ignorespaces Parameters (controller parameters and angle of view in $\unit  []{rad}$) of the evolved models with the highest subjective fitness in the $1000^\textrm  {th}$ generation corresponding to the case of the agents' angle of view equal to (a) $\unit  [0]{rad}$ and (b) $\unit  [\pi /3]{rad}$. Boxes show distributions over $30$ coevolution runs. Dotted black lines indicate true values.}}{28}{figure.1.16}}
+\newlabel{fig:model_parameters_box_aggregation_angle}{{\relax 1.16}{28}{Parameters (controller parameters and angle of view in $\unit []{rad}$) of the evolved models with the highest subjective fitness in the $1000^\textrm {th}$ generation corresponding to the case of the agents' angle of view equal to (a) $\unit [0]{rad}$ and (b) $\unit [\pi /3]{rad}$. Boxes show distributions over $30$ coevolution runs. Dotted black lines indicate true values}{figure.1.16}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) }}}{28}{subfigure.16.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) }}}{28}{subfigure.16.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.5}Evolving Control and Morphology}{28}{subsection.1.3.5}}
+\newlabel{sec:evolving_control_and_morphology_swarm_simulation}{{1.3.5}{28}{Evolving Control and Morphology\relax }{subsection.1.3.5}{}}
+\citation{Gauci2014_ijrr}
+\citation{Melvin_DARS2014}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.6}Evolving Other Behaviors}{29}{subsection.1.3.6}}
+\newlabel{sec:evolving_other_behaviors_swarm_simulation}{{1.3.6}{29}{Evolving Other Behaviors\relax }{subsection.1.3.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3.7}Noise Study}{30}{subsection.1.3.7}}
+\newlabel{sec:noise_study_swarm_simulation}{{1.3.7}{30}{Noise Study\relax }{subsection.1.3.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Summary}{31}{section.1.4}}
+\newlabel{sec:summary_simulation_swarm}{{1.4}{31}{Summary\relax }{section.1.4}{}}
+\citation{Bjerknes2013}
 \bibstyle{IEEEtrannat}
 \bibdata{upgrade}
+\newlabel{fig:model_parameters_convergence_aggregation_0degree}{{\relax 1.17a}{33}{Subfigure 1 \relax 1.17a\relax }{subfigure.\relax 1.17.1}{}}
+\newlabel{sub@fig:model_parameters_convergence_aggregation_0degree}{{(a)}{\relax 1.17(a)}{Subfigure 1 \relax 1.17a\relax }{subfigure.\relax 1.17.1}{}}
+\newlabel{fig:model_parameters_convergence_aggregation_60degree}{{\relax 1.17b}{33}{Subfigure 1 \relax 1.17b\relax }{subfigure.\relax 1.17.2}{}}
+\newlabel{sub@fig:model_parameters_convergence_aggregation_60degree}{{(b)}{\relax 1.17(b)}{Subfigure 1 \relax 1.17b\relax }{subfigure.\relax 1.17.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.17}{\ignorespaces Evolutionary process of the evolved models (controller parameters and angle of view in $\unit  []{rad}$) in the $1000^\textrm  {th}$ generation corresponding to the case of the agents' angle of view equal to (a) $\unit  [0]{rad}$ and (b) $\unit  [\pi /3]{rad}$. Boxes show distributions over $30$ coevolution runs. Dotted black lines indicate true values.. }}{33}{figure.1.17}}
+\newlabel{fig:model_parameters_convergence_angleview}{{\relax 1.17}{33}{Evolutionary process of the evolved models (controller parameters and angle of view in $\unit []{rad}$) in the $1000^\textrm {th}$ generation corresponding to the case of the agents' angle of view equal to (a) $\unit [0]{rad}$ and (b) $\unit [\pi /3]{rad}$. Boxes show distributions over $30$ coevolution runs. Dotted black lines indicate true values.}{figure.1.17}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) }}}{33}{subfigure.17.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) }}}{33}{subfigure.17.2}}
+\newlabel{fig:MAE_histgram_random_controllers}{{\relax 1.18a}{34}{Subfigure 1 \relax 1.18a\relax }{subfigure.\relax 1.18.1}{}}
+\newlabel{sub@fig:MAE_histgram_random_controllers}{{(a)}{\relax 1.18(a)}{Subfigure 1 \relax 1.18a\relax }{subfigure.\relax 1.18.1}{}}
+\newlabel{fig:AE_box_random_controllers}{{\relax 1.18b}{34}{Subfigure 1 \relax 1.18b\relax }{subfigure.\relax 1.18.2}{}}
+\newlabel{sub@fig:AE_box_random_controllers}{{(b)}{\relax 1.18(b)}{Subfigure 1 \relax 1.18b\relax }{subfigure.\relax 1.18.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.18}{\ignorespaces This plot shows (a) a histogram of the MAE (defined in Equation\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:MAE}\unskip \@@italiccorr )}}) of the evolved models and (b) the AEs (defined in Equation\nobreakspace  {}\textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:AE}\unskip \@@italiccorr )}}) of each model parameter in the $1000^\textrm  {th}$ generation over $1000$ random behaviors. For each behavior, we performed one coevolution run. In (a), $43$ points that have MAE larger than $0.1$ are not shown.}}{34}{figure.1.18}}
+\newlabel{fig:model_parameters_random_controllers}{{\relax 1.18}{34}{This plot shows (a) a histogram of the MAE (defined in Equation~\eqref {eq:MAE}) of the evolved models and (b) the AEs (defined in Equation~\eqref {eq:AE}) of each model parameter in the $1000^\textrm {th}$ generation over $1000$ random behaviors. For each behavior, we performed one coevolution run. In (a), $43$ points that have MAE larger than $0.1$ are not shown}{figure.1.18}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {(a) }}}{34}{subfigure.18.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {(b) }}}{34}{subfigure.18.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 1.19}{\ignorespaces This plot shows the total square error of the evolved parameters when increasing the percentage of noise on the measurements of the individuals' position and orientation in the aggregation behavior. Each box corresponds to 30 coevolutionary runs. See text for details. }}{35}{figure.1.19}}
+\newlabel{fig:noise_study}{{\relax 1.19}{35}{This plot shows the total square error of the evolved parameters when increasing the percentage of noise on the measurements of the individuals' position and orientation in the aggregation behavior. Each box corresponds to 30 coevolutionary runs. See text for details}{figure.1.19}{}}
 \bibcite{Grotzinger:Sci:2014}{{1}{2014}{{Grotzinger}}{{}}}
 \bibcite{Hertzberg2000}{{2}{2000}{{Hertzberg and Pope}}{{}}}
 \bibcite{Bolhuis_2004}{{3}{2004}{{Bolhuis and Giraldeau}}{{}}}
