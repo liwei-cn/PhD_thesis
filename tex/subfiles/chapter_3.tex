@@ -194,17 +194,17 @@ The robot's control cycle is updated every $\unit[0.1]{s}$, and the physics is u
 
 \subsection{Simulation Setups}\label{sec:setup_swarm_simulation}
 
-In all simulations, we used an unbounded environment. For the aggregation case study, we used groups of $11$ individuals---$10$ agents and $1$ replica that executes a model. The initial positions of individuals were generated randomly in a square region of sides $\unit[331.66]{cm}$, following a uniform distribution (average area per individual = $\unit[10000]{cm^2}$). For the object clustering case study, we used groups of $5$ individuals---$4$ agents and $1$ replica that executes a model---and $10$ cylindrical objects. The initial positions of individuals and objects were generated randomly in a square region of sides $\unit[100]{cm}$, following a uniform distribution (average area per object = $\unit[1000]{cm^2}$). In both case studies, individual starting orientations were chosen randomly in $[-\pi,\pi]$ with uniform distribution. %The initial configuration\footnote{Throughout this paper, `initial configuration' refers to initial positions and orientations of the individuals or objects, if any.} of the individuals is randomly generated in each trial. 
+In all simulations, we used an unbounded environment. For the aggregation case study, we used groups of $11$ individuals---$10$ agents and $1$ replica that executes a model. The initial positions of individuals were generated randomly in a square region of sides $\unit[331.66]{cm}$, following a uniform distribution (average area per individual = $\unit[10000]{cm^2}$). For the object clustering case study, we used groups of $5$ individuals---$4$ agents and $1$ replica that executes a model---and $10$ cylindrical objects. The initial positions of individuals and objects were generated randomly in a square region of sides $\unit[100]{cm}$, following a uniform distribution (average area per object = $\unit[1000]{cm^2}$). In both case studies, individual starting orientations were chosen randomly in $[-\pi,\pi]$ with uniform distribution. %The initial configuration\footnote{Throughout this chapter, `initial configuration' refers to initial positions and orientations of the individuals or objects, if any.} of the individuals is randomly generated in each trial. 
 
 We performed 30 coevolution runs for each case study. Each run lasted 1000 generations. The model and classifier populations each consisted of $100$ solutions ($\mu = 50$,  $\lambda = 50$). In each trial, classifiers observed individuals for $\unit[10]{s}$ at $\unit[0.1]{s}$ intervals ($100$ data points). 
 
 \begin{figure}[!t]%htbp
 	\centering
 		\subfloat[(a) Aggregation \label{fig:model_parameters_box_aggregation}]{%
-			\includegraphics[width=3.0 in]{model_parameters_box_aggregation.pdf}
+			\includegraphics[width=3.5 in]{model_parameters_box_aggregation.pdf}
 		}\\
 		\subfloat[(b) Object Clustering\label{fig:model_parameters_box_clustering}]{%
-			\includegraphics[width=3.0 in]{model_parameters_box_clustering.pdf}
+			\includegraphics[width=3.5 in]{model_parameters_box_clustering.pdf}
 		}
 		\caption{Parameters of the evolved models with the highest subjective fitness in the $1000^\textrm{th}$ generation in the coevolutions for (a) the aggregation behavior and (b) the object clustering behavior. Each box corresponds to 30 coevolution runs in simulation. The dotted black lines correspond to the values of the parameters that the system is expected to learn (i.e., those of the agent).\label{fig:model_parameters_box}}
 \end{figure}
@@ -226,7 +226,7 @@ We define the mean absolute error (MAE) over all parameters as:
 %\footnote{Throughout the main text, we exclusively use the acronyms AE and MAE. Therefore ``mean AE'' is not to be confused with MAE; rather, it refers to the mean AE in one parameter over a number of coevolution runs.}
 
 Fig.~\ref{fig:model_parameters_box} shows a box plot\footnote{The box plots presented here are all as follows. The line inside the box represents the median of the data. The edges of the box represent the lower and the upper quartiles of the data, whereas the whiskers represent the lowest and the highest data points that are within $1.5$ times the range from the lower and the upper quartiles, respectively. Circles represent outliers.\label{fn:boxplot}} with the parameters of the evolved models with the highest subjective fitness\footnote{The fitness of the models depends solely on the judgments of the classifiers from the competing population, and is hence referred to as \textit{subjective}.} in the final generation. It can be seen that~\textit{Turing Learning} identified the parameters for both behaviors with good accuracy (dotted black lines represent the ground truth, that is, the parameters of the observed swarming agents). In the case of aggregation, the means (standard deviations) of the AEs in the parameters were (from left to right in Fig.~\subref*{fig:model_parameters_box_aggregation}): $0.01$ ($0.01$), $0.01$ ($0.01$), $0.07$ ($0.07$) and $0.06$ ($0.04$). In the case of object clustering, these values were: $0.03$ ($0.03$), $0.04$ ($0.03$), $0.02$ ($0.02$), $0.03$ ($0.03$), $0.08$ ($0.13$) and $0.08$ ($0.09$).
-%In the rest of this paper, unless otherwise stated, `evolved model' refers to the model with the highest subjective fitness in a generation.
+%In the rest of this thesis, unless otherwise stated, `evolved model' refers to the model with the highest subjective fitness in a generation.
 
 We also investigated the evolutionary dynamics. Fig.~\ref{fig:model_parameters_convergence} shows how the model parameters converged over generations. In the aggregation case study, the parameters corresponding to $I=0$ were learned first. After around $50$ generations, both $v_{\ell0}$ and $v_{r0}$ closely approximated their true values ($-0.7$ and $-1.0$), shown in Fig.~\subref*{fig:model_parameters_convergence_aggregation}. For $I=1$, it took about $200$ generations for both $v_{\ell1}$ and $v_{r1}$ to converge. A likely reason for this effect is that an agent spends a larger proportion of its time seeing nothing ($I=0$) than other agents ($I=1$)---simulations revealed these percentages to be $91.2\%$ and $8.8\%$, respectively (mean values across $100$ trials). 
 
@@ -234,10 +234,10 @@ In the object clustering case study, the parameters corresponding to $I=0$ and $
 \begin{figure}[!t]%
 	\centering
 		\subfloat[(a) Aggregation \label{fig:model_parameters_convergence_aggregation}]{%
-			\includegraphics[width=3.0 in]{model_parameters_convergence_aggregation.pdf}
+			\includegraphics[width=3.5 in]{model_parameters_convergence_aggregation.pdf}
 		}\\
 		\subfloat[(b) Object Clustering\label{fig:model_parameters_convergence_clustering}]{%
-			\includegraphics[width=3.0 in]{model_parameters_convergence_clustering.pdf}
+			\includegraphics[width=3.5 in]{model_parameters_convergence_clustering.pdf}
 		}
 		\caption{Evolutionary process of the evolved model parameters for (a) the aggregation behavior and (b) the object clustering behavior. Curves represent median values across 30 coevolution runs. Dotted black lines indicate true values. \label{fig:model_parameters_convergence}}
 \end{figure}
@@ -245,15 +245,15 @@ In the object clustering case study, the parameters corresponding to $I=0$ and $
 \begin{figure}[!t]
 	\centering
 		\subfloat[(a) Aggregation \label{fig:model_validation_aggregation_simulation}]{%
-			\includegraphics[width=3.0 in]{model_validation_aggregation_simulation.pdf}
+			\includegraphics[width=3.5 in]{model_validation_aggregation_simulation.pdf}
 		}\\
 		\subfloat[(b) Object Clustering\label{fig:model_validation_clustering_simulation}]{%
-			\includegraphics[width=3.0 in]{model_validation_clustering_simulation.pdf}
+			\includegraphics[width=3.5 in]{model_validation_clustering_simulation.pdf}
 		}
 		\caption{(a) Dispersion (after $\unit[400]{s}$) of $50$ agents executing the original aggregation controller (red box) or one of the $30$ evolved models (blue boxes) of the $1000^\mathrm{th}$ generation. (b) Dispersion (after $\unit[400]{s}$) of $50$ objects in a swarm of $25$ agents executing the original object clustering controller (red box) or one of the $30$ evolved models (blue boxes). In both (a) and (b), boxes show distributions over $30$ trials. The dotted black lines indicate the minimum dispersion that $50$ agents/objects can possible achieve~\cite{Graham1990}. See Section~\ref{sec:analysis_evolved_models_swarm_simulation} for details.\label{fig:model_validation_simulation}}
 \end{figure}
 
-Although the evolved models approximate the agents well in terms of parameters, it has often been observed in swarm systems that small changes in individual agent behaviors can lead to vastly different emergent behaviors, especially with large numbers of agents~\cite{Paul2010}. For this reason, we evaluated the quality of the emergent behaviors that the models give rise to. In the case of aggregation, a good measure of the emergent behavior is the dispersion of the swarm after some elapsed time as defined in~\cite{Gauci2014_ijrr}\footnote{The measure of dispersion is based on the robots'/objects' distances from their centroid. For a formal definition, see Equation (5) of \cite{Gauci2014_ijrr}, Equation (2) of~\cite{Melvin2014_aamas} and~\cite{Graham1990}.}. For each of the $30$ models with the highest subjective fitness in the final generation, we performed $30$ trials with $50$ agents each executing the model. For comparison, we also performed $30$ trials using the original controller (see Equation~\eqref{eq:aggregation_optimal_controller}). The set of initial configurations was the same for all models and the original controller. Fig~\subref*{fig:model_validation_aggregation_simulation} shows the dispersion for the original controller and models after $\unit[400]{s}$. All models led to aggregation. We performed a statistical test\footnote{Throughout this paper, the statistical test used is a two-sided Mann-Whitney test with a $5\%$ significance level.} on the final dispersion of the agents between the original controller and each model. There was no statistically significant difference in $26$ out of $30$ cases ($30$ out of $30$ cases with Bonferroni correction). 
+Although the evolved models approximate the agents well in terms of parameters, it has often been observed in swarm systems that small changes in individual agent behaviors can lead to vastly different emergent behaviors, especially with large numbers of agents~\cite{Paul2010}. For this reason, we evaluated the quality of the emergent behaviors that the models give rise to. In the case of aggregation, a good measure of the emergent behavior is the dispersion of the swarm after some elapsed time as defined in~\cite{Gauci2014_ijrr}\footnote{The measure of dispersion is based on the robots'/objects' distances from their centroid. For a formal definition, see Equation (5) of \cite{Gauci2014_ijrr}, Equation (2) of~\cite{Melvin2014_aamas} and~\cite{Graham1990}.}. For each of the $30$ models with the highest subjective fitness in the final generation, we performed $30$ trials with $50$ agents each executing the model. For comparison, we also performed $30$ trials using the original controller (see Equation~\eqref{eq:aggregation_optimal_controller}). The set of initial configurations was the same for all models and the original controller. Fig~\subref*{fig:model_validation_aggregation_simulation} shows the dispersion for the original controller and models after $\unit[400]{s}$. All models led to aggregation. We performed a statistical test\footnote{Throughout this thesis, the statistical test used is a two-sided Mann-Whitney test with a $5\%$ significance level.} on the final dispersion of the agents between the original controller and each model. There was no statistically significant difference in $26$ out of $30$ cases ($30$ out of $30$ cases with Bonferroni correction). 
 %in individual agent behaviors can lead to vastly different emergent behaviors, especially with large numbers of agents~\cite{Paul2010, Luca2014}
 
 In the case of object clustering, we use the dispersion of the objects after some elapsed time as a measure of the emergent behavior. With the original controller (see Equation~\eqref{eq:clustering_optimal_controller}) and each of the models, we performed $30$ trials with $25$ agents and $50$ objects. The results are shown in Fig.~\subref*{fig:model_validation_clustering_simulation}. In a statistical test on the final dispersion of the objects between the original controller and each model, there was no statistically significant difference in $24$ out of $30$ cases ($26$ out of $30$ cases with Bonferroni correction).
@@ -284,21 +284,21 @@ The coevolutionary dynamics of the object clustering behavior is similar. Compar
 
 \begin{figure}[!t]
 	\centering
-	\includegraphics[width=3.0 in]{classifier_decision_accuracy_simulation.pdf}
+	\includegraphics[width=3.5 in]{classifier_decision_accuracy_simulation.pdf}
 	\caption{The average decision accuracy of the best classifiers and classifier systems over generations (nonlinear scale) in $30$ coevolution runs. The error bars show standard deviations. See text for details.}
 	\label{fig:classifier_decision_accuracy_swarm_simulation}
 \end{figure}
 
 \begin{figure}[!t]
 	\centering
-	\includegraphics[width=3.0 in]{classifier_fitness_simulation.pdf}
+	\includegraphics[width=3.5 in]{classifier_fitness_simulation.pdf}
 	\caption{This plot shows the average fitness of the classifiers over generations (nonlinear scale) in $30$ coevolution runs. The fitness is calculated based on $14641$ testing models. See text for details.}
 	\label{fig:classifier_fitness_swarm_simulation}
 \end{figure}
 
 \subsection{Analysis of Evolved Classifiers}\label{sec:analysis_evolved_classifiers_swarm_simulation}
 
-The primary outcome of the \textit{Turing Learning} method (and of any system identification method) is the model, which has been discussed in the previous section. However, the evolved classifiers can also be considered as a useful byproduct. For instance they could be used to detect abnormal agents in a swarm. We will now analyze the performance of the evolved classifiers. For the remainder of this paper, we consider only the aggregation case study.
+The primary outcome of the \textit{Turing Learning} method (and of any system identification method) is the model, which has been discussed in the previous section. However, the evolved classifiers can also be considered as a useful byproduct. For instance they could be used to detect abnormal agents in a swarm. We will now analyze the performance of the evolved classifiers. For the remainder of this chapter, we consider only the aggregation case study.
 
 To assess the performance of the classifiers, we measure the percentage of correct judgments over agents and a wide range of models. The models are uniformly distributed across the entire parameter space of the agents: $[-1,1]^4$. To keep the analysis of classifiers within a reasonable computation time, we discretize this space using $11$ settings per parameter, to obtain: $\mathcal{X} = \{-1.0, -0.8, ..., 0.8, 1.0\}^4$. This discretized space is a grid consisting of $|\mathcal{X}|=11^4=14641$ points (i.e., models). The classifier's performance is computed as follows. The model is executed by a replica mixed into a group of $10$ agents (as in the coevolution runs). $10$ trials are performed using a set of initial configurations common to all classifiers. The motion data is fed to each classifier, which makes $10$ judgments per individual. If the classifier consistently judges the individual as a model (i.e. not an agent) in $10$ out of $10$ trials, it outputs a ``model'' decision. Otherwise, it outputs ``agent''. This conservative approach was used to minimize the risk of false positive detection of abnormal behavior.
 \begin{figure}[!t]%
@@ -357,7 +357,7 @@ As we mentioned before, we chose $10$ classifiers to form a classifier system to
 %
 \begin{figure}[!t]%htbp
 	\centering
-	\includegraphics[width=3.0 in]{model_parameters_box_aggregation_scalability.pdf}
+	\includegraphics[width=3.5 in]{model_parameters_box_aggregation_scalability.pdf}
 	\caption{MAE (defined in Equation~\eqref{eq:MAE}) of the evolved models with the highest subjective fitness after $1000$ generations, when using~\textit{Turing Learning} with varying numbers of agents (excluding the replica). Red and blue boxes show, respectively, the cases where all agents are observed, and one agent is observed. Boxes show distributions over $30$ coevolution runs. }
 	\label{fig:model_parameters_box_aggregation_scalability}
 \end{figure}
@@ -439,7 +439,7 @@ Fig.~\subref*{fig:MAE_histgram_random_controllers} shows a histogram of the MAE 
 \begin{figure}[!h]%htbp
 	\centering
 	\includegraphics[width=3.5 in]{MAE_noise_study.pdf}
-	\caption{This plot shows the total square error of the evolved parameters when increasing the percentage of noise on the measurements of the individuals' position and orientation in the aggregation behavior. Each box corresponds to 30 coevolutionary runs. See text for details.
+	\caption{This plot shows the MAE (defined in Equation~\eqref{eq:MAE}) of the evolved parameters when increasing the percentage of noise on the measurements of the individuals' position and orientation in the aggregation behavior. Each box corresponds to 30 coevolution runs. See text for details.
 \label{fig:noise_study}}
 \end{figure}
 
@@ -449,7 +449,7 @@ We conducted a study to investigate how the performance of~\textit{Turing Learni
 
 We conducted $5$ sets of $30$ coevolutions for the noise values $M=\{0, 25, 50, 75, 100\}\%$. In a coevolution with a noise value $M$, every measurement of an individual's position is perturbed in a random direction and by a random distance chosen uniformly in $\left[0, 1.28\frac{M}{100}\right] \,\textrm{cm}$. Similarly, every orientation measurement is perturbed by a random angle chosen uniformly in $\left[-0.5\frac{M}{100}, 0.5\frac{M}{100}\right]$.
 
-Figure~\ref{fig:noise_study} shows the total square error of the evolved parameters in the final generations of the coevolutions. This plot reveals that the system still performs relatively well when a considerable amount of noise affects the individuals' motion tracking system.
+Figure~\ref{fig:noise_study} shows MAE (defined in Equation~\eqref{eq:MAE}) of the evolved parameters in the final generations of the coevolutions. This plot reveals that the system still performs relatively well when a considerable amount of noise affects the individuals' motion tracking system.
 
 \section{Summary}\label{sec:summary_simulation_swarm}
 
@@ -460,9 +460,11 @@ Through competitive coevolution of models and classifiers, the system successful
 
 A scalability study showed that the interactions in a swarm can be characterized by the effects on a subset of agents. In other words, when learning swarm behaviors especially with large number of agents, instead of considering the motion of all the agents in the group, we could focus on a subset of agents. This becomes critical when the available data about agents in the swarm is limited. Our approach was proven to work even if using only the motion data of a single agent and replica, as the data from this agent implicitly contained enough information about the interactions in the swarm.   
 
-In this thesis, the model was explicitly represented by a set of parameters. The evolved parameters could thus be compared against the ground truth, enabling us to objectively gauge the quality of evolved models in two case studies as well as for $1000$ randomly sampled behaviors. In principle, we could also evolve the structure of the agent's control system. The results of learning the agent's angle of view showed that our method may even learn the morphology of the swarming agents.
+In this chapter, the model was explicitly represented by a set of parameters. The evolved parameters could thus be compared against the ground truth, enabling us to objectively gauge the quality of evolved models in two case studies as well as for $1000$ randomly sampled behaviors. In principle, we could also evolve the structure of the agent's control system. The results of learning the agent's angle of view showed that our method may even learn the morphology of the swarming agents.
 %However, this should not be considered as an inherent limitation of our method. , using an implicit representation (e.g. neural network)
 %In the two case studies investigated, the behaviors of the agents in the group were almost not affected by inserting the replica in each trial. 
 
-In collective behavior, abnormal agent(s) may have a great impact on the swarm~\cite{Bjerknes2013}. For the same reason, the insertion of a replica that exhibits different behavior or is not recognized as con-specific may disrupt the global behavior and hence the models obtained may be biased. An appropriate strategy would be to isolate the influence of the replica. In particular, to evaluate a model one could perform two trials, one with only replicas each executing the model and the other with only agents. The data of the replicas and agents from each trial could then be fed into the classifiers for making judgments. Some preliminary results suggest that there is no significant difference between either approach for the case studies considered in this paper.
+In collective behavior, abnormal agent(s) may have a great impact on the swarm~\cite{Bjerknes2013}. For the same reason, the insertion of a replica that exhibits different behavior or is not recognized as con-specific may disrupt the global behavior and hence the models obtained may be biased. An appropriate strategy would be to isolate the influence of the replica. In particular, to evaluate a model one could perform two trials, one with only replicas each executing the model and the other with only agents. The data of the replicas and agents from each trial could then be fed into the classifiers for making judgments. Some preliminary results suggest that there is no significant difference between either approach for the case studies considered in this chapter. In Chapter~\ref{ch:interaction}, we use~\textit{Turing Learning} to infer the behavior of a single agent. In all cases that are considered, either the agent or the replica is present. 
+
+
 

@@ -294,7 +294,7 @@ To investigate whether the decision accuracy is still a good measurement of the 
 \begin{figure}[!t]
     \centering
     \includegraphics[width=3.5in]{algorithm_sensitivity_analysis.pdf}
-    \caption{This plot shows the relationship between the old fitness, $f$, and the new fitness, $F$, of the classifiers/models, when the failure ratio of agents in the swarm, $\frac{m}{n}$, changes. When $m = 0$ or $\frac{m}{n} \rightarrow 0$, $F=f$. When $0 < \frac{m}{n} < 1$, $F$ is shifted, but the fitness order is not changed.}
+    \caption{This plot shows the relationship between the old fitness, $f$, and the new fitness, $F$, of the classifiers/models, when the failure ratio of individuals in the swarm, $\frac{m}{n}$, changes. When $m = 0$ or $\frac{m}{n} \rightarrow 0$, $F=f$. When $0 < \frac{m}{n} < 1$, $F$ is shifted, but the fitness order of the classifiers/models is not changed. See text for details.}
     \label{fig:analysis_algorithm}
 \end{figure}
 
