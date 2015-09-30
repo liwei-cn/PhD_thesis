@@ -18,15 +18,15 @@ Warning--missing institution in Shewchuk1994
 Done.
 You've used 193 entries,
             4060 wiz_defined-function locations,
-            2087 strings with 41523 characters,
-and the built_in function-call counts, 156308 in all, are:
-= -- 12802
+            2047 strings with 39391 characters,
+and the built_in function-call counts, 154670 in all, are:
+= -- 12550
 > -- 3451
 < -- 1576
 + -- 1815
 - -- 508
-* -- 7740
-:= -- 23553
+* -- 7530
+:= -- 22965
 add.period$ -- 422
 call.type$ -- 193
 change.case$ -- 187
@@ -35,20 +35,20 @@ cite$ -- 195
 duplicate$ -- 11064
 empty$ -- 12322
 format.name$ -- 986
-if$ -- 35979
+if$ -- 35727
 int.to.chr$ -- 0
 int.to.str$ -- 193
 missing$ -- 1790
-newline$ -- 687
+newline$ -- 603
 num.names$ -- 404
-pop$ -- 3823
+pop$ -- 3865
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 12143
+skip$ -- 12017
 stack$ -- 0
 substring$ -- 7760
-swap$ -- 9332
+swap$ -- 9290
 text.length$ -- 375
 text.prefix$ -- 0
 top$ -- 5
@@ -56,5 +56,5 @@ type$ -- 0
 warning$ -- 2
 while$ -- 722
 width$ -- 196
-write$ -- 2843
+write$ -- 2717
 (There were 2 warnings)

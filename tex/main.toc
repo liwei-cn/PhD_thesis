@@ -5,10 +5,10 @@
 \contentsline {section}{\numberline {1.2}Problem Statement}{4}{section.1.2}
 \contentsline {section}{\numberline {1.3}Contributions}{5}{section.1.3}
 \contentsline {section}{\numberline {1.4}Publications}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Thesis Outline}{7}{section.1.5}
+\contentsline {section}{\numberline {1.5}Thesis Outline}{8}{section.1.5}
 \contentsline {chapter}{\numberline {2}Background and Related Work}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Background}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The Development of AI and Robotics}{11}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Development of AI and Robotics}{11}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Introduction of Automation Science}{14}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Evolutionary Computation}{15}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Biological Evolution}{15}{subsection.2.2.1}
@@ -73,32 +73,33 @@
 \contentsline {subsection}{\numberline {4.5.2}Analysis of Evolved Classifiers}{91}{subsection.4.5.2}
 \contentsline {section}{\numberline {4.6}Analysis of Sensitivity for Individual Failure}{94}{section.4.6}
 \contentsline {section}{\numberline {4.7}Summary}{95}{section.4.7}
-\contentsline {section}{\numberline {4.8}Introduction}{96}{section.4.8}
-\contentsline {section}{\numberline {4.9}Methodology}{98}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Models}{98}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Classifiers}{98}{subsection.4.9.2}
-\contentsline {subsection}{\numberline {4.9.3}Optimization Algorithm}{99}{subsection.4.9.3}
-\contentsline {subsection}{\numberline {4.9.4}Fitness Calculation}{100}{subsection.4.9.4}
-\contentsline {section}{\numberline {4.10}Case Study One}{100}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Deterministic Behavior}{100}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Simulation Setup}{103}{subsection.4.10.2}
-\contentsline {subsection}{\numberline {4.10.3}Results}{103}{subsection.4.10.3}
-\contentsline {subsubsection}{\numberline {4.10.3.1}Analysis of Evolved Models}{103}{subsubsection.4.10.3.1}
-\contentsline {subsubsection}{\numberline {4.10.3.2}Coevolutionary Dynamics}{106}{subsubsection.4.10.3.2}
-\contentsline {subsubsection}{\numberline {4.10.3.3}Analysis of Evolved Classifiers}{108}{subsubsection.4.10.3.3}
-\contentsline {subsubsection}{\numberline {4.10.3.4}Noise Study}{113}{subsubsection.4.10.3.4}
-\contentsline {subsubsection}{\numberline {4.10.3.5}Using a Single-Population Evolutionary Algorithm}{115}{subsubsection.4.10.3.5}
-\contentsline {subsubsection}{\numberline {4.10.3.6}Coevolution of Inputs and Models}{116}{subsubsection.4.10.3.6}
-\contentsline {section}{\numberline {4.11}Case Study Two}{117}{section.4.11}
-\contentsline {subsection}{\numberline {4.11.1}Stochastic Behavior}{117}{subsection.4.11.1}
-\contentsline {subsection}{\numberline {4.11.2}Simulation Setup}{119}{subsection.4.11.2}
-\contentsline {subsection}{\numberline {4.11.3}Results: Two States}{119}{subsection.4.11.3}
-\contentsline {subsubsection}{\numberline {4.11.3.1}Analysis of Evolved Models}{120}{subsubsection.4.11.3.1}
-\contentsline {subsubsection}{\numberline {4.11.3.2}Analysis of Evolved Classifiers}{121}{subsubsection.4.11.3.2}
-\contentsline {subsection}{\numberline {4.11.4}Results: Three States}{121}{subsection.4.11.4}
-\contentsline {subsubsection}{\numberline {4.11.4.1}Analysis of Evolved Models}{122}{subsubsection.4.11.4.1}
-\contentsline {subsubsection}{\numberline {4.11.4.2}Analysis of Evolved Classifiers}{122}{subsubsection.4.11.4.2}
-\contentsline {section}{\numberline {4.12}Summary}{123}{section.4.12}
-\contentsline {chapter}{\numberline {5}Conclusion}{131}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary of Findings}{131}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future work}{132}{section.5.2}
+\contentsline {chapter}{\numberline {5}Inferring Individual Behaviors Through Interactive Turing Learning}{97}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{97}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methodology}{98}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Models}{98}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Classifiers}{99}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Optimization Algorithm}{100}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Fitness Calculation}{100}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Case Study One}{101}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Deterministic Behavior}{101}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Simulation Setup}{103}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Results}{104}{subsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Analysis of Evolved Models}{104}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Coevolutionary Dynamics}{106}{subsubsection.5.3.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3.3}Analysis of Evolved Classifiers}{108}{subsubsection.5.3.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.4}Noise Study}{113}{subsubsection.5.3.3.4}
+\contentsline {subsubsection}{\numberline {5.3.3.5}Using a Single-Population Evolutionary Algorithm}{114}{subsubsection.5.3.3.5}
+\contentsline {subsubsection}{\numberline {5.3.3.6}Coevolution of Inputs and Models}{116}{subsubsection.5.3.3.6}
+\contentsline {section}{\numberline {5.4}Case Study Two}{117}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Stochastic Behavior}{117}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Simulation Setup}{119}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Results: Two States}{120}{subsection.5.4.3}
+\contentsline {subsubsection}{\numberline {5.4.3.1}Analysis of Evolved Models}{120}{subsubsection.5.4.3.1}
+\contentsline {subsubsection}{\numberline {5.4.3.2}Analysis of Evolved Classifiers}{122}{subsubsection.5.4.3.2}
+\contentsline {subsection}{\numberline {5.4.4}Results: Three States}{123}{subsection.5.4.4}
+\contentsline {subsubsection}{\numberline {5.4.4.1}Analysis of Evolved Models}{124}{subsubsection.5.4.4.1}
+\contentsline {subsubsection}{\numberline {5.4.4.2}Analysis of Evolved Classifiers}{126}{subsubsection.5.4.4.2}
+\contentsline {section}{\numberline {5.5}Summary}{128}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{131}{chapter.6}
+\contentsline {section}{\numberline {6.1}Summary of Findings}{131}{section.6.1}
+\contentsline {section}{\numberline {6.2}Future work}{132}{section.6.2}

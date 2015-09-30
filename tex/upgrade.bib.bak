@@ -35,7 +35,6 @@ series={Lecture Notes in Computer Science},
 editor={Bartz-Beielstein, Thomas and Branke, Jürgen and Filipič, Bogdan and Smith, Jim},
 doi={10.1007/978-3-319-10762-2_3},
 title={In Vivo Veritas: Towards the Evolution of Things},
-url={http://dx.doi.org/10.1007/978-3-319-10762-2_3},
 publisher={Springer International Publishing},
 keywords={Embodied Evolution; Evolutionary Computing; Evolutionary Robotics; Self-reproducing Robots},
 author={Eiben, AgostonEndre},
@@ -55,9 +54,7 @@ VOLUME={1},
 	
 YEAR={2014},      
 	
-NUMBER={4},     
-	  
-URL={http://www.frontiersin.org/evolutionary_robotics/10.3389/frobt.2014.00004/full},       
+NUMBER={4},       
 	
 DOI={10.3389/frobt.2014.00004},      
 	
@@ -76,9 +73,7 @@ VOLUME={2},
 	
 YEAR={2015},      
 	
-NUMBER={4},     
-	  
-URL={http://www.frontiersin.org/evolutionary_robotics/10.3389/frobt.2015.00004/abstract},       
+NUMBER={4},         
 	
 DOI={10.3389/frobt.2015.00004},      
 	
@@ -103,7 +98,6 @@ ISSN={2296-9144} ,
      number = {3},
      jstor_formatteddate = {May, 1965},
      pages = {pp. 497-501},
-     url = {http://www.jstor.org/stable/1301720},
      ISSN = {00223360},
      abstract = {},
      language = {English},
@@ -145,8 +139,6 @@ pages = "345 - 370",
 year = "2009",
 note = "",
 issn = "0921-8890",
-doi = "http://dx.doi.org/10.1016/j.robot.2008.09.009",
-url = "http://www.sciencedirect.com/science/article/pii/S0921889008001450",
 author = "Andrew L. Nelson and Gregory J. Barlow and Lefteris Doitsidis",
 keywords = "Evolutionary robotics",
 keywords = "Fitness functions",
@@ -339,8 +331,6 @@ pages = "209 - 261",
 year = "1993",
 note = "",
 issn = "0004-3702",
-doi = "http://dx.doi.org/10.1016/0004-3702(93)90068-M",
-url = "http://www.sciencedirect.com/science/article/pii/000437029390068M",
 author = "Robert K. Lindsay and Bruce G. Buchanan and Edward A. Feigenbaum and Joshua Lederberg",
 keywords = "Expert systems",
 keywords = "heuristic programming",
@@ -402,8 +392,6 @@ number = {6169},
 pages = {386-387}, 
 year = {2014}, 
 doi = {10.1126/science.1249944}, 
-URL = {http://www.sciencemag.org/content/343/6169/386.short}, 
-eprint = {http://www.sciencemag.org/content/343/6169/386.full.pdf}, 
 journal = {Science} 
 }
 
@@ -536,8 +524,6 @@ pages = "85 - 101",
 year = "2000",
 note = "",
 issn = "0921-8890",
-doi = "http://dx.doi.org/10.1016/S0921-8890(99)00066-4",
-url = "http://www.sciencedirect.com/science/article/pii/S0921889099000664",
 author = "C.Ronald Kube and Eric Bonabeau",
 keywords = "Cooperative transport",
 keywords = "Ants",
@@ -576,8 +562,6 @@ pages = "169 - 180",
 year = "2005",
 note = "",
 issn = "0003-3472",
-doi = "http://dx.doi.org/10.1016/j.anbehav.2004.02.009",
-url = "http://www.sciencedirect.com/science/article/pii/S0003347204002428",
 author = "Raphael Jeanson and Colette Rivault and Jean-Louis Deneubourg and Stephane Blanco and Richard Fournier and Christian Jost and Guy Theraulaz"
 }
 
@@ -593,7 +577,6 @@ author = "Raphael Jeanson and Colette Rivault and Jean-Louis Deneubourg and Step
  issn = {1758-0366},
  pages = {1--13},
  numpages = {13},
- url = {http://dx.doi.org/10.1504/IJBIC.2009.022770},
  doi = {10.1504/IJBIC.2009.022770},
  acmid = {1813387},
  publisher = {Inderscience Publishers},
@@ -609,7 +592,6 @@ volume={2},
 number={2-4},
 doi={10.1007/s11721-008-0016-2},
 title={Self-organized flocking in mobile robot swarms},
-url={http://dx.doi.org/10.1007/s11721-008-0016-2},
 publisher={Springer US},
 keywords={Swarm robotics; Self-organization; Flocking},
 author={Turgut, AliE. and Çelikkanat, Hande and Gökçe, Fatih and Şahin, Erol},
@@ -628,7 +610,6 @@ language={English}
  location = {Valencia, Spain},
  pages = {163--170},
  numpages = {8},
- url = {http://dl.acm.org/citation.cfm?id=2343576.2343599},
  acmid = {2343599},
  publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
  address = {Richland, SC},
@@ -676,7 +657,6 @@ ISSN={1060-9857},}
  issn = {1064-5462},
  pages = {387--408},
  numpages = {22},
- url = {http://dx.doi.org/10.1162/artl.2008.14.4.14400},
  doi = {10.1162/artl.2008.14.4.14400},
  acmid = {1411089},
  publisher = {MIT Press},
@@ -693,7 +673,6 @@ series={Lecture Notes in Computer Science},
 editor={Banzhaf, Wolfgang and Ziegler, Jens and Christaller, Thomas and Dittrich, Peter and Kim, JanT.},
 doi={10.1007/978-3-540-39432-7_93},
 title={Evolving Aggregation Behaviors in a Swarm of Robots},
-url={http://dx.doi.org/10.1007/978-3-540-39432-7_93},
 publisher={Springer Berlin Heidelberg},
 author={Trianni, Vito and Groß, Roderich and Labella, ThomasH. and Şahin, Erol and Dorigo, Marco},
 pages={865-874},
@@ -708,7 +687,6 @@ booktitle={Distributed Autonomous Robotic Systems 4},
 editor={Parker, LynneE. and Bekey, George and Barhen, Jacob},
 doi={10.1007/978-4-431-67919-6_26},
 title={Distributed Sensing and Data Collection Via Broken Ad Hoc Wireless Connected Networks of Mobile Robots},
-url={http://dx.doi.org/10.1007/978-4-431-67919-6_26},
 publisher={Springer Japan},
 keywords={Distributed sensing; ad hoc wireless networking},
 author={Winfield, Alan. F. T.},
@@ -739,7 +717,6 @@ series={Lecture Notes in Computer Science},
 editor={Şahin, Erol and Spears, WilliamM.},
 doi={10.1007/978-3-540-30552-1_2},
 title={Swarm Robotics: From Sources of Inspiration to Domains of Application},
-url={http://dx.doi.org/10.1007/978-3-540-30552-1_2},
 publisher={Springer Berlin Heidelberg},
 author={Şahin, Erol},
 pages={10-20},
@@ -755,7 +732,6 @@ series={Lecture Notes in Computer Science},
 editor={Dorigo, Marco and Birattari, Mauro and Blum, Christian and Gambardella, LucaMaria and Mondada, Francesco and Stützle, Thomas},
 doi={10.1007/978-3-540-28646-2_3},
 title={ACO for Continuous and Mixed-Variable Optimization},
-url={http://dx.doi.org/10.1007/978-3-540-28646-2_3},
 publisher={Springer Berlin Heidelberg},
 author={Socha, Krzysztof},
 pages={25-36},
@@ -775,7 +751,6 @@ language={English}
  issn = {1076-9757},
  pages = {317--365},
  numpages = {49},
- url = {http://dl.acm.org/citation.cfm?id=1622797.1622806},
  acmid = {1622806},
  publisher = {AI Access Foundation},
  address = {USA},
@@ -811,7 +786,6 @@ volume={1},
 number={1},
 doi={10.1007/s11721-007-0004-y},
 title={The biological principles of swarm intelligence},
-url={http://dx.doi.org/10.1007/s11721-007-0004-y},
 publisher={Springer US},
 keywords={Swarm intelligence; Social insects; Stigmergy; Self-organization collective behaviors},
 author={Garnier, Simon and Gautrais, Jacques and Theraulaz, Guy},
@@ -874,7 +848,6 @@ pages={361--384},
  issn = {1089-778X},
  pages = {333--349},
  numpages = {17},
- url = {http://dx.doi.org/10.1109/TEVC.2008.926486},
  doi = {10.1109/TEVC.2008.926486},
  acmid = {1650365},
  publisher = {IEEE Press},
@@ -891,8 +864,6 @@ pages = {1349-1352},
 year = {2015}, 
 doi = {10.1126/science.aaa2397}, 
 abstract ={Additive manufacturing processes such as 3D printing use time-consuming, stepwise layer-by-layer approaches to object fabrication. We demonstrate the continuous generation of monolithic polymeric parts up to tens of centimeters in size with feature resolution below 100 micrometers. Continuous liquid interface production is achieved with an oxygen-permeable window below the ultraviolet image projection plane, which creates a “dead zone” (persistent liquid interface) where photopolymerization is inhibited between the window and the polymerizing part. We delineate critical control parameters and show that complex solid parts can be drawn out of the resin at rates of hundreds of millimeters per hour. These print speeds allow parts to be produced in minutes instead of hours.}, 
-URL = {http://www.sciencemag.org/content/347/6228/1349.abstract}, 
-eprint = {http://www.sciencemag.org/content/347/6228/1349.full.pdf}, 
 journal = {Science} 
 }
 
@@ -925,7 +896,6 @@ volume={5},
 number={4},
 doi={10.1007/s12065-012-0071-x},
 title={Embodied artificial evolution},
-url={http://dx.doi.org/10.1007/s12065-012-0071-x},
 publisher={Springer-Verlag},
 keywords={Evolution; Evolutionary computing; Embodiment; Embodied evolution; Self-reproduction},
 author={Eiben, A.E. and Kernbach, S. and Haasdijk, Evert},
@@ -936,7 +906,6 @@ language={English}
 @incollection{eiben:inria-00531455,
   TITLE = {{Embodied, On-line, On-board Evolution for Autonomous Robotics}},
   AUTHOR = {Eiben, A.E. and Haasdijk, Evert and Bredeche, Nicolas},
-  URL = {https://hal.inria.fr/inria-00531455},
   BOOKTITLE = {{Symbiotic Multi-Robot Organisms: Reliability, Adaptability, Evolution.}},
   EDITOR = {P. Levi, S. Kernbach (Eds.)},
   PUBLISHER = {{Springer}},
@@ -944,7 +913,6 @@ language={English}
   VOLUME = {7},
   PAGES = {361-382},
   YEAR = {2010},
-  PDF = {https://hal.inria.fr/inria-00531455/file/springerbook2010onlineevorobot-draft.pdf},
   HAL_ID = {inria-00531455},
   HAL_VERSION = {v1},
 }
@@ -980,10 +948,7 @@ ISSN={1089-778X},}
   journal   = {CoRR},
   volume    = {abs/1302.0386},
   year      = {2013},
-  url       = {http://arxiv.org/abs/1302.0386},
   timestamp = {Fri, 01 Mar 2013 15:41:02 +0100},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/abs-1302-0386},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 
 @Article{Auerbach:PLoS:2014,
@@ -1005,8 +970,6 @@ pages = "514 - 519",
 year = "2007",
 note = "",
 issn = "0960-9822",
-doi = "http://dx.doi.org/10.1016/j.cub.2007.01.058",
-url = "http://www.sciencedirect.com/science/article/pii/S0960982207009281",
 author = "Dario Floreano and Sara Mitri and Stéphane Magnenat and Laurent Keller",
 keywords = "EVO_EVOL "
 }
@@ -1024,12 +987,10 @@ year={2011}
 @inproceedings{montanier:inria2011,
   TITLE = {{Surviving the Tragedy of Commons: Emergence of Altruism in a Population of Evolving Autonomous Agents}},
   AUTHOR = {Montanier, Jean-Marc and Bredeche, Nicolas},
-  URL = {https://hal.inria.fr/inria-00601776},
   BOOKTITLE = {{European Conference on Artificial Life}},
   ADDRESS = {Paris, France},
   YEAR = {2011},
   MONTH = Aug,
-  PDF = {https://hal.inria.fr/inria-00601776/file/2011-ECAL-emergenceofaltruism.pdf},
   HAL_ID = {inria-00601776},
   HAL_VERSION = {v1},
 }
@@ -1059,7 +1020,6 @@ volume={8},
 journal={PLoS ONE},
 number={12},
 pages={e83242},
-url="http://nn.cs.utexas.edu/?stanley:ec02",
 year={2013}
 }
 
@@ -1070,7 +1030,6 @@ volume={10},
 journal={Evolutionary Computation},
 number={2},
 pages={99-127},
-url="http://nn.cs.utexas.edu/?stanley:ec02",
 year={2002}
 }
 
@@ -1082,7 +1041,6 @@ volume={1},
 number={1},
 doi={10.1007/s12065-007-0002-4},
 title={Neuroevolution: from architectures to learning},
-url={http://dx.doi.org/10.1007/s12065-007-0002-4},
 publisher={Springer-Verlag},
 keywords={Neural networks; Evolution; Learning},
 author={Floreano, Dario and Dürr, Peter and Mattiussi, Claudio},
@@ -1132,8 +1090,6 @@ pages = "445 - 451",
 year = "2000",
 note = "",
 issn = "1367-5931",
-doi = "http://dx.doi.org/10.1016/S1367-5931(00)00110-1",
-url = "http://www.sciencedirect.com/science/article/pii/S1367593100001101",
 author = "Robert P Hertzberg and Andrew J Pope",
 keywords = "High-throughput screening",
 keywords = "HTS",
@@ -1226,8 +1182,6 @@ pages = "81 - 86",
 year = "2002",
 note = "",
 issn = "0166-218X",
-doi = "http://dx.doi.org/10.1016/S0166-218X(01)00195-0",
-url = "http://www.sciencedirect.com/science/article/pii/S0166218X01001950",
 author = "Gregory Gutin and Anders Yeo and Alexey Zverovich",
 keywords = "TSP",
 keywords = "Domination analysis",
@@ -1277,7 +1231,6 @@ volume={26},
 number={3},
 doi={10.1007/s10489-006-0018-y},
 title={Genetic operators for combinatorial optimization in TSP and microarray gene ordering},
-url={http://dx.doi.org/10.1007/s10489-006-0018-y},
 publisher={Kluwer Academic Publishers-Plenum Publishers},
 keywords={Microarray; Gene analysis; Data mining; Biocomputing; Evolutionary algorithm; Soft computing},
 author={Ray, ShubhraSankar and Bandyopadhyay, Sanghamitra and Pal, SankarK.},
@@ -1393,7 +1346,6 @@ number = {5923},
 pages = {85-89},
 year = {2009},
 doi = {10.1126/science.1165620},
-URL = {http://www.sciencemag.org/content/324/5923/85.abstract},
 journal = {Science}
 }
 
@@ -1404,7 +1356,6 @@ volume = {467},
 number = {7312},
 pages = {154-55},
 year = {2010},
-URL = {http://www.nature.com/nature/journal/v467/n7312/full/467154a.html?type=access_denied},
 journal = {Nature}
 }
 
@@ -1430,7 +1381,6 @@ ISSN={1089-778X},
    pages = {201-221},
    volume = {15},
    issue = {2},
-   url = {http://dx.doi.org/10.1007/BF00993277},
    year = {1994}
 }
 
@@ -1472,7 +1422,6 @@ ISSN={ },
  issn = {1532-4435},
  pages = {1651--1678},
  numpages = {28},
- url = {http://dl.acm.org/citation.cfm?id=1046920.1194900},
  acmid = {1194900},
  publisher = {JMLR.org},
 }
@@ -1485,7 +1434,6 @@ volume = {69},
 number = {5},
 publisher = {John Wiley & Sons, Ltd.},
 issn = {1097-0207},
-url = {http://dx.doi.org/10.1002/nme.1803},
 doi = {10.1002/nme.1803},
 pages = {1085--1107},
 keywords = {genetic algorithms, damage identification, co-evolution, structural health monitoring, inverse problems},
@@ -1500,8 +1448,6 @@ number = {5802},
 pages = {1118-1121},
 year = {2006},
 doi = {10.1126/science.1133687},
-URL = {http://www.sciencemag.org/content/314/5802/1118.abstract},
-eprint = {http://www.sciencemag.org/content/314/5802/1118.full.pdf},
 journal = {Science}
 }
 
@@ -1515,7 +1461,6 @@ year = "2000",
 note = "",
 issn = "0003-3472",
 doi = "10.1006/anbe.2000.1514",
-url = "http://www.sciencedirect.com/science/article/pii/S0003347200915148",
 author = "B. Webb"
 }
 
@@ -1528,7 +1473,6 @@ pages = "117 - 134",
 year = "1995",
 issn = "0921-8890",
 doi = "10.1016/0921-8890(95)00044-5",
-url = "http://www.sciencedirect.com/science/article/pii/0921889095000445",
 author = "B. Webb"
 }
 
@@ -1554,7 +1498,6 @@ year = "2011",
 note = "",
 issn = "0169-5347",
 doi = "10.1016/j.tree.2011.03.015",
-url = "http://www.sciencedirect.com/science/article/pii/S0169534711000851",
 author = "Jens Krause and Alan F.T. Winfield and Jean-Louis Deneubourg",
 }
 
@@ -1566,8 +1509,6 @@ number = {5990},
 pages = {399-400},
 year = {2010},
 doi = {10.1126/science.1189416},
-URL = {http://www.sciencemag.org/content/329/5990/399.short},
-eprint = {http://www.sciencemag.org/content/329/5990/399.full.pdf},
 journal = {Science}
 }
 
@@ -1579,8 +1520,6 @@ number = {1161},
 pages = {489-511},
 year = {1979},
 doi = {10.1098/rspb.1979.0081},
-URL = {http://rspb.royalsocietypublishing.org/content/205/1161/489.abstract},
-eprint = {http://rspb.royalsocietypublishing.org/content/205/1161/489.full.pdf+html},
 journal = {Proceedings of the Royal Society of London. Series B. Biological Sciences}
 }
 
@@ -1655,8 +1594,6 @@ number = {1537},
 pages = {361-365},
 year = {2004},
 doi = {10.1098/rspb.2003.2594},
-URL = {http://rspb.royalsocietypublishing.org/content/271/1537/361.abstract},
-eprint = {http://rspb.royalsocietypublishing.org/content/271/1537/361.full.pdf+html},
 journal = {Proceedings of the Royal Society of London. Series B: Biological Sciences}
 }
 
@@ -1823,7 +1760,6 @@ journal = {Adaptive Behaviour}
 	pages = {489--493},
     publisher = {MIT Press},
     address = {Boston, Massachusetts},
-	url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=?doi=10.1.1.38.3029},	
 }
 
 @article{J.Halloy_2007,
@@ -1835,8 +1771,6 @@ number = {5853},
 pages = {1155-1158},
 doi = {10.1126/science.1144259},
 year = {2007},
-URL = {http://www.sciencemag.org/cgi/content/abstract/sci;318/5853/1155},
-eprint = {http://www.sciencemag.org/cgi/reprint/sci;318/5853/1155.pdf}
 }
 
 @INPROCEEDINGS{Gribovskiy_2010,
@@ -1891,7 +1825,6 @@ pages={4722 -4728},
 	year = {2007},
 	booktitle = {Natural Computation, Third International Conference on},
 	pages = {63 - 67 },
-	url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=?doi=10.1.1.38.3029},	
 }
 
 @INPROCEEDINGS{Floreano_1997,
@@ -1922,7 +1855,6 @@ pages = "1 - 12",
 year = "2010",
 issn = "1367-5788",
 doi = "10.1016/j.arcontrol.2009.12.001",
-url = "http://www.sciencedirect.com/science/article/pii/S1367578810000027",
 author = "Lennart Ljung",
 }
 
@@ -1936,7 +1868,6 @@ author = "Lennart Ljung",
    pages = {158-163},
    volume = {5},
    issue = {2},
-   url = {http://dx.doi.org/10.1007/s10032-002-0089-1},
    year = {2003}
 }
 
@@ -1950,7 +1881,6 @@ year = "1998",
 note = "",
 issn = "0009-8981",
 doi = "10.1016/S0009-8981(98)00148-X",
-url = "http://www.sciencedirect.com/science/article/pii/S000989819800148X",
 author = "Masahide Sasaki and Takeshi Kageoka and Katsumi Ogura and Hiromi Kataoka and Tadashi Ueta and Shigeyoshi Sugihara",
 }
 
@@ -1963,7 +1893,6 @@ author = "Masahide Sasaki and Takeshi Kageoka and Katsumi Ogura and Hiromi Katao
     year = {2012},
     month = {01},
     volume = {7},
-    url = {http://dx.doi.org/10.1371%2Fjournal.pone.0030211},
     pages = {e30211},
     number = {1},
     doi = {10.1371/journal.pone.0030211}
@@ -2486,7 +2415,7 @@ pages={441--443}
 author = {Wei Li and Melvin Gauci and Jianing Chen and Roderich Gro\ss},
 title = {Online supplementary material},
 year = {2014},
-howpublished = "\url{http://naturalrobotics.group.shef.ac.uk/supp/2014-006/}",
+howpublished = "\url{http://naturalrobotics.group.shef.ac.uk/supp/2015-002/}",
 }
 
 @article{Bongard2007,

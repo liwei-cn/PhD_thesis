@@ -8,7 +8,7 @@
 \BOOKMARK [1][-]{section.1.5}{Thesis Outline}{chapter.1}% 8
 \BOOKMARK [0][-]{chapter.2}{Background and Related Work}{}% 9
 \BOOKMARK [1][-]{section.2.1}{Background}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.1.1}{The Development of AI and Robotics}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Development of AI and Robotics}{section.2.1}% 11
 \BOOKMARK [2][-]{subsection.2.1.2}{Introduction of Automation Science}{section.2.1}% 12
 \BOOKMARK [1][-]{section.2.2}{Evolutionary Computation}{chapter.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.1}{Biological Evolution}{section.2.2}% 14
@@ -73,32 +73,33 @@
 \BOOKMARK [2][-]{subsection.4.5.2}{Analysis of Evolved Classifiers}{section.4.5}% 73
 \BOOKMARK [1][-]{section.4.6}{Analysis of Sensitivity for Individual Failure}{chapter.4}% 74
 \BOOKMARK [1][-]{section.4.7}{Summary}{chapter.4}% 75
-\BOOKMARK [1][-]{section.4.8}{Introduction}{chapter.4}% 76
-\BOOKMARK [1][-]{section.4.9}{Methodology}{chapter.4}% 77
-\BOOKMARK [2][-]{subsection.4.9.1}{Models}{section.4.9}% 78
-\BOOKMARK [2][-]{subsection.4.9.2}{Classifiers}{section.4.9}% 79
-\BOOKMARK [2][-]{subsection.4.9.3}{Optimization Algorithm}{section.4.9}% 80
-\BOOKMARK [2][-]{subsection.4.9.4}{Fitness Calculation}{section.4.9}% 81
-\BOOKMARK [1][-]{section.4.10}{Case Study One}{chapter.4}% 82
-\BOOKMARK [2][-]{subsection.4.10.1}{Deterministic Behavior}{section.4.10}% 83
-\BOOKMARK [2][-]{subsection.4.10.2}{Simulation Setup}{section.4.10}% 84
-\BOOKMARK [2][-]{subsection.4.10.3}{Results}{section.4.10}% 85
-\BOOKMARK [3][-]{subsubsection.4.10.3.1}{Analysis of Evolved Models}{subsection.4.10.3}% 86
-\BOOKMARK [3][-]{subsubsection.4.10.3.2}{Coevolutionary Dynamics}{subsection.4.10.3}% 87
-\BOOKMARK [3][-]{subsubsection.4.10.3.3}{Analysis of Evolved Classifiers}{subsection.4.10.3}% 88
-\BOOKMARK [3][-]{subsubsection.4.10.3.4}{Noise Study}{subsection.4.10.3}% 89
-\BOOKMARK [3][-]{subsubsection.4.10.3.5}{Using a Single-Population Evolutionary Algorithm}{subsection.4.10.3}% 90
-\BOOKMARK [3][-]{subsubsection.4.10.3.6}{Coevolution of Inputs and Models}{subsection.4.10.3}% 91
-\BOOKMARK [1][-]{section.4.11}{Case Study Two}{chapter.4}% 92
-\BOOKMARK [2][-]{subsection.4.11.1}{Stochastic Behavior}{section.4.11}% 93
-\BOOKMARK [2][-]{subsection.4.11.2}{Simulation Setup}{section.4.11}% 94
-\BOOKMARK [2][-]{subsection.4.11.3}{Results: Two States}{section.4.11}% 95
-\BOOKMARK [3][-]{subsubsection.4.11.3.1}{Analysis of Evolved Models}{subsection.4.11.3}% 96
-\BOOKMARK [3][-]{subsubsection.4.11.3.2}{Analysis of Evolved Classifiers}{subsection.4.11.3}% 97
-\BOOKMARK [2][-]{subsection.4.11.4}{Results: Three States}{section.4.11}% 98
-\BOOKMARK [3][-]{subsubsection.4.11.4.1}{Analysis of Evolved Models}{subsection.4.11.4}% 99
-\BOOKMARK [3][-]{subsubsection.4.11.4.2}{Analysis of Evolved Classifiers}{subsection.4.11.4}% 100
-\BOOKMARK [1][-]{section.4.12}{Summary}{chapter.4}% 101
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 102
-\BOOKMARK [1][-]{section.5.1}{Summary of Findings}{chapter.5}% 103
-\BOOKMARK [1][-]{section.5.2}{Future work}{chapter.5}% 104
+\BOOKMARK [0][-]{chapter.5}{Inferring Individual Behaviors Through Interactive Turing Learning}{}% 76
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 77
+\BOOKMARK [1][-]{section.5.2}{Methodology}{chapter.5}% 78
+\BOOKMARK [2][-]{subsection.5.2.1}{Models}{section.5.2}% 79
+\BOOKMARK [2][-]{subsection.5.2.2}{Classifiers}{section.5.2}% 80
+\BOOKMARK [2][-]{subsection.5.2.3}{Optimization Algorithm}{section.5.2}% 81
+\BOOKMARK [2][-]{subsection.5.2.4}{Fitness Calculation}{section.5.2}% 82
+\BOOKMARK [1][-]{section.5.3}{Case Study One}{chapter.5}% 83
+\BOOKMARK [2][-]{subsection.5.3.1}{Deterministic Behavior}{section.5.3}% 84
+\BOOKMARK [2][-]{subsection.5.3.2}{Simulation Setup}{section.5.3}% 85
+\BOOKMARK [2][-]{subsection.5.3.3}{Results}{section.5.3}% 86
+\BOOKMARK [3][-]{subsubsection.5.3.3.1}{Analysis of Evolved Models}{subsection.5.3.3}% 87
+\BOOKMARK [3][-]{subsubsection.5.3.3.2}{Coevolutionary Dynamics}{subsection.5.3.3}% 88
+\BOOKMARK [3][-]{subsubsection.5.3.3.3}{Analysis of Evolved Classifiers}{subsection.5.3.3}% 89
+\BOOKMARK [3][-]{subsubsection.5.3.3.4}{Noise Study}{subsection.5.3.3}% 90
+\BOOKMARK [3][-]{subsubsection.5.3.3.5}{Using a Single-Population Evolutionary Algorithm}{subsection.5.3.3}% 91
+\BOOKMARK [3][-]{subsubsection.5.3.3.6}{Coevolution of Inputs and Models}{subsection.5.3.3}% 92
+\BOOKMARK [1][-]{section.5.4}{Case Study Two}{chapter.5}% 93
+\BOOKMARK [2][-]{subsection.5.4.1}{Stochastic Behavior}{section.5.4}% 94
+\BOOKMARK [2][-]{subsection.5.4.2}{Simulation Setup}{section.5.4}% 95
+\BOOKMARK [2][-]{subsection.5.4.3}{Results: Two States}{section.5.4}% 96
+\BOOKMARK [3][-]{subsubsection.5.4.3.1}{Analysis of Evolved Models}{subsection.5.4.3}% 97
+\BOOKMARK [3][-]{subsubsection.5.4.3.2}{Analysis of Evolved Classifiers}{subsection.5.4.3}% 98
+\BOOKMARK [2][-]{subsection.5.4.4}{Results: Three States}{section.5.4}% 99
+\BOOKMARK [3][-]{subsubsection.5.4.4.1}{Analysis of Evolved Models}{subsection.5.4.4}% 100
+\BOOKMARK [3][-]{subsubsection.5.4.4.2}{Analysis of Evolved Classifiers}{subsection.5.4.4}% 101
+\BOOKMARK [1][-]{section.5.5}{Summary}{chapter.5}% 102
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 103
+\BOOKMARK [1][-]{section.6.1}{Summary of Findings}{chapter.6}% 104
+\BOOKMARK [1][-]{section.6.2}{Future work}{chapter.6}% 105
